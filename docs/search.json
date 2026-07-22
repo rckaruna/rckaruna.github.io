@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Building this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The applications below are working products of my research program. Each takes a statistical model and turns it into something a non-statistician can use — which is most of what good applied statistics comes down to."
+  },
+  {
+    "objectID": "projects.html#t20i-win-probability-forecaster",
+    "href": "projects.html#t20i-win-probability-forecaster",
+    "title": "Projects",
+    "section": "T20I win-probability forecaster",
+    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\nThe full interactive app — set any match state and explore the forecast — is deployed on shinyapps.io:\nOpen the forecaster →\n\n\nTennis"
+  },
+  {
+    "objectID": "projects.html#match-win-probability-tool",
+    "href": "projects.html#match-win-probability-tool",
+    "title": "Projects",
+    "section": "Match win-probability tool",
+    "text": "Match win-probability tool\nAn interactive forecaster for professional tennis: choose any two players from the ATP or WTA tours, set the format and surface, and it returns a match win probability with the full distribution of likely set scores, plus a comparison against bookmaker odds. Currently in final development ahead of public deployment.\n\n\nSoccer"
+  },
+  {
+    "objectID": "projects.html#international-match-forecaster",
+    "href": "projects.html#international-match-forecaster",
+    "title": "Projects",
+    "section": "International match forecaster",
+    "text": "International match forecaster\nA win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development, with a public release planned after the 2026 World Cup data becomes available.\n\n\nOpen source"
+  },
+  {
+    "objectID": "projects.html#dgt-an-r-package-for-reliability-analysis",
+    "href": "projects.html#dgt-an-r-package-for-reliability-analysis",
+    "title": "Projects",
+    "section": "dgt — an R package for reliability analysis",
+    "text": "dgt — an R package for reliability analysis\nAn R package implementing generalizability-theory decision studies — the framework for answering “how many observations before this measurement is dependable?” Open source on GitHub.\ngithub.com/rckaruna/dgt →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html",
+    "href": "posts/handball-dependability/index.html",
+    "title": "How many observations before a statistic means anything?",
+    "section": "",
+    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html#the-framing",
+    "href": "posts/handball-dependability/index.html#the-framing",
+    "title": "How many observations before a statistic means anything?",
+    "section": "The framing",
+    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html#why-it-matters",
+    "href": "posts/handball-dependability/index.html#why-it-matters",
+    "title": "How many observations before a statistic means anything?",
+    "section": "Why it matters",
+    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Peer-reviewed"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n[VERIFY exact title] — bias reduction via complementation of orthogonal arrays. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\n[VERIFY exact title] — shot-selection strategies in elite handball. International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\n[VERIFY exact title] — design of experiments under the baseline parameterization. Australian & New Zealand Journal of Statistics (2018). [add volume/pages/DOI]\n[VERIFY exact title] — fractional-factorial designs. Journal of Statistical Planning and Inference (2017). [add volume/pages/DOI]\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nUnder review"
+  },
+  {
+    "objectID": "research.html#manuscripts-under-review",
+    "href": "research.html#manuscripts-under-review",
+    "title": "Research",
+    "section": "Manuscripts under review",
+    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\n\n\nOngoing work"
+  },
+  {
+    "objectID": "research.html#active-program",
+    "href": "research.html#active-program",
+    "title": "Research",
+    "section": "Active program",
+    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
+  },
+  {
+    "objectID": "research.html#peer-review",
+    "href": "research.html#peer-review",
+    "title": "Research",
+    "section": "Peer review",
+    "text": "Peer review\nReviewer, Journal of Sports Analytics (2024).\n\nSoftware"
+  },
+  {
+    "objectID": "research.html#code-tools",
+    "href": "research.html#code-tools",
+    "title": "Research",
+    "section": "Code & tools",
+    "text": "Code & tools\n\ndgt — R package for generalizability-theory decision studies. github.com/rckaruna/dgt\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics for business & social science\nR\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nIntermediate statistics\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+  },
+  {
+    "objectID": "teaching.html#approach",
+    "href": "teaching.html#approach",
+    "title": "Teaching",
+    "section": "Approach",
+    "text": "Approach\nI lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end.\nI’m also developing an Associate Certificate in Applied Statistics at UFV, assembling existing courses into a credential aimed at students who want demonstrable applied-statistics skills alongside their major."
+  },
+  {
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "Statistical consulting",
+    "section": "",
+    "text": "I’m a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. My P.Stat. (Professional Statistician) application is under review with the Statistical Society of Canada."
+  },
+  {
+    "objectID": "consulting.html#what-i-help-with",
+    "href": "consulting.html#what-i-help-with",
+    "title": "Statistical consulting",
+    "section": "What I help with",
+    "text": "What I help with\n\n\nStudy & experiment design\nSample-size and power calculations, randomization, factorial and fractional-factorial designs, and design of experiments for product, process, and lab work — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, regression, ANOVA, survival analysis, and measurement reliability (generalizability theory). Validated, documented, and written up for the audience that has to trust it.\n\n\nTools & dashboards\nReproducible analysis in R, and interactive R / Shiny applications that put your model in front of the people who need to act on it — live examples here.\n\n\n\nAI & machine learning"
+  },
+  {
+    "objectID": "consulting.html#statistics-for-ai-systems",
+    "href": "consulting.html#statistics-for-ai-systems",
+    "title": "Statistical consulting",
+    "section": "Statistics for AI systems",
+    "text": "Statistics for AI systems\nAI has a measurement problem. Benchmark scores move with the evaluation harness, leaderboard gaps often sit inside statistical noise, human and LLM-judge ratings carry biases nobody has quantified, and evaluation experiments are rarely repeated. If your organization is choosing, validating, or shipping AI systems, the statistics underneath those decisions deserve the same rigor as a clinical trial. I offer:\n\nEvaluation design & audit. Design an evaluation that actually answers your question — sampling that matches the deployment population, contamination and leakage control, uncertainty attached to every comparison — or independently audit an existing one before it drives a procurement or launch decision.\nReliability of evaluation pipelines. Human rater panels and LLM-as-judge setups are measurement instruments, and measurement instruments have quantifiable reliability. I decompose where the noise lives, quantify rater and occasion effects, and answer the operational question: how many judgments before this verdict is dependable?\nBenchmark & leaderboard dependability. Whether a ranking of models — or of anything compared pairwise — reflects real differences or sampling noise, and how much more data a stable ranking would need.\nCalibration audits. If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.\nDesign of experiments for AI work. Prompt, configuration, and model comparisons where each run costs real money — factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.\n\n\nWhat’s different about this\nMost AI consultants build systems. I do something rarer: I measure whether systems — and the evaluations of them — can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts — including research under review on decomposing the uncertainty of AI fairness audits. Two things follow. My conclusions come with honest uncertainty, including “this evaluation cannot support the claim you want to make” when that’s the truth. And I’m independent — a university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires."
+  },
+  {
+    "objectID": "consulting.html#how-an-engagement-works",
+    "href": "consulting.html#how-an-engagement-works",
+    "title": "Statistical consulting",
+    "section": "How an engagement works",
+    "text": "How an engagement works\nScope. We start with a conversation about the question, the data you have (or plan to collect), and what a useful answer looks like. If I’m not the right fit, I’ll say so quickly and point you somewhere better.\nDesign & analysis. For new studies, design comes first — the cheapest place to fix a study is before the data exist. For existing data, I choose methods to fit the data rather than forcing the data into a familiar method, and I’m explicit about assumptions and their consequences.\nDeliver & document. You get a clear writeup — methods, results, limitations — in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.\n\nTrack record"
+  },
+  {
+    "objectID": "consulting.html#selected-collaboration-consulting",
+    "href": "consulting.html#selected-collaboration-consulting",
+    "title": "Statistical consulting",
+    "section": "Selected collaboration & consulting",
+    "text": "Selected collaboration & consulting\n\nSports science — handball. Statistical analysis of elite handball with researchers at the University of Agder, including a peer-reviewed study of shot-selection strategy (International Journal of Sports Science & Coaching, 2025).\nHealth sciences. Statistical consulting on a multi-modal intervention study in frontotemporal dementia — advising on analysis appropriateness for the design and on testing sex differences within and between groups.\nEngineering technology. Advised UFV’s Automation & Robotics program on a Statistics for Electronics course — control charting, acceptance sampling, regression, and experimental design aligned to technologist certification.\nMethodology with downstream reach. My design-of-experiments research has been independently cited in textile engineering, food science, hydrology, and mining — applied fields putting the methods to work.\n\n\nGet in touch"
+  },
+  {
+    "objectID": "consulting.html#start-a-conversation",
+    "href": "consulting.html#start-a-conversation",
+    "title": "Statistical consulting",
+    "section": "Start a conversation",
+    "text": "Start a conversation\nTell me what you’re working on and where you are in it — designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nEmail me →\n\nruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "",
+    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-worm",
+    "href": "posts/welcome/index.html#the-worm",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "The worm",
+    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
+  },
+  {
+    "objectID": "posts/welcome/index.html#whats-next",
+    "href": "posts/welcome/index.html#whats-next",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "What’s next",
+    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics you can defend.",
+    "section": "",
+    "text": "Statistical Consulting\n\n\n\n\nI’m a PhD statistician and Associate Professor who helps researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny — from the first power calculation to the final dashboard.\n\nWork with me See the tools I build\n\n\n\n\n\nA defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can actually use.\n\n\nstudy design   DOE   mixed models   reliability   AI evaluation   R / Shiny"
+  },
+  {
+    "objectID": "index.html#grounded-in-peer-reviewed-work.",
+    "href": "index.html#grounded-in-peer-reviewed-work.",
+    "title": "Statistics you can defend.",
+    "section": "Grounded in peer-reviewed work.",
+    "text": "Grounded in peer-reviewed work.\n\n\nTraining & position\nPhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley.\n\n\nPublished methods\nPeer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.\n\n\nAccreditation\nP.Stat. (Professional Statistician) application under review with the Statistical Society of Canada."
+  },
+  {
+    "objectID": "index.html#three-services-one-standard.",
+    "href": "index.html#three-services-one-standard.",
+    "title": "Statistics you can defend.",
+    "section": "Three services, one standard.",
+    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it — see live examples."
+  },
+  {
+    "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
+    "href": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
+    "title": "Statistics you can defend.",
+    "section": "Your AI is only as good as its evaluation.",
+    "text": "Your AI is only as good as its evaluation.\nBenchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision — which model to buy, whether a system is ready to ship — someone should ask whether the measurement itself can be trusted. That’s measurement science, and it’s what I do.\n\n\nEvaluation design & audit\nDesign AI evaluations that answer the question — proper sampling, contamination control, uncertainty on every comparison — or audit the one you have.\n\n\nReliability of judgments\nHuman raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.\n\n\nExperiments that respect your budget\nWhen every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.\n\n\nAI services in detail →"
+  },
+  {
+    "objectID": "index.html#research-software-and-teaching.",
+    "href": "index.html#research-software-and-teaching.",
+    "title": "Statistics you can defend.",
+    "section": "Research, software, and teaching.",
+    "text": "Research, software, and teaching.\n\n\nProjects\nDeployed forecasting apps and open-source software — working demonstrations of the tools I build. Explore →\n\n\nResearch\nPublished work in experimental design and applied statistics, with an active research program in measurement reliability. Publications →\n\n\nBlog\nNotes on statistical methodology — how to design, measure, and trust the numbers. All posts →"
+  }
+]

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ruwan C. Karunanayaka</title>
+<link>https://rckaruna.ca/blog.html</link>
+<atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Notes on statistical methodology by Ruwan C. Karunanayaka — how to design studies, measure reliably, and trust the numbers.</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sat, 13 Jun 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building this site: Quarto, GitHub Pages, and a win-probability worm</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.</p>
+<p>Everything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. <strong>Quarto on GitHub Pages</strong> ticks all three: posts are <code>.qmd</code> files, the whole site is a git repository I own, and hosting is free.</p>
+<section id="the-worm" class="level2">
+<h2 class="anchored" data-anchor-id="the-worm">The worm</h2>
+<p>The graphic on the projects page is a <em>win-probability worm</em> — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds.</p>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>More tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.</p>
+<p>More soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meta</category>
+  <category>R</category>
+  <category>cricket</category>
+  <guid>https://rckaruna.ca/posts/welcome/</guid>
+  <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How many observations before a statistic means anything?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/handball-dependability/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the <em>person</em> or just the occasion.</p>
+<section id="the-framing" class="level2">
+<h2 class="anchored" data-anchor-id="the-framing">The framing</h2>
+<p>This is a measurement problem, and generalizability theory is built for it. A <strong>G-study</strong> decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A <strong>decision study</strong> then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?</p>
+<p>The answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything.</p>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
+<p>If a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.</p>
+<p>The <a href="https://github.com/rckaruna/dgt"><code>dgt</code> R package</a> implements these calculations.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>G-theory</category>
+  <category>methodology</category>
+  <category>sports</category>
+  <guid>https://rckaruna.ca/posts/handball-dependability/</guid>
+  <pubDate>Mon, 08 Jun 2026 07:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

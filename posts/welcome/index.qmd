@@ -1,0 +1,20 @@
+---
+title: "Building this site: Quarto, GitHub Pages, and a win-probability worm"
+description: "Why I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model."
+date: 2026-06-13
+categories: [meta, R, cricket]
+---
+
+I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.
+
+Everything I do already lives in R and LaTeX. I'm deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn't want a monthly bill for a CMS I'd have to wrestle. **Quarto on GitHub Pages** ticks all three: posts are `.qmd` files, the whole site is a git repository I own, and hosting is free.
+
+## The worm
+
+The graphic on the projects page is a *win-probability worm* — the line that swings across the 50% mark as a chase unfolds. On the site it's a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds.
+
+## What's next
+
+More tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.
+
+More soon.

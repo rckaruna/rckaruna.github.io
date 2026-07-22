@@ -1,0 +1,84 @@
+---
+title: "Research"
+subtitle: "Experimental design, measurement reliability, and applied statistics."
+pagetitle: "Research & publications — Ruwan C. Karunanayaka"
+description: "Publications and research by Ruwan C. Karunanayaka: experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation."
+---
+
+<!--
+  Fill the exact titles/authors/volume/pages marked [VERIFY] from your CV
+  before publishing. Better to flag a gap than guess a citation.
+-->
+
+::: {.eyebrow}
+Peer-reviewed
+:::
+
+## Publications
+
+- **[VERIFY exact title]** — bias reduction via complementation of orthogonal arrays.
+  *Statistics & Probability Letters* **237** (2026), art. 110819.
+  doi: [10.1016/j.spl.2026.110819](https://doi.org/10.1016/j.spl.2026.110819)
+
+- **[VERIFY exact title]** — shot-selection strategies in elite handball.
+  *International Journal of Sports Science & Coaching* (2025).
+  doi: [10.1177/17479541251369049](https://doi.org/10.1177/17479541251369049)
+
+- **[VERIFY exact title]** — design of experiments under the baseline parameterization.
+  *Australian & New Zealand Journal of Statistics* (2018).  [add volume/pages/DOI]
+
+- **[VERIFY exact title]** — fractional-factorial designs.
+  *Journal of Statistical Planning and Inference* (2017).  [add volume/pages/DOI]
+
+::: {.figure-caption}
+The 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.
+:::
+
+::: {.eyebrow}
+Under review
+:::
+
+## Manuscripts under review
+
+- **Distributional Generalizability Theory: Reliability for Non-Gaussian Measurements.**
+  Under review, *Psychometrika* (the journal of the Psychometric Society).
+
+- **Decomposing the uncertainty of AI fairness audits: a multivariate generalizability framework.**
+  Under review, *RSS: Data Science and Artificial Intelligence* (Royal Statistical Society).
+
+- **Response-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket.**
+  Under review, *Australian & New Zealand Journal of Statistics* (ANZJS).
+
+- **How Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball.**
+  Under review, *International Journal of Sports Science & Coaching* (IJSSC).
+
+- **Quantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability.**
+  Under review, *International Journal of Data Science and Analytics* (IJDSA).
+
+- **Election-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability.**
+  In preparation.
+
+::: {.eyebrow}
+Ongoing work
+:::
+
+## Active program
+
+Beyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the [projects page](projects.qmd).
+
+::: {.eyebrow}
+Service
+:::
+
+## Peer review
+
+Reviewer, *Journal of Sports Analytics* (2024).
+
+::: {.eyebrow}
+Software
+:::
+
+## Code & tools
+
+- **`dgt`** — R package for generalizability-theory decision studies. [github.com/rckaruna/dgt](https://github.com/rckaruna/dgt)
+- **Forecasting applications** — deployed interactive tools for cricket, tennis, and soccer. [See projects](projects.qmd)

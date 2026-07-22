@@ -1,0 +1,129 @@
+---
+pagetitle: "Ruwan C. Karunanayaka — Statistical Consulting"
+page-layout: full
+description: "Statistical consulting by Ruwan C. Karunanayaka, PhD — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
+---
+
+::: {.hero}
+::: {.hero-grid}
+::: {}
+::: {.eyebrow}
+Statistical Consulting
+:::
+
+# Statistics you can defend.
+
+::: {.lede}
+I'm a PhD statistician and Associate Professor who helps researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny — from the first power calculation to the final dashboard.
+:::
+
+[Work with me](consulting.qmd){.btn-cta .primary}
+[See the tools I build](projects.qmd){.btn-cta .ghost}
+:::
+
+::: {}
+::: {.card-plain}
+### What clients get
+A defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can actually use.
+:::
+::: {style="margin-top:1.2rem"}
+[`study design`]{.tag} &nbsp; [`DOE`]{.tag} &nbsp; [`mixed models`]{.tag} &nbsp; [`reliability`]{.tag} &nbsp; [`AI evaluation`]{.tag} &nbsp; [`R / Shiny`]{.tag}
+:::
+:::
+:::
+:::
+
+::: {.band .dark}
+::: {.eyebrow}
+Credentials
+:::
+## Grounded in peer-reviewed work.
+
+::: {.cols-3}
+::: {.card-plain}
+### Training & position
+PhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley.
+:::
+::: {.card-plain}
+### Published methods
+Peer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.
+:::
+::: {.card-plain}
+### Accreditation
+P.Stat. (Professional Statistician) application under review with the Statistical Society of Canada.
+:::
+:::
+:::
+
+::: {.band}
+::: {.eyebrow}
+What I help with
+:::
+## Three services, one standard.
+
+::: {.cols-3}
+::: {.card-plain}
+### Study & experiment design
+Sample size and power, randomization, factorial and fractional-factorial designs — so the data you collect can actually answer your question.
+:::
+::: {.card-plain}
+### Modelling & analysis
+Mixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.
+:::
+::: {.card-plain}
+### Tools & dashboards
+Interactive R / Shiny applications that put your model in front of the people who need to act on it — see [live examples](projects.qmd).
+:::
+:::
+:::
+
+::: {.band .dark}
+::: {.eyebrow}
+Statistics for the AI era
+:::
+## Your AI is only as good as its evaluation.
+
+Benchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision — which model to buy, whether a system is ready to ship — someone should ask whether the measurement itself can be trusted. That's measurement science, and it's what I do.
+
+::: {.cols-3}
+::: {.card-plain}
+### Evaluation design & audit
+Design AI evaluations that answer the question — proper sampling, contamination control, uncertainty on every comparison — or audit the one you have.
+:::
+::: {.card-plain}
+### Reliability of judgments
+Human raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.
+:::
+::: {.card-plain}
+### Experiments that respect your budget
+When every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.
+:::
+:::
+
+[AI services in detail →](consulting.qmd){.btn-cta .primary style="margin-top:1.4rem"}
+:::
+
+::: {.band}
+::: {.eyebrow}
+Beyond consulting
+:::
+## Research, software, and teaching.
+
+::: {.cols-3}
+::: {.card-plain}
+### Projects
+Deployed forecasting apps and open-source software — working demonstrations of the tools I build.
+[Explore →](projects.qmd)
+:::
+::: {.card-plain}
+### Research
+Published work in experimental design and applied statistics, with an active research program in measurement reliability.
+[Publications →](research.qmd)
+:::
+::: {.card-plain}
+### Blog
+Notes on statistical methodology — how to design, measure, and trust the numbers.
+[All posts →](blog.qmd)
+:::
+:::
+:::

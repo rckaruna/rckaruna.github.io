@@ -1,0 +1,68 @@
+---
+title: "Projects"
+subtitle: "Interactive tools and open-source software — the same kind of decision tools I build for clients."
+pagetitle: "Projects & software — Ruwan C. Karunanayaka"
+description: "Interactive statistical tools by Ruwan C. Karunanayaka: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis."
+---
+
+The applications below are working products of my research program. Each takes a statistical model and turns it into something a non-statistician can use — which is most of what good applied statistics comes down to.
+
+::: {.eyebrow}
+Cricket
+:::
+
+## T20I win-probability forecaster
+
+A live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.
+
+```{=html}
+<iframe src="widgets/worm.html" title="T20I win-probability worm"
+        loading="lazy" style="width:100%; height:560px; border:0; overflow:hidden;">
+</iframe>
+```
+
+::: {.figure-caption}
+Live during matches; recent internationals otherwise. Win probability is for the team batting first.
+:::
+
+The full interactive app — set any match state and explore the forecast — is deployed on shinyapps.io:
+
+[Open the forecaster →](https://rckaruna.shinyapps.io/t20i-chase-app/){.btn-cta .primary}
+
+---
+
+::: {.eyebrow}
+Tennis
+:::
+
+## Match win-probability tool
+
+An interactive forecaster for professional tennis: choose any two players from the ATP or WTA tours, set the format and surface, and it returns a match win probability with the full distribution of likely set scores, plus a comparison against bookmaker odds. Currently in final development ahead of public deployment.
+
+---
+
+::: {.eyebrow}
+Soccer
+:::
+
+## International match forecaster
+
+A win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development, with a public release planned after the 2026 World Cup data becomes available.
+
+---
+
+::: {.eyebrow}
+Open source
+:::
+
+## `dgt` — an R package for reliability analysis
+
+An R package implementing generalizability-theory decision studies — the framework for answering "how many observations before this measurement is dependable?" Open source on GitHub.
+
+[github.com/rckaruna/dgt →](https://github.com/rckaruna/dgt){.btn-cta .ghost}
+
+---
+
+::: {.figure-caption}
+The models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review.
+:::

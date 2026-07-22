@@ -1,0 +1,20 @@
+# Quarto
+/.quarto/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: we DO commit /docs (GitHub Pages serves from it) and /_freeze
+# (cached chunk output, so the site builds without re-running every chunk).
+# If you switch to the GitHub Action that publishes a gh-pages branch,
+# you can uncomment the next line and set Pages source to gh-pages instead.
+# /docs/
+
+**/*.quarto_ipynb

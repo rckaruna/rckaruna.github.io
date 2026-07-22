@@ -1,0 +1,20 @@
+---
+title: "How many observations before a statistic means anything?"
+description: "Generalizability theory's decision study — the tool for knowing when a performance metric is signal and when it's still noise."
+date: 2026-06-08
+categories: [G-theory, methodology, sports]
+---
+
+Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the *person* or just the occasion.
+
+## The framing
+
+This is a measurement problem, and generalizability theory is built for it. A **G-study** decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A **decision study** then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?
+
+The answers are frequently sobering. Across the sports settings I've studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything.
+
+## Why it matters
+
+If a metric needs fifteen matches to be reliable and you're acting on three, you're ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.
+
+The [`dgt` R package](https://github.com/rckaruna/dgt) implements these calculations.

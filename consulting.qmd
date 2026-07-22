@@ -1,0 +1,82 @@
+---
+title: "Statistical consulting"
+subtitle: "Design the study right, model it honestly, and hand back something you can defend."
+pagetitle: "Statistical consulting — Ruwan C. Karunanayaka"
+description: "Statistical consulting services in BC and remote: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, and interactive dashboards."
+---
+
+I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. My P.Stat. (Professional Statistician) application is under review with the Statistical Society of Canada.
+
+::: {.eyebrow}
+Services
+:::
+
+## What I help with
+
+::: {.cols-3}
+::: {.card-plain}
+### Study & experiment design
+Sample-size and power calculations, randomization, factorial and fractional-factorial designs, and design of experiments for product, process, and lab work — so the data you collect can actually answer your question.
+:::
+::: {.card-plain}
+### Modelling & analysis
+Mixed-effects and generalized linear models, regression, ANOVA, survival analysis, and measurement reliability (generalizability theory). Validated, documented, and written up for the audience that has to trust it.
+:::
+::: {.card-plain}
+### Tools & dashboards
+Reproducible analysis in R, and interactive R / Shiny applications that put your model in front of the people who need to act on it — [live examples here](projects.qmd).
+:::
+:::
+
+::: {.eyebrow}
+AI & machine learning
+:::
+
+## Statistics for AI systems
+
+AI has a measurement problem. Benchmark scores move with the evaluation harness, leaderboard gaps often sit inside statistical noise, human and LLM-judge ratings carry biases nobody has quantified, and evaluation experiments are rarely repeated. If your organization is choosing, validating, or shipping AI systems, the statistics underneath those decisions deserve the same rigor as a clinical trial. I offer:
+
+- **Evaluation design & audit.** Design an evaluation that actually answers your question — sampling that matches the deployment population, contamination and leakage control, uncertainty attached to every comparison — or independently audit an existing one before it drives a procurement or launch decision.
+- **Reliability of evaluation pipelines.** Human rater panels and LLM-as-judge setups are measurement instruments, and measurement instruments have quantifiable reliability. I decompose where the noise lives, quantify rater and occasion effects, and answer the operational question: *how many judgments before this verdict is dependable?*
+- **Benchmark & leaderboard dependability.** Whether a ranking of models — or of anything compared pairwise — reflects real differences or sampling noise, and how much more data a stable ranking would need.
+- **Calibration audits.** If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.
+- **Design of experiments for AI work.** Prompt, configuration, and model comparisons where each run costs real money — factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.
+
+### What's different about this
+
+Most AI consultants build systems. I do something rarer: I measure whether systems — and the evaluations of them — can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts — including [research under review](research.qmd) on decomposing the uncertainty of AI fairness audits. Two things follow. My conclusions come with honest uncertainty, including "this evaluation cannot support the claim you want to make" when that's the truth. And I'm independent — a university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires.
+
+
+
+## How an engagement works
+
+**Scope.** We start with a conversation about the question, the data you have (or plan to collect), and what a useful answer looks like. If I'm not the right fit, I'll say so quickly and point you somewhere better.
+
+**Design & analysis.** For new studies, design comes first — the cheapest place to fix a study is before the data exist. For existing data, I choose methods to fit the data rather than forcing the data into a familiar method, and I'm explicit about assumptions and their consequences.
+
+**Deliver & document.** You get a clear writeup — methods, results, limitations — in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.
+
+::: {.eyebrow}
+Track record
+:::
+
+## Selected collaboration & consulting
+
+- **Sports science — handball.** Statistical analysis of elite handball with researchers at the University of Agder, including a peer-reviewed study of shot-selection strategy (*International Journal of Sports Science & Coaching*, 2025).
+- **Health sciences.** Statistical consulting on a multi-modal intervention study in frontotemporal dementia — advising on analysis appropriateness for the design and on testing sex differences within and between groups.
+- **Engineering technology.** Advised UFV's Automation & Robotics program on a *Statistics for Electronics* course — control charting, acceptance sampling, regression, and experimental design aligned to technologist certification.
+- **Methodology with downstream reach.** My design-of-experiments research has been independently cited in textile engineering, food science, hydrology, and mining — applied fields putting the methods to work.
+
+::: {.eyebrow}
+Get in touch
+:::
+
+## Start a conversation
+
+Tell me what you're working on and where you are in it — designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I'm involved, the more I can help.
+
+[Email me →](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .primary}
+
+::: {.figure-caption style="margin-top:1rem"}
+ruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569
+:::

@@ -1,0 +1,7 @@
+# Defaults applied to every post in posts/
+author: "Ruwan C. Karunanayaka"
+freeze: true
+format:
+  html:
+    toc: true
+    toc-depth: 2

@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages can serve from /docs on main
+
+resources:
+  - widgets/worm.html
+  - CNAME
+
+website:
+  title: "Ruwan C. Karunanayaka"
+  description: "Statistical consulting, experimental design, and interactive data tools — Ruwan C. Karunanayaka, PhD."
+  site-url: "https://rckaruna.ca"
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    pinned: true
+    logo: ""
+    title: "R. C. Karunanayaka"
+    left:
+      - text: "Consulting"
+        href: consulting.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/rckaruna
+        aria-label: GitHub
+      - text: "ORCID"
+        href: https://orcid.org/0009-0008-2459-1569
+
+  page-footer:
+    left: "© 2026 Ruwan C. Karunanayaka · Associate Professor, University of the Fraser Valley"
+    right:
+      - text: "Email"
+        href: "mailto:ruwan.karunanayaka@ufv.ca"
+      - text: "GitHub"
+        href: https://github.com/rckaruna
+      - text: "ORCID"
+        href: https://orcid.org/0009-0008-2459-1569
+
+format:
+  html:
+    theme: theme.scss
+    toc: false
+    grid:
+      body-width: 980px
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto        # cache computed chunks so the site builds fast on CI
+  echo: false
+  warning: false
+  message: false

@@ -1,0 +1,17 @@
+---
+title: "Blog"
+subtitle: "Notes on cricket, handball, and statistical methodology — mostly work in progress, thinking out loud."
+pagetitle: "Blog — Ruwan C. Karunanayaka"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  fields: [date, title, reading-time, description, categories]
+page-layout: full
+title-block-banner: false
+description: "Notes on statistical methodology by Ruwan C. Karunanayaka — how to design studies, measure reliably, and trust the numbers."
+---
