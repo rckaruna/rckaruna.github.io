@@ -35,11 +35,11 @@
     "text": "International match forecaster\nA win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development, with a public release planned after the 2026 World Cup data becomes available.\n\n\nOpen source"
   },
   {
-    "objectID": "projects.html#dgt-an-r-package-for-reliability-analysis",
-    "href": "projects.html#dgt-an-r-package-for-reliability-analysis",
+    "objectID": "projects.html#code-on-github",
+    "href": "projects.html#code-on-github",
     "title": "Projects",
-    "section": "dgt — an R package for reliability analysis",
-    "text": "dgt — an R package for reliability analysis\nAn R package implementing generalizability-theory decision studies — the framework for answering “how many observations before this measurement is dependable?” Open source on GitHub.\ngithub.com/rckaruna/dgt →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
+    "section": "Code on GitHub",
+    "text": "Code on GitHub\ndgt — an R package for reliability analysis. Implements generalizability-theory decision studies — the framework for answering “how many observations before this measurement is dependable?”\ngithub.com/rckaruna/dgt →\nStatcastG — reliability at MLB scale. A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).\ngithub.com/rckaruna/StatcastG →\nfairness-gtheory — how reliable is a fairness audit? R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory — companion to the fairness-audit research under review.\ngithub.com/rckaruna/fairness-gtheory →\nMARE-code — designing the study before the data exist. Companion R code for Minimum Aberration for Random-Effect Designs: choosing the best generalizability-study design when measurement reliability is the goal.\ngithub.com/rckaruna/MARE-code →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
   },
   {
     "objectID": "posts/handball-dependability/index.html",
@@ -81,7 +81,7 @@
     "href": "research.html#manuscripts-under-review",
     "title": "Research",
     "section": "Manuscripts under review",
-    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\nDynamic generalizability of expected goals (xG) in international soccer tournaments. (with Tim Swartz) In preparation.\n\n\nNon-refereed"
+    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nMinimum aberration designs for random-effect generalizability studies. Under review, Statistical Papers.\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\nDynamic generalizability of expected goals (xG) in international soccer tournaments. (with Tim Swartz) In preparation.\n\n\nNon-refereed"
   },
   {
     "objectID": "research.html#conference-contributions",
@@ -109,7 +109,7 @@
     "href": "research.html#code-tools",
     "title": "Research",
     "section": "Code & tools",
-    "text": "Code & tools\n\ndgt — R package for generalizability-theory decision studies. github.com/rckaruna/dgt\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
+    "text": "Code & tools\n\ndgt — R package for generalizability-theory decision studies. github.com/rckaruna/dgt\nStatcastG — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory — R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code — companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
   },
   {
     "objectID": "teaching.html",

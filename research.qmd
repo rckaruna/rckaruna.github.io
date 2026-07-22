@@ -53,6 +53,9 @@ Under review
 - **Quantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability.**
   Under review, *International Journal of Data Science and Analytics* (IJDSA).
 
+- **Minimum aberration designs for random-effect generalizability studies.**
+  Under review, *Statistical Papers*.
+
 - **Election-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability.**
   In preparation.
 
@@ -93,4 +96,7 @@ Software
 ## Code & tools
 
 - **`dgt`** — R package for generalizability-theory decision studies. [github.com/rckaruna/dgt](https://github.com/rckaruna/dgt)
+- **`StatcastG`** — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. [github.com/rckaruna/StatcastG](https://github.com/rckaruna/StatcastG)
+- **`fairness-gtheory`** — R code for reliable fairness auditing via multivariate generalizability theory. [github.com/rckaruna/fairness-gtheory](https://github.com/rckaruna/fairness-gtheory)
+- **`MARE-code`** — companion R code for minimum-aberration random-effect designs (MARE). [github.com/rckaruna/MARE-code](https://github.com/rckaruna/MARE-code)
 - **Forecasting applications** — deployed interactive tools for cricket, tennis, and soccer. [See projects](projects.qmd)

@@ -55,11 +55,23 @@ A win-probability and scoreline tool for international soccer built on tournamen
 Open source
 :::
 
-## `dgt` — an R package for reliability analysis
+## Code on GitHub
 
-An R package implementing generalizability-theory decision studies — the framework for answering "how many observations before this measurement is dependable?" Open source on GitHub.
+**`dgt` — an R package for reliability analysis.** Implements generalizability-theory decision studies — the framework for answering "how many observations before this measurement is dependable?"
 
 [github.com/rckaruna/dgt →](https://github.com/rckaruna/dgt){.btn-cta .ghost}
+
+**`StatcastG` — reliability at MLB scale.** A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).
+
+[github.com/rckaruna/StatcastG →](https://github.com/rckaruna/StatcastG){.btn-cta .ghost}
+
+**`fairness-gtheory` — how reliable is a fairness audit?** R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory — companion to the fairness-audit research under review.
+
+[github.com/rckaruna/fairness-gtheory →](https://github.com/rckaruna/fairness-gtheory){.btn-cta .ghost}
+
+**`MARE-code` — designing the study before the data exist.** Companion R code for *Minimum Aberration for Random-Effect Designs*: choosing the best generalizability-study design when measurement reliability is the goal.
+
+[github.com/rckaruna/MARE-code →](https://github.com/rckaruna/MARE-code){.btn-cta .ghost}
 
 ---
 
