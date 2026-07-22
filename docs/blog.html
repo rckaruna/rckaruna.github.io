@@ -108,7 +108,75 @@ window.addEventListener("DOMContentLoaded", function () {
       a.setAttribute("rel", "noopener");
     }
   });
+  // Conversion events: contact intent
+  function track(name) {
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: name, title: name, event: true });
+    }
+  }
+  document.querySelectorAll("a[href^='mailto:']").forEach(function (a) {
+    a.addEventListener("click", function () { track("contact-email-click"); });
+  });
+  var c = document.getElementById("copyEmail");
+  if (c) { c.addEventListener("click", function () { track("contact-copy-address"); }); }
+  document.querySelectorAll("a[href*='shinyapps.io']").forEach(function (a) {
+    a.addEventListener("click", function () { track("open-forecaster-app"); });
+  });
 });
+</script>
+<script data-goatcounter="https://rckaruna.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://rckaruna.ca/#person",
+      "name": "Ruwan C. Karunanayaka",
+      "jobTitle": "Associate Professor of Statistics; Statistical Consultant",
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of the Fraser Valley"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Simon Fraser University" },
+        { "@type": "CollegeOrUniversity", "name": "Sam Houston State University" },
+        { "@type": "CollegeOrUniversity", "name": "University of Kelaniya" }
+      ],
+      "url": "https://rckaruna.ca",
+      "image": "https://rckaruna.ca/assets/ruwan.jpg",
+      "email": "mailto:ruwan.karunanayaka@ufv.ca",
+      "sameAs": [
+        "https://orcid.org/0009-0008-2459-1569",
+        "https://github.com/rckaruna"
+      ],
+      "knowsAbout": [
+        "statistical consulting",
+        "design of experiments",
+        "generalizability theory",
+        "measurement reliability",
+        "sample size and power analysis",
+        "AI evaluation",
+        "sports analytics",
+        "R programming"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://rckaruna.ca/#service",
+      "name": "Ruwan C. Karunanayaka, Statistical Consulting",
+      "founder": { "@id": "https://rckaruna.ca/#person" },
+      "url": "https://rckaruna.ca/consulting.html",
+      "description": "Statistical consulting: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, and interactive dashboards.",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "British Columbia" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Place", "name": "Remote / Worldwide" }
+      ],
+      "priceRange": "$$"
+    }
+  ]
+}
 </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
