@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/leaderboard-noise/index.html",
       "/posts/welcome/index.html",
       "/posts/handball-dependability/index.html"
     ]

@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation.">
+<meta name="author" content="Ruwan C. Karunanayaka">
+<meta name="dcterms.date" content="2026-07-22">
+<meta name="description" content="Two models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.">
 
-<title>Research &amp; publications — Ruwan C. Karunanayaka – Ruwan C. Karunanayaka</title>
+<title>Your leaderboard gap is probably noise – Ruwan C. Karunanayaka</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-72ed6bc24164debcbbe5ff6fce37c57a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bbee10d9b27fa9b633c189d661adc344.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-72ed6bc24164debcbbe5ff6fce37c57a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bbee10d9b27fa9b633c189d661adc344.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,23 +82,52 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Research &amp; publications — Ruwan C. Karunanayaka">
-<meta property="og:description" content="Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation.">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Your leaderboard gap is probably noise – Ruwan C. Karunanayaka">
+<meta property="og:description" content="Two models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.">
 <meta property="og:site_name" content="Ruwan C. Karunanayaka">
-<meta name="twitter:title" content="Research &amp; publications — Ruwan C. Karunanayaka">
-<meta name="twitter:description" content="Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation.">
+<meta name="twitter:title" content="Your leaderboard gap is probably noise – Ruwan C. Karunanayaka">
+<meta name="twitter:description" content="Two models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ruwan C. Karunanayaka</span>
     </a>
   </div>
@@ -107,23 +138,23 @@ window.addEventListener("DOMContentLoaded", function () {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./consulting.html"> 
+    <a class="nav-link" href="../../consulting.html"> 
 <span class="menu-text">Consulting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -148,26 +179,52 @@ window.addEventListener("DOMContentLoaded", function () {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#a-two-minute-calculation" id="toc-a-two-minute-calculation" class="nav-link active" data-scroll-target="#a-two-minute-calculation">A two-minute calculation</a></li>
+  <li><a href="#the-deeper-problem-rankings-are-measurements" id="toc-the-deeper-problem-rankings-are-measurements" class="nav-link" data-scroll-target="#the-deeper-problem-rankings-are-measurements">The deeper problem: rankings are measurements</a></li>
+  <li><a href="#how-to-read-a-leaderboard-without-fooling-yourself" id="toc-how-to-read-a-leaderboard-without-fooling-yourself" class="nav-link" data-scroll-target="#how-to-read-a-leaderboard-without-fooling-yourself">How to read a leaderboard without fooling yourself</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
-<p class="subtitle lead">Experimental design under the baseline parameterization, measurement reliability, and applied statistics.</p>
-</div>
+<h1 class="title">Your leaderboard gap is probably noise</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">methodology</div>
+    <div class="quarto-category">measurement</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation.
+    Two models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ruwan C. Karunanayaka </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 22, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -177,73 +234,23 @@ window.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<div class="eyebrow">
-<p>Peer-reviewed</p>
-</div>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<ul>
-<li><p><strong>Bias reduction via complementation of orthogonal arrays under a baseline parameterization.</strong> <em>Statistics &amp; Probability Letters</em> <strong>237</strong> (2026), art. 110819. doi: <a href="https://doi.org/10.1016/j.spl.2026.110819">10.1016/j.spl.2026.110819</a></p></li>
-<li><p><strong>Is it time for a more analytical approach? Suboptimal shot selection strategies in handball.</strong> (with A. G. Laxdal, S. Þorgeirsson, J. Saavedra, T. Haugen, and coauthors) <em>International Journal of Sports Science &amp; Coaching</em> (2025). doi: <a href="https://doi.org/10.1177/17479541251369049">10.1177/17479541251369049</a></p></li>
-<li><p><strong>On the existence and constructions of orthogonal designs.</strong> (with Boxin Tang) <em>Australian &amp; New Zealand Journal of Statistics</em> (2018).</p></li>
-<li><p><strong>Compromise designs under baseline parametrization.</strong> (with Boxin Tang) <em>Journal of Statistical Planning and Inference</em> (2017).</p></li>
-</ul>
-<div class="figure-caption">
-<p>The 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.</p>
-</div>
-<div class="eyebrow">
-<p>Under review</p>
-</div>
+<p>Somewhere right now, a team is choosing which AI model to build on because it sits one place higher on a leaderboard. The gap might be two points of win rate, or a handful of Elo. Here’s the uncomfortable question a statistician has to ask: is that gap a fact about the models, or a fact about the sample?</p>
+<section id="a-two-minute-calculation" class="level2">
+<h2 class="anchored" data-anchor-id="a-two-minute-calculation">A two-minute calculation</h2>
+<p>Suppose model A beats model B in 62% of head-to-head comparisons, and model B wins 60% of its own matchups, each measured over 500 votes. Two points apart — feels decisive on a ranking table.</p>
+<p>The standard error of a proportion around 0.6 on 500 votes is <span class="math inline">\(\sqrt{0.6 \times 0.4 / 500} \approx 0.022\)</span> — about 2.2 percentage points <em>per model</em>. The uncertainty on the <em>difference</em> between them is larger still, roughly <span class="math inline">\(\sqrt{2} \times 2.2 \approx 3.1\)</span> points. A 2-point observed gap against ~3 points of noise, before any multiple-comparison correction, isn’t evidence of a real difference. It’s a tie wearing a trophy.</p>
+<p>This isn’t a contrived example. Public arena leaderboards now publish confidence intervals precisely because the intervals at the top routinely overlap — the rank order among the leading models is partly an artifact of sampling. And the problem compounds: with ten models, there are forty-five pairwise comparisons, so a few “significant-looking” gaps will appear by chance even if nothing real separates anyone.</p>
 </section>
-<section id="manuscripts-under-review" class="level2">
-<h2 class="anchored" data-anchor-id="manuscripts-under-review">Manuscripts under review</h2>
-<ul>
-<li><p><strong>Distributional Generalizability Theory: Reliability for Non-Gaussian Measurements.</strong> Under review, <em>Psychometrika</em> (the journal of the Psychometric Society).</p></li>
-<li><p><strong>Decomposing the uncertainty of AI fairness audits: a multivariate generalizability framework.</strong> Under review, <em>RSS: Data Science and Artificial Intelligence</em> (Royal Statistical Society).</p></li>
-<li><p><strong>Response-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket.</strong> Under review, <em>Australian &amp; New Zealand Journal of Statistics</em> (ANZJS).</p></li>
-<li><p><strong>How Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball.</strong> Under review, <em>International Journal of Sports Science &amp; Coaching</em> (IJSSC).</p></li>
-<li><p><strong>Quantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability.</strong> Under review, <em>International Journal of Data Science and Analytics</em> (IJDSA).</p></li>
-<li><p><strong>Minimum aberration designs for random-effect generalizability studies.</strong> Under review, <em>Statistical Papers</em>.</p></li>
-<li><p><strong>Election-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability.</strong> In preparation.</p></li>
-<li><p><strong>Dynamic generalizability of expected goals (xG) in international soccer tournaments.</strong> (with Tim Swartz) In preparation.</p></li>
-</ul>
-<div class="eyebrow">
-<p>Non-refereed</p>
-</div>
+<section id="the-deeper-problem-rankings-are-measurements" class="level2">
+<h2 class="anchored" data-anchor-id="the-deeper-problem-rankings-are-measurements">The deeper problem: rankings are measurements</h2>
+<p>A leaderboard is a measurement instrument, and instruments have reliability. The question that matters isn’t only “is this gap significant today?” but “if we collected the same number of votes again, would the ranking come back the same?” Those are different questions. A gap can clear a significance test while the <em>ranking</em> built from many such gaps remains unstable — flip a few hundred votes and third place becomes sixth.</p>
+<p>Measurement theory has a name for this and a toolbox for it: you decompose the variation in observed scores into the part that reflects real differences between the things being ranked and the part that’s occasion-to-occasion noise, then compute how many observations you’d need before the ranking is dependable at the level you care about. The recurring finding, in domain after domain, is that the number is larger than people expect — often much larger than the data anyone has.</p>
 </section>
-<section id="conference-contributions" class="level2">
-<h2 class="anchored" data-anchor-id="conference-contributions">Conference contributions</h2>
-<ul>
-<li><p>Walpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. &amp; Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. <em>Proceedings of International Statistics Conference 2014</em>, Institute of Applied Statistics, Sri Lanka, 213.</p></li>
-<li><p>Walpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.</p></li>
-</ul>
-<div class="eyebrow">
-<p>Ongoing work</p>
-</div>
-</section>
-<section id="active-program" class="level2">
-<h2 class="anchored" data-anchor-id="active-program">Active program</h2>
-<p>Beyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the <a href="./projects.html">projects page</a>.</p>
-<div class="eyebrow">
-<p>Service</p>
-</div>
-</section>
-<section id="peer-review" class="level2">
-<h2 class="anchored" data-anchor-id="peer-review">Peer review</h2>
-<p>Reviewer, <em>Journal of Sports Analytics</em> (2024).</p>
-<div class="eyebrow">
-<p>Software</p>
-</div>
-</section>
-<section id="code-tools" class="level2">
-<h2 class="anchored" data-anchor-id="code-tools">Code &amp; tools</h2>
-<ul>
-<li><strong><code>dgt</code></strong> — R package for generalizability-theory decision studies. <a href="https://github.com/rckaruna/dgt">github.com/rckaruna/dgt</a></li>
-<li><strong><code>StatcastG</code></strong> — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. <a href="https://github.com/rckaruna/StatcastG">github.com/rckaruna/StatcastG</a></li>
-<li><strong><code>fairness-gtheory</code></strong> — R code for reliable fairness auditing via multivariate generalizability theory. <a href="https://github.com/rckaruna/fairness-gtheory">github.com/rckaruna/fairness-gtheory</a></li>
-<li><strong><code>MARE-code</code></strong> — companion R code for minimum-aberration random-effect designs (MARE). <a href="https://github.com/rckaruna/MARE-code">github.com/rckaruna/MARE-code</a></li>
-<li><strong>Forecasting applications</strong> — deployed interactive tools for cricket, tennis, and soccer. <a href="./projects.html">See projects</a></li>
-</ul>
+<section id="how-to-read-a-leaderboard-without-fooling-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-read-a-leaderboard-without-fooling-yourself">How to read a leaderboard without fooling yourself</h2>
+<p>Ask for the interval, not the point: if the intervals of two entries overlap, treat them as tied, whatever the rank order says. Ask for the <em>n</em> behind each comparison — a rating built on 80 matchups and one built on 8,000 do not deserve the same trust. Be most suspicious exactly where the stakes feel highest, at the top, where entries are closest and gaps are smallest relative to noise. And if a decision genuinely hangs on the comparison — which model to license, which system to ship — run your own evaluation on your own task distribution, sized in advance so the answer will be reliable. That last step is a sample-size calculation, and it’s cheaper than choosing the wrong model.</p>
+<p>None of this is exotic statistics. It’s the same discipline clinical trials have used for decades, pointed at a new kind of scoreboard. The scoreboards are new; the arithmetic isn’t.</p>
+<p><em>I consult on exactly these questions — evaluation design, the reliability of ranking and judging pipelines, and how much data a trustworthy verdict needs. If your team is making decisions off a leaderboard, <a href="../../consulting.html">let’s talk</a>.</em></p>
 
 
 </section>
@@ -688,5 +695,5 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

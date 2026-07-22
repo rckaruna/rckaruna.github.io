@@ -187,3 +187,28 @@ blockquote {
 // Tables a touch cleaner
 table { font-family: $font-family-sans-serif; font-size: 0.95rem; }
 thead th { border-bottom: 2px solid $ink; }
+
+// ---- About block (headshot + bio) ----
+.about-grid {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2.2rem;
+  align-items: start;
+  margin-top: 1.4rem;
+}
+.about-grid img.headshot {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid $hairline;
+}
+@media (max-width: 700px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .about-grid img.headshot { max-width: 260px; }
+}
+
+// ---- FAQ ----
+.faq strong {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+}
+.faq p { margin: 0 0 1rem; }

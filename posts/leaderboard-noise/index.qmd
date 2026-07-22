@@ -1,0 +1,30 @@
+---
+title: "Your leaderboard gap is probably noise"
+description: "Two models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician."
+date: 2026-07-22
+categories: [AI, methodology, measurement]
+---
+
+Somewhere right now, a team is choosing which AI model to build on because it sits one place higher on a leaderboard. The gap might be two points of win rate, or a handful of Elo. Here's the uncomfortable question a statistician has to ask: is that gap a fact about the models, or a fact about the sample?
+
+## A two-minute calculation
+
+Suppose model A beats model B in 62% of head-to-head comparisons, and model B wins 60% of its own matchups, each measured over 500 votes. Two points apart — feels decisive on a ranking table.
+
+The standard error of a proportion around 0.6 on 500 votes is $\sqrt{0.6 \times 0.4 / 500} \approx 0.022$ — about 2.2 percentage points *per model*. The uncertainty on the *difference* between them is larger still, roughly $\sqrt{2} \times 2.2 \approx 3.1$ points. A 2-point observed gap against ~3 points of noise, before any multiple-comparison correction, isn't evidence of a real difference. It's a tie wearing a trophy.
+
+This isn't a contrived example. Public arena leaderboards now publish confidence intervals precisely because the intervals at the top routinely overlap — the rank order among the leading models is partly an artifact of sampling. And the problem compounds: with ten models, there are forty-five pairwise comparisons, so a few "significant-looking" gaps will appear by chance even if nothing real separates anyone.
+
+## The deeper problem: rankings are measurements
+
+A leaderboard is a measurement instrument, and instruments have reliability. The question that matters isn't only "is this gap significant today?" but "if we collected the same number of votes again, would the ranking come back the same?" Those are different questions. A gap can clear a significance test while the *ranking* built from many such gaps remains unstable — flip a few hundred votes and third place becomes sixth.
+
+Measurement theory has a name for this and a toolbox for it: you decompose the variation in observed scores into the part that reflects real differences between the things being ranked and the part that's occasion-to-occasion noise, then compute how many observations you'd need before the ranking is dependable at the level you care about. The recurring finding, in domain after domain, is that the number is larger than people expect — often much larger than the data anyone has.
+
+## How to read a leaderboard without fooling yourself
+
+Ask for the interval, not the point: if the intervals of two entries overlap, treat them as tied, whatever the rank order says. Ask for the *n* behind each comparison — a rating built on 80 matchups and one built on 8,000 do not deserve the same trust. Be most suspicious exactly where the stakes feel highest, at the top, where entries are closest and gaps are smallest relative to noise. And if a decision genuinely hangs on the comparison — which model to license, which system to ship — run your own evaluation on your own task distribution, sized in advance so the answer will be reliable. That last step is a sample-size calculation, and it's cheaper than choosing the wrong model.
+
+None of this is exotic statistics. It's the same discipline clinical trials have used for decades, pointed at a new kind of scoreboard. The scoreboards are new; the arithmetic isn't.
+
+*I consult on exactly these questions — evaluation design, the reliability of ranking and judging pipelines, and how much data a trustworthy verdict needs. If your team is making decisions off a leaderboard, [let's talk](../../consulting.qmd).*
