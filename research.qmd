@@ -56,6 +56,20 @@ Under review
 - **Election-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability.**
   In preparation.
 
+- **Dynamic generalizability of expected goals (xG) in international soccer tournaments.**
+  (with Tim Swartz)
+  In preparation.
+
+::: {.eyebrow}
+Non-refereed
+:::
+
+## Conference contributions
+
+- Walpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. *Proceedings of International Statistics Conference 2014*, Institute of Applied Statistics, Sri Lanka, 213.
+
+- Walpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.
+
 ::: {.eyebrow}
 Ongoing work
 :::

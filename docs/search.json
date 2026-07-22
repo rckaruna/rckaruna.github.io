@@ -81,7 +81,14 @@
     "href": "research.html#manuscripts-under-review",
     "title": "Research",
     "section": "Manuscripts under review",
-    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\n\n\nOngoing work"
+    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\nDynamic generalizability of expected goals (xG) in international soccer tournaments. (with Tim Swartz) In preparation.\n\n\nNon-refereed"
+  },
+  {
+    "objectID": "research.html#conference-contributions",
+    "href": "research.html#conference-contributions",
+    "title": "Research",
+    "section": "Conference contributions",
+    "text": "Conference contributions\n\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
   },
   {
     "objectID": "research.html#active-program",
@@ -123,7 +130,14 @@
     "href": "teaching.html#approach",
     "title": "Teaching",
     "section": "Approach",
-    "text": "Approach\nI lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end."
+    "text": "Approach\nI lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end.\n\nProfessional development"
+  },
+  {
+    "objectID": "teaching.html#keeping-the-toolkit-current",
+    "href": "teaching.html#keeping-the-toolkit-current",
+    "title": "Teaching",
+    "section": "Keeping the toolkit current",
+    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
   },
   {
     "objectID": "consulting.html",

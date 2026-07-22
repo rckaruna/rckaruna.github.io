@@ -30,3 +30,24 @@ How I teach it
 ## Approach
 
 I lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end.
+
+::: {.eyebrow}
+Professional development
+:::
+
+## Keeping the toolkit current
+
+Statistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:
+
+- Analyzing Large Datasets with the Julia Language
+- Version Control with Git and GitHub
+- Modular Design and Automated Testing with R
+- Introduction to Big Data & Machine Learning for Survey Researchers & Social Scientists
+- Advanced Visualization in R: R Shiny
+- Introduction to Effective Visualization
+- Introduction to Discrete Choice Modeling in R
+- Introduction to Statistical Machine Learning in R
+- Data Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale
+- Open Source Solutions for Online Teaching, Assessment and Grading
+- Exploratory Data Analysis using R Markdown
+- Instructional Skills Workshop (ISW)
