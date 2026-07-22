@@ -76,6 +76,19 @@ Get in touch
 Tell me what you're working on and where you are in it — designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I'm involved, the more I can help.
 
 [Email me →](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .primary}
+```{=html}
+<button id="copyEmail" class="btn-cta ghost"
+        style="background:transparent; cursor:pointer;">Copy email address</button>
+<script>
+document.getElementById("copyEmail").addEventListener("click", function () {
+  var b = this;
+  navigator.clipboard.writeText("ruwan.karunanayaka@ufv.ca").then(function () {
+    var t = b.textContent; b.textContent = "Copied \u2713";
+    setTimeout(function () { b.textContent = t; }, 2000);
+  });
+});
+</script>
+```
 
 ::: {.figure-caption style="margin-top:1rem"}
 ruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569

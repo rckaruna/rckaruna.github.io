@@ -38,7 +38,7 @@ website:
   page-footer:
     left: "© 2026 Ruwan C. Karunanayaka · Associate Professor, University of the Fraser Valley"
     right:
-      - text: "Email"
+      - text: "ruwan.karunanayaka@ufv.ca"
         href: "mailto:ruwan.karunanayaka@ufv.ca"
       - text: "GitHub"
         href: https://github.com/rckaruna
