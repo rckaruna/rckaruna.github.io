@@ -5,30 +5,28 @@ pagetitle: "Research & publications — Ruwan C. Karunanayaka"
 description: "Publications and research by Ruwan C. Karunanayaka: experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation."
 ---
 
-<!--
-  Fill the exact titles/authors/volume/pages marked [VERIFY] from your CV
-  before publishing. Better to flag a gap than guess a citation.
--->
-
 ::: {.eyebrow}
 Peer-reviewed
 :::
 
 ## Publications
 
-- **[VERIFY exact title]** — bias reduction via complementation of orthogonal arrays.
+- **Bias reduction via complementation of orthogonal arrays under a baseline parameterization.**
   *Statistics & Probability Letters* **237** (2026), art. 110819.
   doi: [10.1016/j.spl.2026.110819](https://doi.org/10.1016/j.spl.2026.110819)
 
-- **[VERIFY exact title]** — shot-selection strategies in elite handball.
+- **Is it time for a more analytical approach? Suboptimal shot selection strategies in handball.**
+  (with A. G. Laxdal, S. Þorgeirsson, J. Saavedra, T. Haugen, and coauthors)
   *International Journal of Sports Science & Coaching* (2025).
   doi: [10.1177/17479541251369049](https://doi.org/10.1177/17479541251369049)
 
-- **[VERIFY exact title]** — design of experiments under the baseline parameterization.
-  *Australian & New Zealand Journal of Statistics* (2018).  [add volume/pages/DOI]
+- **On the existence and constructions of orthogonal designs.**
+  (with Boxin Tang)
+  *Australian & New Zealand Journal of Statistics* (2018).
 
-- **[VERIFY exact title]** — fractional-factorial designs.
-  *Journal of Statistical Planning and Inference* (2017).  [add volume/pages/DOI]
+- **Compromise designs under baseline parametrization.**
+  (with Boxin Tang)
+  *Journal of Statistical Planning and Inference* (2017).
 
 ::: {.figure-caption}
 The 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.
