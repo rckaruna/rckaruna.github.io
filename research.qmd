@@ -1,8 +1,8 @@
 ---
 title: "Research"
-subtitle: "Experimental design, measurement reliability, and applied statistics."
+subtitle: "Experimental design under the baseline parameterization, measurement reliability, and applied statistics."
 pagetitle: "Research & publications — Ruwan C. Karunanayaka"
-description: "Publications and research by Ruwan C. Karunanayaka: experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation."
+description: "Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation."
 ---
 
 ::: {.eyebrow}

@@ -16,7 +16,7 @@ Services
 ::: {.cols-3}
 ::: {.card-plain}
 ### Study & experiment design
-Sample-size and power calculations, randomization, factorial and fractional-factorial designs, and design of experiments for product, process, and lab work — so the data you collect can actually answer your question.
+Sample-size and power calculations, randomization, factorial and fractional-factorial designs — including designs under the baseline parameterization — and design of experiments for product, process, and lab work — so the data you collect can actually answer your question.
 :::
 ::: {.card-plain}
 ### Modelling & analysis

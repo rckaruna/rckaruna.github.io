@@ -2,7 +2,7 @@
 title: "Projects"
 subtitle: "Interactive tools and open-source software — the same kind of decision tools I build for clients."
 pagetitle: "Projects & software — Ruwan C. Karunanayaka"
-description: "Interactive statistical tools by Ruwan C. Karunanayaka: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis."
+description: "Interactive tools and open-source software: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis."
 ---
 
 The applications below are working products of my research program. Each takes a statistical model and turns it into something a non-statistician can use — which is most of what good applied statistics comes down to.

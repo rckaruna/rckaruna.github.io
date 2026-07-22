@@ -116,14 +116,14 @@
     "href": "teaching.html#courses",
     "title": "Teaching",
     "section": "Courses",
-    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics for business & social science\nR\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nIntermediate statistics\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics for business & social science\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nIntermediate statistics\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
   },
   {
     "objectID": "teaching.html#approach",
     "href": "teaching.html#approach",
     "title": "Teaching",
     "section": "Approach",
-    "text": "Approach\nI lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end.\nI’m also developing an Associate Certificate in Applied Statistics at UFV, assembling existing courses into a credential aimed at students who want demonstrable applied-statistics skills alongside their major."
+    "text": "Approach\nI lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end."
   },
   {
     "objectID": "consulting.html",
@@ -137,7 +137,7 @@
     "href": "consulting.html#what-i-help-with",
     "title": "Statistical consulting",
     "section": "What I help with",
-    "text": "What I help with\n\n\nStudy & experiment design\nSample-size and power calculations, randomization, factorial and fractional-factorial designs, and design of experiments for product, process, and lab work — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, regression, ANOVA, survival analysis, and measurement reliability (generalizability theory). Validated, documented, and written up for the audience that has to trust it.\n\n\nTools & dashboards\nReproducible analysis in R, and interactive R / Shiny applications that put your model in front of the people who need to act on it — live examples here.\n\n\n\nAI & machine learning"
+    "text": "What I help with\n\n\nStudy & experiment design\nSample-size and power calculations, randomization, factorial and fractional-factorial designs — including designs under the baseline parameterization — and design of experiments for product, process, and lab work — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, regression, ANOVA, survival analysis, and measurement reliability (generalizability theory). Validated, documented, and written up for the audience that has to trust it.\n\n\nTools & dashboards\nReproducible analysis in R, and interactive R / Shiny applications that put your model in front of the people who need to act on it — live examples here.\n\n\n\nAI & machine learning"
   },
   {
     "objectID": "consulting.html#statistics-for-ai-systems",
@@ -207,7 +207,7 @@
     "href": "index.html#three-services-one-standard.",
     "title": "Statistics you can defend.",
     "section": "Three services, one standard.",
-    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it — see live examples."
+    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it — see live examples."
   },
   {
     "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",

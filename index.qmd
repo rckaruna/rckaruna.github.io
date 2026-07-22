@@ -64,7 +64,7 @@ What I help with
 ::: {.cols-3}
 ::: {.card-plain}
 ### Study & experiment design
-Sample size and power, randomization, factorial and fractional-factorial designs — so the data you collect can actually answer your question.
+Sample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization — so the data you collect can actually answer your question.
 :::
 ::: {.card-plain}
 ### Modelling & analysis

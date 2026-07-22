@@ -16,7 +16,7 @@ website:
   navbar:
     pinned: true
     logo: ""
-    title: "R. C. Karunanayaka"
+    title: "Ruwan C. Karunanayaka"
     left:
       - text: "Consulting"
         href: consulting.qmd

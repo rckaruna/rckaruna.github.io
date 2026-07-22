@@ -2,7 +2,7 @@
 title: "Teaching"
 subtitle: "Applied statistics and statistical computing — mostly for students who'll use it in another field."
 pagetitle: "Teaching — Ruwan C. Karunanayaka"
-description: "Statistics teaching by Ruwan C. Karunanayaka at the University of the Fraser Valley: introductory statistics through applied GLMs and survival analysis, taught with R and reproducible workflows."
+description: "Applied statistics and statistical computing at the University of the Fraser Valley — introductory courses through applied GLMs and survival analysis, taught with R and reproducible workflows."
 ---
 
 I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is *service teaching* — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam.
@@ -16,7 +16,7 @@ At UFV
 | Course | Topic | Software |
 |---|---|---|
 | **STAT 104** | Introductory statistics | Minitab |
-| **STAT 106** | Statistics for business & social science | R |
+| **STAT 106** | Statistics for business & social science | Minitab/R |
 | **STAT 270** | Introduction to probability & statistics | R |
 | **STAT 315** | Intermediate statistics | R |
 | **STAT 402** | Applied GLMs & survival analysis | R |
@@ -30,5 +30,3 @@ How I teach it
 ## Approach
 
 I lean on real data and reproducible workflows — R in Jupyter notebooks and RStudio — so students leave with a habit they can carry into a thesis, a lab, or a job, not just a set of formulas. Course materials and solution keys are written in LaTeX for clarity, and computing is woven through the course rather than bolted on at the end.
-
-I'm also developing an **Associate Certificate in Applied Statistics** at UFV, assembling existing courses into a credential aimed at students who want demonstrable applied-statistics skills alongside their major.
