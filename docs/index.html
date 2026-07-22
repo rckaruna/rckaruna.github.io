@@ -69,6 +69,16 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(function (a) {
+    if (a.hostname && a.hostname !== window.location.hostname) {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener");
+    }
+  });
+});
+</script>
 
 
 <meta property="og:title" content="Ruwan C. Karunanayaka — Statistical Consulting">
@@ -187,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="accreditation" class="level3 card-plain">
 <h3 class="anchored" data-anchor-id="accreditation">Accreditation</h3>
-<p>P.Stat. (Professional Statistician) application under review with the Statistical Society of Canada.</p>
+<p>Member of the Statistical Society of Canada; P.Stat. (Professional Statistician) application under review.</p>
 </section>
 </div>
 </section>

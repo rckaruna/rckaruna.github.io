@@ -69,6 +69,16 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(function (a) {
+    if (a.hostname && a.hostname !== window.location.hostname) {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener");
+    }
+  });
+});
+</script>
 
 
 <meta property="og:title" content="Statistical consulting — Ruwan C. Karunanayaka">
@@ -167,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I’m a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. My P.Stat. (Professional Statistician) application is under review with the Statistical Society of Canada.</p>
+<p>I’m a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. I’m a member of the Statistical Society of Canada, where my P.Stat. (Professional Statistician) application is under review.</p>
 <div class="eyebrow">
 <p>Services</p>
 </div>

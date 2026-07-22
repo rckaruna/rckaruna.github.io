@@ -5,7 +5,7 @@ pagetitle: "Statistical consulting — Ruwan C. Karunanayaka"
 description: "Statistical consulting services in BC and remote: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, and interactive dashboards."
 ---
 
-I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. My P.Stat. (Professional Statistician) application is under review with the Statistical Society of Canada.
+I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. I'm a member of the Statistical Society of Canada, where my P.Stat. (Professional Statistician) application is under review.
 
 ::: {.eyebrow}
 Services

@@ -55,6 +55,18 @@ format:
     code-overflow: wrap
     link-external-newwindow: true
     smooth-scroll: true
+    include-in-header:
+      text: |
+        <script>
+        window.addEventListener("DOMContentLoaded", function () {
+          document.querySelectorAll("a[href^='http']").forEach(function (a) {
+            if (a.hostname && a.hostname !== window.location.hostname) {
+              a.setAttribute("target", "_blank");
+              a.setAttribute("rel", "noopener");
+            }
+          });
+        });
+        </script>
 
 execute:
   freeze: auto        # cache computed chunks so the site builds fast on CI
