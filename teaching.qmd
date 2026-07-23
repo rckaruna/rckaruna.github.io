@@ -16,9 +16,9 @@ At UFV
 | Course | Topic | Software |
 |---|---|---|
 | **STAT 104** | Introductory statistics | Minitab |
-| **STAT 106** | Statistics for business & social science | Minitab/R |
+| **STAT 106** | Statistics I | Minitab/R |
 | **STAT 270** | Introduction to probability & statistics | R |
-| **STAT 315** | Intermediate statistics | R |
+| **STAT 315** | Applied Regression Analysis | R |
 | **STAT 402** | Applied GLMs & survival analysis | R |
 
 : {tbl-colwidths="[20,55,25]"}
