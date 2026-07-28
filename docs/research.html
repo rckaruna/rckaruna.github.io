@@ -88,9 +88,6 @@ window.addEventListener("DOMContentLoaded", function () {
   });
   var c = document.getElementById("copyEmail");
   if (c) { c.addEventListener("click", function () { track("contact-copy-address"); }); }
-  document.querySelectorAll("a[href*='shinyapps.io']").forEach(function (a) {
-    a.addEventListener("click", function () { track("open-forecaster-app"); });
-  });
 });
 </script>
 <script data-goatcounter="https://rckaruna.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
