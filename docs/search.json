@@ -18,7 +18,7 @@
     "href": "projects.html#t20i-win-probability-forecaster",
     "title": "Projects",
     "section": "T20I win-probability forecaster",
-    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\nThe full interactive app — set any match state and explore the forecast — is deployed on shinyapps.io:\nOpen the forecaster →\n\n\nTennis"
+    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\n\n\nTennis"
   },
   {
     "objectID": "projects.html#match-win-probability-tool",

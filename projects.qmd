@@ -25,10 +25,6 @@ A live forecasting tool for Twenty20 International cricket. During a live match 
 Live during matches; recent internationals otherwise. Win probability is for the team batting first.
 :::
 
-The full interactive app — set any match state and explore the forecast — is deployed on shinyapps.io:
-
-[Open the forecaster →](https://rckaruna.shinyapps.io/t20i-chase-app/){.btn-cta .primary}
-
 ---
 
 ::: {.eyebrow}
