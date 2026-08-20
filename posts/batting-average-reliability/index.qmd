@@ -1,0 +1,28 @@
+---
+title: "How many innings before a batting average means anything?"
+description: "Cricket's favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that."
+date: 2026-08-19
+categories: [cricket, G-theory, measurement]
+---
+
+Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: *at this sample size, is it measuring the batter — or the weather of four particular days?*
+
+## Batting is a noisy instrument
+
+The same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: *how much* of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?
+
+That's a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn't control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I'm still working on. The recurring finding, in cricket as in every sport I've since studied: the signal share of a *single* observation is small. Ability differences are real, but any one innings is mostly noise.
+
+## The arithmetic of patience
+
+Averages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a *moderate* reliability of 0.7 for the average takes **21 innings**; reaching 0.8 takes **36**. If the single-innings signal share is 5%, those numbers become **45** and **76**. In T20, where a specialist bats perhaps 15–25 innings in a year, that's a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.
+
+This is the same lesson as [team shooting indicators in handball](../handball-dependability/index.qmd) and [AI leaderboards](../leaderboard-noise/index.qmd), which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn't.
+
+## Two honest complications
+
+First, cricket scores are not tidy bell-curve data — they're zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle it correctly is an active part of my research program. Second, none of this says small samples carry *no* information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a *ranking* of ability. At those sample sizes, the ranking is mostly re-ordering noise.
+
+The practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn't just a virtue in cricket — it's a sample-size requirement.
+
+*Measurement reliability — how many observations a trustworthy number needs — is a core thread of my [research](../../research.qmd) and [consulting practice](../../consulting.qmd), in sport and well beyond it.*

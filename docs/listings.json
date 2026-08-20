@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/batting-average-reliability/index.html",
       "/posts/ofat-vs-factorial/index.html",
       "/posts/sample-size/index.html",
       "/posts/leaderboard-noise/index.html",

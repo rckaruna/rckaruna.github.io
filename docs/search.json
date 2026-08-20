@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Testing one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "How many innings before a batting average means anything?\n\n\n\ncricket\n\nG-theory\n\nmeasurement\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
@@ -98,6 +98,104 @@
     "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
   },
   {
+    "objectID": "posts/handball-dependability/index.html",
+    "href": "posts/handball-dependability/index.html",
+    "title": "How many observations before a statistic means anything?",
+    "section": "",
+    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html#the-framing",
+    "href": "posts/handball-dependability/index.html#the-framing",
+    "title": "How many observations before a statistic means anything?",
+    "section": "The framing",
+    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html#why-it-matters",
+    "href": "posts/handball-dependability/index.html#why-it-matters",
+    "title": "How many observations before a statistic means anything?",
+    "section": "Why it matters",
+    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Peer-reviewed"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nBias reduction via complementation of orthogonal arrays under a baseline parameterization. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\nIs it time for a more analytical approach? Suboptimal shot selection strategies in handball. (with A. G. Laxdal, S. Þorgeirsson, J. Saavedra, T. Haugen, and coauthors) International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\nOn the existence and constructions of orthogonal designs. (with Boxin Tang) Australian & New Zealand Journal of Statistics (2018).\nCompromise designs under baseline parametrization. (with Boxin Tang) Journal of Statistical Planning and Inference (2017).\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nUnder review"
+  },
+  {
+    "objectID": "research.html#manuscripts-under-review",
+    "href": "research.html#manuscripts-under-review",
+    "title": "Research",
+    "section": "Manuscripts under review",
+    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nMinimum aberration designs for random-effect generalizability studies. Under review, Statistical Papers.\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\nDynamic generalizability of expected goals (xG) in international soccer tournaments. (with Tim Swartz) In preparation.\n\n\nNon-refereed"
+  },
+  {
+    "objectID": "research.html#conference-contributions",
+    "href": "research.html#conference-contributions",
+    "title": "Research",
+    "section": "Conference contributions",
+    "text": "Conference contributions\n\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
+  },
+  {
+    "objectID": "research.html#active-program",
+    "href": "research.html#active-program",
+    "title": "Research",
+    "section": "Active program",
+    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
+  },
+  {
+    "objectID": "research.html#peer-review",
+    "href": "research.html#peer-review",
+    "title": "Research",
+    "section": "Peer review",
+    "text": "Peer review\nReviewer, Journal of Sports Analytics (2024).\n\nSoftware"
+  },
+  {
+    "objectID": "research.html#code-tools",
+    "href": "research.html#code-tools",
+    "title": "Research",
+    "section": "Code & tools",
+    "text": "Code & tools\n\ndgt — R package for generalizability-theory decision studies. github.com/rckaruna/dgt\nStatcastG — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory — R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code — companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics I\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nApplied Regression Analysis\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+  },
+  {
+    "objectID": "teaching.html#approach",
+    "href": "teaching.html#approach",
+    "title": "Teaching",
+    "section": "Approach",
+    "text": "Approach\nJohn Tukey said that the best part of being a statistician is that you get to “play in everyone’s backyard.” That is what drew me to the subject as an undergraduate, and it is what I try to pass on.\nService teaching carries a particular challenge. Many students arrive because a statistics course is required for their program, expecting something abstract and intimidating. I treat that as the opportunity it is: these are exactly the people who will go on to use statistics in a lab, a clinic, or a business, and who benefit most from seeing it work. New concepts get introduced through real applications — drawn from the news, from published research, or from studies the students themselves propose to answer questions they care about. The aim is that they leave looking at everyday claims with a statistical eye.\nClasses are built around participation rather than transcription. Students work through problems collectively, applying what they have just learned, which builds the judgment that carrying a method from a textbook into a real setting requires. A well-chosen graphic, quotation, or cartoon can open a genuine conversation about a statistical idea, and I use them freely; a class people enjoy is a class they remember.\nComputing is woven through the courses rather than bolted on at the end. Students work in R — in RStudio and Jupyter notebooks — with real data and reproducible workflows, so they leave with a habit that transfers to a thesis, a lab, or a job rather than a set of formulas. Course materials and solution keys are written in LaTeX for clarity.\n\nProfessional development"
+  },
+  {
+    "objectID": "teaching.html#keeping-the-toolkit-current",
+    "href": "teaching.html#keeping-the-toolkit-current",
+    "title": "Teaching",
+    "section": "Keeping the toolkit current",
+    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
+  },
+  {
     "objectID": "consulting.html",
     "href": "consulting.html",
     "title": "Statistical consulting",
@@ -168,102 +266,32 @@
     "text": "Start a conversation\nTell me what you’re working on and where you are in it — designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nEmail me →\nCopy email address\n\n\nruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "posts/batting-average-reliability/index.html",
+    "href": "posts/batting-average-reliability/index.html",
+    "title": "How many innings before a batting average means anything?",
     "section": "",
-    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam."
+    "text": "Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: at this sample size, is it measuring the batter — or the weather of four particular days?"
   },
   {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "Courses",
-    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics I\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nApplied Regression Analysis\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+    "objectID": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
+    "href": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
+    "title": "How many innings before a batting average means anything?",
+    "section": "Batting is a noisy instrument",
+    "text": "Batting is a noisy instrument\nThe same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: how much of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?\nThat’s a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn’t control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I’m still working on. The recurring finding, in cricket as in every sport I’ve since studied: the signal share of a single observation is small. Ability differences are real, but any one innings is mostly noise."
   },
   {
-    "objectID": "teaching.html#approach",
-    "href": "teaching.html#approach",
-    "title": "Teaching",
-    "section": "Approach",
-    "text": "Approach\nJohn Tukey said that the best part of being a statistician is that you get to “play in everyone’s backyard.” That is what drew me to the subject as an undergraduate, and it is what I try to pass on.\nService teaching carries a particular challenge. Many students arrive because a statistics course is required for their program, expecting something abstract and intimidating. I treat that as the opportunity it is: these are exactly the people who will go on to use statistics in a lab, a clinic, or a business, and who benefit most from seeing it work. New concepts get introduced through real applications — drawn from the news, from published research, or from studies the students themselves propose to answer questions they care about. The aim is that they leave looking at everyday claims with a statistical eye.\nClasses are built around participation rather than transcription. Students work through problems collectively, applying what they have just learned, which builds the judgment that carrying a method from a textbook into a real setting requires. A well-chosen graphic, quotation, or cartoon can open a genuine conversation about a statistical idea, and I use them freely; a class people enjoy is a class they remember.\nComputing is woven through the courses rather than bolted on at the end. Students work in R — in RStudio and Jupyter notebooks — with real data and reproducible workflows, so they leave with a habit that transfers to a thesis, a lab, or a job rather than a set of formulas. Course materials and solution keys are written in LaTeX for clarity.\n\nProfessional development"
+    "objectID": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
+    "href": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
+    "title": "How many innings before a batting average means anything?",
+    "section": "The arithmetic of patience",
+    "text": "The arithmetic of patience\nAverages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a moderate reliability of 0.7 for the average takes 21 innings; reaching 0.8 takes 36. If the single-innings signal share is 5%, those numbers become 45 and 76. In T20, where a specialist bats perhaps 15–25 innings in a year, that’s a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.\nThis is the same lesson as team shooting indicators in handball and AI leaderboards, which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn’t."
   },
   {
-    "objectID": "teaching.html#keeping-the-toolkit-current",
-    "href": "teaching.html#keeping-the-toolkit-current",
-    "title": "Teaching",
-    "section": "Keeping the toolkit current",
-    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Peer-reviewed"
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nBias reduction via complementation of orthogonal arrays under a baseline parameterization. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\nIs it time for a more analytical approach? Suboptimal shot selection strategies in handball. (with A. G. Laxdal, S. Þorgeirsson, J. Saavedra, T. Haugen, and coauthors) International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\nOn the existence and constructions of orthogonal designs. (with Boxin Tang) Australian & New Zealand Journal of Statistics (2018).\nCompromise designs under baseline parametrization. (with Boxin Tang) Journal of Statistical Planning and Inference (2017).\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nUnder review"
-  },
-  {
-    "objectID": "research.html#manuscripts-under-review",
-    "href": "research.html#manuscripts-under-review",
-    "title": "Research",
-    "section": "Manuscripts under review",
-    "text": "Manuscripts under review\n\nDistributional Generalizability Theory: Reliability for Non-Gaussian Measurements. Under review, Psychometrika (the journal of the Psychometric Society).\nDecomposing the uncertainty of AI fairness audits: a multivariate generalizability framework. Under review, RSS: Data Science and Artificial Intelligence (Royal Statistical Society).\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Under review, Australian & New Zealand Journal of Statistics (ANZJS).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Under review, International Journal of Sports Science & Coaching (IJSSC).\nQuantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability. Under review, International Journal of Data Science and Analytics (IJDSA).\nMinimum aberration designs for random-effect generalizability studies. Under review, Statistical Papers.\nElection-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability. In preparation.\nDynamic generalizability of expected goals (xG) in international soccer tournaments. (with Tim Swartz) In preparation.\n\n\nNon-refereed"
-  },
-  {
-    "objectID": "research.html#conference-contributions",
-    "href": "research.html#conference-contributions",
-    "title": "Research",
-    "section": "Conference contributions",
-    "text": "Conference contributions\n\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
-  },
-  {
-    "objectID": "research.html#active-program",
-    "href": "research.html#active-program",
-    "title": "Research",
-    "section": "Active program",
-    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
-  },
-  {
-    "objectID": "research.html#peer-review",
-    "href": "research.html#peer-review",
-    "title": "Research",
-    "section": "Peer review",
-    "text": "Peer review\nReviewer, Journal of Sports Analytics (2024).\n\nSoftware"
-  },
-  {
-    "objectID": "research.html#code-tools",
-    "href": "research.html#code-tools",
-    "title": "Research",
-    "section": "Code & tools",
-    "text": "Code & tools\n\ndgt — R package for generalizability-theory decision studies. github.com/rckaruna/dgt\nStatcastG — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory — R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code — companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
-  },
-  {
-    "objectID": "posts/handball-dependability/index.html",
-    "href": "posts/handball-dependability/index.html",
-    "title": "How many observations before a statistic means anything?",
-    "section": "",
-    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
-  },
-  {
-    "objectID": "posts/handball-dependability/index.html#the-framing",
-    "href": "posts/handball-dependability/index.html#the-framing",
-    "title": "How many observations before a statistic means anything?",
-    "section": "The framing",
-    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
-  },
-  {
-    "objectID": "posts/handball-dependability/index.html#why-it-matters",
-    "href": "posts/handball-dependability/index.html#why-it-matters",
-    "title": "How many observations before a statistic means anything?",
-    "section": "Why it matters",
-    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
+    "objectID": "posts/batting-average-reliability/index.html#two-honest-complications",
+    "href": "posts/batting-average-reliability/index.html#two-honest-complications",
+    "title": "How many innings before a batting average means anything?",
+    "section": "Two honest complications",
+    "text": "Two honest complications\nFirst, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle it correctly is an active part of my research program. Second, none of this says small samples carry no information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a ranking of ability. At those sample sizes, the ranking is mostly re-ordering noise.\nThe practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.\nMeasurement reliability — how many observations a trustworthy number needs — is a core thread of my research and consulting practice, in sport and well beyond it."
   },
   {
     "objectID": "posts/ofat-vs-factorial/index.html",

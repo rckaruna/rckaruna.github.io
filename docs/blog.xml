@@ -12,6 +12,42 @@
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Wed, 19 Aug 2026 07:00:00 GMT</lastBuildDate>
 <item>
+  <title>How many innings before a batting average means anything?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/batting-average-reliability/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: <em>at this sample size, is it measuring the batter — or the weather of four particular days?</em></p>
+<section id="batting-is-a-noisy-instrument" class="level2">
+<h2 class="anchored" data-anchor-id="batting-is-a-noisy-instrument">Batting is a noisy instrument</h2>
+<p>The same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: <em>how much</em> of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?</p>
+<p>That’s a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn’t control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I’m still working on. The recurring finding, in cricket as in every sport I’ve since studied: the signal share of a <em>single</em> observation is small. Ability differences are real, but any one innings is mostly noise.</p>
+</section>
+<section id="the-arithmetic-of-patience" class="level2">
+<h2 class="anchored" data-anchor-id="the-arithmetic-of-patience">The arithmetic of patience</h2>
+<p>Averages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a <em>moderate</em> reliability of 0.7 for the average takes <strong>21 innings</strong>; reaching 0.8 takes <strong>36</strong>. If the single-innings signal share is 5%, those numbers become <strong>45</strong> and <strong>76</strong>. In T20, where a specialist bats perhaps 15–25 innings in a year, that’s a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.</p>
+<p>This is the same lesson as <a href="../../posts/handball-dependability/index.html">team shooting indicators in handball</a> and <a href="../../posts/leaderboard-noise/index.html">AI leaderboards</a>, which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn’t.</p>
+</section>
+<section id="two-honest-complications" class="level2">
+<h2 class="anchored" data-anchor-id="two-honest-complications">Two honest complications</h2>
+<p>First, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle it correctly is an active part of my research program. Second, none of this says small samples carry <em>no</em> information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a <em>ranking</em> of ability. At those sample sizes, the ranking is mostly re-ordering noise.</p>
+<p>The practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.</p>
+<p><em>Measurement reliability — how many observations a trustworthy number needs — is a core thread of my <a href="../../research.html">research</a> and <a href="../../consulting.html">consulting practice</a>, in sport and well beyond it.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>cricket</category>
+  <category>G-theory</category>
+  <category>measurement</category>
+  <guid>https://rckaruna.ca/posts/batting-average-reliability/</guid>
+  <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Testing one thing at a time is costing you</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>
   <link>https://rckaruna.ca/posts/ofat-vs-factorial/</link>
