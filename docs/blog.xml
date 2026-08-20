@@ -10,7 +10,88 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 22 Jul 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Testing one thing at a time is costing you</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/ofat-vs-factorial/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Picture a team tuning a process — a reactor, a coating line, a recipe, a web page. Three settings might matter: temperature, time, concentration. The careful-sounding plan: hold everything constant, change temperature, observe. Reset, change time, observe. Reset, change concentration, observe. One factor at a time, so you “know what caused what.”</p>
+<p>It feels rigorous. It’s actually the expensive way to learn less. This has been known since R. A. Fisher was designing agricultural experiments in the 1920s, and it still surprises people every time the arithmetic is laid out.</p>
+<section id="the-same-eight-runs-spent-two-ways" class="level2">
+<h2 class="anchored" data-anchor-id="the-same-eight-runs-spent-two-ways">The same eight runs, spent two ways</h2>
+<p>Give both strategies an identical budget: eight experimental runs, three factors, each at two levels (low/high).</p>
+<p><strong>One-factor-at-a-time (OFAT):</strong> four distinct conditions — a baseline plus one change per factor — run twice each to get some replication. Each factor’s effect is estimated by comparing two runs against two runs. Four of the eight runs sit in the baseline doing bookkeeping.</p>
+<p><strong>Factorial:</strong> run all <img src="https://latex.codecogs.com/png.latex?2%5E3%20=%208"> combinations once. Here’s the part that looks like an accounting trick and isn’t: <em>every run participates in every estimate.</em> The temperature effect is the average of the four high-temperature runs minus the average of the four low-temperature runs — and the same eight runs, regrouped, estimate the time effect and the concentration effect too. Statisticians call it hidden replication.</p>
+<p>The consequence is quantifiable: with the same eight runs, the factorial’s effect estimates have <strong>half the variance</strong> of the OFAT estimates. Same budget, twice the precision, on every factor at once — and the gap widens as factors are added.</p>
+</section>
+<section id="the-bigger-problem-interactions" class="level2">
+<h2 class="anchored" data-anchor-id="the-bigger-problem-interactions">The bigger problem: interactions</h2>
+<p>Precision is the smaller half of the argument. OFAT’s structural flaw is that it <em>cannot see interactions</em> — cases where the effect of one factor depends on the level of another. Suppose higher temperature helps at short times but hurts at long ones. OFAT tested temperature only at the baseline time, found “temperature helps,” and locked in a conclusion that’s wrong across half the operating range. Worse, OFAT’s endpoint depends on the path: change the factors in a different order and you can walk to a different “optimum,” because each step is conditioned on wherever the previous steps left you.</p>
+<p>The factorial estimates the interactions from the same eight runs — no extra budget. In real processes, interactions aren’t the exception; they’re routinely where the actual optimum hides.</p>
+</section>
+<section id="but-i-have-ten-factors" class="level2">
+<h2 class="anchored" data-anchor-id="but-i-have-ten-factors">“But I have ten factors”</h2>
+<p>The objection writes itself: <img src="https://latex.codecogs.com/png.latex?2%5E%7B10%7D"> is 1,024 runs. This is precisely what <strong>fractional factorial designs</strong> are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you’re prepared to assume away. Sorting the handful of factors that matter from the many that don’t is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.</p>
+<p>The through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.</p>
+<p><em>Designing experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my <a href="../../consulting.html">consulting practice</a>. The best time to involve a statistician is before the first run.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>methodology</category>
+  <category>design of experiments</category>
+  <guid>https://rckaruna.ca/posts/ofat-vs-factorial/</guid>
+  <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How many participants do you actually need?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/sample-size/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It’s the most common question a statistician gets, usually asked as if it had a universal answer: <em>how many participants do I need?</em> Thirty? A hundred? Whatever the last paper in your field used?</p>
+<p>The honest answer is that “how many” is the last step of a calculation, not the first. The first step is a question only you can answer: <strong>what is the smallest effect that would still matter?</strong></p>
+<section id="the-logic-in-one-paragraph" class="level2">
+<h2 class="anchored" data-anchor-id="the-logic-in-one-paragraph">The logic, in one paragraph</h2>
+<p>A study is a measuring instrument, and sample size sets its resolution. If a real effect exists, a bigger sample makes you more likely to detect it; the probability of detecting it is the study’s <em>power</em>. Powering a study means choosing the effect size you refuse to miss, then buying enough data to see it. Choose that effect honestly — the smallest difference that would change a decision, a treatment, a design — and the arithmetic follows. Choose it by working backwards from the sample you can afford, and the arithmetic will happily launder your budget into a number that looks scientific.</p>
+</section>
+<section id="a-rule-of-thumb-worth-knowing" class="level2">
+<h2 class="anchored" data-anchor-id="a-rule-of-thumb-worth-knowing">A rule of thumb worth knowing</h2>
+<p>For the simplest case — comparing two groups on a continuous outcome, aiming for the conventional 80% power at the 5% significance level — there’s a remarkably compact approximation:</p>
+<p><img src="https://latex.codecogs.com/png.latex?n%20%5Ctext%7B%20per%20group%7D%20%5Capprox%20%5Cfrac%7B16%7D%7Bd%5E2%7D"></p>
+<p>where <img src="https://latex.codecogs.com/png.latex?d"> is the effect size in standard-deviation units. Run the numbers and the stakes become vivid. A large effect (<img src="https://latex.codecogs.com/png.latex?d%20=%200.8">) needs about 25 per group — 50 people. A medium effect (<img src="https://latex.codecogs.com/png.latex?d%20=%200.5">) needs about 63 per group — 126 people. A small effect (<img src="https://latex.codecogs.com/png.latex?d%20=%200.2">) needs nearly 400 per group — close to 800 in total.</p>
+<p>That last line is the one that changes plans. Small effects are common in real research, and the difference between “we can see medium effects” and “we can see small effects” is not a modest top-up — it’s a sixfold larger study. Better to know that before the ethics application than after the data disappoint.</p>
+<p>Real designs complicate the arithmetic in both directions: repeated measures and paired designs buy power cheaply; clustered data (patients within clinics, students within classrooms) quietly costs it, sometimes severely; and dropout means recruiting more than the calculation says. None of that changes the logic — it changes the inputs.</p>
+</section>
+<section id="two-things-reviewers-notice" class="level2">
+<h2 class="anchored" data-anchor-id="two-things-reviewers-notice">Two things reviewers notice</h2>
+<p><strong>A justified effect size.</strong> Grant panels have seen a thousand power sections that assume a “medium effect” because the template did. What earns credibility is an effect size argued from something — a pilot study, prior literature, a minimal clinically important difference — with the power statement built on it.</p>
+<p><strong>No post-hoc power.</strong> If a study comes back non-significant, computing “the power we had, given the effect we observed” adds nothing: observed power is just the p-value in a costume, and a low value re-states the non-significance it pretends to explain. The time for power analysis is before the data exist. Afterwards, the informative quantity is the confidence interval — it shows what effect sizes your study could and couldn’t rule out.</p>
+</section>
+<section id="the-order-of-operations" class="level2">
+<h2 class="anchored" data-anchor-id="the-order-of-operations">The order of operations</h2>
+<p>Decide what effect matters and defend the number. Estimate the variability from a pilot or the literature. Account for the design — pairing, clustering, dropout. <em>Then</em> compute n.&nbsp;If the answer is unaffordable, the honest moves are to change the design, sharpen the measurement, or study a bigger effect — not to quietly relax the power.</p>
+<p><em>Sample-size justification, power analysis, and statistical-analysis plans for grant applications are part of my <a href="../../consulting.html">consulting practice</a> — and the design stage is exactly the right time to talk.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>methodology</category>
+  <category>study design</category>
+  <category>grants</category>
+  <guid>https://rckaruna.ca/posts/sample-size/</guid>
+  <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Your leaderboard gap is probably noise</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>

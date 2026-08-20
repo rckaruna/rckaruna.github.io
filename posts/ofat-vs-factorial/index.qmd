@@ -1,0 +1,34 @@
+---
+title: "Testing one thing at a time is costing you"
+description: "One-factor-at-a-time experimentation feels careful and rigorous. It's actually the expensive way to learn less — here's the arithmetic."
+date: 2026-08-19
+categories: [methodology, design of experiments]
+---
+
+Picture a team tuning a process — a reactor, a coating line, a recipe, a web page. Three settings might matter: temperature, time, concentration. The careful-sounding plan: hold everything constant, change temperature, observe. Reset, change time, observe. Reset, change concentration, observe. One factor at a time, so you "know what caused what."
+
+It feels rigorous. It's actually the expensive way to learn less. This has been known since R. A. Fisher was designing agricultural experiments in the 1920s, and it still surprises people every time the arithmetic is laid out.
+
+## The same eight runs, spent two ways
+
+Give both strategies an identical budget: eight experimental runs, three factors, each at two levels (low/high).
+
+**One-factor-at-a-time (OFAT):** four distinct conditions — a baseline plus one change per factor — run twice each to get some replication. Each factor's effect is estimated by comparing two runs against two runs. Four of the eight runs sit in the baseline doing bookkeeping.
+
+**Factorial:** run all $2^3 = 8$ combinations once. Here's the part that looks like an accounting trick and isn't: *every run participates in every estimate.* The temperature effect is the average of the four high-temperature runs minus the average of the four low-temperature runs — and the same eight runs, regrouped, estimate the time effect and the concentration effect too. Statisticians call it hidden replication.
+
+The consequence is quantifiable: with the same eight runs, the factorial's effect estimates have **half the variance** of the OFAT estimates. Same budget, twice the precision, on every factor at once — and the gap widens as factors are added.
+
+## The bigger problem: interactions
+
+Precision is the smaller half of the argument. OFAT's structural flaw is that it *cannot see interactions* — cases where the effect of one factor depends on the level of another. Suppose higher temperature helps at short times but hurts at long ones. OFAT tested temperature only at the baseline time, found "temperature helps," and locked in a conclusion that's wrong across half the operating range. Worse, OFAT's endpoint depends on the path: change the factors in a different order and you can walk to a different "optimum," because each step is conditioned on wherever the previous steps left you.
+
+The factorial estimates the interactions from the same eight runs — no extra budget. In real processes, interactions aren't the exception; they're routinely where the actual optimum hides.
+
+## "But I have ten factors"
+
+The objection writes itself: $2^{10}$ is 1,024 runs. This is precisely what **fractional factorial designs** are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you're prepared to assume away. Sorting the handful of factors that matter from the many that don't is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.
+
+The through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.
+
+*Designing experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my [consulting practice](../../consulting.qmd). The best time to involve a statistician is before the first run.*

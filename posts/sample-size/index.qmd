@@ -1,0 +1,38 @@
+---
+title: "How many participants do you actually need?"
+description: "The most common question a statistician gets — and why the honest answer starts with a different question: what's the smallest effect you'd hate to miss?"
+date: 2026-08-19
+categories: [methodology, study design, grants]
+---
+
+It's the most common question a statistician gets, usually asked as if it had a universal answer: *how many participants do I need?* Thirty? A hundred? Whatever the last paper in your field used?
+
+The honest answer is that "how many" is the last step of a calculation, not the first. The first step is a question only you can answer: **what is the smallest effect that would still matter?**
+
+## The logic, in one paragraph
+
+A study is a measuring instrument, and sample size sets its resolution. If a real effect exists, a bigger sample makes you more likely to detect it; the probability of detecting it is the study's *power*. Powering a study means choosing the effect size you refuse to miss, then buying enough data to see it. Choose that effect honestly — the smallest difference that would change a decision, a treatment, a design — and the arithmetic follows. Choose it by working backwards from the sample you can afford, and the arithmetic will happily launder your budget into a number that looks scientific.
+
+## A rule of thumb worth knowing
+
+For the simplest case — comparing two groups on a continuous outcome, aiming for the conventional 80% power at the 5% significance level — there's a remarkably compact approximation:
+
+$$n \text{ per group} \approx \frac{16}{d^2}$$
+
+where $d$ is the effect size in standard-deviation units. Run the numbers and the stakes become vivid. A large effect ($d = 0.8$) needs about 25 per group — 50 people. A medium effect ($d = 0.5$) needs about 63 per group — 126 people. A small effect ($d = 0.2$) needs nearly 400 per group — close to 800 in total.
+
+That last line is the one that changes plans. Small effects are common in real research, and the difference between "we can see medium effects" and "we can see small effects" is not a modest top-up — it's a sixfold larger study. Better to know that before the ethics application than after the data disappoint.
+
+Real designs complicate the arithmetic in both directions: repeated measures and paired designs buy power cheaply; clustered data (patients within clinics, students within classrooms) quietly costs it, sometimes severely; and dropout means recruiting more than the calculation says. None of that changes the logic — it changes the inputs.
+
+## Two things reviewers notice
+
+**A justified effect size.** Grant panels have seen a thousand power sections that assume a "medium effect" because the template did. What earns credibility is an effect size argued from something — a pilot study, prior literature, a minimal clinically important difference — with the power statement built on it.
+
+**No post-hoc power.** If a study comes back non-significant, computing "the power we had, given the effect we observed" adds nothing: observed power is just the p-value in a costume, and a low value re-states the non-significance it pretends to explain. The time for power analysis is before the data exist. Afterwards, the informative quantity is the confidence interval — it shows what effect sizes your study could and couldn't rule out.
+
+## The order of operations
+
+Decide what effect matters and defend the number. Estimate the variability from a pilot or the literature. Account for the design — pairing, clustering, dropout. *Then* compute n. If the answer is unaffordable, the honest moves are to change the design, sharpen the measurement, or study a bigger effect — not to quietly relax the power.
+
+*Sample-size justification, power analysis, and statistical-analysis plans for grant applications are part of my [consulting practice](../../consulting.qmd) — and the design stage is exactly the right time to talk.*
