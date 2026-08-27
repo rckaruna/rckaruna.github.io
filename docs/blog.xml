@@ -10,7 +10,41 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 19 Aug 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 27 Aug 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Does the room change the speech?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/speaking-to-the-room/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Here’s a question about campaigns that sounds political but is really a measurement problem: when a candidate speaks in a deeply partisan state versus a competitive one, is it the same speech?</p>
+<p>Political scientists have long theorized <em>audience design</em> — speakers tuning register to the room — but testing it at scale requires something that didn’t exist until recently: a way to score every campaign speech, not just the ones expert coders got to. Expert-coded populism databases are the field’s measurement standard, but they cover only eventual chief executives, which makes within-campaign questions unanswerable by design. My research program built a rubric-based large-language-model instrument for exactly this gap, validated against the Global Populism Database’s own coded speeches — including a held-out set of leaders never used during development — and stress-tested for the failure mode that matters most in campaign text: conflating ordinary adversarial campaigning with populism. With identity cues masked, the scores don’t move.</p>
+<section id="what-the-speeches-show" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-speeches-show">What the speeches show</h2>
+<p>Point that instrument at U.S. presidential campaign speeches from 2015 through 2024, record where each was delivered, and a pattern emerges.</p>
+<p>For the Trump campaigns of 2016 and 2020 — where rally schedules provide the density of geographically distributed speeches the question needs — populist rhetoric intensifies with the partisanship of the rally’s state. The association survives the test that usually kills fragile campaign findings: a wild cluster bootstrap with states as clusters and the null imposed gives p = .0029. Decomposing the register shows the gradient is carried almost entirely by <em>anti-elite</em> language — a coefficient of about 4.5 anti-elite terms per thousand words (SE 1.7) along the state-partisanship scale — rather than by people-centric appeals. And the timing matters: a negative, statistically significant interaction (−1.16) shows the differentiation is strongest early in the campaign and saturates late, consistent with a candidate finding the register early and converging on it everywhere by the close.</p>
+<p>Three checks discipline the interpretation. First, <em>what kind of room matters</em>: across a 32-specification curve, the state-partisanship effect is positive in every specification, while educational composition is significant in none — and racial-composition measures (white share, white non-college share) are similarly null. The audience feature the rhetoric tracks is partisanship, not demographics. Second, <em>this is not a one-party artifact of range</em>: Democratic candidates’ speech-to-speech variability (standard deviations of roughly .08–.13 on the populism scale) sits in the same neighbourhood as Trump’s (.11–.14), so the instrument could have detected the same tuning elsewhere; the strong gradient is where it is. Third, <em>the honest null</em>: pooled across six election cycles, the association is not statistically significant (p = .30) — the audience-design signal is a finding about specific campaigns with dense, geographically varied schedules, not a law of American politics. Reporting that null is not a weakness of the study; it is the study working.</p>
+</section>
+<section id="why-a-statistician-cares" class="level2">
+<h2 class="anchored" data-anchor-id="why-a-statistician-cares">Why a statistician cares</h2>
+<p>Strip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.</p>
+<p>The manuscripts behind this work are in the journal pipeline; scores, code, and materials accompany them.</p>
+<p><em>Measurement with large language models — validation, calibration, and reliability — is part of my <a href="../../research.html">research program</a> and <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>elections</category>
+  <category>measurement</category>
+  <category>LLM</category>
+  <category>methodology</category>
+  <guid>https://rckaruna.ca/posts/speaking-to-the-room/</guid>
+  <pubDate>Thu, 27 Aug 2026 07:00:00 GMT</pubDate>
+</item>
 <item>
   <title>How many innings before a batting average means anything?</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>
