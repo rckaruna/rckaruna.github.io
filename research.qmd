@@ -59,10 +59,6 @@ Under review
 - **Election-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability.**
   In preparation.
 
-- **Dynamic generalizability of expected goals (xG) in international soccer tournaments.**
-  (with Tim Swartz)
-  In preparation.
-
 ::: {.eyebrow}
 Non-refereed
 :::
