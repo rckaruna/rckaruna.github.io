@@ -5,7 +5,7 @@ pagetitle: "Statistical consulting — Ruwan C. Karunanayaka"
 description: "Statistical consulting services in BC and remote: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, and interactive dashboards."
 ---
 
-I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. I'm a member of the Statistical Society of Canada, where my P.Stat. (Professional Statistician) application is under review. I'm based in the Fraser Valley, British Columbia, and work with clients across Canada and remotely worldwide.
+I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. I hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. I'm based in the Fraser Valley, British Columbia, and work with clients across Canada and remotely worldwide.
 
 ::: {.eyebrow}
 About
@@ -72,7 +72,7 @@ AI has a measurement problem. Benchmark scores move with the evaluation harness,
 
 ### What's different about this
 
-Most AI consultants build systems. I do something rarer: I measure whether systems — and the evaluations of them — can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts — including [research under review](research.qmd) on decomposing the uncertainty of AI fairness audits. Two things follow. My conclusions come with honest uncertainty, including "this evaluation cannot support the claim you want to make" when that's the truth. And I'm independent — a university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires.
+Most AI consultants build systems. I do something rarer: I measure whether systems — and the evaluations of them — can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts. Two things follow. My conclusions come with honest uncertainty, including "this evaluation cannot support the claim you want to make" when that's the truth. And I'm independent — an accredited statistician and university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires.
 
 
 
@@ -90,7 +90,7 @@ Track record
 
 ## Selected work
 
-**Shot selection in elite handball.** Researchers at the University of Agder wanted to know whether elite handball teams choose their shots well. Working with the group on the statistical analysis of elite match data, the collaboration produced a peer-reviewed study (*International Journal of Sports Science & Coaching*, 2025) documenting systematically suboptimal shot-selection strategies — an evidence base coaches can act on rather than an intuition.
+**Shot selection in elite handball.** A seven-author team across Norway, Iceland, and Sweden wanted to know whether elite handball teams choose their shots well. As the sole statistician, I specified and fitted a mixed-effects logistic regression to six seasons of Icelandic top-division data (1,410 games), handling the game-within-team-within-season structure, and translated the coaches' questions into estimable form with odds ratios stratified by league. The result is a peer-reviewed study (*International Journal of Sports Science & Coaching*, 2025) documenting systematically suboptimal shot selection, an evidence base coaches can act on rather than an intuition.
 
 **Making a clinical analysis defensible.** A multi-modal intervention study in frontotemporal dementia needed its analysis to match its design. I advised the team on which analyses the design could actually support — including how to test sex differences within and between groups — so the conclusions claimed no more than the data could bear.
 

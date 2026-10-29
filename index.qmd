@@ -1,7 +1,7 @@
 ---
 pagetitle: "Ruwan C. Karunanayaka — Statistical Consulting"
 page-layout: full
-description: "Statistical consulting by Ruwan C. Karunanayaka, PhD — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
+description: "Statistical consulting by Ruwan C. Karunanayaka, PhD, P.Stat. — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
 ---
 
 ::: {.hero}
@@ -14,7 +14,7 @@ Statistical Consulting
 # Statistics you can defend.
 
 ::: {.lede}
-I'm a PhD statistician and Associate Professor who helps researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny — from the first power calculation to the final dashboard.
+I'm an accredited professional statistician (P.Stat.) and Associate Professor who helps researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny — from the first power calculation to the final dashboard.
 :::
 
 [Work with me](consulting.qmd){.btn-cta .primary}
@@ -50,7 +50,7 @@ Peer-reviewed research in experimental design and applied statistics, with metho
 :::
 ::: {.card-plain}
 ### Accreditation
-Member of the Statistical Society of Canada; P.Stat. (Professional Statistician) application under review.
+P.Stat. (Professional Statistician), accredited by the Statistical Society of Canada. SSC member since 2017.
 :::
 :::
 :::

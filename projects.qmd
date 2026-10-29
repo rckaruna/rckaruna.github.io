@@ -43,7 +43,7 @@ Soccer
 
 ## International match forecaster
 
-A win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development, with a public release planned after the 2026 World Cup data becomes available.
+A win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development.
 
 ---
 
@@ -61,7 +61,7 @@ Open source
 
 [github.com/rckaruna/StatcastG →](https://github.com/rckaruna/StatcastG){.btn-cta .ghost}
 
-**`fairness-gtheory` — how reliable is a fairness audit?** R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory — companion to the fairness-audit research under review.
+**`fairness-gtheory` — how reliable is a fairness audit?** R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.
 
 [github.com/rckaruna/fairness-gtheory →](https://github.com/rckaruna/fairness-gtheory){.btn-cta .ghost}
 

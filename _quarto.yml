@@ -36,7 +36,7 @@ website:
         href: https://orcid.org/0009-0008-2459-1569
 
   page-footer:
-    left: "© 2026 Ruwan C. Karunanayaka · Associate Professor, University of the Fraser Valley"
+    left: "© 2026 Ruwan C. Karunanayaka, PhD, P.Stat. · Associate Professor, University of the Fraser Valley"
     right:
       - text: "ruwan.karunanayaka@ufv.ca"
         href: "mailto:ruwan.karunanayaka@ufv.ca"
@@ -89,6 +89,13 @@ format:
               "@id": "https://rckaruna.ca/#person",
               "name": "Ruwan C. Karunanayaka",
               "jobTitle": "Associate Professor of Statistics; Statistical Consultant",
+              "honorificSuffix": "PhD, P.Stat.",
+              "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "name": "P.Stat. (Professional Statistician)",
+                "credentialCategory": "Professional accreditation",
+                "recognizedBy": { "@type": "Organization", "name": "Statistical Society of Canada" }
+              },
               "worksFor": {
                 "@type": "CollegeOrUniversity",
                 "name": "University of the Fraser Valley"

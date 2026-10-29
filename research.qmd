@@ -11,59 +11,65 @@ Peer-reviewed
 
 ## Publications
 
+- **Catalan Bounds for Symmetric Strength-Two Orthogonal Arrays.**
+  *Journal of Combinatorial Designs* (2026).
+
 - **Bias reduction via complementation of orthogonal arrays under a baseline parameterization.**
   *Statistics & Probability Letters* **237** (2026), art. 110819.
   doi: [10.1016/j.spl.2026.110819](https://doi.org/10.1016/j.spl.2026.110819)
 
+- **Response-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket.**
+  *Australian & New Zealand Journal of Statistics* (2026), in press.
+  doi: [10.1111/anzs.70069](https://doi.org/10.1111/anzs.70069)
+
+- **Compromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization.**
+  *Communications in Statistics: Theory and Methods* (2026), accepted.
+
 - **Is it time for a more analytical approach? Suboptimal shot selection strategies in handball.**
-  (with A. G. Laxdal, S. Þorgeirsson, J. Saavedra, T. Haugen, and coauthors)
+  (with A. G. Laxdal, S. Þorgeirsson, J. M. Saavedra, A. Ivarsson, Ó. Sigurgeirsson, and T. Haugen)
   *International Journal of Sports Science & Coaching* (2025).
   doi: [10.1177/17479541251369049](https://doi.org/10.1177/17479541251369049)
 
 - **On the existence and constructions of orthogonal designs.**
   (with Boxin Tang)
-  *Australian & New Zealand Journal of Statistics* (2018).
+  *Australian & New Zealand Journal of Statistics* **60** (2018), 471–480.
+  doi: [10.1111/anzs.12247](https://doi.org/10.1111/anzs.12247)
 
 - **Compromise designs under baseline parametrization.**
   (with Boxin Tang)
-  *Journal of Statistical Planning and Inference* (2017).
+  *Journal of Statistical Planning and Inference* **190** (2017), 32–38.
+  doi: [10.1016/j.jspi.2017.04.003](https://doi.org/10.1016/j.jspi.2017.04.003)
 
 ::: {.figure-caption}
 The 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.
 :::
 
 ::: {.eyebrow}
-Under review
+In review
 :::
 
-## Manuscripts under review
+## Manuscripts in review
 
 - **Distributional Generalizability Theory: Reliability for Non-Gaussian Measurements.**
-  Under review, *Psychometrika* (the journal of the Psychometric Society).
+  Revision requested, *Psychometrika* (the journal of the Psychometric Society).
 
-- **Decomposing the uncertainty of AI fairness audits: a multivariate generalizability framework.**
-  Under review, *RSS: Data Science and Artificial Intelligence* (Royal Statistical Society).
+- **Minimum β-aberration under a baseline parameterization for quantitative factors.**
+  Revision requested, *Journal of Statistical Planning and Inference* (JSPI).
 
-- **Response-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket.**
-  Under review, *Australian & New Zealand Journal of Statistics* (ANZJS).
+- **Game-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket.**
+  (with D. L. Walpitage)
+  Revision requested, *Journal of Sports Analytics* (JSA).
 
 - **How Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball.**
-  Under review, *International Journal of Sports Science & Coaching* (IJSSC).
-
-- **Quantifying the Carleton Bias: A Multi-Facet Bayesian Account of Plate-Appearance Reliability.**
-  Under review, *International Journal of Data Science and Analytics* (IJDSA).
-
-- **Minimum aberration designs for random-effect generalizability studies.**
-  Under review, *Statistical Papers*.
-
-- **Election-Level Populism Scoring with Large Language Models: Coverage, Calibration, and Reliability.**
-  In preparation.
+  Revision requested, *International Journal of Sports Science & Coaching* (IJSSC).
 
 ::: {.eyebrow}
 Non-refereed
 :::
 
 ## Conference contributions
+
+- Karunanayaka, R.C. (2022). On the existence and constructions of orthogonal designs. Presented at the Statistical Society of Canada (SSC), 2022.
 
 - Walpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. *Proceedings of International Statistics Conference 2014*, Institute of Applied Statistics, Sri Lanka, 213.
 
@@ -83,7 +89,7 @@ Service
 
 ## Peer review
 
-Reviewer, *Journal of Sports Analytics* (2024).
+Reviewer for the *Journal of Sports Analytics* (2023, 2024) and the *International Journal of Sports Science & Coaching* (2026).
 
 ::: {.eyebrow}
 Software
@@ -91,7 +97,7 @@ Software
 
 ## Code & tools
 
-- **`dgt`** — R package for generalizability-theory decision studies. [github.com/rckaruna/dgt](https://github.com/rckaruna/dgt)
+- **`dgt`** — R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. [github.com/rckaruna/dgt](https://github.com/rckaruna/dgt)
 - **`StatcastG`** — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. [github.com/rckaruna/StatcastG](https://github.com/rckaruna/StatcastG)
 - **`fairness-gtheory`** — R code for reliable fairness auditing via multivariate generalizability theory. [github.com/rckaruna/fairness-gtheory](https://github.com/rckaruna/fairness-gtheory)
 - **`MARE-code`** — companion R code for minimum-aberration random-effect designs (MARE). [github.com/rckaruna/MARE-code](https://github.com/rckaruna/MARE-code)
