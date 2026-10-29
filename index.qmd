@@ -1,7 +1,7 @@
 ---
 pagetitle: "Ruwan C. Karunanayaka — Statistical Consulting"
 page-layout: full
-description: "Statistical consulting by Ruwan C. Karunanayaka, PhD, P.Stat. — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
+description: "Statistical consulting by Ruwan C. Karunanayaka, Ph.D., P.Stat. — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
 ---
 
 ::: {.hero}

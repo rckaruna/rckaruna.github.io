@@ -8,7 +8,7 @@ resources:
 
 website:
   title: "Ruwan C. Karunanayaka"
-  description: "Statistical consulting, experimental design, and interactive data tools — Ruwan C. Karunanayaka, PhD."
+  description: "Statistical consulting, experimental design, and interactive data tools — Ruwan C. Karunanayaka, Ph.D., P.Stat."
   site-url: "https://rckaruna.ca"
   open-graph: true
   twitter-card: true
@@ -16,7 +16,7 @@ website:
   navbar:
     pinned: true
     logo: ""
-    title: "Ruwan C. Karunanayaka"
+    title: "Ruwan C. Karunanayaka, Ph.D., P.Stat."
     left:
       - text: "Consulting"
         href: consulting.qmd
@@ -36,7 +36,7 @@ website:
         href: https://orcid.org/0009-0008-2459-1569
 
   page-footer:
-    left: "© 2026 Ruwan C. Karunanayaka, PhD, P.Stat. · Associate Professor, University of the Fraser Valley"
+    left: "© 2026 Ruwan C. Karunanayaka, Ph.D., P.Stat. · Associate Professor, University of the Fraser Valley"
     right:
       - text: "ruwan.karunanayaka@ufv.ca"
         href: "mailto:ruwan.karunanayaka@ufv.ca"
@@ -89,7 +89,7 @@ format:
               "@id": "https://rckaruna.ca/#person",
               "name": "Ruwan C. Karunanayaka",
               "jobTitle": "Associate Professor of Statistics; Statistical Consultant",
-              "honorificSuffix": "PhD, P.Stat.",
+              "honorificSuffix": "Ph.D., P.Stat.",
               "hasCredential": {
                 "@type": "EducationalOccupationalCredential",
                 "name": "P.Stat. (Professional Statistician)",
