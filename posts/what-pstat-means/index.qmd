@@ -2,7 +2,7 @@
 title: "What P.Stat. means for a client"
 description: "The Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician."
 date: 2026-11-22
-categories: [consulting, practice]
+categories: [consulting]
 ---
 
 I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean.

@@ -11,6 +11,7 @@ website:
   description: "Statistical consulting, experimental design, and interactive data tools — Ruwan C. Karunanayaka, Ph.D., P.Stat."
   site-url: "https://rckaruna.ca"
   image: "assets/social-card.png"
+  favicon: "assets/favicon.png"
   open-graph: true
   twitter-card: true
 
@@ -30,6 +31,8 @@ website:
       - text: "Blog"
         href: blog.qmd
     right:
+      - text: "Contact"
+        href: consulting.qmd#start-a-conversation
       - icon: github
         href: https://github.com/rckaruna
         aria-label: GitHub

@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rckaruna.ca/blog.html</loc>
-    <lastmod>2026-07-22T20:11:19.153Z</lastmod>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/projects.html</loc>
-    <lastmod>2026-11-22T16:15:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/writing-a-statistics-paper/index.html</loc>
-    <lastmod>2026-11-22T19:34:58.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/combine-to-sundays/index.html</loc>
-    <lastmod>2026-11-22T17:13:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/reliability-for-counts/index.html</loc>
-    <lastmod>2026-11-22T16:42:50.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/welcome/index.html</loc>
-    <lastmod>2026-07-22T18:40:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/what-pstat-means/index.html</loc>
-    <lastmod>2026-11-22T16:42:50.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/handball-dependability/index.html</loc>
-    <lastmod>2026-07-22T18:40:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/covering-arrays/index.html</loc>
-    <lastmod>2026-11-22T19:34:58.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/research.html</loc>
-    <lastmod>2026-11-22T18:26:11.457Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/teaching.html</loc>
-    <lastmod>2026-10-29T18:01:42.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/consulting.html</loc>
-    <lastmod>2026-11-22T18:33:47.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/valuing-health-states/index.html</loc>
-    <lastmod>2026-11-22T19:34:58.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/batting-average-reliability/index.html</loc>
-    <lastmod>2026-11-22T16:15:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/bowling-sequences/index.html</loc>
-    <lastmod>2026-11-22T19:34:58.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/ofat-vs-factorial/index.html</loc>
-    <lastmod>2026-08-20T03:56:36.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/speaking-to-the-room/index.html</loc>
-    <lastmod>2026-11-22T16:15:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rckaruna.ca/posts/sample-size/index.html</loc>
-    <lastmod>2026-08-20T03:56:07.000Z</lastmod>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/posts/leaderboard-noise/index.html</loc>
     <lastmod>2026-07-22T21:04:51.000Z</lastmod>
   </url>
   <url>
+    <loc>https://rckaruna.ca/posts/sample-size/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/speaking-to-the-room/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/ofat-vs-factorial/index.html</loc>
+    <lastmod>2026-08-20T03:56:36.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/bowling-sequences/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/batting-average-reliability/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/valuing-health-states/index.html</loc>
+    <lastmod>2026-11-22T19:34:58.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/consulting.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/teaching.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/research.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/covering-arrays/index.html</loc>
+    <lastmod>2026-11-22T19:34:58.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/handball-dependability/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/what-pstat-means/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/welcome/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/reliability-for-counts/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/combine-to-sundays/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/posts/writing-a-statistics-paper/index.html</loc>
+    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://rckaruna.ca/index.html</loc>
-    <lastmod>2026-11-22T18:29:16.000Z</lastmod>
+    <lastmod>2026-11-22T20:44:07.000Z</lastmod>
   </url>
 </urlset>

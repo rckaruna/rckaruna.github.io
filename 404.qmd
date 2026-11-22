@@ -1,0 +1,11 @@
+---
+title: "Page not found"
+pagetitle: "Page not found — Ruwan C. Karunanayaka"
+body-classes: page
+---
+
+The page you were looking for is not here. It may have moved, or the address may have a typo.
+
+[Go to the home page](index.qmd){.btn-cta .primary}
+[Read the blog](blog.qmd){.btn-cta .ghost}
+[Statistical consulting](consulting.qmd){.btn-cta .ghost}

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.">
+<meta name="description" content="Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation.">
 
 <title>Blog — Ruwan C. Karunanayaka – Ruwan C. Karunanayaka</title>
 <style>
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -42,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-72ed6bc24164debcbbe5ff6fce37c57a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bbee10d9b27fa9b633c189d661adc344.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f8df4127d95c060ff66622f87a6cd63b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -216,20 +217,20 @@ window.Quarto = {
 </script>
 
 <link rel="alternate" type="application/rss+xml" title="Ruwan C. Karunanayaka" href="blog.xml" data-external="1"><meta property="og:title" content="Blog — Ruwan C. Karunanayaka">
-<meta property="og:description" content="Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.">
+<meta property="og:description" content="Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation.">
 <meta property="og:image" content="https://rckaruna.ca/assets/social-card.png">
 <meta property="og:site_name" content="Ruwan C. Karunanayaka">
 <meta property="og:image:height" content="627">
 <meta property="og:image:width" content="1200">
 <meta name="twitter:title" content="Blog — Ruwan C. Karunanayaka">
-<meta name="twitter:description" content="Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.">
+<meta name="twitter:description" content="Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation.">
 <meta name="twitter:image" content="https://rckaruna.ca/assets/social-card.png">
 <meta name="twitter:image-height" content="627">
 <meta name="twitter:image-width" content="1200">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed page quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -268,6 +269,10 @@ window.Quarto = {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./consulting.html#start-a-conversation"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/rckaruna"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
@@ -298,19 +303,19 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29uc3VsdGluZw==">consulting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3JpY2tldA==">cricket <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZGVzaWduJTIwb2YlMjBleHBlcmltZW50cw==">design of experiments <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZWxlY3Rpb25z">elections <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ry10aGVvcnk=">G-theory <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Z3JhbnRz">grants <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGVhbHRo">health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExN">LLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVhc3VyZW1lbnQ=">measurement <span class="quarto-category-count">(5)</span></div><div class="category" data-category="bWV0YQ==">meta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWV0aG9kb2xvZ3k=">methodology <span class="quarto-category-count">(8)</span></div><div class="category" data-category="TkZM">NFL <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJhY3RpY2U=">practice <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BvcnRz">sports <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BvcnRzJTIwYW5hbHl0aWNz">sports analytics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3R1ZHklMjBkZXNpZ24=">study design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d3JpdGluZw==">writing <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29uc3VsdGluZw==">consulting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y3JpY2tldA==">cricket <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZGVzaWduJTIwb2YlMjBleHBlcmltZW50cw==">design of experiments <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aGVhbHRo">health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVhc3VyZW1lbnQ=">measurement <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bWV0aG9kb2xvZ3k=">methodology <span class="quarto-category-count">(8)</span></div><div class="category" data-category="c3BvcnRz">sports <span class="quarto-category-count">(6)</span></div><div class="category" data-category="d3JpdGluZw==">writing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Blog</h1>
-<p class="subtitle lead">Notes on cricket, handball, and statistical methodology — mostly work in progress, thinking out loud.</p>
+<p class="subtitle lead">Short posts on study design, measurement, and statistics in sport.</p>
 </div>
 
 <div>
   <div class="description">
-    Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.
+    Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation.
   </div>
 </div>
 
@@ -385,7 +390,7 @@ Nov 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y29uc3VsdGluZyUyQ3ByYWN0aWNl" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795365770000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<div class="quarto-post image-right" data-index="2" data-categories="Y29uc3VsdGluZw==" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/what-pstat-means/index.html" class="no-external">What P.Stat. means for a client</a>
@@ -393,8 +398,6 @@ Nov 22, 2026
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uc3VsdGluZw=='); return false;">consulting</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJhY3RpY2U='); return false;">practice</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/what-pstat-means/index.html" class="no-external">
@@ -410,7 +413,7 @@ Nov 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Y3JpY2tldCUyQ3Nwb3J0cyUyMGFuYWx5dGljcw==" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795376098000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="564">
+<div class="quarto-post image-right" data-index="3" data-categories="Y3JpY2tldCUyQ3Nwb3J0cw==" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="564">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/bowling-sequences/index.html" class="no-external">Does the order of deliveries matter?</a>
@@ -419,7 +422,7 @@ Nov 22, 2026
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y3JpY2tldA=='); return false;">cricket</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRzJTIwYW5hbHl0aWNz'); return false;">sports analytics</div>
+<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRz'); return false;">sports</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/bowling-sequences/index.html" class="no-external">
@@ -435,7 +438,7 @@ Nov 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="bWVhc3VyZW1lbnQlMkNHLXRoZW9yeSUyQ21ldGhvZG9sb2d5JTJDY3JpY2tldA==" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795365770000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
+<div class="quarto-post image-right" data-index="4" data-categories="bWVhc3VyZW1lbnQlMkNtZXRob2RvbG9neSUyQ2NyaWNrZXQlMkNzcG9ydHM=" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/reliability-for-counts/index.html" class="no-external">Why the usual reliability number is wrong for counts</a>
@@ -444,11 +447,11 @@ Nov 22, 2026
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Ry10aGVvcnk='); return false;">G-theory</div>
-
 <div class="listing-category" onclick="window.quartoListingCategory('bWV0aG9kb2xvZ3k='); return false;">methodology</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y3JpY2tldA=='); return false;">cricket</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRz'); return false;">sports</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/reliability-for-counts/index.html" class="no-external">
@@ -464,18 +467,16 @@ Nov 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="TkZMJTJDbWVhc3VyZW1lbnQlMkNzcG9ydHMlMjBhbmFseXRpY3M=" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795367580000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
+<div class="quarto-post image-right" data-index="5" data-categories="c3BvcnRzJTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/combine-to-sundays/index.html" class="no-external">What can a Combine tell you about Sundays?</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('TkZM'); return false;">NFL</div>
+<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRz'); return false;">sports</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRzJTIwYW5hbHl0aWNz'); return false;">sports analytics</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/combine-to-sundays/index.html" class="no-external">
@@ -491,7 +492,7 @@ Nov 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="d3JpdGluZyUyQ3ByYWN0aWNl" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795376098000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="717">
+<div class="quarto-post image-right" data-index="6" data-categories="d3JpdGluZyUyQ2NvbnN1bHRpbmc=" data-listing-date-sort="1795334400000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="717">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/writing-a-statistics-paper/index.html" class="no-external">Writing a statistics paper that someone can use</a>
@@ -500,7 +501,7 @@ Nov 22, 2026
 
 <div class="listing-category" onclick="window.quartoListingCategory('d3JpdGluZw=='); return false;">writing</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cHJhY3RpY2U='); return false;">practice</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Y29uc3VsdGluZw=='); return false;">consulting</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/writing-a-statistics-paper/index.html" class="no-external">
@@ -516,18 +517,16 @@ Nov 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="ZWxlY3Rpb25zJTJDbWVhc3VyZW1lbnQlMkNMTE0lMkNtZXRob2RvbG9neQ==" data-listing-date-sort="1787814000000" data-listing-file-modified-sort="1795364100000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="583">
+<div class="quarto-post image-right" data-index="7" data-categories="bWVhc3VyZW1lbnQlMkNBSSUyQ21ldGhvZG9sb2d5" data-listing-date-sort="1787814000000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="583">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/speaking-to-the-room/index.html" class="no-external">Does the room change the speech?</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3Rpb25z'); return false;">elections</div>
-
 <div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWV0aG9kb2xvZ3k='); return false;">methodology</div>
 
@@ -545,7 +544,7 @@ Aug 27, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Y3JpY2tldCUyQ0ctdGhlb3J5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1787122800000" data-listing-file-modified-sort="1795364100000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="578">
+<div class="quarto-post image-right" data-index="8" data-categories="Y3JpY2tldCUyQ21lYXN1cmVtZW50JTJDc3BvcnRz" data-listing-date-sort="1787122800000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="578">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/batting-average-reliability/index.html" class="no-external">How many innings before a batting average means anything?</a>
@@ -554,9 +553,9 @@ Aug 27, 2026
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y3JpY2tldA=='); return false;">cricket</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Ry10aGVvcnk='); return false;">G-theory</div>
-
 <div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRz'); return false;">sports</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/batting-average-reliability/index.html" class="no-external">
@@ -597,7 +596,7 @@ Aug 19, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="bWV0aG9kb2xvZ3klMkNzdHVkeSUyMGRlc2lnbiUyQ2dyYW50cw==" data-listing-date-sort="1787122800000" data-listing-file-modified-sort="1787198167000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="582">
+<div class="quarto-post image-right" data-index="10" data-categories="bWV0aG9kb2xvZ3klMkNkZXNpZ24lMjBvZiUyMGV4cGVyaW1lbnRz" data-listing-date-sort="1787122800000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="582">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/sample-size/index.html" class="no-external">How many participants do you actually need?</a>
@@ -606,9 +605,7 @@ Aug 19, 2026
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWV0aG9kb2xvZ3k='); return false;">methodology</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3R1ZHklMjBkZXNpZ24='); return false;">study design</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Z3JhbnRz'); return false;">grants</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVzaWduJTIwb2YlMjBleHBlcmltZW50cw=='); return false;">design of experiments</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/sample-size/index.html" class="no-external">
@@ -651,18 +648,16 @@ Jul 22, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="bWV0YSUyQ1IlMkNjcmlja2V0" data-listing-date-sort="1781334000000" data-listing-file-modified-sort="1784745602000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<div class="quarto-post image-right" data-index="12" data-categories="Y3JpY2tldCUyQ3Nwb3J0cw==" data-listing-date-sort="1781334000000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/welcome/index.html" class="no-external">Building this site: Quarto, GitHub Pages, and a win-probability worm</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('bWV0YQ=='); return false;">meta</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
 <div class="listing-category" onclick="window.quartoListingCategory('Y3JpY2tldA=='); return false;">cricket</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BvcnRz'); return false;">sports</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
@@ -678,14 +673,14 @@ Jun 13, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Ry10aGVvcnklMkNtZXRob2RvbG9neSUyQ3Nwb3J0cw==" data-listing-date-sort="1780902000000" data-listing-file-modified-sort="1784745602000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+<div class="quarto-post image-right" data-index="13" data-categories="bWVhc3VyZW1lbnQlMkNtZXRob2RvbG9neSUyQ3Nwb3J0cw==" data-listing-date-sort="1780902000000" data-listing-file-modified-sort="1795379860000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/handball-dependability/index.html" class="no-external">How many observations before a statistic means anything?</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('Ry10aGVvcnk='); return false;">G-theory</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bWVhc3VyZW1lbnQ='); return false;">measurement</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWV0aG9kb2xvZ3k='); return false;">methodology</div>
 

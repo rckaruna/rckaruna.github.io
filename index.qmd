@@ -1,5 +1,6 @@
 ---
 pagetitle: "Ruwan C. Karunanayaka — Statistical Consulting"
+image: assets/social-card.png
 page-layout: full
 description: "Statistical consulting by Ruwan C. Karunanayaka, Ph.D., P.Stat. — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
 ---
@@ -14,20 +15,23 @@ Statistical Consulting
 # Statistics you can defend.
 
 ::: {.lede}
-I'm an accredited professional statistician (P.Stat.) and Associate Professor who helps researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny — from the first power calculation to the final dashboard.
+I'm an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny, from the first power calculation to the final dashboard.
 :::
 
 [Work with me](consulting.qmd){.btn-cta .primary}
-[See the tools I build](projects.qmd){.btn-cta .ghost}
+[Email me](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .ghost}
+
+::: {style="margin-top:1rem"}
+[`study design`]{.tag} [`DOE`]{.tag} [`mixed models`]{.tag} [`reliability`]{.tag} [`AI evaluation`]{.tag} [`R / Shiny`]{.tag}
+:::
 :::
 
-::: {}
+::: {.hero-side}
+![](assets/ruwan.jpg){.hero-photo fig-alt="Ruwan C. Karunanayaka"}
+
 ::: {.card-plain}
 ### What clients get
-A defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can actually use.
-:::
-::: {style="margin-top:1.2rem"}
-[`study design`]{.tag} &nbsp; [`DOE`]{.tag} &nbsp; [`mixed models`]{.tag} &nbsp; [`reliability`]{.tag} &nbsp; [`AI evaluation`]{.tag} &nbsp; [`R / Shiny`]{.tag}
+A defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use.
 :::
 :::
 :::
@@ -64,7 +68,7 @@ What I help with
 ::: {.cols-3}
 ::: {.card-plain}
 ### Study & experiment design
-Sample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization — so the data you collect can actually answer your question.
+Sample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization, so the data you collect can answer your question.
 :::
 ::: {.card-plain}
 ### Modelling & analysis
@@ -72,7 +76,7 @@ Mixed-effects and generalized linear models, measurement reliability, calibratio
 :::
 ::: {.card-plain}
 ### Tools & dashboards
-Interactive R / Shiny applications that put your model in front of the people who need to act on it — see [live examples](projects.qmd).
+Interactive R / Shiny applications that put your model in front of the people who need to act on it. See a [live example](projects.qmd).
 :::
 :::
 :::
@@ -83,12 +87,12 @@ Statistics for the AI era
 :::
 ## Your AI is only as good as its evaluation.
 
-Benchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision — which model to buy, whether a system is ready to ship — someone should ask whether the measurement itself can be trusted. That's measurement science, and it's what I do.
+Benchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision, such as which model to buy or whether a system is ready to ship, someone should ask whether the measurement itself can be trusted. That's measurement science, and it's what I do.
 
 ::: {.cols-3}
 ::: {.card-plain}
 ### Evaluation design & audit
-Design AI evaluations that answer the question — proper sampling, contamination control, uncertainty on every comparison — or audit the one you have.
+Design AI evaluations that answer the question, with proper sampling, contamination control, and uncertainty on every comparison. Or audit the one you have.
 :::
 ::: {.card-plain}
 ### Reliability of judgments
@@ -112,7 +116,7 @@ Beyond consulting
 ::: {.cols-3}
 ::: {.card-plain}
 ### Projects
-Deployed forecasting apps and open-source software — working demonstrations of the tools I build.
+A live forecasting tool and open-source software: working demonstrations of the tools I build.
 [Explore →](projects.qmd)
 :::
 ::: {.card-plain}
@@ -122,8 +126,20 @@ Published work in experimental design and applied statistics, with an active res
 :::
 ::: {.card-plain}
 ### Blog
-Notes on statistical methodology — how to design, measure, and trust the numbers.
+Short posts on how to design studies, measure reliably, and trust the numbers.
 [All posts →](blog.qmd)
 :::
 :::
+:::
+
+::: {.band .dark .cta-band}
+::: {.eyebrow}
+Get in touch
+:::
+## Have a study, a dataset, or a decision to defend?
+
+Tell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.
+
+[Email me →](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .primary}
+[How an engagement works](consulting.qmd#how-an-engagement-works){.btn-cta .ghost-light}
 :::

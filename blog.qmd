@@ -1,7 +1,8 @@
 ---
 title: "Blog"
-subtitle: "Notes on cricket, handball, and statistical methodology — mostly work in progress, thinking out loud."
+subtitle: "Short posts on study design, measurement, and statistics in sport."
 pagetitle: "Blog — Ruwan C. Karunanayaka"
+body-classes: page
 listing:
   contents: posts
   sort: "date desc"
@@ -13,5 +14,5 @@ listing:
   fields: [date, title, reading-time, description, categories]
 page-layout: full
 title-block-banner: false
-description: "Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers."
+description: "Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation."
 ---

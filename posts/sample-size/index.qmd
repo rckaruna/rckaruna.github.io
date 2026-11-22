@@ -2,7 +2,7 @@
 title: "How many participants do you actually need?"
 description: "The most common question a statistician gets — and why the honest answer starts with a different question: what's the smallest effect you'd hate to miss?"
 date: 2026-08-19
-categories: [methodology, study design, grants]
+categories: [methodology, design of experiments]
 ---
 
 It's the most common question a statistician gets, usually asked as if it had a universal answer: *how many participants do I need?* Thirty? A hundred? Whatever the last paper in your field used?

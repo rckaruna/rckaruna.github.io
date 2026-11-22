@@ -2,7 +2,7 @@
 title: "Writing a statistics paper that someone can use"
 description: "Advice on writing and placing an applied statistics paper, drawn from Tim Swartz's guide for sports papers and from my own habits."
 date: 2026-11-22
-categories: [writing, practice]
+categories: [writing, consulting]
 ---
 
 Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.

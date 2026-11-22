@@ -2,7 +2,7 @@
 title: "How many observations before a statistic means anything?"
 description: "Generalizability theory's decision study — the tool for knowing when a performance metric is signal and when it's still noise."
 date: 2026-06-08
-categories: [G-theory, methodology, sports]
+categories: [measurement, methodology, sports]
 ---
 
 Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the *person* or just the occasion.

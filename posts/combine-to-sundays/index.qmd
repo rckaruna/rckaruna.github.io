@@ -2,7 +2,7 @@
 title: "What can a Combine tell you about Sundays?"
 description: "Teams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician's look at why that link is hard to measure."
 date: 2026-11-22
-categories: [NFL, measurement, sports analytics]
+categories: [sports, measurement]
 ---
 
 Every spring, NFL teams gather the year's draft prospects and time them. A player runs forty yards in shorts, alone, on a clean surface, and the result follows him for the rest of his career. Then he is drafted, and what matters is what he does in pads, on grass, with a three-hundred-pound opponent in the way.

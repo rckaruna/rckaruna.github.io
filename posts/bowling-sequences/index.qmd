@@ -2,7 +2,7 @@
 title: "Does the order of deliveries matter?"
 description: "Cricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds."
 date: 2026-11-22
-categories: [cricket, sports analytics]
+categories: [cricket, sports]
 ---
 
 Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.

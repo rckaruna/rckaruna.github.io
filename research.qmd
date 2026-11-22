@@ -2,6 +2,7 @@
 title: "Research"
 subtitle: "Experimental design under the baseline parameterization, measurement reliability, and applied statistics."
 pagetitle: "Research & publications — Ruwan C. Karunanayaka"
+body-classes: page
 description: "Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation."
 ---
 
@@ -89,7 +90,7 @@ Ongoing work
 
 ## Active program
 
-Beyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the [projects page](projects.qmd).
+Beyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics, including the reliability of AI and machine-learning evaluation, with further work at various stages. The interactive tools the program produces are on the [projects page](projects.qmd).
 
 ::: {.eyebrow}
 Service
@@ -105,8 +106,8 @@ Software
 
 ## Code & tools
 
-- **`dgt`** — R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. [github.com/rckaruna/dgt](https://github.com/rckaruna/dgt)
-- **`StatcastG`** — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. [github.com/rckaruna/StatcastG](https://github.com/rckaruna/StatcastG)
-- **`fairness-gtheory`** — R code for reliable fairness auditing via multivariate generalizability theory. [github.com/rckaruna/fairness-gtheory](https://github.com/rckaruna/fairness-gtheory)
-- **`MARE-code`** — companion R code for minimum-aberration random-effect designs (MARE). [github.com/rckaruna/MARE-code](https://github.com/rckaruna/MARE-code)
-- **Forecasting applications** — deployed interactive tools for cricket, tennis, and soccer. [See projects](projects.qmd)
+- **`dgt`:** R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. [github.com/rckaruna/dgt](https://github.com/rckaruna/dgt)
+- **`StatcastG`:** Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. [github.com/rckaruna/StatcastG](https://github.com/rckaruna/StatcastG)
+- **`fairness-gtheory`:** R code for reliable fairness auditing via multivariate generalizability theory. [github.com/rckaruna/fairness-gtheory](https://github.com/rckaruna/fairness-gtheory)
+- **`MARE-code`:** companion R code for minimum-aberration random-effect designs (MARE). [github.com/rckaruna/MARE-code](https://github.com/rckaruna/MARE-code)
+- **Forecasting application:** a live win-probability tool for Twenty20 international cricket. [See projects](projects.qmd)

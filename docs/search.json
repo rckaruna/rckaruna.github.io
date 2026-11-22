@@ -4,525 +4,56 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\npractice\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports analytics\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nG-theory\n\nmethodology\n\ncricket\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nNFL\n\nmeasurement\n\nsports analytics\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\npractice\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nelections\n\nmeasurement\n\nLLM\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nG-theory\n\nmeasurement\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nmethodology\n\ncricket\n\nsports\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nsports\n\nmeasurement\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\nconsulting\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nmeasurement\n\nAI\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nmeasurement\n\nsports\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\ncricket\n\nsports\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nmeasurement\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "The applications below are working products of my research program. Each takes a statistical model and turns it into something a non-statistician can use — which is most of what good applied statistics comes down to."
+    "text": "The work below comes out of my research program. Each piece takes a statistical model and turns it into something a non-statistician can use, which is most of what good applied statistics comes down to."
   },
   {
     "objectID": "projects.html#t20i-win-probability-forecaster",
     "href": "projects.html#t20i-win-probability-forecaster",
     "title": "Projects",
     "section": "T20I win-probability forecaster",
-    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\n\n\nTennis"
-  },
-  {
-    "objectID": "projects.html#match-win-probability-tool",
-    "href": "projects.html#match-win-probability-tool",
-    "title": "Projects",
-    "section": "Match win-probability tool",
-    "text": "Match win-probability tool\nAn interactive forecaster for professional tennis: choose any two players from the ATP or WTA tours, set the format and surface, and it returns a match win probability with the full distribution of likely set scores, plus a comparison against bookmaker odds.\n\n\nSoccer"
-  },
-  {
-    "objectID": "projects.html#international-match-forecaster",
-    "href": "projects.html#international-match-forecaster",
-    "title": "Projects",
-    "section": "International match forecaster",
-    "text": "International match forecaster\nA win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development.\n\n\nOpen source"
+    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\n\n\nOpen source"
   },
   {
     "objectID": "projects.html#code-on-github",
     "href": "projects.html#code-on-github",
     "title": "Projects",
     "section": "Code on GitHub",
-    "text": "Code on GitHub\ndgt — an R package for reliability analysis. Implements generalizability-theory decision studies — the framework for answering “how many observations before this measurement is dependable?”\ngithub.com/rckaruna/dgt →\nStatcastG — reliability at MLB scale. A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).\ngithub.com/rckaruna/StatcastG →\nfairness-gtheory — how reliable is a fairness audit? R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.\ngithub.com/rckaruna/fairness-gtheory →\nMARE-code — designing the study before the data exist. Companion R code for Minimum Aberration for Random-Effect Designs: choosing the best generalizability-study design when measurement reliability is the goal.\ngithub.com/rckaruna/MARE-code →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
+    "text": "Code on GitHub\ndgt: an R package for reliability analysis. Implements generalizability-theory decision studies, the framework for answering “how many observations before this measurement is dependable?”\ngithub.com/rckaruna/dgt →\nStatcastG: reliability at MLB scale. A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).\ngithub.com/rckaruna/StatcastG →\nfairness-gtheory: how reliable is a fairness audit? R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.\ngithub.com/rckaruna/fairness-gtheory →\nMARE-code: designing the study before the data exist. Companion R code for Minimum Aberration for Random-Effect Designs: choosing the best generalizability-study design when measurement reliability is the goal.\ngithub.com/rckaruna/MARE-code →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html",
-    "href": "posts/writing-a-statistics-paper/index.html",
-    "title": "Writing a statistics paper that someone can use",
+    "objectID": "posts/leaderboard-noise/index.html",
+    "href": "posts/leaderboard-noise/index.html",
+    "title": "Your leaderboard gap is probably noise",
     "section": "",
-    "text": "Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.\nThe best short guide I know on those decisions is Tim Swartz’s “Where Should I Publish My Sports Paper?” (The American Statistician, 2020). It is written for sports statistics, but most of it applies to any applied statistics paper. This post sets out what I took from it, followed by the habits I have added."
+    "text": "Somewhere right now, a team is choosing which AI model to build on because it sits one place higher on a leaderboard. The gap might be two points of win rate, or a handful of Elo. Here’s the uncomfortable question a statistician has to ask: is that gap a fact about the models, or a fact about the sample?"
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
-    "href": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
-    "title": "Writing a statistics paper that someone can use",
-    "section": "What I took from the guide",
-    "text": "What I took from the guide\nA good applied paper does two things. It has something new in the statistics, and it addresses a real problem in the application. The two pull against each other. A paper written to impress statisticians tends to treat the application as an afterthought, and a paper written for practitioners can have little in it that is new. The guide’s point is that the best papers manage both, and that an author should know which of the two a given paper is stronger on.\nPractitioners adopt what they can follow. A method that works but cannot be explained to the people who would use it will not be used. The guide’s examples are methods that reached practice because the idea behind them could be stated plainly. I now ask of every method section whether a coach, a clinician, or an engineer could say in two sentences what the method does.\nChoose the audience, then the journal. The same piece of work can be written for a statistics journal, an operations research journal, or a journal in the applied field. Each wants a different paper. Statistics journals want a substantial statistical contribution. Operations research journals value a solved problem. Journals in the applied field care most about what changes in practice. Choosing the audience first decides what goes in the introduction, how much theory stays in the main text, and what counts as the result.\nExpect hard reviews and keep going. The guide is frank that reviewers question the assumptions in applied work closely, and that a paper rejected quickly at one journal can be published at another after a long review. Its advice is a thick skin. A rejection is information about the fit between the paper and the journal as often as it is about the work.\nGet the work to readers. Applied work is scattered across disciplines, and a paper in the wrong place may never reach the people who could use it. The guide closes on a simple instruction: do good work and get it out."
+    "objectID": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
+    "href": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
+    "title": "Your leaderboard gap is probably noise",
+    "section": "A two-minute calculation",
+    "text": "A two-minute calculation\nSuppose model A beats model B in 62% of head-to-head comparisons, and model B wins 60% of its own matchups, each measured over 500 votes. Two points apart — feels decisive on a ranking table.\nThe standard error of a proportion around 0.6 on 500 votes is \\(\\sqrt{0.6 \\times 0.4 / 500} \\approx 0.022\\) — about 2.2 percentage points per model. The uncertainty on the difference between them is larger still, roughly \\(\\sqrt{2} \\times 2.2 \\approx 3.1\\) points. A 2-point observed gap against ~3 points of noise, before any multiple-comparison correction, isn’t evidence of a real difference. It’s a tie wearing a trophy.\nThis isn’t a contrived example. Public arena leaderboards now publish confidence intervals precisely because the intervals at the top routinely overlap — the rank order among the leading models is partly an artifact of sampling. And the problem compounds: with ten models, there are forty-five pairwise comparisons, so a few “significant-looking” gaps will appear by chance even if nothing real separates anyone."
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
-    "href": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
-    "title": "Writing a statistics paper that someone can use",
-    "section": "What I have added",
-    "text": "What I have added\nThese are my own habits. They are not from the guide.\n\nKeep data, methods, results, and discussion apart. A reader who wants to know what was measured should not have to read the results to find out. When interpretation creeps into the methods section, I move it.\nLead each result with what it means. The sentence a reader remembers should come first, and the number that supports it second.\nGive every number a comparison. A coefficient of 0.61 means little alone. Against a threshold, a previous study, or a second condition, it means something.\nLet tables carry the numbers and the text carry the pattern. A paragraph that repeats a table adds length without adding anything.\nState limitations with numbers. “The sample is small” is a hedge. “The estimate is based on 14 matches and would need about 40 to reach the usual standard” is a limitation the reader can weigh.\nCheck every reference against the source. Author, year, volume, and pages, each one. A wrong citation is a small error that costs a large amount of trust.\nWrite plainly. Short declarative sentences, no warm-up paragraphs, and no claim softened below what the evidence supports."
+    "objectID": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
+    "href": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
+    "title": "Your leaderboard gap is probably noise",
+    "section": "The deeper problem: rankings are measurements",
+    "text": "The deeper problem: rankings are measurements\nA leaderboard is a measurement instrument, and instruments have reliability. The question that matters isn’t only “is this gap significant today?” but “if we collected the same number of votes again, would the ranking come back the same?” Those are different questions. A gap can clear a significance test while the ranking built from many such gaps remains unstable — flip a few hundred votes and third place becomes sixth.\nMeasurement theory has a name for this and a toolbox for it: you decompose the variation in observed scores into the part that reflects real differences between the things being ranked and the part that’s occasion-to-occasion noise, then compute how many observations you’d need before the ranking is dependable at the level you care about. The recurring finding, in domain after domain, is that the number is larger than people expect — often much larger than the data anyone has."
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
-    "href": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
-    "title": "Writing a statistics paper that someone can use",
-    "section": "Why this matters outside journals",
-    "text": "Why this matters outside journals\nEverything above applies to a consulting report as much as to a paper. A client is a practitioner who has to act on the result. If they cannot follow what was done, cannot find the number they need, or cannot tell how far to trust it, the analysis has not done its job, however good the statistics are.\nReference. Swartz, T. B. (2020). Where should I publish my sports paper? The American Statistician 74(2), 103–108.\nClear reporting for the audience that has to use it is part of every engagement in my consulting practice."
-  },
-  {
-    "objectID": "posts/combine-to-sundays/index.html",
-    "href": "posts/combine-to-sundays/index.html",
-    "title": "What can a Combine tell you about Sundays?",
-    "section": "",
-    "text": "Every spring, NFL teams gather the year’s draft prospects and time them. A player runs forty yards in shorts, alone, on a clean surface, and the result follows him for the rest of his career. Then he is drafted, and what matters is what he does in pads, on grass, with a three-hundred-pound opponent in the way.\nThis year’s NFL Big Data Bowl asks entrants to connect the two: tracking data from the Combine on one side, and what the same players did in regular-season games on the other. I entered, and my entry looks at defensive linemen. The results will wait until the competition closes in January. The question is worth a post now, because it is a measurement problem before it is a football problem."
-  },
-  {
-    "objectID": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
-    "href": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
-    "title": "What can a Combine tell you about Sundays?",
-    "section": "Three reasons the link is hard to measure",
-    "text": "Three reasons the link is hard to measure\nThe players you can check are not the players you measured. Hundreds of prospects run at the Combine. Game data exist only for those who were drafted, made a roster, and played. Teams choose those players partly on the Combine numbers themselves. So the group with both measurements has already been filtered on one of them, and any relationship seen in that group is weaker than the one in the full pool. A scout who concludes that a drill “does not predict much” may be looking at the filter and not at the drill.\nOne trial is a noisy reading. A prospect runs a drill once or twice. A start can be a few hundredths early or late for reasons that have nothing to do with ability. Before asking whether a Combine number predicts game performance, it is fair to ask how well it would predict itself on a second day. If the answer is “moderately”, then no game outcome can be predicted better than that.\nThe same word names two different events. A “first step” at the Combine is a reaction to the player’s own decision to go. A first step in a game is a reaction to the snap, taken from a stance chosen for the play, against a blocker who is also moving. Both can be clocked, and both are called get-off. Whether they measure the same quality is the thing to be shown, not assumed."
-  },
-  {
-    "objectID": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
-    "href": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
-    "title": "What can a Combine tell you about Sundays?",
-    "section": "What a useful answer looks like",
-    "text": "What a useful answer looks like\nA front office does not need a correlation. It needs to know, for a given position, how much a tenth of a second at the Combine is worth in the games, and how sure anyone can be about that figure. An answer with honest uncertainty attached is more useful than a sharper one that falls apart when the next draft class arrives. It should also say where it does not apply. A result for defensive linemen says little about receivers.\nThat is the standard I have tried to hold the entry to. I will write about what it found after the January deadline.\nMeasurement problems of this kind, where the number in hand is a noisy stand-in for the thing you care about, are a large part of my consulting practice."
-  },
-  {
-    "objectID": "posts/reliability-for-counts/index.html",
-    "href": "posts/reliability-for-counts/index.html",
-    "title": "Why the usual reliability number is wrong for counts",
-    "section": "",
-    "text": "A great deal of what we measure is a count. Goals in a match, sixes in an innings, defects in a batch, falls on a ward. When someone asks whether such a number is a reliable measure of the player, the line, or the ward, the usual answer is an intraclass correlation taken from a mixed model. For counts, that answer is often too high, and sometimes far too high."
-  },
-  {
-    "objectID": "posts/reliability-for-counts/index.html#two-scales-two-questions",
-    "href": "posts/reliability-for-counts/index.html#two-scales-two-questions",
-    "title": "Why the usual reliability number is wrong for counts",
-    "section": "Two scales, two questions",
-    "text": "Two scales, two questions\nA count model works on two scales. On the log scale, the model says each player has an underlying rate. On the response scale, we see the counts themselves: 0, 1, 3, 0, 2.\nThe coefficient that software reports is usually computed on the log scale. It asks how much of the variation in underlying rates is between players. That is a fair question, but nobody ranks players on underlying rates. We rank them on the counts we observed, and the counts carry an extra layer of noise that the log scale leaves out: a batter with a steady rate of half a six per innings still hits none in most innings and two in a few."
-  },
-  {
-    "objectID": "posts/reliability-for-counts/index.html#a-worked-example",
-    "href": "posts/reliability-for-counts/index.html#a-worked-example",
-    "title": "Why the usual reliability number is wrong for counts",
-    "section": "A worked example",
-    "text": "A worked example\nSuppose batters differ in their six-hitting rate, with an average of 0.5 sixes per innings and a between-batter standard deviation of 0.25. Suppose also that the rate is the only thing that differs between batters, so the log-scale coefficient is as high as it can be.\nFor a count with a given rate, the noise variance equals the rate. So for one innings:\n\nbetween-batter variance of the rate: 0.25² = 0.0625\naverage counting noise: 0.5\nreliability of one innings on the response scale: 0.0625 / (0.0625 + 0.5) = 0.11\n\nA coefficient near 1 on one scale, and 0.11 on the scale where the ranking is done. Averaging over innings helps in the usual way: to reach a reliability of 0.8 for the average, this batter pool needs 32 innings. The numbers here are illustrative, chosen to make the arithmetic easy to check. The gap between the two scales is the point."
-  },
-  {
-    "objectID": "posts/reliability-for-counts/index.html#zeros-make-it-harder",
-    "href": "posts/reliability-for-counts/index.html#zeros-make-it-harder",
-    "title": "Why the usual reliability number is wrong for counts",
-    "section": "Zeros make it harder",
-    "text": "Zeros make it harder\nMany counts have more zeros than a simple count model allows. Most innings contain no six at all, and whether a batter hits any is a partly separate matter from how many he hits once he starts. A hurdle model handles this with two parts, one for clearing zero and one for the size of the count after that. A reliability coefficient then has to combine both parts on the response scale, and the classical formulas do not say how.\nThat is the problem I took up in a paper in the Australian & New Zealand Journal of Statistics (2026), Response-scale reliability for count measurements, which works out the coefficient for hurdle models and applies it to six-hitting in Twenty20 cricket. The methods are in the dgt R package."
-  },
-  {
-    "objectID": "posts/reliability-for-counts/index.html#what-to-do-with-this",
-    "href": "posts/reliability-for-counts/index.html#what-to-do-with-this",
-    "title": "Why the usual reliability number is wrong for counts",
-    "section": "What to do with this",
-    "text": "What to do with this\nIf your measure is a count and someone hands you a reliability coefficient, ask which scale it was computed on. If the answer is the model’s scale, treat it as an upper limit. Then ask how many observations sit under each number being compared. For rare events, the honest answer is usually “not enough yet”.\nMeasurement reliability for counts, proportions, and other non-normal data is part of my consulting practice."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "",
-    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
-  },
-  {
-    "objectID": "posts/welcome/index.html#the-worm",
-    "href": "posts/welcome/index.html#the-worm",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "The worm",
-    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
-  },
-  {
-    "objectID": "posts/welcome/index.html#whats-next",
-    "href": "posts/welcome/index.html#whats-next",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "What’s next",
-    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
-  },
-  {
-    "objectID": "posts/what-pstat-means/index.html",
-    "href": "posts/what-pstat-means/index.html",
-    "title": "What P.Stat. means for a client",
-    "section": "",
-    "text": "I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean."
-  },
-  {
-    "objectID": "posts/what-pstat-means/index.html#what-it-is",
-    "href": "posts/what-pstat-means/index.html#what-it-is",
-    "title": "What P.Stat. means for a client",
-    "section": "What it is",
-    "text": "What it is\nP.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society’s accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised."
-  },
-  {
-    "objectID": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
-    "href": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
-    "title": "What P.Stat. means for a client",
-    "section": "What the committee looks at",
-    "text": "What the committee looks at\nThe application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.\nAccredited statisticians also agree to the Society’s code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data."
-  },
-  {
-    "objectID": "posts/what-pstat-means/index.html#what-it-changes-for-you",
-    "href": "posts/what-pstat-means/index.html#what-it-changes-for-you",
-    "title": "What P.Stat. means for a client",
-    "section": "What it changes for you",
-    "text": "What it changes for you\nThree things.\n\nAn outside check. You do not have to judge a statistician’s competence yourself. A professional body has done it.\nA standard of conduct. If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.\nA recognized credential in reports. Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.\n\nIt does not change how I work. It gives you a reason to expect that before we have met.\nIf you have a study to design or an analysis to check, get in touch."
-  },
-  {
-    "objectID": "posts/handball-dependability/index.html",
-    "href": "posts/handball-dependability/index.html",
-    "title": "How many observations before a statistic means anything?",
-    "section": "",
-    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
-  },
-  {
-    "objectID": "posts/handball-dependability/index.html#the-framing",
-    "href": "posts/handball-dependability/index.html#the-framing",
-    "title": "How many observations before a statistic means anything?",
-    "section": "The framing",
-    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
-  },
-  {
-    "objectID": "posts/handball-dependability/index.html#why-it-matters",
-    "href": "posts/handball-dependability/index.html#why-it-matters",
-    "title": "How many observations before a statistic means anything?",
-    "section": "Why it matters",
-    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html",
-    "href": "posts/covering-arrays/index.html",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "",
-    "text": "A program with ten on/off options has \\(2^{10} = 1{,}024\\) configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.\nThere is a better response, and it comes from the design of experiments."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#where-faults-come-from",
-    "href": "posts/covering-arrays/index.html#where-faults-come-from",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "Where faults come from",
-    "text": "Where faults come from\nA fault that appears under every configuration is found quickly. The faults that survive are the ones that need a particular setting, or a particular combination of settings, before they show themselves. The useful question is how many settings have to line up.\nKuhn, Wallace, and Gallo (2004), working at the U.S. National Institute of Standards and Technology (NIST), studied software failures from a variety of domains and asked this question. They found that the failures were caused by combinations of relatively few conditions. NIST’s summary of that series of studies is that most failures were caused by one or two settings, that failures needing three or more were progressively fewer, and that all or nearly all involved six settings or fewer.\nIf that pattern holds for your software, then a test suite does not have to cover every configuration. It has to cover every pair of settings, and perhaps every triple."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#covering-every-pair",
-    "href": "posts/covering-arrays/index.html#covering-every-pair",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "Covering every pair",
-    "text": "Covering every pair\nTake three on/off options. There are eight configurations, but four tests are enough to see every pair of options at every combination of values:\n\n\n\nTest\nA\nB\nC\n\n\n\n\n1\noff\noff\noff\n\n\n2\noff\non\non\n\n\n3\non\noff\non\n\n\n4\non\non\noff\n\n\n\nPick any two columns. The four combinations off/off, off/on, on/off, and on/on each appear once. A fault that needs, say, A on and C off will be exercised by test 4.\nA table with this property is called a covering array. Readers of the earlier post on factorial designs will recognize this one as a half fraction of the \\(2^3\\) factorial.\nThe saving grows quickly with the number of options. For ten on/off options, six tests cover every pair:\n\n\n\nTest\nO1\nO2\nO3\nO4\nO5\nO6\nO7\nO8\nO9\nO10\n\n\n\n\n1\non\non\non\non\non\non\non\non\non\non\n\n\n2\non\non\non\non\noff\noff\noff\noff\noff\noff\n\n\n3\non\noff\noff\noff\non\non\non\noff\noff\noff\n\n\n4\noff\non\noff\noff\non\noff\noff\non\non\noff\n\n\n5\noff\noff\non\noff\noff\non\noff\non\noff\non\n\n\n6\noff\noff\noff\non\noff\noff\non\noff\non\non\n\n\n\nAny two columns of this table show all four combinations. Six tests stand in for 1,024 configurations, as far as pairs are concerned. The number of tests needed grows roughly with the logarithm of the number of options, so a hundred options need only a few more."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
-    "href": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "How this differs from a factorial experiment",
-    "text": "How this differs from a factorial experiment\nA fractional factorial design and a covering array look alike, but they answer different questions.\nA factorial experiment is built to estimate effects. Each pair of settings should appear equally often, so that the estimates are balanced and precise. That is the defining property of an orthogonal array.\nA test suite is built to detect faults. A combination that triggers a fault needs to appear once. The covering array drops the requirement of equal frequency and keeps only the requirement of presence. That weaker requirement is why it can be so much smaller."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
-    "href": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "What a covering array does not do",
-    "text": "What a covering array does not do\nThree limits are worth stating.\n\nA pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.\nThe array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.\nReal options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.\n\nWithin those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.\nReference. Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. IEEE Transactions on Software Engineering 30(6), 418–421.\nTest design for statistical and machine-learning software is part of my consulting practice."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research has two lines. The first is the design of experiments, mainly fractional factorial and orthogonal designs under the baseline parameterization. The second is measurement reliability through generalizability theory, with applications in sport. Current work carries the reliability methods into two newer settings: the evaluation of machine-learning models and the testing of software."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nCatalan Bounds for Symmetric Strength-Two Orthogonal Arrays. Journal of Combinatorial Designs 35(1). doi: 10.1002/jcd.70039\nBias reduction via complementation of orthogonal arrays under a baseline parameterization. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Australian & New Zealand Journal of Statistics 68(4), 2026. doi: 10.1111/anzs.70069\nCompromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization. Communications in Statistics - Theory and Methods (2026), in press. doi: 10.1080/03610926.2026.2757791\nIs it time for a more analytical approach? Suboptimal shot selection strategies in handball. (with A. G. Laxdal, S. Þorgeirsson, J. M. Saavedra, A. Ivarsson, Ó. Sigurgeirsson, and T. Haugen) International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\nOn the existence and constructions of orthogonal designs. (with Boxin Tang) Australian & New Zealand Journal of Statistics 60 (2018), 471–480. doi: 10.1111/anzs.12247\nCompromise designs under baseline parametrization. (with Boxin Tang) Journal of Statistical Planning and Inference 190 (2017), 32–38. doi: 10.1016/j.jspi.2017.04.003\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nIn review"
-  },
-  {
-    "objectID": "research.html#manuscripts-in-review",
-    "href": "research.html#manuscripts-in-review",
-    "title": "Research",
-    "section": "Manuscripts in review",
-    "text": "Manuscripts in review\n\nMinimum β-aberration under a baseline parameterization for quantitative factors. Revision requested, Journal of Statistical Planning and Inference (JSPI).\nAnchored stratification arrays. Under review, The Canadian Journal of Statistics.\nLevel reversals of two-level baseline designs: Fourier structure and optimal level permutation. (with Masanori Sawa) Submitted, Statistica Sinica.\nGame-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket. (with D. L. Walpitage) Revised manuscript submitted, Journal of Sports Analytics (JSA).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Revised manuscript submitted, International Journal of Sports Science & Coaching (IJSSC).\n\n\nNon-refereed"
-  },
-  {
-    "objectID": "research.html#conference-contributions",
-    "href": "research.html#conference-contributions",
-    "title": "Research",
-    "section": "Conference contributions",
-    "text": "Conference contributions\n\nKarunanayaka, R.C. (2022). On the existence and constructions of orthogonal designs. Presented at the Statistical Society of Canada (SSC), 2022.\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
-  },
-  {
-    "objectID": "research.html#active-program",
-    "href": "research.html#active-program",
-    "title": "Research",
-    "section": "Active program",
-    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
-  },
-  {
-    "objectID": "research.html#peer-review",
-    "href": "research.html#peer-review",
-    "title": "Research",
-    "section": "Peer review",
-    "text": "Peer review\nReviewer for the Journal of Sports Analytics (2023, 2024) and the International Journal of Sports Science & Coaching (2026).\n\nSoftware"
-  },
-  {
-    "objectID": "research.html#code-tools",
-    "href": "research.html#code-tools",
-    "title": "Research",
-    "section": "Code & tools",
-    "text": "Code & tools\n\ndgt — R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. github.com/rckaruna/dgt\nStatcastG — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory — R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code — companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam."
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "Courses",
-    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics I\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nApplied Regression Analysis\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
-  },
-  {
-    "objectID": "teaching.html#approach",
-    "href": "teaching.html#approach",
-    "title": "Teaching",
-    "section": "Approach",
-    "text": "Approach\nJohn Tukey said that the best part of being a statistician is that you get to “play in everyone’s backyard.” That is what drew me to the subject as an undergraduate, and it is what I try to pass on.\nService teaching carries a particular challenge. Many students arrive because a statistics course is required for their program, expecting something abstract and intimidating. I treat that as the opportunity it is: these are exactly the people who will go on to use statistics in a lab, a clinic, or a business, and who benefit most from seeing it work. New concepts get introduced through real applications — drawn from the news, from published research, or from studies the students themselves propose to answer questions they care about. The aim is that they leave looking at everyday claims with a statistical eye.\nClasses are built around participation rather than transcription. Students work through problems collectively, applying what they have just learned, which builds the judgment that carrying a method from a textbook into a real setting requires. A well-chosen graphic, quotation, or cartoon can open a genuine conversation about a statistical idea, and I use them freely; a class people enjoy is a class they remember.\nComputing is woven through the courses rather than bolted on at the end. Students work in R — in RStudio and Jupyter notebooks — with real data and reproducible workflows, so they leave with a habit that transfers to a thesis, a lab, or a job rather than a set of formulas. Course materials and solution keys are written in LaTeX for clarity.\n\nSupervision & outreach"
-  },
-  {
-    "objectID": "teaching.html#beyond-the-classroom",
-    "href": "teaching.html#beyond-the-classroom",
-    "title": "Teaching",
-    "section": "Beyond the classroom",
-    "text": "Beyond the classroom\nI supervise undergraduate research projects at UFV, most recently a project on the construction of orthogonal and baseline designs (2023) and an honours project building a WeBWorK question programmer (2023). Outside the department, I judge undergraduate posters at UFV Student Research Day and senior projects at the Fraser Valley Regional Science Fair, and I have run hands-on activity stations at Math Mania events that introduce elementary students to mathematical reasoning through games and puzzles.\n\nProfessional development"
-  },
-  {
-    "objectID": "teaching.html#keeping-the-toolkit-current",
-    "href": "teaching.html#keeping-the-toolkit-current",
-    "title": "Teaching",
-    "section": "Keeping the toolkit current",
-    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
-  },
-  {
-    "objectID": "consulting.html",
-    "href": "consulting.html",
-    "title": "Statistical consulting",
-    "section": "",
-    "text": "I’m a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. I hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. I’m based in the Fraser Valley, British Columbia, and work with clients across Canada and remotely worldwide."
-  },
-  {
-    "objectID": "consulting.html#who-youd-be-working-with",
-    "href": "consulting.html#who-youd-be-working-with",
-    "title": "Statistical consulting",
-    "section": "Who you’d be working with",
-    "text": "Who you’d be working with\n\n\n\nI’m an Associate Professor in the Department of Mathematics and Statistics at the University of the Fraser Valley, where I’ve taught since 2019. I hold a PhD in Statistics from Simon Fraser University (2018), an MS in Statistics from Sam Houston State University (2014), and a BSc in Mathematics from the University of Kelaniya, Sri Lanka (2009).\nI am on sabbatical from September 2026 through August 2027. For November and December 2026 I hold an honorary appointment as Visiting Professor at the Centre for Health Economics Research and Evaluation (CHERE), University of Technology Sydney, working with colleagues there remotely.\nMy research runs along two connected lines. In statistical design theory, I develop fractional-factorial and computer-experiment designs under the baseline parameterization, with a focus on efficiency and robustness; current work extends toward space-filling and screening designs. In applied statistics, I work on measurement and prediction in sport, applying generalizability theory and machine learning to large-scale team-performance data. The common thread is measurement you can trust — designing studies so the data can answer the question, and quantifying how reliable the answer is. That thread is exactly what I bring to consulting.\n\n\n\nWho I work with"
-  },
-  {
-    "objectID": "consulting.html#clients-collaborators",
-    "href": "consulting.html#clients-collaborators",
-    "title": "Statistical consulting",
-    "section": "Clients & collaborators",
-    "text": "Clients & collaborators\n\nGraduate students and faculty — thesis and dissertation analysis, defence preparation, and grant applications.\nHealth researchers and clinical teams — study design and analyses that stand up to ethics boards and reviewers.\nEngineering and manufacturing groups — designed experiments, quality methods, and process improvement.\nSports organizations and performance staff — measurement, reliability, and forecasting from performance data.\nAI, software, and product teams — evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.\n\n\nServices"
-  },
-  {
-    "objectID": "consulting.html#what-i-help-with",
-    "href": "consulting.html#what-i-help-with",
-    "title": "Statistical consulting",
-    "section": "What I help with",
-    "text": "What I help with\n\n\nStudy & experiment design\nSample-size and power calculations, randomization, factorial and fractional-factorial designs — including designs under the baseline parameterization — and design of experiments for product, process, and lab work — so the data you collect can actually answer your question. For funding proposals, this includes grant-application support: sample-size justification, power analysis, and statistical-analysis plans.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, regression, ANOVA, survival analysis, and measurement reliability (generalizability theory). Validated, documented, and written up for the audience that has to trust it.\n\n\nTools & dashboards\nReproducible analysis in R, and interactive R / Shiny applications that put your model in front of the people who need to act on it — live examples here.\n\n\n\nAI & machine learning"
-  },
-  {
-    "objectID": "consulting.html#statistics-for-ai-systems",
-    "href": "consulting.html#statistics-for-ai-systems",
-    "title": "Statistical consulting",
-    "section": "Statistics for AI systems",
-    "text": "Statistics for AI systems\nAI has a measurement problem. Benchmark scores move with the evaluation harness, leaderboard gaps often sit inside statistical noise, human and LLM-judge ratings carry biases nobody has quantified, and evaluation experiments are rarely repeated. If your organization is choosing, validating, or shipping AI systems, the statistics underneath those decisions deserve the same rigor as a clinical trial. I offer:\n\nEvaluation design & audit. Design an evaluation that actually answers your question — sampling that matches the deployment population, contamination and leakage control, uncertainty attached to every comparison — or independently audit an existing one before it drives a procurement or launch decision.\nReliability of evaluation pipelines. Human rater panels and LLM-as-judge setups are measurement instruments, and measurement instruments have quantifiable reliability. I decompose where the noise lives, quantify rater and occasion effects, and answer the operational question: how many judgments before this verdict is dependable?\nBenchmark & leaderboard dependability. Whether a ranking of models — or of anything compared pairwise — reflects real differences or sampling noise, and how much more data a stable ranking would need.\nCalibration audits. If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.\nDesign of experiments for AI work. Prompt, configuration, and model comparisons where each run costs real money — factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.\nTest design for statistical and machine-learning software. Software with many options has too many configurations to test one by one. Covering arrays and fractional factorial designs give a short test suite that still exercises every pair of settings. I also measure how repeatable test results are across machines and reruns, so a failing test can be told apart from a noisy one.\n\n\nWhat’s different about this\nMost AI consultants build systems. I do something rarer: I measure whether systems — and the evaluations of them — can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts. Two things follow. My conclusions come with honest uncertainty, including “this evaluation cannot support the claim you want to make” when that’s the truth. And I’m independent — an accredited statistician and university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires."
-  },
-  {
-    "objectID": "consulting.html#how-an-engagement-works",
-    "href": "consulting.html#how-an-engagement-works",
-    "title": "Statistical consulting",
-    "section": "How an engagement works",
-    "text": "How an engagement works\nScope. We start with a conversation about the question, the data you have (or plan to collect), and what a useful answer looks like. If I’m not the right fit, I’ll say so quickly and point you somewhere better.\nDesign & analysis. For new studies, design comes first — the cheapest place to fix a study is before the data exist. For existing data, I choose methods to fit the data rather than forcing the data into a familiar method, and I’m explicit about assumptions and their consequences.\nDeliver & document. You get a clear writeup — methods, results, limitations — in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.\n\nTrack record"
-  },
-  {
-    "objectID": "consulting.html#selected-work",
-    "href": "consulting.html#selected-work",
-    "title": "Statistical consulting",
-    "section": "Selected work",
-    "text": "Selected work\nShot selection in elite handball. A seven-author team across Norway, Iceland, and Sweden wanted to know whether elite handball teams choose their shots well. As the sole statistician, I specified and fitted a mixed-effects logistic regression to six seasons of Icelandic top-division data (1,410 games), handling the game-within-team-within-season structure, and translated the coaches’ questions into estimable form with odds ratios stratified by league. The result is a peer-reviewed study (International Journal of Sports Science & Coaching, 2025) documenting systematically suboptimal shot selection, an evidence base coaches can act on rather than an intuition.\nMaking a clinical analysis defensible. A multi-modal intervention study in frontotemporal dementia needed its analysis to match its design. I advised the team on which analyses the design could actually support — including how to test sex differences within and between groups — so the conclusions claimed no more than the data could bear.\nStatistics that fit the certification. UFV’s Automation & Robotics program needed a statistics course aligned to technologist certification. I advised the design of Statistics for Electronics — control charting, acceptance sampling, regression, and experimental design — mapped to what the certification actually examines.\nBeyond direct engagements, my design-of-experiments research has been independently cited in applied work across textile engineering, food science, hydrology, and mining — evidence the methods travel.\n\nTraining"
-  },
-  {
-    "objectID": "consulting.html#workshops-for-teams",
-    "href": "consulting.html#workshops-for-teams",
-    "title": "Statistical consulting",
-    "section": "Workshops for teams",
-    "text": "Workshops for teams\nI also run hands-on training for teams and departments: R and reproducible workflows, design of experiments for engineers, data visualization and Shiny dashboards, and statistics for AI evaluation. Sessions scale from a half-day workshop to a multi-day course, built around your data where possible.\n\nCommon questions"
-  },
-  {
-    "objectID": "consulting.html#faq",
-    "href": "consulting.html#faq",
-    "title": "Statistical consulting",
-    "section": "FAQ",
-    "text": "FAQ\n\nDo you work remotely? Yes. I’m based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.\nHow are engagements structured? We start with a short, no-cost conversation about your project. From there, work is scoped either as a fixed-price project with defined deliverables or at an hourly rate for open-ended advising; ongoing arrangements are available for teams that want a statistician on call.\nDo you sign NDAs? Yes. Confidentiality is standard practice — your data and results are never shared or reused, and I’m happy to sign your NDA or supply one.\nFor academic projects, how do you handle authorship? By the usual scientific norms: if my contribution is substantial and intellectual — methods development, analysis design, interpretation — co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it’s settled before the work starts.\nWhat should I have ready before contacting me? Just three things: the question you’re trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don’t need a polished brief — and if the data isn’t collected yet, that’s the best time to talk.\nIs my project too small? No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar — catching a design problem early is cheap; fixing it after data collection is not.\n\n\nGet in touch"
-  },
-  {
-    "objectID": "consulting.html#start-a-conversation",
-    "href": "consulting.html#start-a-conversation",
-    "title": "Statistical consulting",
-    "section": "Start a conversation",
-    "text": "Start a conversation\nTell me what you’re working on and where you are in it — designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nEmail me →\nCopy email address\n\n\nruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569"
-  },
-  {
-    "objectID": "posts/valuing-health-states/index.html",
-    "href": "posts/valuing-health-states/index.html",
-    "title": "How do you put a number on a health state?",
-    "section": "",
-    "text": "When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.\nThe question is where a number like 0.7 comes from."
-  },
-  {
-    "objectID": "posts/valuing-health-states/index.html#describing-a-health-state",
-    "href": "posts/valuing-health-states/index.html#describing-a-health-state",
-    "title": "How do you put a number on a health state?",
-    "section": "Describing a health state",
-    "text": "Describing a health state\nThe usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.\nFive dimensions with five levels each give \\(5^5 = 3{,}125\\) possible health states. Each one needs a value. The full table of values for a country is called a value set."
-  },
-  {
-    "objectID": "posts/valuing-health-states/index.html#asking-people-to-choose",
-    "href": "posts/valuing-health-states/index.html#asking-people-to-choose",
-    "title": "How do you put a number on a health state?",
-    "section": "Asking people to choose",
-    "text": "Asking people to choose\nNobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.\nThe values are estimates. They depend on which people were asked and on which pairs they were shown."
-  },
-  {
-    "objectID": "posts/valuing-health-states/index.html#two-statistical-questions",
-    "href": "posts/valuing-health-states/index.html#two-statistical-questions",
-    "title": "How do you put a number on a health state?",
-    "section": "Two statistical questions",
-    "text": "Two statistical questions\nWhich pairs should be shown? There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.\nHow dependable are the resulting values? A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.\nBoth questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on."
-  },
-  {
-    "objectID": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
-    "href": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
-    "title": "How do you put a number on a health state?",
-    "section": "Why I am writing about this",
-    "text": "Why I am writing about this\nDuring my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.\nDesigning choice experiments and assessing the reliability of measurements are both part of my consulting practice."
-  },
-  {
-    "objectID": "posts/batting-average-reliability/index.html",
-    "href": "posts/batting-average-reliability/index.html",
-    "title": "How many innings before a batting average means anything?",
-    "section": "",
-    "text": "Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: at this sample size, is it measuring the batter — or the weather of four particular days?"
-  },
-  {
-    "objectID": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
-    "href": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
-    "title": "How many innings before a batting average means anything?",
-    "section": "Batting is a noisy instrument",
-    "text": "Batting is a noisy instrument\nThe same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: how much of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?\nThat’s a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn’t control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I’m still working on. The recurring finding, in cricket as in every sport I’ve since studied: the signal share of a single observation is small. Ability differences are real, but any one innings is mostly noise."
-  },
-  {
-    "objectID": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
-    "href": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
-    "title": "How many innings before a batting average means anything?",
-    "section": "The arithmetic of patience",
-    "text": "The arithmetic of patience\nAverages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a moderate reliability of 0.7 for the average takes 21 innings; reaching 0.8 takes 36. If the single-innings signal share is 5%, those numbers become 45 and 76. In T20, where a specialist bats perhaps 15–25 innings in a year, that’s a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.\nThis is the same lesson as team shooting indicators in handball and AI leaderboards, which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn’t."
-  },
-  {
-    "objectID": "posts/batting-average-reliability/index.html#two-honest-complications",
-    "href": "posts/batting-average-reliability/index.html#two-honest-complications",
-    "title": "How many innings before a batting average means anything?",
-    "section": "Two honest complications",
-    "text": "Two honest complications\nFirst, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle count data of this kind is the subject of a paper of mine in the Australian & New Zealand Journal of Statistics (2026), which applies it to six-hitting in Twenty20 cricket. Second, none of this says small samples carry no information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a ranking of ability. At those sample sizes, the ranking is mostly re-ordering noise.\nThe practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.\nMeasurement reliability — how many observations a trustworthy number needs — is a core thread of my research and consulting practice, in sport and well beyond it."
-  },
-  {
-    "objectID": "posts/bowling-sequences/index.html",
-    "href": "posts/bowling-sequences/index.html",
-    "title": "Does the order of deliveries matter?",
-    "section": "",
-    "text": "Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.\nIt is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?"
-  },
-  {
-    "objectID": "posts/bowling-sequences/index.html#two-questions-inside-one",
-    "href": "posts/bowling-sequences/index.html#two-questions-inside-one",
-    "title": "Does the order of deliveries matter?",
-    "section": "Two questions inside one",
-    "text": "Two questions inside one\nA bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.\nMost analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same."
-  },
-  {
-    "objectID": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
-    "href": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
-    "title": "Does the order of deliveries matter?",
-    "section": "Why the data do not answer this easily",
-    "text": "Why the data do not answer this easily\nOn the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.\nBowlers do not choose at random. A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.\nThe match situation changes everything. A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.\nBatters adjust. If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.\nThe sequences multiply. With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in the post on batting averages."
-  },
-  {
-    "objectID": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
-    "href": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
-    "title": "Does the order of deliveries matter?",
-    "section": "What a careful answer needs",
-    "text": "What a careful answer needs\nA convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.\nThat last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.\nMeasurement and decision problems in sport are part of my consulting practice."
-  },
-  {
-    "objectID": "posts/ofat-vs-factorial/index.html",
-    "href": "posts/ofat-vs-factorial/index.html",
-    "title": "Testing one thing at a time is costing you",
-    "section": "",
-    "text": "Picture a team tuning a process — a reactor, a coating line, a recipe, a web page. Three settings might matter: temperature, time, concentration. The careful-sounding plan: hold everything constant, change temperature, observe. Reset, change time, observe. Reset, change concentration, observe. One factor at a time, so you “know what caused what.”\nIt feels rigorous. It’s actually the expensive way to learn less. This has been known since R. A. Fisher was designing agricultural experiments in the 1920s, and it still surprises people every time the arithmetic is laid out."
-  },
-  {
-    "objectID": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
-    "href": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
-    "title": "Testing one thing at a time is costing you",
-    "section": "The same eight runs, spent two ways",
-    "text": "The same eight runs, spent two ways\nGive both strategies an identical budget: eight experimental runs, three factors, each at two levels (low/high).\nOne-factor-at-a-time (OFAT): four distinct conditions — a baseline plus one change per factor — run twice each to get some replication. Each factor’s effect is estimated by comparing two runs against two runs. Four of the eight runs sit in the baseline doing bookkeeping.\nFactorial: run all \\(2^3 = 8\\) combinations once. Here’s the part that looks like an accounting trick and isn’t: every run participates in every estimate. The temperature effect is the average of the four high-temperature runs minus the average of the four low-temperature runs — and the same eight runs, regrouped, estimate the time effect and the concentration effect too. Statisticians call it hidden replication.\nThe consequence is quantifiable: with the same eight runs, the factorial’s effect estimates have half the variance of the OFAT estimates. Same budget, twice the precision, on every factor at once — and the gap widens as factors are added."
-  },
-  {
-    "objectID": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
-    "href": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
-    "title": "Testing one thing at a time is costing you",
-    "section": "The bigger problem: interactions",
-    "text": "The bigger problem: interactions\nPrecision is the smaller half of the argument. OFAT’s structural flaw is that it cannot see interactions — cases where the effect of one factor depends on the level of another. Suppose higher temperature helps at short times but hurts at long ones. OFAT tested temperature only at the baseline time, found “temperature helps,” and locked in a conclusion that’s wrong across half the operating range. Worse, OFAT’s endpoint depends on the path: change the factors in a different order and you can walk to a different “optimum,” because each step is conditioned on wherever the previous steps left you.\nThe factorial estimates the interactions from the same eight runs — no extra budget. In real processes, interactions aren’t the exception; they’re routinely where the actual optimum hides."
-  },
-  {
-    "objectID": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
-    "href": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
-    "title": "Testing one thing at a time is costing you",
-    "section": "“But I have ten factors”",
-    "text": "“But I have ten factors”\nThe objection writes itself: \\(2^{10}\\) is 1,024 runs. This is precisely what fractional factorial designs are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you’re prepared to assume away. Sorting the handful of factors that matter from the many that don’t is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.\nThe through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.\nDesigning experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my consulting practice. The best time to involve a statistician is before the first run."
-  },
-  {
-    "objectID": "posts/speaking-to-the-room/index.html",
-    "href": "posts/speaking-to-the-room/index.html",
-    "title": "Does the room change the speech?",
-    "section": "",
-    "text": "Here’s a question about campaigns that sounds political but is really a measurement problem: when a candidate speaks in a deeply partisan state versus a competitive one, is it the same speech?\nPolitical scientists have long theorized audience design — speakers tuning register to the room — but testing it at scale requires something that didn’t exist until recently: a way to score every campaign speech, not just the ones expert coders got to. Expert-coded populism databases are the field’s measurement standard, but they cover only eventual chief executives, which makes within-campaign questions unanswerable by design. My research program built a rubric-based large-language-model instrument for exactly this gap, validated against the Global Populism Database’s own coded speeches — including a held-out set of leaders never used during development — and stress-tested for the failure mode that matters most in campaign text: conflating ordinary adversarial campaigning with populism. With identity cues masked, the scores don’t move."
-  },
-  {
-    "objectID": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
-    "href": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
-    "title": "Does the room change the speech?",
-    "section": "What the speeches show",
-    "text": "What the speeches show\nPoint that instrument at U.S. presidential campaign speeches from 2015 through 2024, record where each was delivered, and a pattern emerges.\nFor the Trump campaigns of 2016 and 2020 — where rally schedules provide the density of geographically distributed speeches the question needs — populist rhetoric intensifies with the partisanship of the rally’s state. The association survives the test that usually kills fragile campaign findings: a wild cluster bootstrap with states as clusters and the null imposed gives p = .0029. Decomposing the register shows the gradient is carried almost entirely by anti-elite language — a coefficient of about 4.5 anti-elite terms per thousand words (SE 1.7) along the state-partisanship scale — rather than by people-centric appeals. And the timing matters: a negative, statistically significant interaction (−1.16) shows the differentiation is strongest early in the campaign and saturates late, consistent with a candidate finding the register early and converging on it everywhere by the close.\nThree checks discipline the interpretation. First, what kind of room matters: across a 32-specification curve, the state-partisanship effect is positive in every specification, while educational composition is significant in none — and racial-composition measures (white share, white non-college share) are similarly null. The audience feature the rhetoric tracks is partisanship, not demographics. Second, this is not a one-party artifact of range: Democratic candidates’ speech-to-speech variability (standard deviations of roughly .08–.13 on the populism scale) sits in the same neighbourhood as Trump’s (.11–.14), so the instrument could have detected the same tuning elsewhere; the strong gradient is where it is. Third, the honest null: pooled across six election cycles, the association is not statistically significant (p = .30) — the audience-design signal is a finding about specific campaigns with dense, geographically varied schedules, not a law of American politics. Reporting that null is not a weakness of the study; it is the study working."
-  },
-  {
-    "objectID": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
-    "href": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
-    "title": "Does the room change the speech?",
-    "section": "Why a statistician cares",
-    "text": "Why a statistician cares\nStrip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.\nMeasurement with large language models — validation, calibration, and reliability — is part of my research program and consulting practice."
+    "objectID": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
+    "href": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
+    "title": "Your leaderboard gap is probably noise",
+    "section": "How to read a leaderboard without fooling yourself",
+    "text": "How to read a leaderboard without fooling yourself\nAsk for the interval, not the point: if the intervals of two entries overlap, treat them as tied, whatever the rank order says. Ask for the n behind each comparison — a rating built on 80 matchups and one built on 8,000 do not deserve the same trust. Be most suspicious exactly where the stakes feel highest, at the top, where entries are closest and gaps are smallest relative to noise. And if a decision genuinely hangs on the comparison — which model to license, which system to ship — run your own evaluation on your own task distribution, sized in advance so the answer will be reliable. That last step is a sample-size calculation, and it’s cheaper than choosing the wrong model.\nNone of this is exotic statistics. It’s the same discipline clinical trials have used for decades, pointed at a new kind of scoreboard. The scoreboards are new; the arithmetic isn’t.\nI consult on exactly these questions — evaluation design, the reliability of ranking and judging pipelines, and how much data a trustworthy verdict needs. If your team is making decisions off a leaderboard, let’s talk."
   },
   {
     "objectID": "posts/sample-size/index.html",
@@ -560,39 +91,494 @@
     "text": "The order of operations\nDecide what effect matters and defend the number. Estimate the variability from a pilot or the literature. Account for the design — pairing, clustering, dropout. Then compute n. If the answer is unaffordable, the honest moves are to change the design, sharpen the measurement, or study a bigger effect — not to quietly relax the power.\nSample-size justification, power analysis, and statistical-analysis plans for grant applications are part of my consulting practice — and the design stage is exactly the right time to talk."
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html",
-    "href": "posts/leaderboard-noise/index.html",
-    "title": "Your leaderboard gap is probably noise",
+    "objectID": "posts/speaking-to-the-room/index.html",
+    "href": "posts/speaking-to-the-room/index.html",
+    "title": "Does the room change the speech?",
     "section": "",
-    "text": "Somewhere right now, a team is choosing which AI model to build on because it sits one place higher on a leaderboard. The gap might be two points of win rate, or a handful of Elo. Here’s the uncomfortable question a statistician has to ask: is that gap a fact about the models, or a fact about the sample?"
+    "text": "Here’s a question about campaigns that sounds political but is really a measurement problem: when a candidate speaks in a deeply partisan state versus a competitive one, is it the same speech?\nPolitical scientists have long theorized audience design — speakers tuning register to the room — but testing it at scale requires something that didn’t exist until recently: a way to score every campaign speech, not just the ones expert coders got to. Expert-coded populism databases are the field’s measurement standard, but they cover only eventual chief executives, which makes within-campaign questions unanswerable by design. My research program built a rubric-based large-language-model instrument for exactly this gap, validated against the Global Populism Database’s own coded speeches — including a held-out set of leaders never used during development — and stress-tested for the failure mode that matters most in campaign text: conflating ordinary adversarial campaigning with populism. With identity cues masked, the scores don’t move."
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
-    "href": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
-    "title": "Your leaderboard gap is probably noise",
-    "section": "A two-minute calculation",
-    "text": "A two-minute calculation\nSuppose model A beats model B in 62% of head-to-head comparisons, and model B wins 60% of its own matchups, each measured over 500 votes. Two points apart — feels decisive on a ranking table.\nThe standard error of a proportion around 0.6 on 500 votes is \\(\\sqrt{0.6 \\times 0.4 / 500} \\approx 0.022\\) — about 2.2 percentage points per model. The uncertainty on the difference between them is larger still, roughly \\(\\sqrt{2} \\times 2.2 \\approx 3.1\\) points. A 2-point observed gap against ~3 points of noise, before any multiple-comparison correction, isn’t evidence of a real difference. It’s a tie wearing a trophy.\nThis isn’t a contrived example. Public arena leaderboards now publish confidence intervals precisely because the intervals at the top routinely overlap — the rank order among the leading models is partly an artifact of sampling. And the problem compounds: with ten models, there are forty-five pairwise comparisons, so a few “significant-looking” gaps will appear by chance even if nothing real separates anyone."
+    "objectID": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
+    "href": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
+    "title": "Does the room change the speech?",
+    "section": "What the speeches show",
+    "text": "What the speeches show\nPoint that instrument at U.S. presidential campaign speeches from 2015 through 2024, record where each was delivered, and a pattern emerges.\nFor the Trump campaigns of 2016 and 2020 — where rally schedules provide the density of geographically distributed speeches the question needs — populist rhetoric intensifies with the partisanship of the rally’s state. The association survives the test that usually kills fragile campaign findings: a wild cluster bootstrap with states as clusters and the null imposed gives p = .0029. Decomposing the register shows the gradient is carried almost entirely by anti-elite language — a coefficient of about 4.5 anti-elite terms per thousand words (SE 1.7) along the state-partisanship scale — rather than by people-centric appeals. And the timing matters: a negative, statistically significant interaction (−1.16) shows the differentiation is strongest early in the campaign and saturates late, consistent with a candidate finding the register early and converging on it everywhere by the close.\nThree checks discipline the interpretation. First, what kind of room matters: across a 32-specification curve, the state-partisanship effect is positive in every specification, while educational composition is significant in none — and racial-composition measures (white share, white non-college share) are similarly null. The audience feature the rhetoric tracks is partisanship, not demographics. Second, this is not a one-party artifact of range: Democratic candidates’ speech-to-speech variability (standard deviations of roughly .08–.13 on the populism scale) sits in the same neighbourhood as Trump’s (.11–.14), so the instrument could have detected the same tuning elsewhere; the strong gradient is where it is. Third, the honest null: pooled across six election cycles, the association is not statistically significant (p = .30) — the audience-design signal is a finding about specific campaigns with dense, geographically varied schedules, not a law of American politics. Reporting that null is not a weakness of the study; it is the study working."
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
-    "href": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
-    "title": "Your leaderboard gap is probably noise",
-    "section": "The deeper problem: rankings are measurements",
-    "text": "The deeper problem: rankings are measurements\nA leaderboard is a measurement instrument, and instruments have reliability. The question that matters isn’t only “is this gap significant today?” but “if we collected the same number of votes again, would the ranking come back the same?” Those are different questions. A gap can clear a significance test while the ranking built from many such gaps remains unstable — flip a few hundred votes and third place becomes sixth.\nMeasurement theory has a name for this and a toolbox for it: you decompose the variation in observed scores into the part that reflects real differences between the things being ranked and the part that’s occasion-to-occasion noise, then compute how many observations you’d need before the ranking is dependable at the level you care about. The recurring finding, in domain after domain, is that the number is larger than people expect — often much larger than the data anyone has."
+    "objectID": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
+    "href": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
+    "title": "Does the room change the speech?",
+    "section": "Why a statistician cares",
+    "text": "Why a statistician cares\nStrip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.\nMeasurement with large language models — validation, calibration, and reliability — is part of my research program and consulting practice."
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
-    "href": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
-    "title": "Your leaderboard gap is probably noise",
-    "section": "How to read a leaderboard without fooling yourself",
-    "text": "How to read a leaderboard without fooling yourself\nAsk for the interval, not the point: if the intervals of two entries overlap, treat them as tied, whatever the rank order says. Ask for the n behind each comparison — a rating built on 80 matchups and one built on 8,000 do not deserve the same trust. Be most suspicious exactly where the stakes feel highest, at the top, where entries are closest and gaps are smallest relative to noise. And if a decision genuinely hangs on the comparison — which model to license, which system to ship — run your own evaluation on your own task distribution, sized in advance so the answer will be reliable. That last step is a sample-size calculation, and it’s cheaper than choosing the wrong model.\nNone of this is exotic statistics. It’s the same discipline clinical trials have used for decades, pointed at a new kind of scoreboard. The scoreboards are new; the arithmetic isn’t.\nI consult on exactly these questions — evaluation design, the reliability of ranking and judging pipelines, and how much data a trustworthy verdict needs. If your team is making decisions off a leaderboard, let’s talk."
+    "objectID": "posts/ofat-vs-factorial/index.html",
+    "href": "posts/ofat-vs-factorial/index.html",
+    "title": "Testing one thing at a time is costing you",
+    "section": "",
+    "text": "Picture a team tuning a process — a reactor, a coating line, a recipe, a web page. Three settings might matter: temperature, time, concentration. The careful-sounding plan: hold everything constant, change temperature, observe. Reset, change time, observe. Reset, change concentration, observe. One factor at a time, so you “know what caused what.”\nIt feels rigorous. It’s actually the expensive way to learn less. This has been known since R. A. Fisher was designing agricultural experiments in the 1920s, and it still surprises people every time the arithmetic is laid out."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
+    "href": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
+    "title": "Testing one thing at a time is costing you",
+    "section": "The same eight runs, spent two ways",
+    "text": "The same eight runs, spent two ways\nGive both strategies an identical budget: eight experimental runs, three factors, each at two levels (low/high).\nOne-factor-at-a-time (OFAT): four distinct conditions — a baseline plus one change per factor — run twice each to get some replication. Each factor’s effect is estimated by comparing two runs against two runs. Four of the eight runs sit in the baseline doing bookkeeping.\nFactorial: run all \\(2^3 = 8\\) combinations once. Here’s the part that looks like an accounting trick and isn’t: every run participates in every estimate. The temperature effect is the average of the four high-temperature runs minus the average of the four low-temperature runs — and the same eight runs, regrouped, estimate the time effect and the concentration effect too. Statisticians call it hidden replication.\nThe consequence is quantifiable: with the same eight runs, the factorial’s effect estimates have half the variance of the OFAT estimates. Same budget, twice the precision, on every factor at once — and the gap widens as factors are added."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
+    "href": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
+    "title": "Testing one thing at a time is costing you",
+    "section": "The bigger problem: interactions",
+    "text": "The bigger problem: interactions\nPrecision is the smaller half of the argument. OFAT’s structural flaw is that it cannot see interactions — cases where the effect of one factor depends on the level of another. Suppose higher temperature helps at short times but hurts at long ones. OFAT tested temperature only at the baseline time, found “temperature helps,” and locked in a conclusion that’s wrong across half the operating range. Worse, OFAT’s endpoint depends on the path: change the factors in a different order and you can walk to a different “optimum,” because each step is conditioned on wherever the previous steps left you.\nThe factorial estimates the interactions from the same eight runs — no extra budget. In real processes, interactions aren’t the exception; they’re routinely where the actual optimum hides."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
+    "href": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
+    "title": "Testing one thing at a time is costing you",
+    "section": "“But I have ten factors”",
+    "text": "“But I have ten factors”\nThe objection writes itself: \\(2^{10}\\) is 1,024 runs. This is precisely what fractional factorial designs are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you’re prepared to assume away. Sorting the handful of factors that matter from the many that don’t is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.\nThe through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.\nDesigning experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my consulting practice. The best time to involve a statistician is before the first run."
+  },
+  {
+    "objectID": "posts/bowling-sequences/index.html",
+    "href": "posts/bowling-sequences/index.html",
+    "title": "Does the order of deliveries matter?",
+    "section": "",
+    "text": "Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.\nIt is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?"
+  },
+  {
+    "objectID": "posts/bowling-sequences/index.html#two-questions-inside-one",
+    "href": "posts/bowling-sequences/index.html#two-questions-inside-one",
+    "title": "Does the order of deliveries matter?",
+    "section": "Two questions inside one",
+    "text": "Two questions inside one\nA bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.\nMost analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same."
+  },
+  {
+    "objectID": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
+    "href": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
+    "title": "Does the order of deliveries matter?",
+    "section": "Why the data do not answer this easily",
+    "text": "Why the data do not answer this easily\nOn the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.\nBowlers do not choose at random. A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.\nThe match situation changes everything. A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.\nBatters adjust. If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.\nThe sequences multiply. With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in the post on batting averages."
+  },
+  {
+    "objectID": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
+    "href": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
+    "title": "Does the order of deliveries matter?",
+    "section": "What a careful answer needs",
+    "text": "What a careful answer needs\nA convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.\nThat last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.\nMeasurement and decision problems in sport are part of my consulting practice."
+  },
+  {
+    "objectID": "posts/batting-average-reliability/index.html",
+    "href": "posts/batting-average-reliability/index.html",
+    "title": "How many innings before a batting average means anything?",
+    "section": "",
+    "text": "Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: at this sample size, is it measuring the batter — or the weather of four particular days?"
+  },
+  {
+    "objectID": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
+    "href": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
+    "title": "How many innings before a batting average means anything?",
+    "section": "Batting is a noisy instrument",
+    "text": "Batting is a noisy instrument\nThe same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: how much of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?\nThat’s a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn’t control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I’m still working on. The recurring finding, in cricket as in every sport I’ve since studied: the signal share of a single observation is small. Ability differences are real, but any one innings is mostly noise."
+  },
+  {
+    "objectID": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
+    "href": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
+    "title": "How many innings before a batting average means anything?",
+    "section": "The arithmetic of patience",
+    "text": "The arithmetic of patience\nAverages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a moderate reliability of 0.7 for the average takes 21 innings; reaching 0.8 takes 36. If the single-innings signal share is 5%, those numbers become 45 and 76. In T20, where a specialist bats perhaps 15–25 innings in a year, that’s a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.\nThis is the same lesson as team shooting indicators in handball and AI leaderboards, which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn’t."
+  },
+  {
+    "objectID": "posts/batting-average-reliability/index.html#two-honest-complications",
+    "href": "posts/batting-average-reliability/index.html#two-honest-complications",
+    "title": "How many innings before a batting average means anything?",
+    "section": "Two honest complications",
+    "text": "Two honest complications\nFirst, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle count data of this kind is the subject of a paper of mine in the Australian & New Zealand Journal of Statistics (2026), which applies it to six-hitting in Twenty20 cricket. Second, none of this says small samples carry no information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a ranking of ability. At those sample sizes, the ranking is mostly re-ordering noise.\nThe practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.\nMeasurement reliability — how many observations a trustworthy number needs — is a core thread of my research and consulting practice, in sport and well beyond it."
+  },
+  {
+    "objectID": "posts/valuing-health-states/index.html",
+    "href": "posts/valuing-health-states/index.html",
+    "title": "How do you put a number on a health state?",
+    "section": "",
+    "text": "When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.\nThe question is where a number like 0.7 comes from."
+  },
+  {
+    "objectID": "posts/valuing-health-states/index.html#describing-a-health-state",
+    "href": "posts/valuing-health-states/index.html#describing-a-health-state",
+    "title": "How do you put a number on a health state?",
+    "section": "Describing a health state",
+    "text": "Describing a health state\nThe usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.\nFive dimensions with five levels each give \\(5^5 = 3{,}125\\) possible health states. Each one needs a value. The full table of values for a country is called a value set."
+  },
+  {
+    "objectID": "posts/valuing-health-states/index.html#asking-people-to-choose",
+    "href": "posts/valuing-health-states/index.html#asking-people-to-choose",
+    "title": "How do you put a number on a health state?",
+    "section": "Asking people to choose",
+    "text": "Asking people to choose\nNobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.\nThe values are estimates. They depend on which people were asked and on which pairs they were shown."
+  },
+  {
+    "objectID": "posts/valuing-health-states/index.html#two-statistical-questions",
+    "href": "posts/valuing-health-states/index.html#two-statistical-questions",
+    "title": "How do you put a number on a health state?",
+    "section": "Two statistical questions",
+    "text": "Two statistical questions\nWhich pairs should be shown? There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.\nHow dependable are the resulting values? A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.\nBoth questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on."
+  },
+  {
+    "objectID": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
+    "href": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
+    "title": "How do you put a number on a health state?",
+    "section": "Why I am writing about this",
+    "text": "Why I am writing about this\nDuring my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.\nDesigning choice experiments and assessing the reliability of measurements are both part of my consulting practice."
+  },
+  {
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "Statistical consulting",
+    "section": "",
+    "text": "I’m a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully, from the design stage through to a result that holds up to review. I hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. I’m based in the Fraser Valley, British Columbia, and work with clients across Canada and remotely worldwide.\nEmail me → How an engagement works"
+  },
+  {
+    "objectID": "consulting.html#who-youd-be-working-with",
+    "href": "consulting.html#who-youd-be-working-with",
+    "title": "Statistical consulting",
+    "section": "Who you’d be working with",
+    "text": "Who you’d be working with\n\n\n\nI’m an Associate Professor in the Department of Mathematics and Statistics at the University of the Fraser Valley, where I’ve taught since 2019. I hold a PhD in Statistics from Simon Fraser University (2018), an MS in Statistics from Sam Houston State University (2014), and a BSc in Mathematics from the University of Kelaniya, Sri Lanka (2009).\nI am on sabbatical from September 2026 through August 2027. For November and December 2026 I hold an honorary appointment as Visiting Professor at the Centre for Health Economics Research and Evaluation (CHERE), University of Technology Sydney, working with colleagues there remotely.\nMy research runs along two connected lines. In statistical design theory, I develop fractional-factorial and computer-experiment designs under the baseline parameterization, with a focus on efficiency and robustness; current work extends toward space-filling and screening designs. In applied statistics, I work on measurement and prediction in sport, applying generalizability theory and machine learning to large-scale team-performance data. The common thread is measurement you can trust: designing studies so the data can answer the question, and quantifying how reliable the answer is. That thread is exactly what I bring to consulting.\n\n\n\nWho I work with"
+  },
+  {
+    "objectID": "consulting.html#clients-collaborators",
+    "href": "consulting.html#clients-collaborators",
+    "title": "Statistical consulting",
+    "section": "Clients & collaborators",
+    "text": "Clients & collaborators\n\nGraduate students and faculty: thesis and dissertation analysis, defence preparation, and grant applications.\nHealth researchers and clinical teams: study design and analyses that stand up to ethics boards and reviewers.\nEngineering and manufacturing groups: designed experiments, quality methods, and process improvement.\nSports organizations and performance staff: measurement, reliability, and forecasting from performance data.\nAI, software, and product teams: evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.\n\n\nServices"
+  },
+  {
+    "objectID": "consulting.html#what-i-help-with",
+    "href": "consulting.html#what-i-help-with",
+    "title": "Statistical consulting",
+    "section": "What I help with",
+    "text": "What I help with\n\n\nStudy & experiment design\nSample-size and power calculations, randomization, factorial and fractional-factorial designs (including designs under the baseline parameterization), and design of experiments for product, process, and lab work, so the data you collect can answer your question. For funding proposals, this includes grant-application support: sample-size justification, power analysis, and statistical-analysis plans.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, regression, ANOVA, survival analysis, and measurement reliability (generalizability theory). Validated, documented, and written up for the audience that has to trust it.\n\n\nTools & dashboards\nReproducible analysis in R, and interactive R / Shiny applications that put your model in front of the people who need to act on it. See the live example.\n\n\n\nAI & machine learning"
+  },
+  {
+    "objectID": "consulting.html#statistics-for-ai-systems",
+    "href": "consulting.html#statistics-for-ai-systems",
+    "title": "Statistical consulting",
+    "section": "Statistics for AI systems",
+    "text": "Statistics for AI systems\nAI has a measurement problem. Benchmark scores move with the evaluation harness, leaderboard gaps often sit inside statistical noise, human and LLM-judge ratings carry biases nobody has quantified, and evaluation experiments are rarely repeated. If your organization is choosing, validating, or shipping AI systems, the statistics underneath those decisions deserve the same rigor as a clinical trial. I offer:\n\nEvaluation design & audit. Design an evaluation that answers your question, with sampling that matches the deployment population, contamination and leakage control, and uncertainty attached to every comparison. Or independently audit an existing one before it drives a procurement or launch decision.\nReliability of evaluation pipelines. Human rater panels and LLM-as-judge setups are measurement instruments, and measurement instruments have quantifiable reliability. I decompose where the noise lives, quantify rater and occasion effects, and answer the operational question: how many judgments before this verdict is dependable?\nBenchmark & leaderboard dependability. Whether a ranking of models, or of anything compared pairwise, reflects real differences or sampling noise, and how much more data a stable ranking would need.\nCalibration audits. If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.\nDesign of experiments for AI work. Prompt, configuration, and model comparisons where each run costs real money. Factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.\nTest design for statistical and machine-learning software. Software with many options has too many configurations to test one by one. Covering arrays and fractional factorial designs give a short test suite that still exercises every pair of settings. I also measure how repeatable test results are across machines and reruns, so a failing test can be told apart from a noisy one.\n\n\nWhat’s different about this\nMost AI consultants build systems. I do something rarer: I measure whether systems, and the evaluations of them, can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts. Two things follow. My conclusions come with honest uncertainty, including “this evaluation cannot support the claim you want to make” when that’s the truth. And I’m independent: an accredited statistician and university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires."
+  },
+  {
+    "objectID": "consulting.html#how-an-engagement-works",
+    "href": "consulting.html#how-an-engagement-works",
+    "title": "Statistical consulting",
+    "section": "How an engagement works",
+    "text": "How an engagement works\nScope. We start with a conversation about the question, the data you have (or plan to collect), and what a useful answer looks like. If I’m not the right fit, I’ll say so quickly and point you somewhere better.\nDesign & analysis. For new studies, design comes first, because the cheapest place to fix a study is before the data exist. For existing data, I choose methods to fit the data rather than forcing the data into a familiar method, and I’m explicit about assumptions and their consequences.\nDeliver & document. You get a clear writeup of methods, results, and limitations, in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.\n\nTrack record"
+  },
+  {
+    "objectID": "consulting.html#selected-work",
+    "href": "consulting.html#selected-work",
+    "title": "Statistical consulting",
+    "section": "Selected work",
+    "text": "Selected work\nShot selection in elite handball. A seven-author team across Norway, Iceland, and Sweden wanted to know whether elite handball teams choose their shots well. As the sole statistician, I specified and fitted a mixed-effects logistic regression to six seasons of Icelandic top-division data (1,410 games), handling the game-within-team-within-season structure, and translated the coaches’ questions into estimable form with odds ratios stratified by league. The result is a peer-reviewed study (International Journal of Sports Science & Coaching, 2025) documenting systematically suboptimal shot selection, an evidence base coaches can act on rather than an intuition.\nMaking a clinical analysis defensible. A multi-modal intervention study in frontotemporal dementia needed its analysis to match its design. I advised the team on which analyses the design could support, including how to test sex differences within and between groups, so the conclusions claimed no more than the data could bear.\nStatistics that fit the certification. UFV’s Automation & Robotics program needed a statistics course aligned to technologist certification. I advised the design of Statistics for Electronics (control charting, acceptance sampling, regression, and experimental design), mapped to what the certification actually examines.\nBeyond direct engagements, my design-of-experiments research has been independently cited in applied work across textile engineering, food science, hydrology, and mining, which is evidence that the methods travel.\n\nTraining"
+  },
+  {
+    "objectID": "consulting.html#workshops-for-teams",
+    "href": "consulting.html#workshops-for-teams",
+    "title": "Statistical consulting",
+    "section": "Workshops for teams",
+    "text": "Workshops for teams\nI also run hands-on training for teams and departments: R and reproducible workflows, design of experiments for engineers, data visualization and Shiny dashboards, and statistics for AI evaluation. Sessions scale from a half-day workshop to a multi-day course, built around your data where possible.\n\nCommon questions"
+  },
+  {
+    "objectID": "consulting.html#faq",
+    "href": "consulting.html#faq",
+    "title": "Statistical consulting",
+    "section": "FAQ",
+    "text": "FAQ\n\nDo you work remotely? Yes. I’m based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.\nHow are engagements structured? We start with a short, no-cost conversation about your project. From there, work is scoped either as a fixed-price project with defined deliverables or at an hourly rate for open-ended advising; ongoing arrangements are available for teams that want a statistician on call.\nDo you sign NDAs? Yes. Confidentiality is standard practice. Your data and results are never shared or reused, and I’m happy to sign your NDA or supply one.\nFor academic projects, how do you handle authorship? By the usual scientific norms: if my contribution is substantial and intellectual (methods development, analysis design, or interpretation), co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it’s settled before the work starts.\nWhat should I have ready before contacting me? Just three things: the question you’re trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don’t need a polished brief. If the data isn’t collected yet, that is the best time to talk.\nIs my project too small? No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar. Catching a design problem early is cheap, and fixing it after data collection is not.\n\n\nGet in touch"
+  },
+  {
+    "objectID": "consulting.html#start-a-conversation",
+    "href": "consulting.html#start-a-conversation",
+    "title": "Statistical consulting",
+    "section": "Start a conversation",
+    "text": "Start a conversation\nTell me what you’re working on and where you are in it: designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nEmail me →\nCopy email address\n\n\nruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching, statistics for students in the sciences, health sciences, business, and social sciences, where the goal is for students to run and interpret their own analyses, not just pass an exam."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics I\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nApplied Regression Analysis\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+  },
+  {
+    "objectID": "teaching.html#approach",
+    "href": "teaching.html#approach",
+    "title": "Teaching",
+    "section": "Approach",
+    "text": "Approach\nJohn Tukey said that the best part of being a statistician is that you get to “play in everyone’s backyard.” That is what drew me to the subject as an undergraduate, and it is what I try to pass on.\nService teaching carries a particular challenge. Many students arrive because a statistics course is required for their program, expecting something abstract and intimidating. I treat that as the opportunity it is: these are exactly the people who will go on to use statistics in a lab, a clinic, or a business, and who benefit most from seeing it work. New concepts get introduced through real applications drawn from the news, from published research, or from studies the students themselves propose to answer questions they care about. The aim is that they leave looking at everyday claims with a statistical eye.\nClasses are built around participation rather than transcription. Students work through problems collectively, applying what they have just learned, which builds the judgment that carrying a method from a textbook into a real setting requires. A well-chosen graphic, quotation, or cartoon can open a genuine conversation about a statistical idea, and I use them freely; a class people enjoy is a class they remember.\nComputing is woven through the courses rather than bolted on at the end. Students work in R, in RStudio and Jupyter notebooks, with real data and reproducible workflows, so they leave with a habit that transfers to a thesis, a lab, or a job rather than a set of formulas. Course materials and solution keys are written in LaTeX for clarity.\n\nSupervision & outreach"
+  },
+  {
+    "objectID": "teaching.html#beyond-the-classroom",
+    "href": "teaching.html#beyond-the-classroom",
+    "title": "Teaching",
+    "section": "Beyond the classroom",
+    "text": "Beyond the classroom\nI supervise undergraduate research projects at UFV, most recently a project on the construction of orthogonal and baseline designs (2023) and an honours project building a WeBWorK question programmer (2023). Outside the department, I judge undergraduate posters at UFV Student Research Day and senior projects at the Fraser Valley Regional Science Fair, and I have run hands-on activity stations at Math Mania events that introduce elementary students to mathematical reasoning through games and puzzles.\n\nProfessional development"
+  },
+  {
+    "objectID": "teaching.html#keeping-the-toolkit-current",
+    "href": "teaching.html#keeping-the-toolkit-current",
+    "title": "Teaching",
+    "section": "Keeping the toolkit current",
+    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research has two lines. The first is the design of experiments, mainly fractional factorial and orthogonal designs under the baseline parameterization. The second is measurement reliability through generalizability theory, with applications in sport. Current work carries the reliability methods into two newer settings: the evaluation of machine-learning models and the testing of software."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nCatalan Bounds for Symmetric Strength-Two Orthogonal Arrays. Journal of Combinatorial Designs 35(1). doi: 10.1002/jcd.70039\nBias reduction via complementation of orthogonal arrays under a baseline parameterization. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Australian & New Zealand Journal of Statistics 68(4), 2026. doi: 10.1111/anzs.70069\nCompromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization. Communications in Statistics - Theory and Methods (2026), in press. doi: 10.1080/03610926.2026.2757791\nIs it time for a more analytical approach? Suboptimal shot selection strategies in handball. (with A. G. Laxdal, S. Þorgeirsson, J. M. Saavedra, A. Ivarsson, Ó. Sigurgeirsson, and T. Haugen) International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\nOn the existence and constructions of orthogonal designs. (with Boxin Tang) Australian & New Zealand Journal of Statistics 60 (2018), 471–480. doi: 10.1111/anzs.12247\nCompromise designs under baseline parametrization. (with Boxin Tang) Journal of Statistical Planning and Inference 190 (2017), 32–38. doi: 10.1016/j.jspi.2017.04.003\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nIn review"
+  },
+  {
+    "objectID": "research.html#manuscripts-in-review",
+    "href": "research.html#manuscripts-in-review",
+    "title": "Research",
+    "section": "Manuscripts in review",
+    "text": "Manuscripts in review\n\nMinimum β-aberration under a baseline parameterization for quantitative factors. Revision requested, Journal of Statistical Planning and Inference (JSPI).\nAnchored stratification arrays. Under review, The Canadian Journal of Statistics.\nLevel reversals of two-level baseline designs: Fourier structure and optimal level permutation. (with Masanori Sawa) Submitted, Statistica Sinica.\nGame-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket. (with D. L. Walpitage) Revised manuscript submitted, Journal of Sports Analytics (JSA).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Revised manuscript submitted, International Journal of Sports Science & Coaching (IJSSC).\n\n\nNon-refereed"
+  },
+  {
+    "objectID": "research.html#conference-contributions",
+    "href": "research.html#conference-contributions",
+    "title": "Research",
+    "section": "Conference contributions",
+    "text": "Conference contributions\n\nKarunanayaka, R.C. (2022). On the existence and constructions of orthogonal designs. Presented at the Statistical Society of Canada (SSC), 2022.\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
+  },
+  {
+    "objectID": "research.html#active-program",
+    "href": "research.html#active-program",
+    "title": "Research",
+    "section": "Active program",
+    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics, including the reliability of AI and machine-learning evaluation, with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
+  },
+  {
+    "objectID": "research.html#peer-review",
+    "href": "research.html#peer-review",
+    "title": "Research",
+    "section": "Peer review",
+    "text": "Peer review\nReviewer for the Journal of Sports Analytics (2023, 2024) and the International Journal of Sports Science & Coaching (2026).\n\nSoftware"
+  },
+  {
+    "objectID": "research.html#code-tools",
+    "href": "research.html#code-tools",
+    "title": "Research",
+    "section": "Code & tools",
+    "text": "Code & tools\n\ndgt: R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. github.com/rckaruna/dgt\nStatcastG: Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory: R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code: companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting application: a live win-probability tool for Twenty20 international cricket. See projects"
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html",
+    "href": "posts/covering-arrays/index.html",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "",
+    "text": "A program with ten on/off options has \\(2^{10} = 1{,}024\\) configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.\nThere is a better response, and it comes from the design of experiments."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#where-faults-come-from",
+    "href": "posts/covering-arrays/index.html#where-faults-come-from",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "Where faults come from",
+    "text": "Where faults come from\nA fault that appears under every configuration is found quickly. The faults that survive are the ones that need a particular setting, or a particular combination of settings, before they show themselves. The useful question is how many settings have to line up.\nKuhn, Wallace, and Gallo (2004), working at the U.S. National Institute of Standards and Technology (NIST), studied software failures from a variety of domains and asked this question. They found that the failures were caused by combinations of relatively few conditions. NIST’s summary of that series of studies is that most failures were caused by one or two settings, that failures needing three or more were progressively fewer, and that all or nearly all involved six settings or fewer.\nIf that pattern holds for your software, then a test suite does not have to cover every configuration. It has to cover every pair of settings, and perhaps every triple."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#covering-every-pair",
+    "href": "posts/covering-arrays/index.html#covering-every-pair",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "Covering every pair",
+    "text": "Covering every pair\nTake three on/off options. There are eight configurations, but four tests are enough to see every pair of options at every combination of values:\n\n\n\nTest\nA\nB\nC\n\n\n\n\n1\noff\noff\noff\n\n\n2\noff\non\non\n\n\n3\non\noff\non\n\n\n4\non\non\noff\n\n\n\nPick any two columns. The four combinations off/off, off/on, on/off, and on/on each appear once. A fault that needs, say, A on and C off will be exercised by test 4.\nA table with this property is called a covering array. Readers of the earlier post on factorial designs will recognize this one as a half fraction of the \\(2^3\\) factorial.\nThe saving grows quickly with the number of options. For ten on/off options, six tests cover every pair:\n\n\n\nTest\nO1\nO2\nO3\nO4\nO5\nO6\nO7\nO8\nO9\nO10\n\n\n\n\n1\non\non\non\non\non\non\non\non\non\non\n\n\n2\non\non\non\non\noff\noff\noff\noff\noff\noff\n\n\n3\non\noff\noff\noff\non\non\non\noff\noff\noff\n\n\n4\noff\non\noff\noff\non\noff\noff\non\non\noff\n\n\n5\noff\noff\non\noff\noff\non\noff\non\noff\non\n\n\n6\noff\noff\noff\non\noff\noff\non\noff\non\non\n\n\n\nAny two columns of this table show all four combinations. Six tests stand in for 1,024 configurations, as far as pairs are concerned. The number of tests needed grows roughly with the logarithm of the number of options, so a hundred options need only a few more."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
+    "href": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "How this differs from a factorial experiment",
+    "text": "How this differs from a factorial experiment\nA fractional factorial design and a covering array look alike, but they answer different questions.\nA factorial experiment is built to estimate effects. Each pair of settings should appear equally often, so that the estimates are balanced and precise. That is the defining property of an orthogonal array.\nA test suite is built to detect faults. A combination that triggers a fault needs to appear once. The covering array drops the requirement of equal frequency and keeps only the requirement of presence. That weaker requirement is why it can be so much smaller."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
+    "href": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "What a covering array does not do",
+    "text": "What a covering array does not do\nThree limits are worth stating.\n\nA pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.\nThe array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.\nReal options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.\n\nWithin those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.\nReference. Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. IEEE Transactions on Software Engineering 30(6), 418–421.\nTest design for statistical and machine-learning software is part of my consulting practice."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html",
+    "href": "posts/handball-dependability/index.html",
+    "title": "How many observations before a statistic means anything?",
+    "section": "",
+    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html#the-framing",
+    "href": "posts/handball-dependability/index.html#the-framing",
+    "title": "How many observations before a statistic means anything?",
+    "section": "The framing",
+    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
+  },
+  {
+    "objectID": "posts/handball-dependability/index.html#why-it-matters",
+    "href": "posts/handball-dependability/index.html#why-it-matters",
+    "title": "How many observations before a statistic means anything?",
+    "section": "Why it matters",
+    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
+  },
+  {
+    "objectID": "posts/what-pstat-means/index.html",
+    "href": "posts/what-pstat-means/index.html",
+    "title": "What P.Stat. means for a client",
+    "section": "",
+    "text": "I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean."
+  },
+  {
+    "objectID": "posts/what-pstat-means/index.html#what-it-is",
+    "href": "posts/what-pstat-means/index.html#what-it-is",
+    "title": "What P.Stat. means for a client",
+    "section": "What it is",
+    "text": "What it is\nP.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society’s accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised."
+  },
+  {
+    "objectID": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
+    "href": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
+    "title": "What P.Stat. means for a client",
+    "section": "What the committee looks at",
+    "text": "What the committee looks at\nThe application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.\nAccredited statisticians also agree to the Society’s code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data."
+  },
+  {
+    "objectID": "posts/what-pstat-means/index.html#what-it-changes-for-you",
+    "href": "posts/what-pstat-means/index.html#what-it-changes-for-you",
+    "title": "What P.Stat. means for a client",
+    "section": "What it changes for you",
+    "text": "What it changes for you\nThree things.\n\nAn outside check. You do not have to judge a statistician’s competence yourself. A professional body has done it.\nA standard of conduct. If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.\nA recognized credential in reports. Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.\n\nIt does not change how I work. It gives you a reason to expect that before we have met.\nIf you have a study to design or an analysis to check, get in touch."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "",
+    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-worm",
+    "href": "posts/welcome/index.html#the-worm",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "The worm",
+    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
+  },
+  {
+    "objectID": "posts/welcome/index.html#whats-next",
+    "href": "posts/welcome/index.html#whats-next",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "What’s next",
+    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
+  },
+  {
+    "objectID": "posts/reliability-for-counts/index.html",
+    "href": "posts/reliability-for-counts/index.html",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "",
+    "text": "A great deal of what we measure is a count. Goals in a match, sixes in an innings, defects in a batch, falls on a ward. When someone asks whether such a number is a reliable measure of the player, the line, or the ward, the usual answer is an intraclass correlation taken from a mixed model. For counts, that answer is often too high, and sometimes far too high."
+  },
+  {
+    "objectID": "posts/reliability-for-counts/index.html#two-scales-two-questions",
+    "href": "posts/reliability-for-counts/index.html#two-scales-two-questions",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "Two scales, two questions",
+    "text": "Two scales, two questions\nA count model works on two scales. On the log scale, the model says each player has an underlying rate. On the response scale, we see the counts themselves: 0, 1, 3, 0, 2.\nThe coefficient that software reports is usually computed on the log scale. It asks how much of the variation in underlying rates is between players. That is a fair question, but nobody ranks players on underlying rates. We rank them on the counts we observed, and the counts carry an extra layer of noise that the log scale leaves out: a batter with a steady rate of half a six per innings still hits none in most innings and two in a few."
+  },
+  {
+    "objectID": "posts/reliability-for-counts/index.html#a-worked-example",
+    "href": "posts/reliability-for-counts/index.html#a-worked-example",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "A worked example",
+    "text": "A worked example\nSuppose batters differ in their six-hitting rate, with an average of 0.5 sixes per innings and a between-batter standard deviation of 0.25. Suppose also that the rate is the only thing that differs between batters, so the log-scale coefficient is as high as it can be.\nFor a count with a given rate, the noise variance equals the rate. So for one innings:\n\nbetween-batter variance of the rate: 0.25² = 0.0625\naverage counting noise: 0.5\nreliability of one innings on the response scale: 0.0625 / (0.0625 + 0.5) = 0.11\n\nA coefficient near 1 on one scale, and 0.11 on the scale where the ranking is done. Averaging over innings helps in the usual way: to reach a reliability of 0.8 for the average, this batter pool needs 32 innings. The numbers here are illustrative, chosen to make the arithmetic easy to check. The gap between the two scales is the point."
+  },
+  {
+    "objectID": "posts/reliability-for-counts/index.html#zeros-make-it-harder",
+    "href": "posts/reliability-for-counts/index.html#zeros-make-it-harder",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "Zeros make it harder",
+    "text": "Zeros make it harder\nMany counts have more zeros than a simple count model allows. Most innings contain no six at all, and whether a batter hits any is a partly separate matter from how many he hits once he starts. A hurdle model handles this with two parts, one for clearing zero and one for the size of the count after that. A reliability coefficient then has to combine both parts on the response scale, and the classical formulas do not say how.\nThat is the problem I took up in a paper in the Australian & New Zealand Journal of Statistics (2026), Response-scale reliability for count measurements, which works out the coefficient for hurdle models and applies it to six-hitting in Twenty20 cricket. The methods are in the dgt R package."
+  },
+  {
+    "objectID": "posts/reliability-for-counts/index.html#what-to-do-with-this",
+    "href": "posts/reliability-for-counts/index.html#what-to-do-with-this",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "What to do with this",
+    "text": "What to do with this\nIf your measure is a count and someone hands you a reliability coefficient, ask which scale it was computed on. If the answer is the model’s scale, treat it as an upper limit. Then ask how many observations sit under each number being compared. For rare events, the honest answer is usually “not enough yet”.\nMeasurement reliability for counts, proportions, and other non-normal data is part of my consulting practice."
+  },
+  {
+    "objectID": "posts/combine-to-sundays/index.html",
+    "href": "posts/combine-to-sundays/index.html",
+    "title": "What can a Combine tell you about Sundays?",
+    "section": "",
+    "text": "Every spring, NFL teams gather the year’s draft prospects and time them. A player runs forty yards in shorts, alone, on a clean surface, and the result follows him for the rest of his career. Then he is drafted, and what matters is what he does in pads, on grass, with a three-hundred-pound opponent in the way.\nThis year’s NFL Big Data Bowl asks entrants to connect the two: tracking data from the Combine on one side, and what the same players did in regular-season games on the other. I entered, and my entry looks at defensive linemen. The results will wait until the competition closes in January. The question is worth a post now, because it is a measurement problem before it is a football problem."
+  },
+  {
+    "objectID": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
+    "href": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
+    "title": "What can a Combine tell you about Sundays?",
+    "section": "Three reasons the link is hard to measure",
+    "text": "Three reasons the link is hard to measure\nThe players you can check are not the players you measured. Hundreds of prospects run at the Combine. Game data exist only for those who were drafted, made a roster, and played. Teams choose those players partly on the Combine numbers themselves. So the group with both measurements has already been filtered on one of them, and any relationship seen in that group is weaker than the one in the full pool. A scout who concludes that a drill “does not predict much” may be looking at the filter and not at the drill.\nOne trial is a noisy reading. A prospect runs a drill once or twice. A start can be a few hundredths early or late for reasons that have nothing to do with ability. Before asking whether a Combine number predicts game performance, it is fair to ask how well it would predict itself on a second day. If the answer is “moderately”, then no game outcome can be predicted better than that.\nThe same word names two different events. A “first step” at the Combine is a reaction to the player’s own decision to go. A first step in a game is a reaction to the snap, taken from a stance chosen for the play, against a blocker who is also moving. Both can be clocked, and both are called get-off. Whether they measure the same quality is the thing to be shown, not assumed."
+  },
+  {
+    "objectID": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
+    "href": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
+    "title": "What can a Combine tell you about Sundays?",
+    "section": "What a useful answer looks like",
+    "text": "What a useful answer looks like\nA front office does not need a correlation. It needs to know, for a given position, how much a tenth of a second at the Combine is worth in the games, and how sure anyone can be about that figure. An answer with honest uncertainty attached is more useful than a sharper one that falls apart when the next draft class arrives. It should also say where it does not apply. A result for defensive linemen says little about receivers.\nThat is the standard I have tried to hold the entry to. I will write about what it found after the January deadline.\nMeasurement problems of this kind, where the number in hand is a noisy stand-in for the thing you care about, are a large part of my consulting practice."
+  },
+  {
+    "objectID": "posts/writing-a-statistics-paper/index.html",
+    "href": "posts/writing-a-statistics-paper/index.html",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "",
+    "text": "Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.\nThe best short guide I know on those decisions is Tim Swartz’s “Where Should I Publish My Sports Paper?” (The American Statistician, 2020). It is written for sports statistics, but most of it applies to any applied statistics paper. This post sets out what I took from it, followed by the habits I have added."
+  },
+  {
+    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
+    "href": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "What I took from the guide",
+    "text": "What I took from the guide\nA good applied paper does two things. It has something new in the statistics, and it addresses a real problem in the application. The two pull against each other. A paper written to impress statisticians tends to treat the application as an afterthought, and a paper written for practitioners can have little in it that is new. The guide’s point is that the best papers manage both, and that an author should know which of the two a given paper is stronger on.\nPractitioners adopt what they can follow. A method that works but cannot be explained to the people who would use it will not be used. The guide’s examples are methods that reached practice because the idea behind them could be stated plainly. I now ask of every method section whether a coach, a clinician, or an engineer could say in two sentences what the method does.\nChoose the audience, then the journal. The same piece of work can be written for a statistics journal, an operations research journal, or a journal in the applied field. Each wants a different paper. Statistics journals want a substantial statistical contribution. Operations research journals value a solved problem. Journals in the applied field care most about what changes in practice. Choosing the audience first decides what goes in the introduction, how much theory stays in the main text, and what counts as the result.\nExpect hard reviews and keep going. The guide is frank that reviewers question the assumptions in applied work closely, and that a paper rejected quickly at one journal can be published at another after a long review. Its advice is a thick skin. A rejection is information about the fit between the paper and the journal as often as it is about the work.\nGet the work to readers. Applied work is scattered across disciplines, and a paper in the wrong place may never reach the people who could use it. The guide closes on a simple instruction: do good work and get it out."
+  },
+  {
+    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
+    "href": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "What I have added",
+    "text": "What I have added\nThese are my own habits. They are not from the guide.\n\nKeep data, methods, results, and discussion apart. A reader who wants to know what was measured should not have to read the results to find out. When interpretation creeps into the methods section, I move it.\nLead each result with what it means. The sentence a reader remembers should come first, and the number that supports it second.\nGive every number a comparison. A coefficient of 0.61 means little alone. Against a threshold, a previous study, or a second condition, it means something.\nLet tables carry the numbers and the text carry the pattern. A paragraph that repeats a table adds length without adding anything.\nState limitations with numbers. “The sample is small” is a hedge. “The estimate is based on 14 matches and would need about 40 to reach the usual standard” is a limitation the reader can weigh.\nCheck every reference against the source. Author, year, volume, and pages, each one. A wrong citation is a small error that costs a large amount of trust.\nWrite plainly. Short declarative sentences, no warm-up paragraphs, and no claim softened below what the evidence supports."
+  },
+  {
+    "objectID": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
+    "href": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "Why this matters outside journals",
+    "text": "Why this matters outside journals\nEverything above applies to a consulting report as much as to a paper. A client is a practitioner who has to act on the result. If they cannot follow what was done, cannot find the number they need, or cannot tell how far to trust it, the analysis has not done its job, however good the statistics are.\nReference. Swartz, T. B. (2020). Where should I publish my sports paper? The American Statistician 74(2), 103–108.\nClear reporting for the audience that has to use it is part of every engagement in my consulting practice."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Statistics you can defend.",
     "section": "",
-    "text": "Statistical Consulting\n\n\n\n\nI’m an accredited professional statistician (P.Stat.) and Associate Professor who helps researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny — from the first power calculation to the final dashboard.\n\nWork with me See the tools I build\n\n\n\n\n\nA defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can actually use.\n\n\nstudy design   DOE   mixed models   reliability   AI evaluation   R / Shiny"
+    "text": "Statistical Consulting\n\n\n\n\nI’m an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny, from the first power calculation to the final dashboard.\n\nWork with me Email me\n\nstudy design DOE mixed models reliability AI evaluation R / Shiny\n\n\n\n\n\n\n\nA defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use."
   },
   {
     "objectID": "index.html#grounded-in-peer-reviewed-work.",
@@ -606,20 +592,27 @@
     "href": "index.html#three-services-one-standard.",
     "title": "Statistics you can defend.",
     "section": "Three services, one standard.",
-    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization — so the data you collect can actually answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it — see live examples."
+    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization, so the data you collect can answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it. See a live example."
   },
   {
     "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
     "href": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
     "title": "Statistics you can defend.",
     "section": "Your AI is only as good as its evaluation.",
-    "text": "Your AI is only as good as its evaluation.\nBenchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision — which model to buy, whether a system is ready to ship — someone should ask whether the measurement itself can be trusted. That’s measurement science, and it’s what I do.\n\n\nEvaluation design & audit\nDesign AI evaluations that answer the question — proper sampling, contamination control, uncertainty on every comparison — or audit the one you have.\n\n\nReliability of judgments\nHuman raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.\n\n\nExperiments that respect your budget\nWhen every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.\n\n\nAI services in detail →"
+    "text": "Your AI is only as good as its evaluation.\nBenchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision, such as which model to buy or whether a system is ready to ship, someone should ask whether the measurement itself can be trusted. That’s measurement science, and it’s what I do.\n\n\nEvaluation design & audit\nDesign AI evaluations that answer the question, with proper sampling, contamination control, and uncertainty on every comparison. Or audit the one you have.\n\n\nReliability of judgments\nHuman raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.\n\n\nExperiments that respect your budget\nWhen every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.\n\n\nAI services in detail →"
   },
   {
     "objectID": "index.html#research-software-and-teaching.",
     "href": "index.html#research-software-and-teaching.",
     "title": "Statistics you can defend.",
     "section": "Research, software, and teaching.",
-    "text": "Research, software, and teaching.\n\n\nProjects\nDeployed forecasting apps and open-source software — working demonstrations of the tools I build. Explore →\n\n\nResearch\nPublished work in experimental design and applied statistics, with an active research program in measurement reliability. Publications →\n\n\nBlog\nNotes on statistical methodology — how to design, measure, and trust the numbers. All posts →"
+    "text": "Research, software, and teaching.\n\n\nProjects\nA live forecasting tool and open-source software: working demonstrations of the tools I build. Explore →\n\n\nResearch\nPublished work in experimental design and applied statistics, with an active research program in measurement reliability. Publications →\n\n\nBlog\nShort posts on how to design studies, measure reliably, and trust the numbers. All posts →"
+  },
+  {
+    "objectID": "index.html#have-a-study-a-dataset-or-a-decision-to-defend",
+    "href": "index.html#have-a-study-a-dataset-or-a-decision-to-defend",
+    "title": "Statistics you can defend.",
+    "section": "Have a study, a dataset, or a decision to defend?",
+    "text": "Have a study, a dataset, or a decision to defend?\nTell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.\nEmail me → How an engagement works"
   }
 ]

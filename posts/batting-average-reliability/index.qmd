@@ -2,7 +2,7 @@
 title: "How many innings before a batting average means anything?"
 description: "Cricket's favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that."
 date: 2026-08-19
-categories: [cricket, G-theory, measurement]
+categories: [cricket, measurement, sports]
 ---
 
 Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: *at this sample size, is it measuring the batter — or the weather of four particular days?*

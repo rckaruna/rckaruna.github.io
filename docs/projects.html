@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Interactive tools and open-source software: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis.">
+<meta name="description" content="Interactive tools and open-source software: a live T20I cricket win-probability forecaster and the dgt R package for reliability analysis.">
 
 <title>Projects &amp; software — Ruwan C. Karunanayaka – Ruwan C. Karunanayaka</title>
 <style>
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-72ed6bc24164debcbbe5ff6fce37c57a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bbee10d9b27fa9b633c189d661adc344.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f8df4127d95c060ff66622f87a6cd63b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -156,20 +157,20 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 <meta property="og:title" content="Projects &amp; software — Ruwan C. Karunanayaka">
-<meta property="og:description" content="Interactive tools and open-source software: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis.">
+<meta property="og:description" content="Interactive tools and open-source software: a live T20I cricket win-probability forecaster and the dgt R package for reliability analysis.">
 <meta property="og:image" content="https://rckaruna.ca/assets/social-card.png">
 <meta property="og:site_name" content="Ruwan C. Karunanayaka">
 <meta property="og:image:height" content="627">
 <meta property="og:image:width" content="1200">
 <meta name="twitter:title" content="Projects &amp; software — Ruwan C. Karunanayaka">
-<meta name="twitter:description" content="Interactive tools and open-source software: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis.">
+<meta name="twitter:description" content="Interactive tools and open-source software: a live T20I cricket win-probability forecaster and the dgt R package for reliability analysis.">
 <meta name="twitter:image" content="https://rckaruna.ca/assets/social-card.png">
 <meta name="twitter:image-height" content="627">
 <meta name="twitter:image-width" content="1200">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed page fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -208,6 +209,10 @@ window.addEventListener("DOMContentLoaded", function () {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./consulting.html#start-a-conversation"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/rckaruna"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
@@ -244,12 +249,12 @@ window.addEventListener("DOMContentLoaded", function () {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Projects</h1>
-<p class="subtitle lead">Interactive tools and open-source software — the same kind of decision tools I build for clients.</p>
+<p class="subtitle lead">An interactive tool and open-source software, of the same kind I build for clients.</p>
 </div>
 
 <div>
   <div class="description">
-    Interactive tools and open-source software: a live T20I cricket win-probability forecaster, tennis and soccer match forecasters, and the dgt R package for reliability analysis.
+    Interactive tools and open-source software: a live T20I cricket win-probability forecaster and the dgt R package for reliability analysis.
   </div>
 </div>
 
@@ -266,7 +271,7 @@ window.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>The applications below are working products of my research program. Each takes a statistical model and turns it into something a non-statistician can use — which is most of what good applied statistics comes down to.</p>
+<p>The work below comes out of my research program. Each piece takes a statistical model and turns it into something a non-statistician can use, which is most of what good applied statistics comes down to.</p>
 <div class="eyebrow">
 <p>Cricket</p>
 </div>
@@ -280,34 +285,18 @@ window.addEventListener("DOMContentLoaded", function () {
 </div>
 <hr>
 <div class="eyebrow">
-<p>Tennis</p>
-</div>
-</section>
-<section id="match-win-probability-tool" class="level2">
-<h2 class="anchored" data-anchor-id="match-win-probability-tool">Match win-probability tool</h2>
-<p>An interactive forecaster for professional tennis: choose any two players from the ATP or WTA tours, set the format and surface, and it returns a match win probability with the full distribution of likely set scores, plus a comparison against bookmaker odds.</p>
-<hr>
-<div class="eyebrow">
-<p>Soccer</p>
-</div>
-</section>
-<section id="international-match-forecaster" class="level2">
-<h2 class="anchored" data-anchor-id="international-match-forecaster">International match forecaster</h2>
-<p>A win-probability and scoreline tool for international soccer built on tournament event data, including a match simulator with knockout and extra-time handling. In development.</p>
-<hr>
-<div class="eyebrow">
 <p>Open source</p>
 </div>
 </section>
 <section id="code-on-github" class="level2">
 <h2 class="anchored" data-anchor-id="code-on-github">Code on GitHub</h2>
-<p><strong><code>dgt</code> — an R package for reliability analysis.</strong> Implements generalizability-theory decision studies — the framework for answering “how many observations before this measurement is dependable?”</p>
+<p><strong><code>dgt</code>: an R package for reliability analysis.</strong> Implements generalizability-theory decision studies, the framework for answering “how many observations before this measurement is dependable?”</p>
 <p><a href="https://github.com/rckaruna/dgt" class="btn-cta ghost">github.com/rckaruna/dgt →</a></p>
-<p><strong><code>StatcastG</code> — reliability at MLB scale.</strong> A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).</p>
+<p><strong><code>StatcastG</code>: reliability at MLB scale.</strong> A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).</p>
 <p><a href="https://github.com/rckaruna/StatcastG" class="btn-cta ghost">github.com/rckaruna/StatcastG →</a></p>
-<p><strong><code>fairness-gtheory</code> — how reliable is a fairness audit?</strong> R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.</p>
+<p><strong><code>fairness-gtheory</code>: how reliable is a fairness audit?</strong> R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.</p>
 <p><a href="https://github.com/rckaruna/fairness-gtheory" class="btn-cta ghost">github.com/rckaruna/fairness-gtheory →</a></p>
-<p><strong><code>MARE-code</code> — designing the study before the data exist.</strong> Companion R code for <em>Minimum Aberration for Random-Effect Designs</em>: choosing the best generalizability-study design when measurement reliability is the goal.</p>
+<p><strong><code>MARE-code</code>: designing the study before the data exist.</strong> Companion R code for <em>Minimum Aberration for Random-Effect Designs</em>: choosing the best generalizability-study design when measurement reliability is the goal.</p>
 <p><a href="https://github.com/rckaruna/MARE-code" class="btn-cta ghost">github.com/rckaruna/MARE-code →</a></p>
 <hr>
 <div class="figure-caption">

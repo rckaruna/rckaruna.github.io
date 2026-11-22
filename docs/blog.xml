@@ -8,7 +8,7 @@
 <title>Ruwan C. Karunanayaka</title>
 <link>https://rckaruna.ca/blog.html</link>
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
-<description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
+<description>Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation.</description>
 <image>
 <url>https://rckaruna.ca/assets/social-card.png</url>
 <title>Ruwan C. Karunanayaka</title>
@@ -280,7 +280,6 @@
 
  ]]></description>
   <category>consulting</category>
-  <category>practice</category>
   <guid>https://rckaruna.ca/posts/what-pstat-means/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -319,7 +318,7 @@
 
  ]]></description>
   <category>cricket</category>
-  <category>sports analytics</category>
+  <category>sports</category>
   <guid>https://rckaruna.ca/posts/bowling-sequences/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -364,9 +363,9 @@
 
  ]]></description>
   <category>measurement</category>
-  <category>G-theory</category>
   <category>methodology</category>
   <category>cricket</category>
+  <category>sports</category>
   <guid>https://rckaruna.ca/posts/reliability-for-counts/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -397,9 +396,8 @@
 </section>
 
  ]]></description>
-  <category>NFL</category>
+  <category>sports</category>
   <category>measurement</category>
-  <category>sports analytics</category>
   <guid>https://rckaruna.ca/posts/combine-to-sundays/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -446,7 +444,7 @@
 
  ]]></description>
   <category>writing</category>
-  <category>practice</category>
+  <category>consulting</category>
   <guid>https://rckaruna.ca/posts/writing-a-statistics-paper/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -476,9 +474,8 @@
 </section>
 
  ]]></description>
-  <category>elections</category>
   <category>measurement</category>
-  <category>LLM</category>
+  <category>AI</category>
   <category>methodology</category>
   <guid>https://rckaruna.ca/posts/speaking-to-the-room/</guid>
   <pubDate>Thu, 27 Aug 2026 07:00:00 GMT</pubDate>
@@ -514,8 +511,8 @@
 
  ]]></description>
   <category>cricket</category>
-  <category>G-theory</category>
   <category>measurement</category>
+  <category>sports</category>
   <guid>https://rckaruna.ca/posts/batting-average-reliability/</guid>
   <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
 </item>
@@ -595,8 +592,7 @@
 
  ]]></description>
   <category>methodology</category>
-  <category>study design</category>
-  <category>grants</category>
+  <category>design of experiments</category>
   <guid>https://rckaruna.ca/posts/sample-size/</guid>
   <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
 </item>
@@ -661,9 +657,8 @@
 </section>
 
  ]]></description>
-  <category>meta</category>
-  <category>R</category>
   <category>cricket</category>
+  <category>sports</category>
   <guid>https://rckaruna.ca/posts/welcome/</guid>
   <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
 </item>
@@ -691,7 +686,7 @@
 </section>
 
  ]]></description>
-  <category>G-theory</category>
+  <category>measurement</category>
   <category>methodology</category>
   <category>sports</category>
   <guid>https://rckaruna.ca/posts/handball-dependability/</guid>
