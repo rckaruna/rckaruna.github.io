@@ -32,6 +32,9 @@ website:
       - icon: github
         href: https://github.com/rckaruna
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rckaruna
+        aria-label: LinkedIn
       - text: "ORCID"
         href: https://orcid.org/0009-0008-2459-1569
 
@@ -42,6 +45,8 @@ website:
         href: "mailto:ruwan.karunanayaka@ufv.ca"
       - text: "GitHub"
         href: https://github.com/rckaruna
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/rckaruna
       - text: "ORCID"
         href: https://orcid.org/0009-0008-2459-1569
 
@@ -110,7 +115,8 @@ format:
               "email": "mailto:ruwan.karunanayaka@ufv.ca",
               "sameAs": [
                 "https://orcid.org/0009-0008-2459-1569",
-                "https://github.com/rckaruna"
+                "https://github.com/rckaruna",
+                "https://www.linkedin.com/in/rckaruna"
               ],
               "knowsAbout": [
                 "statistical consulting",
