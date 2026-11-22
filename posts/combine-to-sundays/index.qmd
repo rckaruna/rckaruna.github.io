@@ -1,0 +1,26 @@
+---
+title: "What can a Combine tell you about Sundays?"
+description: "Teams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician's look at why that link is hard to measure."
+date: 2026-11-22
+categories: [NFL, measurement, sports analytics]
+---
+
+Every spring, NFL teams gather the year's draft prospects and time them. A player runs forty yards in shorts, alone, on a clean surface, and the result follows him for the rest of his career. Then he is drafted, and what matters is what he does in pads, on grass, with a three-hundred-pound opponent in the way.
+
+This year's NFL Big Data Bowl asks entrants to connect the two: tracking data from the Combine on one side, and what the same players did in regular-season games on the other. I entered, and my entry looks at defensive linemen. The results will wait until the competition closes in January. The question is worth a post now, because it is a measurement problem before it is a football problem.
+
+## Three reasons the link is hard to measure
+
+**The players you can check are not the players you measured.** Hundreds of prospects run at the Combine. Game data exist only for those who were drafted, made a roster, and played. Teams choose those players partly on the Combine numbers themselves. So the group with both measurements has already been filtered on one of them, and any relationship seen in that group is weaker than the one in the full pool. A scout who concludes that a drill "does not predict much" may be looking at the filter and not at the drill.
+
+**One trial is a noisy reading.** A prospect runs a drill once or twice. A start can be a few hundredths early or late for reasons that have nothing to do with ability. Before asking whether a Combine number predicts game performance, it is fair to ask how well it would predict itself on a second day. If the answer is "moderately", then no game outcome can be predicted better than that.
+
+**The same word names two different events.** A "first step" at the Combine is a reaction to the player's own decision to go. A first step in a game is a reaction to the snap, taken from a stance chosen for the play, against a blocker who is also moving. Both can be clocked, and both are called get-off. Whether they measure the same quality is the thing to be shown, not assumed.
+
+## What a useful answer looks like
+
+A front office does not need a correlation. It needs to know, for a given position, how much a tenth of a second at the Combine is worth in the games, and how sure anyone can be about that figure. An answer with honest uncertainty attached is more useful than a sharper one that falls apart when the next draft class arrives. It should also say where it does not apply. A result for defensive linemen says little about receivers.
+
+That is the standard I have tried to hold the entry to. I will write about what it found after the January deadline.
+
+*Measurement problems of this kind, where the number in hand is a noisy stand-in for the thing you care about, are a large part of my [consulting practice](../../consulting.qmd).*
