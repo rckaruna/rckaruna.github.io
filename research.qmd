@@ -5,6 +5,8 @@ pagetitle: "Research & publications — Ruwan C. Karunanayaka"
 description: "Publications and research in experimental design, generalizability theory, measurement reliability, sports analytics, and the reliability of AI evaluation."
 ---
 
+My research has two lines. The first is the design of experiments, mainly fractional factorial and orthogonal designs under the baseline parameterization. The second is measurement reliability through generalizability theory, with applications in sport. Current work carries the reliability methods into two newer settings: the evaluation of machine-learning models and the testing of software.
+
 ::: {.eyebrow}
 Peer-reviewed
 :::
@@ -56,6 +58,10 @@ In review
 
 - **Anchored stratification arrays.**
   Under review, *The Canadian Journal of Statistics*.
+
+- **Level reversals of two-level baseline designs: Fourier structure and optimal level permutation.**
+  (with Masanori Sawa)
+  Submitted, *Statistica Sinica*.
 
 - **Game-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket.**
   (with D. L. Walpitage)

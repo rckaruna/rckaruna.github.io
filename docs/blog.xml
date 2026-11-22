@@ -10,7 +10,192 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 22 Nov 2026 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>You cannot test every combination, and you may not need to</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/covering-arrays/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A program with ten on/off options has <img src="https://latex.codecogs.com/png.latex?2%5E%7B10%7D%20=%201%7B,%7D024"> configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.</p>
+<p>There is a better response, and it comes from the design of experiments.</p>
+<section id="where-faults-come-from" class="level2">
+<h2 class="anchored" data-anchor-id="where-faults-come-from">Where faults come from</h2>
+<p>A fault that appears under every configuration is found quickly. The faults that survive are the ones that need a particular setting, or a particular combination of settings, before they show themselves. The useful question is how many settings have to line up.</p>
+<p>Kuhn, Wallace, and Gallo (2004), working at the U.S. National Institute of Standards and Technology (NIST), studied software failures from a variety of domains and asked this question. They found that the failures were caused by combinations of relatively few conditions. NIST’s summary of that series of studies is that most failures were caused by one or two settings, that failures needing three or more were progressively fewer, and that all or nearly all involved six settings or fewer.</p>
+<p>If that pattern holds for your software, then a test suite does not have to cover every configuration. It has to cover every <em>pair</em> of settings, and perhaps every triple.</p>
+</section>
+<section id="covering-every-pair" class="level2">
+<h2 class="anchored" data-anchor-id="covering-every-pair">Covering every pair</h2>
+<p>Take three on/off options. There are eight configurations, but four tests are enough to see every pair of options at every combination of values:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Test</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>off</td>
+<td>on</td>
+<td>on</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>on</td>
+<td>off</td>
+<td>on</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>on</td>
+<td>on</td>
+<td>off</td>
+</tr>
+</tbody>
+</table>
+<p>Pick any two columns. The four combinations off/off, off/on, on/off, and on/on each appear once. A fault that needs, say, A on and C off will be exercised by test 4.</p>
+<p>A table with this property is called a covering array. Readers of the <a href="../../posts/ofat-vs-factorial/index.html">earlier post on factorial designs</a> will recognize this one as a half fraction of the <img src="https://latex.codecogs.com/png.latex?2%5E3"> factorial.</p>
+<p>The saving grows quickly with the number of options. For ten on/off options, six tests cover every pair:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Test</th>
+<th>O1</th>
+<th>O2</th>
+<th>O3</th>
+<th>O4</th>
+<th>O5</th>
+<th>O6</th>
+<th>O7</th>
+<th>O8</th>
+<th>O9</th>
+<th>O10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>on</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>on</td>
+<td>off</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>on</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>off</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>off</td>
+<td>on</td>
+<td>off</td>
+<td>on</td>
+<td>on</td>
+</tr>
+</tbody>
+</table>
+<p>Any two columns of this table show all four combinations. Six tests stand in for 1,024 configurations, as far as pairs are concerned. The number of tests needed grows roughly with the logarithm of the number of options, so a hundred options need only a few more.</p>
+</section>
+<section id="how-this-differs-from-a-factorial-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="how-this-differs-from-a-factorial-experiment">How this differs from a factorial experiment</h2>
+<p>A fractional factorial design and a covering array look alike, but they answer different questions.</p>
+<p>A factorial experiment is built to <em>estimate</em> effects. Each pair of settings should appear equally often, so that the estimates are balanced and precise. That is the defining property of an orthogonal array.</p>
+<p>A test suite is built to <em>detect</em> faults. A combination that triggers a fault needs to appear once. The covering array drops the requirement of equal frequency and keeps only the requirement of presence. That weaker requirement is why it can be so much smaller.</p>
+</section>
+<section id="what-a-covering-array-does-not-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-a-covering-array-does-not-do">What a covering array does not do</h2>
+<p>Three limits are worth stating.</p>
+<ol type="1">
+<li>A pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.</li>
+<li>The array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.</li>
+<li>Real options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.</li>
+</ol>
+<p>Within those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.</p>
+<p><strong>Reference.</strong> Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. <em>IEEE Transactions on Software Engineering</em> <strong>30</strong>(6), 418–421.</p>
+<p><em>Test design for statistical and machine-learning software is part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>methodology</category>
+  <category>design of experiments</category>
+  <guid>https://rckaruna.ca/posts/covering-arrays/</guid>
+  <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>What P.Stat. means for a client</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>

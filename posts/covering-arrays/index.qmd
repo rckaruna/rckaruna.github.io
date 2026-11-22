@@ -1,0 +1,68 @@
+---
+title: "You cannot test every combination, and you may not need to"
+description: "Software with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs."
+date: 2026-11-23
+categories: [methodology, design of experiments]
+---
+
+A program with ten on/off options has $2^{10} = 1{,}024$ configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.
+
+There is a better response, and it comes from the design of experiments.
+
+## Where faults come from
+
+A fault that appears under every configuration is found quickly. The faults that survive are the ones that need a particular setting, or a particular combination of settings, before they show themselves. The useful question is how many settings have to line up.
+
+Kuhn, Wallace, and Gallo (2004), working at the U.S. National Institute of Standards and Technology (NIST), studied software failures from a variety of domains and asked this question. They found that the failures were caused by combinations of relatively few conditions. NIST's summary of that series of studies is that most failures were caused by one or two settings, that failures needing three or more were progressively fewer, and that all or nearly all involved six settings or fewer.
+
+If that pattern holds for your software, then a test suite does not have to cover every configuration. It has to cover every *pair* of settings, and perhaps every triple.
+
+## Covering every pair
+
+Take three on/off options. There are eight configurations, but four tests are enough to see every pair of options at every combination of values:
+
+| Test | A | B | C |
+|---|---|---|---|
+| 1 | off | off | off |
+| 2 | off | on | on |
+| 3 | on | off | on |
+| 4 | on | on | off |
+
+Pick any two columns. The four combinations off/off, off/on, on/off, and on/on each appear once. A fault that needs, say, A on and C off will be exercised by test 4.
+
+A table with this property is called a covering array. Readers of the [earlier post on factorial designs](../ofat-vs-factorial/index.qmd) will recognize this one as a half fraction of the $2^3$ factorial.
+
+The saving grows quickly with the number of options. For ten on/off options, six tests cover every pair:
+
+| Test | O1 | O2 | O3 | O4 | O5 | O6 | O7 | O8 | O9 | O10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | on | on | on | on | on | on | on | on | on | on |
+| 2 | on | on | on | on | off | off | off | off | off | off |
+| 3 | on | off | off | off | on | on | on | off | off | off |
+| 4 | off | on | off | off | on | off | off | on | on | off |
+| 5 | off | off | on | off | off | on | off | on | off | on |
+| 6 | off | off | off | on | off | off | on | off | on | on |
+
+Any two columns of this table show all four combinations. Six tests stand in for 1,024 configurations, as far as pairs are concerned. The number of tests needed grows roughly with the logarithm of the number of options, so a hundred options need only a few more.
+
+## How this differs from a factorial experiment
+
+A fractional factorial design and a covering array look alike, but they answer different questions.
+
+A factorial experiment is built to *estimate* effects. Each pair of settings should appear equally often, so that the estimates are balanced and precise. That is the defining property of an orthogonal array.
+
+A test suite is built to *detect* faults. A combination that triggers a fault needs to appear once. The covering array drops the requirement of equal frequency and keeps only the requirement of presence. That weaker requirement is why it can be so much smaller.
+
+## What a covering array does not do
+
+Three limits are worth stating.
+
+1. A pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.
+2. The array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.
+3. Real options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.
+
+Within those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.
+
+**Reference.** Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. *IEEE Transactions on Software Engineering* **30**(6), 418–421.
+
+*Test design for statistical and machine-learning software is part of my [consulting practice](../../consulting.qmd).*

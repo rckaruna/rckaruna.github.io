@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/covering-arrays/index.html",
       "/posts/what-pstat-means/index.html",
       "/posts/reliability-for-counts/index.html",
       "/posts/combine-to-sundays/index.html",

@@ -2,7 +2,7 @@
 title: "Statistical consulting"
 subtitle: "Design the study right, model it honestly, and hand back something you can defend."
 pagetitle: "Statistical consulting — Ruwan C. Karunanayaka"
-description: "Statistical consulting services in BC and remote: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, and interactive dashboards."
+description: "Statistical consulting services in BC and remote: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, test design for statistical software, and interactive dashboards."
 ---
 
 I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully — from the design stage through to a result that holds up to review. I hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. I'm based in the Fraser Valley, British Columbia, and work with clients across Canada and remotely worldwide.
@@ -33,7 +33,7 @@ Who I work with
 - **Health researchers and clinical teams** — study design and analyses that stand up to ethics boards and reviewers.
 - **Engineering and manufacturing groups** — designed experiments, quality methods, and process improvement.
 - **Sports organizations and performance staff** — measurement, reliability, and forecasting from performance data.
-- **AI and product teams** — evaluation design, reliability of judgment pipelines, and calibration audits.
+- **AI, software, and product teams** — evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.
 
 ::: {.eyebrow}
 Services
@@ -69,6 +69,7 @@ AI has a measurement problem. Benchmark scores move with the evaluation harness,
 - **Benchmark & leaderboard dependability.** Whether a ranking of models — or of anything compared pairwise — reflects real differences or sampling noise, and how much more data a stable ranking would need.
 - **Calibration audits.** If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.
 - **Design of experiments for AI work.** Prompt, configuration, and model comparisons where each run costs real money — factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.
+- **Test design for statistical and machine-learning software.** Software with many options has too many configurations to test one by one. Covering arrays and fractional factorial designs give a short test suite that still exercises every pair of settings. I also measure how repeatable test results are across machines and reruns, so a failing test can be told apart from a noisy one.
 
 ### What's different about this
 
