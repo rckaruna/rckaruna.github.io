@@ -9,6 +9,13 @@
 <link>https://rckaruna.ca/blog.html</link>
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
+<image>
+<url>https://rckaruna.ca/assets/social-card.png</url>
+<title>Ruwan C. Karunanayaka</title>
+<link>https://rckaruna.ca/blog.html</link>
+<height>75</height>
+<width>144</width>
+</image>
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Sun, 22 Nov 2026 08:00:00 GMT</lastBuildDate>
 <item>
