@@ -37,6 +37,8 @@ website:
         aria-label: LinkedIn
       - text: "ORCID"
         href: https://orcid.org/0009-0008-2459-1569
+      - text: "ResearchGate"
+        href: https://www.researchgate.net/profile/Ruwan-Karunanayaka
 
   page-footer:
     left: "© 2026 Ruwan C. Karunanayaka, Ph.D., P.Stat. · Associate Professor, University of the Fraser Valley"
@@ -49,6 +51,8 @@ website:
         href: https://www.linkedin.com/in/rckaruna
       - text: "ORCID"
         href: https://orcid.org/0009-0008-2459-1569
+      - text: "ResearchGate"
+        href: https://www.researchgate.net/profile/Ruwan-Karunanayaka
 
 format:
   html:
@@ -116,7 +120,8 @@ format:
               "sameAs": [
                 "https://orcid.org/0009-0008-2459-1569",
                 "https://github.com/rckaruna",
-                "https://www.linkedin.com/in/rckaruna"
+                "https://www.linkedin.com/in/rckaruna",
+                "https://www.researchgate.net/profile/Ruwan-Karunanayaka"
               ],
               "knowsAbout": [
                 "statistical consulting",
