@@ -1,0 +1,36 @@
+---
+title: "How do you put a number on a health state?"
+description: "Funding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter."
+date: 2026-11-24
+categories: [methodology, health, design of experiments]
+---
+
+When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.
+
+The question is where a number like 0.7 comes from.
+
+## Describing a health state
+
+The usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.
+
+Five dimensions with five levels each give $5^5 = 3{,}125$ possible health states. Each one needs a value. The full table of values for a country is called a value set.
+
+## Asking people to choose
+
+Nobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.
+
+The values are estimates. They depend on which people were asked and on which pairs they were shown.
+
+## Two statistical questions
+
+**Which pairs should be shown?** There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.
+
+**How dependable are the resulting values?** A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.
+
+Both questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on.
+
+## Why I am writing about this
+
+During my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.
+
+*Designing choice experiments and assessing the reliability of measurements are both part of my [consulting practice](../../consulting.qmd).*

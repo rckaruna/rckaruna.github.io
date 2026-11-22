@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 23, 2026\n\n5 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\npractice\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nG-theory\n\nmethodology\n\ncricket\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nNFL\n\nmeasurement\n\nsports analytics\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nelections\n\nmeasurement\n\nLLM\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nG-theory\n\nmeasurement\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "How do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 24, 2026\n\n3 min\n\n\n\n\n\n\nYou cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 23, 2026\n\n5 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\npractice\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nG-theory\n\nmethodology\n\ncricket\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nNFL\n\nmeasurement\n\nsports analytics\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nelections\n\nmeasurement\n\nLLM\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nG-theory\n\nmeasurement\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
@@ -175,6 +175,125 @@
     "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
   },
   {
+    "objectID": "posts/covering-arrays/index.html",
+    "href": "posts/covering-arrays/index.html",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "",
+    "text": "A program with ten on/off options has \\(2^{10} = 1{,}024\\) configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.\nThere is a better response, and it comes from the design of experiments."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#where-faults-come-from",
+    "href": "posts/covering-arrays/index.html#where-faults-come-from",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "Where faults come from",
+    "text": "Where faults come from\nA fault that appears under every configuration is found quickly. The faults that survive are the ones that need a particular setting, or a particular combination of settings, before they show themselves. The useful question is how many settings have to line up.\nKuhn, Wallace, and Gallo (2004), working at the U.S. National Institute of Standards and Technology (NIST), studied software failures from a variety of domains and asked this question. They found that the failures were caused by combinations of relatively few conditions. NIST’s summary of that series of studies is that most failures were caused by one or two settings, that failures needing three or more were progressively fewer, and that all or nearly all involved six settings or fewer.\nIf that pattern holds for your software, then a test suite does not have to cover every configuration. It has to cover every pair of settings, and perhaps every triple."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#covering-every-pair",
+    "href": "posts/covering-arrays/index.html#covering-every-pair",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "Covering every pair",
+    "text": "Covering every pair\nTake three on/off options. There are eight configurations, but four tests are enough to see every pair of options at every combination of values:\n\n\n\nTest\nA\nB\nC\n\n\n\n\n1\noff\noff\noff\n\n\n2\noff\non\non\n\n\n3\non\noff\non\n\n\n4\non\non\noff\n\n\n\nPick any two columns. The four combinations off/off, off/on, on/off, and on/on each appear once. A fault that needs, say, A on and C off will be exercised by test 4.\nA table with this property is called a covering array. Readers of the earlier post on factorial designs will recognize this one as a half fraction of the \\(2^3\\) factorial.\nThe saving grows quickly with the number of options. For ten on/off options, six tests cover every pair:\n\n\n\nTest\nO1\nO2\nO3\nO4\nO5\nO6\nO7\nO8\nO9\nO10\n\n\n\n\n1\non\non\non\non\non\non\non\non\non\non\n\n\n2\non\non\non\non\noff\noff\noff\noff\noff\noff\n\n\n3\non\noff\noff\noff\non\non\non\noff\noff\noff\n\n\n4\noff\non\noff\noff\non\noff\noff\non\non\noff\n\n\n5\noff\noff\non\noff\noff\non\noff\non\noff\non\n\n\n6\noff\noff\noff\non\noff\noff\non\noff\non\non\n\n\n\nAny two columns of this table show all four combinations. Six tests stand in for 1,024 configurations, as far as pairs are concerned. The number of tests needed grows roughly with the logarithm of the number of options, so a hundred options need only a few more."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
+    "href": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "How this differs from a factorial experiment",
+    "text": "How this differs from a factorial experiment\nA fractional factorial design and a covering array look alike, but they answer different questions.\nA factorial experiment is built to estimate effects. Each pair of settings should appear equally often, so that the estimates are balanced and precise. That is the defining property of an orthogonal array.\nA test suite is built to detect faults. A combination that triggers a fault needs to appear once. The covering array drops the requirement of equal frequency and keeps only the requirement of presence. That weaker requirement is why it can be so much smaller."
+  },
+  {
+    "objectID": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
+    "href": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
+    "title": "You cannot test every combination, and you may not need to",
+    "section": "What a covering array does not do",
+    "text": "What a covering array does not do\nThree limits are worth stating.\n\nA pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.\nThe array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.\nReal options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.\n\nWithin those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.\nReference. Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. IEEE Transactions on Software Engineering 30(6), 418–421.\nTest design for statistical and machine-learning software is part of my consulting practice."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research has two lines. The first is the design of experiments, mainly fractional factorial and orthogonal designs under the baseline parameterization. The second is measurement reliability through generalizability theory, with applications in sport. Current work carries the reliability methods into two newer settings: the evaluation of machine-learning models and the testing of software."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nCatalan Bounds for Symmetric Strength-Two Orthogonal Arrays. Journal of Combinatorial Designs 35(1). doi: 10.1002/jcd.70039\nBias reduction via complementation of orthogonal arrays under a baseline parameterization. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Australian & New Zealand Journal of Statistics 68(4), 2026. doi: 10.1111/anzs.70069\nCompromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization. Communications in Statistics - Theory and Methods (2026), in press. doi: 10.1080/03610926.2026.2757791\nIs it time for a more analytical approach? Suboptimal shot selection strategies in handball. (with A. G. Laxdal, S. Þorgeirsson, J. M. Saavedra, A. Ivarsson, Ó. Sigurgeirsson, and T. Haugen) International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\nOn the existence and constructions of orthogonal designs. (with Boxin Tang) Australian & New Zealand Journal of Statistics 60 (2018), 471–480. doi: 10.1111/anzs.12247\nCompromise designs under baseline parametrization. (with Boxin Tang) Journal of Statistical Planning and Inference 190 (2017), 32–38. doi: 10.1016/j.jspi.2017.04.003\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nIn review"
+  },
+  {
+    "objectID": "research.html#manuscripts-in-review",
+    "href": "research.html#manuscripts-in-review",
+    "title": "Research",
+    "section": "Manuscripts in review",
+    "text": "Manuscripts in review\n\nMinimum β-aberration under a baseline parameterization for quantitative factors. Revision requested, Journal of Statistical Planning and Inference (JSPI).\nAnchored stratification arrays. Under review, The Canadian Journal of Statistics.\nLevel reversals of two-level baseline designs: Fourier structure and optimal level permutation. (with Masanori Sawa) Submitted, Statistica Sinica.\nGame-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket. (with D. L. Walpitage) Revised manuscript submitted, Journal of Sports Analytics (JSA).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Revised manuscript submitted, International Journal of Sports Science & Coaching (IJSSC).\n\n\nNon-refereed"
+  },
+  {
+    "objectID": "research.html#conference-contributions",
+    "href": "research.html#conference-contributions",
+    "title": "Research",
+    "section": "Conference contributions",
+    "text": "Conference contributions\n\nKarunanayaka, R.C. (2022). On the existence and constructions of orthogonal designs. Presented at the Statistical Society of Canada (SSC), 2022.\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
+  },
+  {
+    "objectID": "research.html#active-program",
+    "href": "research.html#active-program",
+    "title": "Research",
+    "section": "Active program",
+    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
+  },
+  {
+    "objectID": "research.html#peer-review",
+    "href": "research.html#peer-review",
+    "title": "Research",
+    "section": "Peer review",
+    "text": "Peer review\nReviewer for the Journal of Sports Analytics (2023, 2024) and the International Journal of Sports Science & Coaching (2026).\n\nSoftware"
+  },
+  {
+    "objectID": "research.html#code-tools",
+    "href": "research.html#code-tools",
+    "title": "Research",
+    "section": "Code & tools",
+    "text": "Code & tools\n\ndgt — R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. github.com/rckaruna/dgt\nStatcastG — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory — R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code — companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics I\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nApplied Regression Analysis\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+  },
+  {
+    "objectID": "teaching.html#approach",
+    "href": "teaching.html#approach",
+    "title": "Teaching",
+    "section": "Approach",
+    "text": "Approach\nJohn Tukey said that the best part of being a statistician is that you get to “play in everyone’s backyard.” That is what drew me to the subject as an undergraduate, and it is what I try to pass on.\nService teaching carries a particular challenge. Many students arrive because a statistics course is required for their program, expecting something abstract and intimidating. I treat that as the opportunity it is: these are exactly the people who will go on to use statistics in a lab, a clinic, or a business, and who benefit most from seeing it work. New concepts get introduced through real applications — drawn from the news, from published research, or from studies the students themselves propose to answer questions they care about. The aim is that they leave looking at everyday claims with a statistical eye.\nClasses are built around participation rather than transcription. Students work through problems collectively, applying what they have just learned, which builds the judgment that carrying a method from a textbook into a real setting requires. A well-chosen graphic, quotation, or cartoon can open a genuine conversation about a statistical idea, and I use them freely; a class people enjoy is a class they remember.\nComputing is woven through the courses rather than bolted on at the end. Students work in R — in RStudio and Jupyter notebooks — with real data and reproducible workflows, so they leave with a habit that transfers to a thesis, a lab, or a job rather than a set of formulas. Course materials and solution keys are written in LaTeX for clarity.\n\nSupervision & outreach"
+  },
+  {
+    "objectID": "teaching.html#beyond-the-classroom",
+    "href": "teaching.html#beyond-the-classroom",
+    "title": "Teaching",
+    "section": "Beyond the classroom",
+    "text": "Beyond the classroom\nI supervise undergraduate research projects at UFV, most recently a project on the construction of orthogonal and baseline designs (2023) and an honours project building a WeBWorK question programmer (2023). Outside the department, I judge undergraduate posters at UFV Student Research Day and senior projects at the Fraser Valley Regional Science Fair, and I have run hands-on activity stations at Math Mania events that introduce elementary students to mathematical reasoning through games and puzzles.\n\nProfessional development"
+  },
+  {
+    "objectID": "teaching.html#keeping-the-toolkit-current",
+    "href": "teaching.html#keeping-the-toolkit-current",
+    "title": "Teaching",
+    "section": "Keeping the toolkit current",
+    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
+  },
+  {
     "objectID": "consulting.html",
     "href": "consulting.html",
     "title": "Statistical consulting",
@@ -186,7 +305,7 @@
     "href": "consulting.html#who-youd-be-working-with",
     "title": "Statistical consulting",
     "section": "Who you’d be working with",
-    "text": "Who you’d be working with\n\n\n\nI’m an Associate Professor in the Department of Mathematics and Statistics at the University of the Fraser Valley, where I’ve taught since 2019. I hold a PhD in Statistics from Simon Fraser University (2018), an MS in Statistics from Sam Houston State University (2014), and a BSc in Mathematics from the University of Kelaniya, Sri Lanka (2009).\nMy research runs along two connected lines. In statistical design theory, I develop fractional-factorial and computer-experiment designs under the baseline parameterization, with a focus on efficiency and robustness; current work extends toward space-filling and screening designs. In applied statistics, I work on measurement and prediction in sport, applying generalizability theory and machine learning to large-scale team-performance data. The common thread is measurement you can trust — designing studies so the data can answer the question, and quantifying how reliable the answer is. That thread is exactly what I bring to consulting.\n\n\n\nWho I work with"
+    "text": "Who you’d be working with\n\n\n\nI’m an Associate Professor in the Department of Mathematics and Statistics at the University of the Fraser Valley, where I’ve taught since 2019. I hold a PhD in Statistics from Simon Fraser University (2018), an MS in Statistics from Sam Houston State University (2014), and a BSc in Mathematics from the University of Kelaniya, Sri Lanka (2009).\nI am on sabbatical from September 2026 through August 2027. For November and December 2026 I hold an honorary appointment as Visiting Professor at the Centre for Health Economics Research and Evaluation (CHERE), University of Technology Sydney, working with colleagues there remotely.\nMy research runs along two connected lines. In statistical design theory, I develop fractional-factorial and computer-experiment designs under the baseline parameterization, with a focus on efficiency and robustness; current work extends toward space-filling and screening designs. In applied statistics, I work on measurement and prediction in sport, applying generalizability theory and machine learning to large-scale team-performance data. The common thread is measurement you can trust — designing studies so the data can answer the question, and quantifying how reliable the answer is. That thread is exactly what I bring to consulting.\n\n\n\nWho I work with"
   },
   {
     "objectID": "consulting.html#clients-collaborators",
@@ -245,123 +364,39 @@
     "text": "Start a conversation\nTell me what you’re working on and where you are in it — designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nEmail me →\nCopy email address\n\n\nruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "posts/valuing-health-states/index.html",
+    "href": "posts/valuing-health-states/index.html",
+    "title": "How do you put a number on a health state?",
     "section": "",
-    "text": "I teach across the introductory-to-advanced range at the University of the Fraser Valley, and have taught at Langara College and the University of British Columbia. Much of it is service teaching — statistics for students in the sciences, health sciences, business, and social sciences — where the goal is for students to run and interpret their own analyses, not just pass an exam."
+    "text": "When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.\nThe question is where a number like 0.7 comes from."
   },
   {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "Courses",
-    "text": "Courses\n\n\n\n\n\n\n\n\nCourse\nTopic\nSoftware\n\n\n\n\nSTAT 104\nIntroductory statistics\nMinitab\n\n\nSTAT 106\nStatistics I\nMinitab/R\n\n\nSTAT 270\nIntroduction to probability & statistics\nR\n\n\nSTAT 315\nApplied Regression Analysis\nR\n\n\nSTAT 402\nApplied GLMs & survival analysis\nR\n\n\n\n\nHow I teach it"
+    "objectID": "posts/valuing-health-states/index.html#describing-a-health-state",
+    "href": "posts/valuing-health-states/index.html#describing-a-health-state",
+    "title": "How do you put a number on a health state?",
+    "section": "Describing a health state",
+    "text": "Describing a health state\nThe usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.\nFive dimensions with five levels each give \\(5^5 = 3{,}125\\) possible health states. Each one needs a value. The full table of values for a country is called a value set."
   },
   {
-    "objectID": "teaching.html#approach",
-    "href": "teaching.html#approach",
-    "title": "Teaching",
-    "section": "Approach",
-    "text": "Approach\nJohn Tukey said that the best part of being a statistician is that you get to “play in everyone’s backyard.” That is what drew me to the subject as an undergraduate, and it is what I try to pass on.\nService teaching carries a particular challenge. Many students arrive because a statistics course is required for their program, expecting something abstract and intimidating. I treat that as the opportunity it is: these are exactly the people who will go on to use statistics in a lab, a clinic, or a business, and who benefit most from seeing it work. New concepts get introduced through real applications — drawn from the news, from published research, or from studies the students themselves propose to answer questions they care about. The aim is that they leave looking at everyday claims with a statistical eye.\nClasses are built around participation rather than transcription. Students work through problems collectively, applying what they have just learned, which builds the judgment that carrying a method from a textbook into a real setting requires. A well-chosen graphic, quotation, or cartoon can open a genuine conversation about a statistical idea, and I use them freely; a class people enjoy is a class they remember.\nComputing is woven through the courses rather than bolted on at the end. Students work in R — in RStudio and Jupyter notebooks — with real data and reproducible workflows, so they leave with a habit that transfers to a thesis, a lab, or a job rather than a set of formulas. Course materials and solution keys are written in LaTeX for clarity.\n\nSupervision & outreach"
+    "objectID": "posts/valuing-health-states/index.html#asking-people-to-choose",
+    "href": "posts/valuing-health-states/index.html#asking-people-to-choose",
+    "title": "How do you put a number on a health state?",
+    "section": "Asking people to choose",
+    "text": "Asking people to choose\nNobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.\nThe values are estimates. They depend on which people were asked and on which pairs they were shown."
   },
   {
-    "objectID": "teaching.html#beyond-the-classroom",
-    "href": "teaching.html#beyond-the-classroom",
-    "title": "Teaching",
-    "section": "Beyond the classroom",
-    "text": "Beyond the classroom\nI supervise undergraduate research projects at UFV, most recently a project on the construction of orthogonal and baseline designs (2023) and an honours project building a WeBWorK question programmer (2023). Outside the department, I judge undergraduate posters at UFV Student Research Day and senior projects at the Fraser Valley Regional Science Fair, and I have run hands-on activity stations at Math Mania events that introduce elementary students to mathematical reasoning through games and puzzles.\n\nProfessional development"
+    "objectID": "posts/valuing-health-states/index.html#two-statistical-questions",
+    "href": "posts/valuing-health-states/index.html#two-statistical-questions",
+    "title": "How do you put a number on a health state?",
+    "section": "Two statistical questions",
+    "text": "Two statistical questions\nWhich pairs should be shown? There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.\nHow dependable are the resulting values? A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.\nBoth questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on."
   },
   {
-    "objectID": "teaching.html#keeping-the-toolkit-current",
-    "href": "teaching.html#keeping-the-toolkit-current",
-    "title": "Teaching",
-    "section": "Keeping the toolkit current",
-    "text": "Keeping the toolkit current\nStatistical practice moves, and I train to stay with it. Recent professional development includes workshops and courses in:\n\nAnalyzing Large Datasets with the Julia Language\nVersion Control with Git and GitHub\nModular Design and Automated Testing with R\nIntroduction to Big Data & Machine Learning for Survey Researchers & Social Scientists\nAdvanced Visualization in R: R Shiny\nIntroduction to Effective Visualization\nIntroduction to Discrete Choice Modeling in R\nIntroduction to Statistical Machine Learning in R\nData Science and Analytics: Introduction to Data Cleaning, Querying, and Modelling at Scale\nOpen Source Solutions for Online Teaching, Assessment and Grading\nExploratory Data Analysis using R Markdown\nInstructional Skills Workshop (ISW)"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research has two lines. The first is the design of experiments, mainly fractional factorial and orthogonal designs under the baseline parameterization. The second is measurement reliability through generalizability theory, with applications in sport. Current work carries the reliability methods into two newer settings: the evaluation of machine-learning models and the testing of software."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nCatalan Bounds for Symmetric Strength-Two Orthogonal Arrays. Journal of Combinatorial Designs 35(1). doi: 10.1002/jcd.70039\nBias reduction via complementation of orthogonal arrays under a baseline parameterization. Statistics & Probability Letters 237 (2026), art. 110819. doi: 10.1016/j.spl.2026.110819\nResponse-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket. Australian & New Zealand Journal of Statistics 68(4), 2026. doi: 10.1111/anzs.70069\nCompromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization. Communications in Statistics - Theory and Methods (2026), in press. doi: 10.1080/03610926.2026.2757791\nIs it time for a more analytical approach? Suboptimal shot selection strategies in handball. (with A. G. Laxdal, S. Þorgeirsson, J. M. Saavedra, A. Ivarsson, Ó. Sigurgeirsson, and T. Haugen) International Journal of Sports Science & Coaching (2025). doi: 10.1177/17479541251369049\nOn the existence and constructions of orthogonal designs. (with Boxin Tang) Australian & New Zealand Journal of Statistics 60 (2018), 471–480. doi: 10.1111/anzs.12247\nCompromise designs under baseline parametrization. (with Boxin Tang) Journal of Statistical Planning and Inference 190 (2017), 32–38. doi: 10.1016/j.jspi.2017.04.003\n\n\nThe 2017 and 2018 design papers have since been cited in applied work across textile engineering, food science, hydrology, and mining.\n\n\nIn review"
-  },
-  {
-    "objectID": "research.html#manuscripts-in-review",
-    "href": "research.html#manuscripts-in-review",
-    "title": "Research",
-    "section": "Manuscripts in review",
-    "text": "Manuscripts in review\n\nMinimum β-aberration under a baseline parameterization for quantitative factors. Revision requested, Journal of Statistical Planning and Inference (JSPI).\nAnchored stratification arrays. Under review, The Canadian Journal of Statistics.\nLevel reversals of two-level baseline designs: Fourier structure and optimal level permutation. (with Masanori Sawa) Submitted, Statistica Sinica.\nGame-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket. (with D. L. Walpitage) Revised manuscript submitted, Journal of Sports Analytics (JSA).\nHow Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball. Revised manuscript submitted, International Journal of Sports Science & Coaching (IJSSC).\n\n\nNon-refereed"
-  },
-  {
-    "objectID": "research.html#conference-contributions",
-    "href": "research.html#conference-contributions",
-    "title": "Research",
-    "section": "Conference contributions",
-    "text": "Conference contributions\n\nKarunanayaka, R.C. (2022). On the existence and constructions of orthogonal designs. Presented at the Statistical Society of Canada (SSC), 2022.\nWalpitage D.L., Pathirage, D.P.N.A., Chamara, K.T.R., Pitigala, S.P. & Silva D.G.C.D. (2014). Investigating the reliability of a batting ability measurement system for T20 cricket: An application of random effects ANOVA through generalizability theory. Proceedings of International Statistics Conference 2014, Institute of Applied Statistics, Sri Lanka, 213.\nWalpitage, D.L., Pathirage, D.P.N.A., Dharmawardena, J.S.N.P., Chamara, K.T.R., Mohomad, M.H., Silva, D.G.C.D., Narasinghe, N.L.T.D. (2013, September). Standard ECG: Short dramas to introduce abstract statistical concepts. Paper presented for the European Network for Business and Industrial Statistics (ENBIS) Greenfield Challenge Award, 13th Annual Conference of ENBIS, Ankara, Turkey.\n\n\nOngoing work"
-  },
-  {
-    "objectID": "research.html#active-program",
-    "href": "research.html#active-program",
-    "title": "Research",
-    "section": "Active program",
-    "text": "Active program\nBeyond the manuscripts above, I maintain an active research program in measurement reliability, experimental design, and sports analytics — including the reliability of AI and machine-learning evaluation — with further work at various stages. The interactive tools the program produces are on the projects page.\n\nService"
-  },
-  {
-    "objectID": "research.html#peer-review",
-    "href": "research.html#peer-review",
-    "title": "Research",
-    "section": "Peer review",
-    "text": "Peer review\nReviewer for the Journal of Sports Analytics (2023, 2024) and the International Journal of Sports Science & Coaching (2026).\n\nSoftware"
-  },
-  {
-    "objectID": "research.html#code-tools",
-    "href": "research.html#code-tools",
-    "title": "Research",
-    "section": "Code & tools",
-    "text": "Code & tools\n\ndgt — R package for distributional generalizability theory: response-scale reliability for non-Gaussian mixed models. github.com/rckaruna/dgt\nStatcastG — Julia pipeline for multi-facet reliability analysis of MLB Statcast plate-appearance data. github.com/rckaruna/StatcastG\nfairness-gtheory — R code for reliable fairness auditing via multivariate generalizability theory. github.com/rckaruna/fairness-gtheory\nMARE-code — companion R code for minimum-aberration random-effect designs (MARE). github.com/rckaruna/MARE-code\nForecasting applications — deployed interactive tools for cricket, tennis, and soccer. See projects"
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html",
-    "href": "posts/covering-arrays/index.html",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "",
-    "text": "A program with ten on/off options has \\(2^{10} = 1{,}024\\) configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.\nThere is a better response, and it comes from the design of experiments."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#where-faults-come-from",
-    "href": "posts/covering-arrays/index.html#where-faults-come-from",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "Where faults come from",
-    "text": "Where faults come from\nA fault that appears under every configuration is found quickly. The faults that survive are the ones that need a particular setting, or a particular combination of settings, before they show themselves. The useful question is how many settings have to line up.\nKuhn, Wallace, and Gallo (2004), working at the U.S. National Institute of Standards and Technology (NIST), studied software failures from a variety of domains and asked this question. They found that the failures were caused by combinations of relatively few conditions. NIST’s summary of that series of studies is that most failures were caused by one or two settings, that failures needing three or more were progressively fewer, and that all or nearly all involved six settings or fewer.\nIf that pattern holds for your software, then a test suite does not have to cover every configuration. It has to cover every pair of settings, and perhaps every triple."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#covering-every-pair",
-    "href": "posts/covering-arrays/index.html#covering-every-pair",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "Covering every pair",
-    "text": "Covering every pair\nTake three on/off options. There are eight configurations, but four tests are enough to see every pair of options at every combination of values:\n\n\n\nTest\nA\nB\nC\n\n\n\n\n1\noff\noff\noff\n\n\n2\noff\non\non\n\n\n3\non\noff\non\n\n\n4\non\non\noff\n\n\n\nPick any two columns. The four combinations off/off, off/on, on/off, and on/on each appear once. A fault that needs, say, A on and C off will be exercised by test 4.\nA table with this property is called a covering array. Readers of the earlier post on factorial designs will recognize this one as a half fraction of the \\(2^3\\) factorial.\nThe saving grows quickly with the number of options. For ten on/off options, six tests cover every pair:\n\n\n\nTest\nO1\nO2\nO3\nO4\nO5\nO6\nO7\nO8\nO9\nO10\n\n\n\n\n1\non\non\non\non\non\non\non\non\non\non\n\n\n2\non\non\non\non\noff\noff\noff\noff\noff\noff\n\n\n3\non\noff\noff\noff\non\non\non\noff\noff\noff\n\n\n4\noff\non\noff\noff\non\noff\noff\non\non\noff\n\n\n5\noff\noff\non\noff\noff\non\noff\non\noff\non\n\n\n6\noff\noff\noff\non\noff\noff\non\noff\non\non\n\n\n\nAny two columns of this table show all four combinations. Six tests stand in for 1,024 configurations, as far as pairs are concerned. The number of tests needed grows roughly with the logarithm of the number of options, so a hundred options need only a few more."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
-    "href": "posts/covering-arrays/index.html#how-this-differs-from-a-factorial-experiment",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "How this differs from a factorial experiment",
-    "text": "How this differs from a factorial experiment\nA fractional factorial design and a covering array look alike, but they answer different questions.\nA factorial experiment is built to estimate effects. Each pair of settings should appear equally often, so that the estimates are balanced and precise. That is the defining property of an orthogonal array.\nA test suite is built to detect faults. A combination that triggers a fault needs to appear once. The covering array drops the requirement of equal frequency and keeps only the requirement of presence. That weaker requirement is why it can be so much smaller."
-  },
-  {
-    "objectID": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
-    "href": "posts/covering-arrays/index.html#what-a-covering-array-does-not-do",
-    "title": "You cannot test every combination, and you may not need to",
-    "section": "What a covering array does not do",
-    "text": "What a covering array does not do\nThree limits are worth stating.\n\nA pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.\nThe array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.\nReal options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.\n\nWithin those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.\nReference. Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. IEEE Transactions on Software Engineering 30(6), 418–421.\nTest design for statistical and machine-learning software is part of my consulting practice."
+    "objectID": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
+    "href": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
+    "title": "How do you put a number on a health state?",
+    "section": "Why I am writing about this",
+    "text": "Why I am writing about this\nDuring my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.\nDesigning choice experiments and assessing the reliability of measurements are both part of my consulting practice."
   },
   {
     "objectID": "posts/batting-average-reliability/index.html",
@@ -508,7 +543,7 @@
     "href": "index.html#grounded-in-peer-reviewed-work.",
     "title": "Statistics you can defend.",
     "section": "Grounded in peer-reviewed work.",
-    "text": "Grounded in peer-reviewed work.\n\n\nTraining & position\nPhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley.\n\n\nPublished methods\nPeer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.\n\n\nAccreditation\nP.Stat. (Professional Statistician), accredited by the Statistical Society of Canada. SSC member since 2017."
+    "text": "Grounded in peer-reviewed work.\n\n\nTraining & position\nPhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley. Honorary Visiting Professor, Centre for Health Economics Research and Evaluation, University of Technology Sydney (2026).\n\n\nPublished methods\nPeer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.\n\n\nAccreditation\nP.Stat. (Professional Statistician), accredited by the Statistical Society of Canada. SSC member since 2017."
   },
   {
     "objectID": "index.html#three-services-one-standard.",

@@ -10,7 +10,49 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 23 Nov 2026 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>How do you put a number on a health state?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/valuing-health-states/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.</p>
+<p>The question is where a number like 0.7 comes from.</p>
+<section id="describing-a-health-state" class="level2">
+<h2 class="anchored" data-anchor-id="describing-a-health-state">Describing a health state</h2>
+<p>The usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.</p>
+<p>Five dimensions with five levels each give <img src="https://latex.codecogs.com/png.latex?5%5E5%20=%203%7B,%7D125"> possible health states. Each one needs a value. The full table of values for a country is called a value set.</p>
+</section>
+<section id="asking-people-to-choose" class="level2">
+<h2 class="anchored" data-anchor-id="asking-people-to-choose">Asking people to choose</h2>
+<p>Nobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.</p>
+<p>The values are estimates. They depend on which people were asked and on which pairs they were shown.</p>
+</section>
+<section id="two-statistical-questions" class="level2">
+<h2 class="anchored" data-anchor-id="two-statistical-questions">Two statistical questions</h2>
+<p><strong>Which pairs should be shown?</strong> There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.</p>
+<p><strong>How dependable are the resulting values?</strong> A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.</p>
+<p>Both questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on.</p>
+</section>
+<section id="why-i-am-writing-about-this" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-am-writing-about-this">Why I am writing about this</h2>
+<p>During my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.</p>
+<p><em>Designing choice experiments and assessing the reliability of measurements are both part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>methodology</category>
+  <category>health</category>
+  <category>design of experiments</category>
+  <guid>https://rckaruna.ca/posts/valuing-health-states/</guid>
+  <pubDate>Tue, 24 Nov 2026 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>You cannot test every combination, and you may not need to</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>

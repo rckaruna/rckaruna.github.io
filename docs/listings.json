@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/valuing-health-states/index.html",
       "/posts/covering-arrays/index.html",
       "/posts/what-pstat-means/index.html",
       "/posts/reliability-for-counts/index.html",

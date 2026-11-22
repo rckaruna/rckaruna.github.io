@@ -42,7 +42,7 @@ Credentials
 ::: {.cols-3}
 ::: {.card-plain}
 ### Training & position
-PhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley.
+PhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley. Honorary Visiting Professor, Centre for Health Economics Research and Evaluation, University of Technology Sydney (2026).
 :::
 ::: {.card-plain}
 ### Published methods
