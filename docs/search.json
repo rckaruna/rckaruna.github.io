@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Does the room change the speech?\n\n\n\nelections\n\nmeasurement\n\nLLM\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nG-theory\n\nmeasurement\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "What P.Stat. means for a client\n\n\n\nconsulting\n\npractice\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nG-theory\n\nmethodology\n\ncricket\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nelections\n\nmeasurement\n\nLLM\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nG-theory\n\nmeasurement\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\nstudy design\n\ngrants\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\nmeta\n\nR\n\ncricket\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nG-theory\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
@@ -77,32 +77,60 @@
     "text": "The order of operations\nDecide what effect matters and defend the number. Estimate the variability from a pilot or the literature. Account for the design — pairing, clustering, dropout. Then compute n. If the answer is unaffordable, the honest moves are to change the design, sharpen the measurement, or study a bigger effect — not to quietly relax the power.\nSample-size justification, power analysis, and statistical-analysis plans for grant applications are part of my consulting practice — and the design stage is exactly the right time to talk."
   },
   {
-    "objectID": "posts/ofat-vs-factorial/index.html",
-    "href": "posts/ofat-vs-factorial/index.html",
-    "title": "Testing one thing at a time is costing you",
+    "objectID": "posts/reliability-for-counts/index.html",
+    "href": "posts/reliability-for-counts/index.html",
+    "title": "Why the usual reliability number is wrong for counts",
     "section": "",
-    "text": "Picture a team tuning a process — a reactor, a coating line, a recipe, a web page. Three settings might matter: temperature, time, concentration. The careful-sounding plan: hold everything constant, change temperature, observe. Reset, change time, observe. Reset, change concentration, observe. One factor at a time, so you “know what caused what.”\nIt feels rigorous. It’s actually the expensive way to learn less. This has been known since R. A. Fisher was designing agricultural experiments in the 1920s, and it still surprises people every time the arithmetic is laid out."
+    "text": "A great deal of what we measure is a count. Goals in a match, sixes in an innings, defects in a batch, falls on a ward. When someone asks whether such a number is a reliable measure of the player, the line, or the ward, the usual answer is an intraclass correlation taken from a mixed model. For counts, that answer is often too high, and sometimes far too high."
   },
   {
-    "objectID": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
-    "href": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
-    "title": "Testing one thing at a time is costing you",
-    "section": "The same eight runs, spent two ways",
-    "text": "The same eight runs, spent two ways\nGive both strategies an identical budget: eight experimental runs, three factors, each at two levels (low/high).\nOne-factor-at-a-time (OFAT): four distinct conditions — a baseline plus one change per factor — run twice each to get some replication. Each factor’s effect is estimated by comparing two runs against two runs. Four of the eight runs sit in the baseline doing bookkeeping.\nFactorial: run all \\(2^3 = 8\\) combinations once. Here’s the part that looks like an accounting trick and isn’t: every run participates in every estimate. The temperature effect is the average of the four high-temperature runs minus the average of the four low-temperature runs — and the same eight runs, regrouped, estimate the time effect and the concentration effect too. Statisticians call it hidden replication.\nThe consequence is quantifiable: with the same eight runs, the factorial’s effect estimates have half the variance of the OFAT estimates. Same budget, twice the precision, on every factor at once — and the gap widens as factors are added."
+    "objectID": "posts/reliability-for-counts/index.html#two-scales-two-questions",
+    "href": "posts/reliability-for-counts/index.html#two-scales-two-questions",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "Two scales, two questions",
+    "text": "Two scales, two questions\nA count model works on two scales. On the log scale, the model says each player has an underlying rate. On the response scale, we see the counts themselves: 0, 1, 3, 0, 2.\nThe coefficient that software reports is usually computed on the log scale. It asks how much of the variation in underlying rates is between players. That is a fair question, but nobody ranks players on underlying rates. We rank them on the counts we observed, and the counts carry an extra layer of noise that the log scale leaves out: a batter with a steady rate of half a six per innings still hits none in most innings and two in a few."
   },
   {
-    "objectID": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
-    "href": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
-    "title": "Testing one thing at a time is costing you",
-    "section": "The bigger problem: interactions",
-    "text": "The bigger problem: interactions\nPrecision is the smaller half of the argument. OFAT’s structural flaw is that it cannot see interactions — cases where the effect of one factor depends on the level of another. Suppose higher temperature helps at short times but hurts at long ones. OFAT tested temperature only at the baseline time, found “temperature helps,” and locked in a conclusion that’s wrong across half the operating range. Worse, OFAT’s endpoint depends on the path: change the factors in a different order and you can walk to a different “optimum,” because each step is conditioned on wherever the previous steps left you.\nThe factorial estimates the interactions from the same eight runs — no extra budget. In real processes, interactions aren’t the exception; they’re routinely where the actual optimum hides."
+    "objectID": "posts/reliability-for-counts/index.html#a-worked-example",
+    "href": "posts/reliability-for-counts/index.html#a-worked-example",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "A worked example",
+    "text": "A worked example\nSuppose batters differ in their six-hitting rate, with an average of 0.5 sixes per innings and a between-batter standard deviation of 0.25. Suppose also that the rate is the only thing that differs between batters, so the log-scale coefficient is as high as it can be.\nFor a count with a given rate, the noise variance equals the rate. So for one innings:\n\nbetween-batter variance of the rate: 0.25² = 0.0625\naverage counting noise: 0.5\nreliability of one innings on the response scale: 0.0625 / (0.0625 + 0.5) = 0.11\n\nA coefficient near 1 on one scale, and 0.11 on the scale where the ranking is done. Averaging over innings helps in the usual way: to reach a reliability of 0.8 for the average, this batter pool needs 32 innings. The numbers here are illustrative, chosen to make the arithmetic easy to check. The gap between the two scales is the point."
   },
   {
-    "objectID": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
-    "href": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
-    "title": "Testing one thing at a time is costing you",
-    "section": "“But I have ten factors”",
-    "text": "“But I have ten factors”\nThe objection writes itself: \\(2^{10}\\) is 1,024 runs. This is precisely what fractional factorial designs are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you’re prepared to assume away. Sorting the handful of factors that matter from the many that don’t is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.\nThe through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.\nDesigning experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my consulting practice. The best time to involve a statistician is before the first run."
+    "objectID": "posts/reliability-for-counts/index.html#zeros-make-it-harder",
+    "href": "posts/reliability-for-counts/index.html#zeros-make-it-harder",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "Zeros make it harder",
+    "text": "Zeros make it harder\nMany counts have more zeros than a simple count model allows. Most innings contain no six at all, and whether a batter hits any is a partly separate matter from how many he hits once he starts. A hurdle model handles this with two parts, one for clearing zero and one for the size of the count after that. A reliability coefficient then has to combine both parts on the response scale, and the classical formulas do not say how.\nThat is the problem I took up in a paper in the Australian & New Zealand Journal of Statistics (2026), Response-scale reliability for count measurements, which works out the coefficient for hurdle models and applies it to six-hitting in Twenty20 cricket. The methods are in the dgt R package."
+  },
+  {
+    "objectID": "posts/reliability-for-counts/index.html#what-to-do-with-this",
+    "href": "posts/reliability-for-counts/index.html#what-to-do-with-this",
+    "title": "Why the usual reliability number is wrong for counts",
+    "section": "What to do with this",
+    "text": "What to do with this\nIf your measure is a count and someone hands you a reliability coefficient, ask which scale it was computed on. If the answer is the model’s scale, treat it as an upper limit. Then ask how many observations sit under each number being compared. For rare events, the honest answer is usually “not enough yet”.\nMeasurement reliability for counts, proportions, and other non-normal data is part of my consulting practice."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "",
+    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-worm",
+    "href": "posts/welcome/index.html#the-worm",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "The worm",
+    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
+  },
+  {
+    "objectID": "posts/welcome/index.html#whats-next",
+    "href": "posts/welcome/index.html#whats-next",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "What’s next",
+    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
   },
   {
     "objectID": "posts/batting-average-reliability/index.html",
@@ -308,25 +336,60 @@
     "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "objectID": "posts/what-pstat-means/index.html",
+    "href": "posts/what-pstat-means/index.html",
+    "title": "What P.Stat. means for a client",
     "section": "",
-    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
+    "text": "I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean."
   },
   {
-    "objectID": "posts/welcome/index.html#the-worm",
-    "href": "posts/welcome/index.html#the-worm",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "The worm",
-    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
+    "objectID": "posts/what-pstat-means/index.html#what-it-is",
+    "href": "posts/what-pstat-means/index.html#what-it-is",
+    "title": "What P.Stat. means for a client",
+    "section": "What it is",
+    "text": "What it is\nP.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society’s accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised."
   },
   {
-    "objectID": "posts/welcome/index.html#whats-next",
-    "href": "posts/welcome/index.html#whats-next",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "What’s next",
-    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
+    "objectID": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
+    "href": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
+    "title": "What P.Stat. means for a client",
+    "section": "What the committee looks at",
+    "text": "What the committee looks at\nThe application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.\nAccredited statisticians also agree to the Society’s code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data."
+  },
+  {
+    "objectID": "posts/what-pstat-means/index.html#what-it-changes-for-you",
+    "href": "posts/what-pstat-means/index.html#what-it-changes-for-you",
+    "title": "What P.Stat. means for a client",
+    "section": "What it changes for you",
+    "text": "What it changes for you\nThree things.\n\nAn outside check. You do not have to judge a statistician’s competence yourself. A professional body has done it.\nA standard of conduct. If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.\nA recognized credential in reports. Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.\n\nIt does not change how I work. It gives you a reason to expect that before we have met.\nIf you have a study to design or an analysis to check, get in touch."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html",
+    "href": "posts/ofat-vs-factorial/index.html",
+    "title": "Testing one thing at a time is costing you",
+    "section": "",
+    "text": "Picture a team tuning a process — a reactor, a coating line, a recipe, a web page. Three settings might matter: temperature, time, concentration. The careful-sounding plan: hold everything constant, change temperature, observe. Reset, change time, observe. Reset, change concentration, observe. One factor at a time, so you “know what caused what.”\nIt feels rigorous. It’s actually the expensive way to learn less. This has been known since R. A. Fisher was designing agricultural experiments in the 1920s, and it still surprises people every time the arithmetic is laid out."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
+    "href": "posts/ofat-vs-factorial/index.html#the-same-eight-runs-spent-two-ways",
+    "title": "Testing one thing at a time is costing you",
+    "section": "The same eight runs, spent two ways",
+    "text": "The same eight runs, spent two ways\nGive both strategies an identical budget: eight experimental runs, three factors, each at two levels (low/high).\nOne-factor-at-a-time (OFAT): four distinct conditions — a baseline plus one change per factor — run twice each to get some replication. Each factor’s effect is estimated by comparing two runs against two runs. Four of the eight runs sit in the baseline doing bookkeeping.\nFactorial: run all \\(2^3 = 8\\) combinations once. Here’s the part that looks like an accounting trick and isn’t: every run participates in every estimate. The temperature effect is the average of the four high-temperature runs minus the average of the four low-temperature runs — and the same eight runs, regrouped, estimate the time effect and the concentration effect too. Statisticians call it hidden replication.\nThe consequence is quantifiable: with the same eight runs, the factorial’s effect estimates have half the variance of the OFAT estimates. Same budget, twice the precision, on every factor at once — and the gap widens as factors are added."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
+    "href": "posts/ofat-vs-factorial/index.html#the-bigger-problem-interactions",
+    "title": "Testing one thing at a time is costing you",
+    "section": "The bigger problem: interactions",
+    "text": "The bigger problem: interactions\nPrecision is the smaller half of the argument. OFAT’s structural flaw is that it cannot see interactions — cases where the effect of one factor depends on the level of another. Suppose higher temperature helps at short times but hurts at long ones. OFAT tested temperature only at the baseline time, found “temperature helps,” and locked in a conclusion that’s wrong across half the operating range. Worse, OFAT’s endpoint depends on the path: change the factors in a different order and you can walk to a different “optimum,” because each step is conditioned on wherever the previous steps left you.\nThe factorial estimates the interactions from the same eight runs — no extra budget. In real processes, interactions aren’t the exception; they’re routinely where the actual optimum hides."
+  },
+  {
+    "objectID": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
+    "href": "posts/ofat-vs-factorial/index.html#but-i-have-ten-factors",
+    "title": "Testing one thing at a time is costing you",
+    "section": "“But I have ten factors”",
+    "text": "“But I have ten factors”\nThe objection writes itself: \\(2^{10}\\) is 1,024 runs. This is precisely what fractional factorial designs are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you’re prepared to assume away. Sorting the handful of factors that matter from the many that don’t is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.\nThe through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.\nDesigning experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my consulting practice. The best time to involve a statistician is before the first run."
   },
   {
     "objectID": "posts/speaking-to-the-room/index.html",

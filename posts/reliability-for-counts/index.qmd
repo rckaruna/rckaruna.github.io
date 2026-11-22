@@ -1,0 +1,38 @@
+---
+title: "Why the usual reliability number is wrong for counts"
+description: "Goals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked."
+date: 2026-11-22
+categories: [measurement, G-theory, methodology, cricket]
+---
+
+A great deal of what we measure is a count. Goals in a match, sixes in an innings, defects in a batch, falls on a ward. When someone asks whether such a number is a reliable measure of the player, the line, or the ward, the usual answer is an intraclass correlation taken from a mixed model. For counts, that answer is often too high, and sometimes far too high.
+
+## Two scales, two questions
+
+A count model works on two scales. On the log scale, the model says each player has an underlying rate. On the response scale, we see the counts themselves: 0, 1, 3, 0, 2.
+
+The coefficient that software reports is usually computed on the log scale. It asks how much of the variation in underlying rates is between players. That is a fair question, but nobody ranks players on underlying rates. We rank them on the counts we observed, and the counts carry an extra layer of noise that the log scale leaves out: a batter with a steady rate of half a six per innings still hits none in most innings and two in a few.
+
+## A worked example
+
+Suppose batters differ in their six-hitting rate, with an average of 0.5 sixes per innings and a between-batter standard deviation of 0.25. Suppose also that the rate is the only thing that differs between batters, so the log-scale coefficient is as high as it can be.
+
+For a count with a given rate, the noise variance equals the rate. So for one innings:
+
+- between-batter variance of the rate: 0.25² = 0.0625
+- average counting noise: 0.5
+- reliability of one innings on the response scale: 0.0625 / (0.0625 + 0.5) = 0.11
+
+A coefficient near 1 on one scale, and 0.11 on the scale where the ranking is done. Averaging over innings helps in the usual way: to reach a reliability of 0.8 for the average, this batter pool needs 32 innings. The numbers here are illustrative, chosen to make the arithmetic easy to check. The gap between the two scales is the point.
+
+## Zeros make it harder
+
+Many counts have more zeros than a simple count model allows. Most innings contain no six at all, and whether a batter hits any is a partly separate matter from how many he hits once he starts. A hurdle model handles this with two parts, one for clearing zero and one for the size of the count after that. A reliability coefficient then has to combine both parts on the response scale, and the classical formulas do not say how.
+
+That is the problem I took up in a paper in the *Australian & New Zealand Journal of Statistics* (2026), [Response-scale reliability for count measurements](https://doi.org/10.1111/anzs.70069), which works out the coefficient for hurdle models and applies it to six-hitting in Twenty20 cricket. The methods are in the [`dgt` R package](https://github.com/rckaruna/dgt).
+
+## What to do with this
+
+If your measure is a count and someone hands you a reliability coefficient, ask which scale it was computed on. If the answer is the model's scale, treat it as an upper limit. Then ask how many observations sit under each number being compared. For rare events, the honest answer is usually "not enough yet".
+
+*Measurement reliability for counts, proportions, and other non-normal data is part of my [consulting practice](../../consulting.qmd).*

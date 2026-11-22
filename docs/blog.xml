@@ -10,7 +10,93 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 27 Aug 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>What P.Stat. means for a client</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/what-pstat-means/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean.</p>
+<section id="what-it-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
+<p>P.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society’s accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised.</p>
+</section>
+<section id="what-the-committee-looks-at" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-committee-looks-at">What the committee looks at</h2>
+<p>The application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.</p>
+<p>Accredited statisticians also agree to the Society’s code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data.</p>
+</section>
+<section id="what-it-changes-for-you" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-changes-for-you">What it changes for you</h2>
+<p>Three things.</p>
+<ul>
+<li><strong>An outside check.</strong> You do not have to judge a statistician’s competence yourself. A professional body has done it.</li>
+<li><strong>A standard of conduct.</strong> If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.</li>
+<li><strong>A recognized credential in reports.</strong> Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.</li>
+</ul>
+<p>It does not change how I work. It gives you a reason to expect that before we have met.</p>
+<p><em>If you have a study to design or an analysis to check, <a href="../../consulting.html">get in touch</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>consulting</category>
+  <category>practice</category>
+  <guid>https://rckaruna.ca/posts/what-pstat-means/</guid>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why the usual reliability number is wrong for counts</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/reliability-for-counts/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A great deal of what we measure is a count. Goals in a match, sixes in an innings, defects in a batch, falls on a ward. When someone asks whether such a number is a reliable measure of the player, the line, or the ward, the usual answer is an intraclass correlation taken from a mixed model. For counts, that answer is often too high, and sometimes far too high.</p>
+<section id="two-scales-two-questions" class="level2">
+<h2 class="anchored" data-anchor-id="two-scales-two-questions">Two scales, two questions</h2>
+<p>A count model works on two scales. On the log scale, the model says each player has an underlying rate. On the response scale, we see the counts themselves: 0, 1, 3, 0, 2.</p>
+<p>The coefficient that software reports is usually computed on the log scale. It asks how much of the variation in underlying rates is between players. That is a fair question, but nobody ranks players on underlying rates. We rank them on the counts we observed, and the counts carry an extra layer of noise that the log scale leaves out: a batter with a steady rate of half a six per innings still hits none in most innings and two in a few.</p>
+</section>
+<section id="a-worked-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-worked-example">A worked example</h2>
+<p>Suppose batters differ in their six-hitting rate, with an average of 0.5 sixes per innings and a between-batter standard deviation of 0.25. Suppose also that the rate is the only thing that differs between batters, so the log-scale coefficient is as high as it can be.</p>
+<p>For a count with a given rate, the noise variance equals the rate. So for one innings:</p>
+<ul>
+<li>between-batter variance of the rate: 0.25² = 0.0625</li>
+<li>average counting noise: 0.5</li>
+<li>reliability of one innings on the response scale: 0.0625 / (0.0625 + 0.5) = 0.11</li>
+</ul>
+<p>A coefficient near 1 on one scale, and 0.11 on the scale where the ranking is done. Averaging over innings helps in the usual way: to reach a reliability of 0.8 for the average, this batter pool needs 32 innings. The numbers here are illustrative, chosen to make the arithmetic easy to check. The gap between the two scales is the point.</p>
+</section>
+<section id="zeros-make-it-harder" class="level2">
+<h2 class="anchored" data-anchor-id="zeros-make-it-harder">Zeros make it harder</h2>
+<p>Many counts have more zeros than a simple count model allows. Most innings contain no six at all, and whether a batter hits any is a partly separate matter from how many he hits once he starts. A hurdle model handles this with two parts, one for clearing zero and one for the size of the count after that. A reliability coefficient then has to combine both parts on the response scale, and the classical formulas do not say how.</p>
+<p>That is the problem I took up in a paper in the <em>Australian &amp; New Zealand Journal of Statistics</em> (2026), <a href="https://doi.org/10.1111/anzs.70069">Response-scale reliability for count measurements</a>, which works out the coefficient for hurdle models and applies it to six-hitting in Twenty20 cricket. The methods are in the <a href="https://github.com/rckaruna/dgt"><code>dgt</code> R package</a>.</p>
+</section>
+<section id="what-to-do-with-this" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-do-with-this">What to do with this</h2>
+<p>If your measure is a count and someone hands you a reliability coefficient, ask which scale it was computed on. If the answer is the model’s scale, treat it as an upper limit. Then ask how many observations sit under each number being compared. For rare events, the honest answer is usually “not enough yet”.</p>
+<p><em>Measurement reliability for counts, proportions, and other non-normal data is part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>measurement</category>
+  <category>G-theory</category>
+  <category>methodology</category>
+  <category>cricket</category>
+  <guid>https://rckaruna.ca/posts/reliability-for-counts/</guid>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Does the room change the speech?</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>

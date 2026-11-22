@@ -1,0 +1,30 @@
+---
+title: "What P.Stat. means for a client"
+description: "The Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician."
+date: 2026-11-22
+categories: [consulting, practice]
+---
+
+I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean.
+
+## What it is
+
+P.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society's accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised.
+
+## What the committee looks at
+
+The application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.
+
+Accredited statisticians also agree to the Society's code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data.
+
+## What it changes for you
+
+Three things.
+
+- **An outside check.** You do not have to judge a statistician's competence yourself. A professional body has done it.
+- **A standard of conduct.** If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.
+- **A recognized credential in reports.** Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.
+
+It does not change how I work. It gives you a reason to expect that before we have met.
+
+*If you have a study to design or an analysis to check, [get in touch](../../consulting.qmd).*
