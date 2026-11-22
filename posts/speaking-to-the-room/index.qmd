@@ -21,6 +21,4 @@ Three checks discipline the interpretation. First, *what kind of room matters*: 
 
 Strip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.
 
-The manuscripts behind this work are in the journal pipeline; scores, code, and materials accompany them.
-
 *Measurement with large language models — validation, calibration, and reliability — is part of my [research program](../../research.qmd) and [consulting practice](../../consulting.qmd).*

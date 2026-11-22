@@ -31,7 +31,6 @@
 <section id="why-a-statistician-cares" class="level2">
 <h2 class="anchored" data-anchor-id="why-a-statistician-cares">Why a statistician cares</h2>
 <p>Strip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.</p>
-<p>The manuscripts behind this work are in the journal pipeline; scores, code, and materials accompany them.</p>
 <p><em>Measurement with large language models — validation, calibration, and reliability — is part of my <a href="../../research.html">research program</a> and <a href="../../consulting.html">consulting practice</a>.</em></p>
 
 
@@ -67,7 +66,7 @@
 </section>
 <section id="two-honest-complications" class="level2">
 <h2 class="anchored" data-anchor-id="two-honest-complications">Two honest complications</h2>
-<p>First, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle it correctly is an active part of my research program. Second, none of this says small samples carry <em>no</em> information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a <em>ranking</em> of ability. At those sample sizes, the ranking is mostly re-ordering noise.</p>
+<p>First, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle count data of this kind is the subject of <a href="https://doi.org/10.1111/anzs.70069">a paper of mine</a> in the <em>Australian &amp; New Zealand Journal of Statistics</em> (2026), which applies it to six-hitting in Twenty20 cricket. Second, none of this says small samples carry <em>no</em> information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a <em>ranking</em> of ability. At those sample sizes, the ranking is mostly re-ordering noise.</p>
 <p>The practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.</p>
 <p><em>Measurement reliability — how many observations a trustworthy number needs — is a core thread of my <a href="../../research.html">research</a> and <a href="../../consulting.html">consulting practice</a>, in sport and well beyond it.</em></p>
 

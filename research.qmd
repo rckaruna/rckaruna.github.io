@@ -12,14 +12,15 @@ Peer-reviewed
 ## Publications
 
 - **Catalan Bounds for Symmetric Strength-Two Orthogonal Arrays.**
-  *Journal of Combinatorial Designs* (2026).
+  *Journal of Combinatorial Designs* **35**(1).
+  doi: [10.1002/jcd.70039](https://doi.org/10.1002/jcd.70039)
 
 - **Bias reduction via complementation of orthogonal arrays under a baseline parameterization.**
   *Statistics & Probability Letters* **237** (2026), art. 110819.
   doi: [10.1016/j.spl.2026.110819](https://doi.org/10.1016/j.spl.2026.110819)
 
 - **Response-scale reliability for count measurements: distributional generalizability theory for hurdle models, with an application to Twenty20 cricket.**
-  *Australian & New Zealand Journal of Statistics* (2026), in press.
+  *Australian & New Zealand Journal of Statistics* **68**(4), 2026.
   doi: [10.1111/anzs.70069](https://doi.org/10.1111/anzs.70069)
 
 - **Compromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization.**
@@ -51,17 +52,17 @@ In review
 ## Manuscripts in review
 
 - **Distributional Generalizability Theory: Reliability for Non-Gaussian Measurements.**
-  Revision requested, *Psychometrika* (the journal of the Psychometric Society).
+  Revised manuscript submitted, *Psychometrika* (the journal of the Psychometric Society).
 
 - **Minimum β-aberration under a baseline parameterization for quantitative factors.**
   Revision requested, *Journal of Statistical Planning and Inference* (JSPI).
 
 - **Game-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket.**
   (with D. L. Walpitage)
-  Revision requested, *Journal of Sports Analytics* (JSA).
+  Revised manuscript submitted, *Journal of Sports Analytics* (JSA).
 
 - **How Many Matches Before a Shooting Indicator Is Trustworthy? Generalizability of Team Shooting Performance in Elite Handball.**
-  Revision requested, *International Journal of Sports Science & Coaching* (IJSSC).
+  Revised manuscript submitted, *International Journal of Sports Science & Coaching* (IJSSC).
 
 ::: {.eyebrow}
 Non-refereed

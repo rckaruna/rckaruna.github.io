@@ -21,7 +21,7 @@ This is the same lesson as [team shooting indicators in handball](../handball-de
 
 ## Two honest complications
 
-First, cricket scores are not tidy bell-curve data — they're zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle it correctly is an active part of my research program. Second, none of this says small samples carry *no* information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a *ranking* of ability. At those sample sizes, the ranking is mostly re-ordering noise.
+First, cricket scores are not tidy bell-curve data — they're zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle count data of this kind is the subject of [a paper of mine](https://doi.org/10.1111/anzs.70069) in the *Australian & New Zealand Journal of Statistics* (2026), which applies it to six-hitting in Twenty20 cricket. Second, none of this says small samples carry *no* information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a *ranking* of ability. At those sample sizes, the ranking is mostly re-ordering noise.
 
 The practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn't just a virtue in cricket — it's a sample-size requirement.
 
