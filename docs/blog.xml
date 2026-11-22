@@ -10,7 +10,46 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 24 Nov 2026 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>Does the order of deliveries matter?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/bowling-sequences/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.</p>
+<p>It is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?</p>
+<section id="two-questions-inside-one" class="level2">
+<h2 class="anchored" data-anchor-id="two-questions-inside-one">Two questions inside one</h2>
+<p>A bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.</p>
+<p>Most analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same.</p>
+</section>
+<section id="why-the-data-do-not-answer-this-easily" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-data-do-not-answer-this-easily">Why the data do not answer this easily</h2>
+<p>On the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.</p>
+<p><strong>Bowlers do not choose at random.</strong> A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.</p>
+<p><strong>The match situation changes everything.</strong> A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.</p>
+<p><strong>Batters adjust.</strong> If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.</p>
+<p><strong>The sequences multiply.</strong> With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in <a href="../../posts/batting-average-reliability/index.html">the post on batting averages</a>.</p>
+</section>
+<section id="what-a-careful-answer-needs" class="level2">
+<h2 class="anchored" data-anchor-id="what-a-careful-answer-needs">What a careful answer needs</h2>
+<p>A convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.</p>
+<p>That last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.</p>
+<p><em>Measurement and decision problems in sport are part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>cricket</category>
+  <category>sports analytics</category>
+  <guid>https://rckaruna.ca/posts/bowling-sequences/</guid>
+  <pubDate>Wed, 25 Nov 2026 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>How do you put a number on a health state?</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>

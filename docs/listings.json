@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/bowling-sequences/index.html",
       "/posts/valuing-health-states/index.html",
       "/posts/covering-arrays/index.html",
       "/posts/what-pstat-means/index.html",
