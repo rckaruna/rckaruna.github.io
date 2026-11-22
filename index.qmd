@@ -81,6 +81,34 @@ Interactive R / Shiny applications that put your model in front of the people wh
 :::
 :::
 
+::: {.band}
+::: {.eyebrow}
+Who I work with
+:::
+## Find your situation.
+
+::: {.audience-grid}
+[**Graduate students and faculty**\
+Thesis analysis, sample size for grants, and replies to reviewers. <span class="go">→</span>](for/graduate-students-and-faculty.qmd){.audience-card}
+
+[**Health researchers**\
+Study design, repeated measures, and reliability of ratings and scales. <span class="go">→</span>](for/health-researchers.qmd){.audience-card}
+
+[**Engineering and manufacturing**\
+Designed experiments that get more from fewer runs. <span class="go">→</span>](for/engineering-and-manufacturing.qmd){.audience-card}
+
+[**Sports organizations**\
+Which performance numbers are stable enough to act on. <span class="go">→</span>](for/sports-organizations.qmd){.audience-card}
+
+[**AI and product teams**\
+Evaluations, LLM judges, and leaderboards you can trust. <span class="go">→</span>](for/ai-and-product-teams.qmd){.audience-card}
+
+[**Not sure where you fit?**\
+See what to bring to a first conversation. <span class="go">→</span>](preparing.qmd){.audience-card}
+
+:::
+:::
+
 ::: {.band .dark}
 ::: {.eyebrow}
 Statistics for the AI era

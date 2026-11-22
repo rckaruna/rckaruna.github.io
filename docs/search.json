@@ -140,6 +140,13 @@
     "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization, so the data you collect can answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it. See a live example."
   },
   {
+    "objectID": "index.html#find-your-situation.",
+    "href": "index.html#find-your-situation.",
+    "title": "Good answers start with the design.",
+    "section": "Find your situation.",
+    "text": "Find your situation.\n\nGraduate students and faculty\nThesis analysis, sample size for grants, and replies to reviewers. →\nHealth researchers\nStudy design, repeated measures, and reliability of ratings and scales. →\nEngineering and manufacturing\nDesigned experiments that get more from fewer runs. →\nSports organizations\nWhich performance numbers are stable enough to act on. →\nAI and product teams\nEvaluations, LLM judges, and leaderboards you can trust. →\nNot sure where you fit?\nSee what to bring to a first conversation. →"
+  },
+  {
     "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
     "href": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
     "title": "Good answers start with the design.",
@@ -389,7 +396,7 @@
     "href": "consulting.html#clients-collaborators",
     "title": "Statistical consulting",
     "section": "Clients & collaborators",
-    "text": "Clients & collaborators\nEach group below has its own page with typical questions and related reading.\n\nGraduate students and faculty: thesis and dissertation analysis, defence preparation, and grant applications.\nHealth researchers and clinical teams: study design and analyses that stand up to ethics boards and reviewers.\nEngineering and manufacturing groups: designed experiments, quality methods, and process improvement.\nSports organizations and performance staff: measurement, reliability, and forecasting from performance data.\nAI, software, and product teams: evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.\n\n\nServices"
+    "text": "Clients & collaborators\nPick the group closest to yours for typical questions, what the work looks like, and related reading.\n\nGraduate students and faculty\nThesis analysis, sample size for grants, and replies to reviewers. →\nHealth researchers\nStudy design, repeated measures, and reliability of ratings and scales. →\nEngineering and manufacturing\nDesigned experiments that get more from fewer runs. →\nSports organizations\nWhich performance numbers are stable enough to act on. →\nAI and product teams\nEvaluations, LLM judges, and leaderboards you can trust. →\nNot sure where you fit?\nSee what to bring to a first conversation. →\n\n\nServices"
   },
   {
     "objectID": "consulting.html#what-i-help-with",

@@ -21,7 +21,23 @@ website:
     title: "Ruwan C. Karunanayaka, Ph.D., P.Stat."
     left:
       - text: "Consulting"
-        href: consulting.qmd
+        menu:
+          - text: "Consulting overview"
+            href: consulting.qmd
+          - text: "---"
+          - text: "Graduate students and faculty"
+            href: for/graduate-students-and-faculty.qmd
+          - text: "Health researchers"
+            href: for/health-researchers.qmd
+          - text: "Engineering and manufacturing"
+            href: for/engineering-and-manufacturing.qmd
+          - text: "Sports organizations"
+            href: for/sports-organizations.qmd
+          - text: "AI and product teams"
+            href: for/ai-and-product-teams.qmd
+          - text: "---"
+          - text: "Preparing for a consultation"
+            href: preparing.qmd
       - text: "Projects"
         href: projects.qmd
       - text: "Research"

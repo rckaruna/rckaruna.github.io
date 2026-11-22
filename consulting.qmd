@@ -37,13 +37,28 @@ Who I work with
 
 ## Clients & collaborators
 
-Each group below has its own page with typical questions and related reading.
+Pick the group closest to yours for typical questions, what the work looks like, and related reading.
 
-- **[Graduate students and faculty](for/graduate-students-and-faculty.qmd):** thesis and dissertation analysis, defence preparation, and grant applications.
-- **[Health researchers and clinical teams](for/health-researchers.qmd):** study design and analyses that stand up to ethics boards and reviewers.
-- **[Engineering and manufacturing groups](for/engineering-and-manufacturing.qmd):** designed experiments, quality methods, and process improvement.
-- **[Sports organizations and performance staff](for/sports-organizations.qmd):** measurement, reliability, and forecasting from performance data.
-- **[AI, software, and product teams](for/ai-and-product-teams.qmd):** evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.
+::: {.audience-grid}
+[**Graduate students and faculty**\
+Thesis analysis, sample size for grants, and replies to reviewers. <span class="go">→</span>](for/graduate-students-and-faculty.qmd){.audience-card}
+
+[**Health researchers**\
+Study design, repeated measures, and reliability of ratings and scales. <span class="go">→</span>](for/health-researchers.qmd){.audience-card}
+
+[**Engineering and manufacturing**\
+Designed experiments that get more from fewer runs. <span class="go">→</span>](for/engineering-and-manufacturing.qmd){.audience-card}
+
+[**Sports organizations**\
+Which performance numbers are stable enough to act on. <span class="go">→</span>](for/sports-organizations.qmd){.audience-card}
+
+[**AI and product teams**\
+Evaluations, LLM judges, and leaderboards you can trust. <span class="go">→</span>](for/ai-and-product-teams.qmd){.audience-card}
+
+[**Not sure where you fit?**\
+See what to bring to a first conversation. <span class="go">→</span>](preparing.qmd){.audience-card}
+
+:::
 
 ::: {.eyebrow}
 Services
