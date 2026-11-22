@@ -267,3 +267,16 @@ thead th { border-bottom: 2px solid $ink; }
   main table.table, main table { display: block; overflow-x: auto; max-width: 100%; }
   .nav-footer .nav-footer-left, .nav-footer .nav-footer-right { width: 100%; text-align: center; }
 }
+
+// ---- Foot of each blog post ----
+.post-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.6rem;
+  margin: 2.5rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid $hairline;
+  font-family: $font-family-sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+}

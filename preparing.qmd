@@ -1,0 +1,35 @@
+---
+title: "Preparing for a consultation"
+subtitle: "What to bring to a first conversation, and what happens after it."
+body-classes: page
+description: "How to prepare for a statistical consultation: the research question, study design, variable list, data, deadlines, and reporting requirements to bring, and what to expect afterwards."
+---
+
+A first conversation goes further when a few things are on the table. None of them needs to be polished. Rough notes are enough.
+
+## What to bring
+
+1. **The question, in a sentence or two.** What do you want to be able to say at the end? "Does the new process reduce defects?" is a question. "Analyze my data" is not yet one.
+2. **The design, or the plan for one.** Who or what was measured, how many, how they were chosen or assigned, and how often each was measured.
+3. **A list of variables.** The name of each one, what it measures, its units or categories, and which one is the outcome.
+4. **The data, if it exists.** A small de-identified sample is usually enough to start. Send nothing identifiable until we have agreed how it will be handled.
+5. **Deadlines.** A thesis defence, a grant due date, a journal resubmission, or a decision meeting.
+6. **Who will read the result.** A committee, a journal with reporting guidelines, a funder, a regulator, or a management team. Each expects something different.
+7. **Ethics and agreements.** Whether a research ethics board has approved the study, and whether any data-sharing conditions apply.
+8. **What has been tried.** Any analysis already run, any reviewer comments received, and where it went wrong.
+
+## If the data are not collected yet
+
+That is the best time to talk. Before data collection, the design can still be changed: the sample size, the measurements, the randomization, and the plan for analysis. After collection, the design is fixed and the analysis has to work around it.
+
+## What happens after the first conversation
+
+1. **Scope.** I send a short written summary of the question, the work proposed, what I will deliver, and the timeline.
+2. **Agreement.** We agree on the scope, and on confidentiality terms if you need them, before any work starts.
+3. **Work.** Design or analysis proceeds, with check-ins at the points where a decision is yours to make.
+4. **Delivery.** You receive a written report of methods, results, and limitations, in language suited to the people who will read it. Code and any tool built for the project come with it.
+
+## Ready to start?
+
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
+[Back to consulting](consulting.qmd){.btn-cta .ghost}

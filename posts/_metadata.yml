@@ -5,3 +5,16 @@ format:
   html:
     toc: true
     toc-depth: 2
+    include-after-body:
+      text: |
+        <div class="post-footer">
+          <a href="/blog.html">&larr; All posts</a>
+          <a href="/consulting.html">Statistical consulting</a>
+          <a href="/consulting.html#start-a-conversation">Get in touch</a>
+        </div>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var f = document.querySelector(".post-footer"), m = document.querySelector("main.content");
+          if (f && m) { m.appendChild(f); }
+        });
+        </script>

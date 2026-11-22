@@ -1,6 +1,5 @@
 ---
 title: "Page not found"
-pagetitle: "Page not found — Ruwan C. Karunanayaka"
 body-classes: page
 ---
 

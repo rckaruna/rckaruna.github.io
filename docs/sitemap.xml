@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rckaruna.ca/blog.html</loc>
-    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+    <lastmod>2026-11-22T21:02:15.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/preparing.html</loc>
+    <lastmod>2026-11-22T21:03:19.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/projects.html</loc>
-    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+    <lastmod>2026-11-22T21:02:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/posts/leaderboard-noise/index.html</loc>
@@ -38,15 +42,15 @@
   </url>
   <url>
     <loc>https://rckaruna.ca/consulting.html</loc>
-    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+    <lastmod>2026-11-22T21:03:19.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/teaching.html</loc>
-    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+    <lastmod>2026-11-22T21:02:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/research.html</loc>
-    <lastmod>2026-11-22T20:37:40.000Z</lastmod>
+    <lastmod>2026-11-22T21:02:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://rckaruna.ca/posts/covering-arrays/index.html</loc>
@@ -78,6 +82,10 @@
   </url>
   <url>
     <loc>https://rckaruna.ca/index.html</loc>
-    <lastmod>2026-11-22T20:44:07.000Z</lastmod>
+    <lastmod>2026-11-22T21:03:19.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rckaruna.ca/privacy.html</loc>
+    <lastmod>2026-11-22T21:03:19.000Z</lastmod>
   </url>
 </urlset>

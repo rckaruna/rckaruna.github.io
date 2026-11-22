@@ -7,6 +7,41 @@
     "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nmethodology\n\ncricket\n\nsports\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nsports\n\nmeasurement\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\nconsulting\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nmeasurement\n\nAI\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nmeasurement\n\nsports\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\ncricket\n\nsports\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nmeasurement\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "preparing.html",
+    "href": "preparing.html",
+    "title": "Preparing for a consultation",
+    "section": "",
+    "text": "A first conversation goes further when a few things are on the table. None of them needs to be polished. Rough notes are enough."
+  },
+  {
+    "objectID": "preparing.html#what-to-bring",
+    "href": "preparing.html#what-to-bring",
+    "title": "Preparing for a consultation",
+    "section": "What to bring",
+    "text": "What to bring\n\nThe question, in a sentence or two. What do you want to be able to say at the end? “Does the new process reduce defects?” is a question. “Analyze my data” is not yet one.\nThe design, or the plan for one. Who or what was measured, how many, how they were chosen or assigned, and how often each was measured.\nA list of variables. The name of each one, what it measures, its units or categories, and which one is the outcome.\nThe data, if it exists. A small de-identified sample is usually enough to start. Send nothing identifiable until we have agreed how it will be handled.\nDeadlines. A thesis defence, a grant due date, a journal resubmission, or a decision meeting.\nWho will read the result. A committee, a journal with reporting guidelines, a funder, a regulator, or a management team. Each expects something different.\nEthics and agreements. Whether a research ethics board has approved the study, and whether any data-sharing conditions apply.\nWhat has been tried. Any analysis already run, any reviewer comments received, and where it went wrong."
+  },
+  {
+    "objectID": "preparing.html#if-the-data-are-not-collected-yet",
+    "href": "preparing.html#if-the-data-are-not-collected-yet",
+    "title": "Preparing for a consultation",
+    "section": "If the data are not collected yet",
+    "text": "If the data are not collected yet\nThat is the best time to talk. Before data collection, the design can still be changed: the sample size, the measurements, the randomization, and the plan for analysis. After collection, the design is fixed and the analysis has to work around it."
+  },
+  {
+    "objectID": "preparing.html#what-happens-after-the-first-conversation",
+    "href": "preparing.html#what-happens-after-the-first-conversation",
+    "title": "Preparing for a consultation",
+    "section": "What happens after the first conversation",
+    "text": "What happens after the first conversation\n\nScope. I send a short written summary of the question, the work proposed, what I will deliver, and the timeline.\nAgreement. We agree on the scope, and on confidentiality terms if you need them, before any work starts.\nWork. Design or analysis proceeds, with check-ins at the points where a decision is yours to make.\nDelivery. You receive a written report of methods, results, and limitations, in language suited to the people who will read it. Code and any tool built for the project come with it."
+  },
+  {
+    "objectID": "preparing.html#ready-to-start",
+    "href": "preparing.html#ready-to-start",
+    "title": "Preparing for a consultation",
+    "section": "Ready to start?",
+    "text": "Ready to start?\nEmail me → Back to consulting"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -270,7 +305,14 @@
     "href": "consulting.html#how-an-engagement-works",
     "title": "Statistical consulting",
     "section": "How an engagement works",
-    "text": "How an engagement works\nScope. We start with a conversation about the question, the data you have (or plan to collect), and what a useful answer looks like. If I’m not the right fit, I’ll say so quickly and point you somewhere better.\nDesign & analysis. For new studies, design comes first, because the cheapest place to fix a study is before the data exist. For existing data, I choose methods to fit the data rather than forcing the data into a familiar method, and I’m explicit about assumptions and their consequences.\nDeliver & document. You get a clear writeup of methods, results, and limitations, in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.\n\nTrack record"
+    "text": "How an engagement works\nScope. We start with a conversation about the question, the data you have (or plan to collect), and what a useful answer looks like. If I’m not the right fit, I’ll say so quickly and point you somewhere better.\nDesign & analysis. For new studies, design comes first, because the cheapest place to fix a study is before the data exist. For existing data, I choose methods to fit the data rather than forcing the data into a familiar method, and I’m explicit about assumptions and their consequences.\nDeliver & document. You get a clear writeup of methods, results, and limitations, in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.\n\nYour data"
+  },
+  {
+    "objectID": "consulting.html#confidentiality-and-data-handling",
+    "href": "consulting.html#confidentiality-and-data-handling",
+    "title": "Statistical consulting",
+    "section": "Confidentiality and data handling",
+    "text": "Confidentiality and data handling\nYour data and results stay yours. In practice:\n\nAgreement first. I sign a confidentiality agreement or NDA on request, before I see any data.\nMinimum data. I work with de-identified or aggregated data wherever the analysis allows.\nEthics conditions. If your study has research ethics board approval, I work within its conditions on access and storage.\nStorage. Data are kept only where we agree, and are returned or deleted when the project ends.\nNo reuse. I do not share your data or results, and I do not use them in my own research or teaching without your written permission.\n\nAs a P.Stat., I am bound by the Statistical Society of Canada’s Code of Ethical Statistical Practice. The privacy page covers what this website itself collects.\n\nTrack record"
   },
   {
     "objectID": "consulting.html#selected-work",
@@ -291,14 +333,14 @@
     "href": "consulting.html#faq",
     "title": "Statistical consulting",
     "section": "FAQ",
-    "text": "FAQ\n\nDo you work remotely? Yes. I’m based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.\nHow are engagements structured? We start with a short, no-cost conversation about your project. From there, work is scoped either as a fixed-price project with defined deliverables or at an hourly rate for open-ended advising; ongoing arrangements are available for teams that want a statistician on call.\nDo you sign NDAs? Yes. Confidentiality is standard practice. Your data and results are never shared or reused, and I’m happy to sign your NDA or supply one.\nFor academic projects, how do you handle authorship? By the usual scientific norms: if my contribution is substantial and intellectual (methods development, analysis design, or interpretation), co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it’s settled before the work starts.\nWhat should I have ready before contacting me? Just three things: the question you’re trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don’t need a polished brief. If the data isn’t collected yet, that is the best time to talk.\nIs my project too small? No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar. Catching a design problem early is cheap, and fixing it after data collection is not.\n\n\nGet in touch"
+    "text": "FAQ\n\nDo you work remotely? Yes. I’m based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.\nHow are engagements structured? We start with a short, no-cost conversation about your project. From there, work is scoped either as a fixed-price project with defined deliverables or at an hourly rate for open-ended advising; ongoing arrangements are available for teams that want a statistician on call.\nDo you sign NDAs? Yes. Confidentiality is standard practice. Your data and results are never shared or reused, and I’m happy to sign your NDA or supply one.\nFor academic projects, how do you handle authorship? By the usual scientific norms: if my contribution is substantial and intellectual (methods development, analysis design, or interpretation), co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it’s settled before the work starts.\nWhat should I have ready before contacting me? Just three things: the question you’re trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don’t need a polished brief. The preparation guide has a fuller list. If the data isn’t collected yet, that is the best time to talk.\nIs my project too small? No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar. Catching a design problem early is cheap, and fixing it after data collection is not.\n\n\nGet in touch"
   },
   {
     "objectID": "consulting.html#start-a-conversation",
     "href": "consulting.html#start-a-conversation",
     "title": "Statistical consulting",
     "section": "Start a conversation",
-    "text": "Start a conversation\nTell me what you’re working on and where you are in it: designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nEmail me →\nCopy email address\n\n\nruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569"
+    "text": "Start a conversation\nTell me what you’re working on and where you are in it: designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I’m involved, the more I can help.\nA useful first message covers five things:\n\nThe question you are trying to answer.\nWhere the data stands: planned, being collected, or in hand.\nYour deadline.\nWho will use the result: a thesis committee, a journal, a funder, or a management team.\nWhether an ethics board or a grant is involved.\n\nThe email button opens a message with these headings already in place. I usually reply within two working days. If you want to prepare further, see Preparing for a consultation.\nEmail me →\nCopy email address\n\n\nconsulting@rckaruna.ca · Fraser Valley, British Columbia · ORCID 0009-0008-2459-1569\nConsulting is a private practice and is separate from my role at the University of the Fraser Valley."
   },
   {
     "objectID": "teaching.html",
@@ -614,5 +656,40 @@
     "title": "Statistics you can defend.",
     "section": "Have a study, a dataset, or a decision to defend?",
     "text": "Have a study, a dataset, or a decision to defend?\nTell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.\nEmail me → How an engagement works"
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Privacy",
+    "section": "",
+    "text": "This page covers the website and enquiries sent through it. How I handle project data is set out under Confidentiality and data handling."
+  },
+  {
+    "objectID": "privacy.html#what-the-website-collects",
+    "href": "privacy.html#what-the-website-collects",
+    "title": "Privacy",
+    "section": "What the website collects",
+    "text": "What the website collects\n\nPage counts. The site uses GoatCounter to count page views. It sets no cookies and does not build a profile of individual visitors.\nHosting. The site is hosted on GitHub Pages. GitHub may record the internet address of each visitor in its server logs.\nFonts. The typefaces are loaded from Google Fonts, so your browser contacts Google when a page loads.\nNo advertising. The site carries no ads and no advertising trackers."
+  },
+  {
+    "objectID": "privacy.html#when-you-contact-me",
+    "href": "privacy.html#when-you-contact-me",
+    "title": "Privacy",
+    "section": "When you contact me",
+    "text": "When you contact me\nIf you email me, I receive your name, your email address, and whatever you choose to write. I use that information to reply and, if we work together, to carry out and keep a record of the work. My email is provided by Apple iCloud Mail.\nI do not sell or share your information, and I do not add you to a mailing list."
+  },
+  {
+    "objectID": "privacy.html#how-long-i-keep-it",
+    "href": "privacy.html#how-long-i-keep-it",
+    "title": "Privacy",
+    "section": "How long I keep it",
+    "text": "How long I keep it\nI keep enquiry emails for as long as they are needed to respond and to keep a record of work done. If nothing comes of an enquiry, you can ask me to delete it at any time."
+  },
+  {
+    "objectID": "privacy.html#your-requests",
+    "href": "privacy.html#your-requests",
+    "title": "Privacy",
+    "section": "Your requests",
+    "text": "Your requests\nYou can ask to see the information I hold about you, to have it corrected, or to have it deleted. Email consulting@rckaruna.ca. I am the person responsible for privacy for this practice.\n\nLast updated November 2026."
   }
 ]

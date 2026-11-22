@@ -1,7 +1,6 @@
 ---
 title: "Teaching"
 subtitle: "Applied statistics and statistical computing, mostly for students who will use it in another field."
-pagetitle: "Teaching — Ruwan C. Karunanayaka"
 body-classes: page
 description: "Applied statistics and statistical computing at the University of the Fraser Valley: introductory courses through applied GLMs and survival analysis, taught with R and reproducible workflows."
 ---

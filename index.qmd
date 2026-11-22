@@ -1,8 +1,8 @@
 ---
-pagetitle: "Ruwan C. Karunanayaka — Statistical Consulting"
+pagetitle: "Statistical Consulting, Fraser Valley, BC"
 image: assets/social-card.png
 page-layout: full
-description: "Statistical consulting by Ruwan C. Karunanayaka, Ph.D., P.Stat. — study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
+description: "Statistical consulting by Ruwan C. Karunanayaka, Ph.D., P.Stat.: study design, measurement reliability, AI evaluation audits, and R/Shiny dashboards. Associate Professor of Statistics, University of the Fraser Valley, BC."
 ---
 
 ::: {.hero}
@@ -19,7 +19,7 @@ I'm an accredited professional statistician (P.Stat.) and Associate Professor. I
 :::
 
 [Work with me](consulting.qmd){.btn-cta .primary}
-[Email me](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .ghost}
+[Email me](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .ghost}
 
 ::: {style="margin-top:1rem"}
 [`study design`]{.tag} [`DOE`]{.tag} [`mixed models`]{.tag} [`reliability`]{.tag} [`AI evaluation`]{.tag} [`R / Shiny`]{.tag}
@@ -104,7 +104,7 @@ When every evaluation run costs money, designed experiments get you more answer 
 :::
 :::
 
-[AI services in detail →](consulting.qmd){.btn-cta .primary style="margin-top:1.4rem"}
+[AI services in detail →](consulting.qmd#statistics-for-ai-systems){.btn-cta .primary style="margin-top:1.4rem"}
 :::
 
 ::: {.band}
@@ -140,6 +140,6 @@ Get in touch
 
 Tell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.
 
-[Email me →](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .primary}
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
 [How an engagement works](consulting.qmd#how-an-engagement-works){.btn-cta .ghost-light}
 :::

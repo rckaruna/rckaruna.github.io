@@ -1,7 +1,6 @@
 ---
 title: "Statistical consulting"
 subtitle: "Design the study right, model it honestly, and hand back something you can defend."
-pagetitle: "Statistical consulting — Ruwan C. Karunanayaka"
 body-classes: page
 toc: true
 toc-depth: 2
@@ -11,7 +10,7 @@ description: "Statistical consulting services in BC and remote: experimental des
 
 I'm a PhD statistician (Simon Fraser University, 2018) and Associate Professor at the University of the Fraser Valley, working with researchers, teams, and organizations that need statistical work done carefully, from the design stage through to a result that holds up to review. I hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. I'm based in the Fraser Valley, British Columbia, and work with clients across Canada and remotely worldwide.
 
-[Email me →](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .primary}
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
 [How an engagement works](#how-an-engagement-works){.btn-cta .ghost}
 
 ::: {.eyebrow}
@@ -95,6 +94,22 @@ Most AI consultants build systems. I do something rarer: I measure whether syste
 **Deliver & document.** You get a clear writeup of methods, results, and limitations, in language matched to your audience: a grant reviewer, a regulator, a coach, a journal. Where a number needs to be used repeatedly, I build the tool so your team can run it without me.
 
 ::: {.eyebrow}
+Your data
+:::
+
+## Confidentiality and data handling
+
+Your data and results stay yours. In practice:
+
+- **Agreement first.** I sign a confidentiality agreement or NDA on request, before I see any data.
+- **Minimum data.** I work with de-identified or aggregated data wherever the analysis allows.
+- **Ethics conditions.** If your study has research ethics board approval, I work within its conditions on access and storage.
+- **Storage.** Data are kept only where we agree, and are returned or deleted when the project ends.
+- **No reuse.** I do not share your data or results, and I do not use them in my own research or teaching without your written permission.
+
+As a P.Stat., I am bound by the Statistical Society of Canada's Code of Ethical Statistical Practice. The [privacy page](privacy.qmd) covers what this website itself collects.
+
+::: {.eyebrow}
 Track record
 :::
 
@@ -131,7 +146,7 @@ Common questions
 
 **For academic projects, how do you handle authorship?** By the usual scientific norms: if my contribution is substantial and intellectual (methods development, analysis design, or interpretation), co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it's settled before the work starts.
 
-**What should I have ready before contacting me?** Just three things: the question you're trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don't need a polished brief. If the data isn't collected yet, that is the best time to talk.
+**What should I have ready before contacting me?** Just three things: the question you're trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don't need a polished brief. The [preparation guide](preparing.qmd) has a fuller list. If the data isn't collected yet, that is the best time to talk.
 
 **Is my project too small?** No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar. Catching a design problem early is cheap, and fixing it after data collection is not.
 :::
@@ -144,14 +159,24 @@ Get in touch
 
 Tell me what you're working on and where you are in it: designing a study, stuck on an analysis, or needing a dashboard built. The earlier in a project I'm involved, the more I can help.
 
-[Email me →](mailto:ruwan.karunanayaka@ufv.ca?subject=Statistical%20consulting%20enquiry){.btn-cta .primary}
+A useful first message covers five things:
+
+1. The question you are trying to answer.
+2. Where the data stands: planned, being collected, or in hand.
+3. Your deadline.
+4. Who will use the result: a thesis committee, a journal, a funder, or a management team.
+5. Whether an ethics board or a grant is involved.
+
+The email button opens a message with these headings already in place. I usually reply within two working days. If you want to prepare further, see [Preparing for a consultation](preparing.qmd).
+
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
 ```{=html}
 <button id="copyEmail" class="btn-cta ghost"
         style="background:transparent; cursor:pointer;">Copy email address</button>
 <script>
 document.getElementById("copyEmail").addEventListener("click", function () {
   var b = this;
-  navigator.clipboard.writeText("ruwan.karunanayaka@ufv.ca").then(function () {
+  navigator.clipboard.writeText("consulting@rckaruna.ca").then(function () {
     var t = b.textContent; b.textContent = "Copied \u2713";
     setTimeout(function () { b.textContent = t; }, 2000);
   });
@@ -160,5 +185,7 @@ document.getElementById("copyEmail").addEventListener("click", function () {
 ```
 
 ::: {.figure-caption style="margin-top:1rem"}
-ruwan.karunanayaka@ufv.ca · University of the Fraser Valley, Abbotsford BC · ORCID 0009-0008-2459-1569
+consulting@rckaruna.ca · Fraser Valley, British Columbia · ORCID 0009-0008-2459-1569
+
+Consulting is a private practice and is separate from my role at the University of the Fraser Valley.
 :::

@@ -1,7 +1,6 @@
 ---
 title: "Blog"
 subtitle: "Short posts on study design, measurement, and statistics in sport."
-pagetitle: "Blog — Ruwan C. Karunanayaka"
 body-classes: page
 listing:
   contents: posts
