@@ -51,9 +51,6 @@ In review
 
 ## Manuscripts in review
 
-- **Distributional Generalizability Theory: Reliability for Non-Gaussian Measurements.**
-  Revised manuscript submitted, *Psychometrika* (the journal of the Psychometric Society).
-
 - **Minimum β-aberration under a baseline parameterization for quantitative factors.**
   Revision requested, *Journal of Statistical Planning and Inference* (JSPI).
 
