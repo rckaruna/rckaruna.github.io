@@ -1,6 +1,6 @@
 ---
 title: "Statistical consulting"
-subtitle: "Design the study right, model it honestly, and hand back something you can defend."
+subtitle: "Design the study right, model it honestly, and report what the data can support."
 body-classes: page
 toc: true
 toc-depth: 2
@@ -140,7 +140,7 @@ Common questions
 ::: {.faq}
 **Do you work remotely?** Yes. I'm based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.
 
-**How are engagements structured?** We start with a short, no-cost conversation about your project. From there, work is scoped either as a fixed-price project with defined deliverables or at an hourly rate for open-ended advising; ongoing arrangements are available for teams that want a statistician on call.
+**How are engagements structured?** We start with a short conversation about your project. From there, work is scoped either as a defined project with agreed deliverables or as open-ended advising. Ongoing arrangements are available for teams that want a statistician on call.
 
 **Do you sign NDAs?** Yes. Confidentiality is standard practice. Your data and results are never shared or reused, and I'm happy to sign your NDA or supply one.
 
@@ -148,7 +148,7 @@ Common questions
 
 **What should I have ready before contacting me?** Just three things: the question you're trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don't need a polished brief. The [preparation guide](preparing.qmd) has a fuller list. If the data isn't collected yet, that is the best time to talk.
 
-**Is my project too small?** No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar. Catching a design problem early is cheap, and fixing it after data collection is not.
+**Is my project too small?** No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews are often the most useful. Catching a design problem early is cheap, and fixing it after data collection is not.
 :::
 
 ::: {.eyebrow}

@@ -151,8 +151,7 @@ format:
                 { "@type": "AdministrativeArea", "name": "British Columbia" },
                 { "@type": "Country", "name": "Canada" },
                 { "@type": "Place", "name": "Remote / Worldwide" }
-              ],
-              "priceRange": "$$"
+              ]
             }
           ]
         }

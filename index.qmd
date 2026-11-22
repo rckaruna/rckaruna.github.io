@@ -12,10 +12,10 @@ description: "Statistical consulting by Ruwan C. Karunanayaka, Ph.D., P.Stat.: s
 Statistical Consulting
 :::
 
-# Statistics you can defend.
+# Good answers start with the design.
 
 ::: {.lede}
-I'm an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny, from the first power calculation to the final dashboard.
+I'm an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and report results plainly, from the first power calculation to the final dashboard.
 :::
 
 [Work with me](consulting.qmd){.btn-cta .primary}
@@ -31,7 +31,7 @@ I'm an accredited professional statistician (P.Stat.) and Associate Professor. I
 
 ::: {.card-plain}
 ### What clients get
-A defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use.
+A sound answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use.
 :::
 :::
 :::
@@ -136,7 +136,7 @@ Short posts on how to design studies, measure reliably, and trust the numbers.
 ::: {.eyebrow}
 Get in touch
 :::
-## Have a study, a dataset, or a decision to defend?
+## Have a study, a dataset, or a decision to make?
 
 Tell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.
 

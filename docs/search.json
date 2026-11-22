@@ -333,7 +333,7 @@
     "href": "consulting.html#faq",
     "title": "Statistical consulting",
     "section": "FAQ",
-    "text": "FAQ\n\nDo you work remotely? Yes. I’m based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.\nHow are engagements structured? We start with a short, no-cost conversation about your project. From there, work is scoped either as a fixed-price project with defined deliverables or at an hourly rate for open-ended advising; ongoing arrangements are available for teams that want a statistician on call.\nDo you sign NDAs? Yes. Confidentiality is standard practice. Your data and results are never shared or reused, and I’m happy to sign your NDA or supply one.\nFor academic projects, how do you handle authorship? By the usual scientific norms: if my contribution is substantial and intellectual (methods development, analysis design, or interpretation), co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it’s settled before the work starts.\nWhat should I have ready before contacting me? Just three things: the question you’re trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don’t need a polished brief. The preparation guide has a fuller list. If the data isn’t collected yet, that is the best time to talk.\nIs my project too small? No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews often deliver the most value per dollar. Catching a design problem early is cheap, and fixing it after data collection is not.\n\n\nGet in touch"
+    "text": "FAQ\n\nDo you work remotely? Yes. I’m based in the Fraser Valley, BC, and most engagements run remotely; I regularly work across time zones. In-person is possible locally.\nHow are engagements structured? We start with a short conversation about your project. From there, work is scoped either as a defined project with agreed deliverables or as open-ended advising. Ongoing arrangements are available for teams that want a statistician on call.\nDo you sign NDAs? Yes. Confidentiality is standard practice. Your data and results are never shared or reused, and I’m happy to sign your NDA or supply one.\nFor academic projects, how do you handle authorship? By the usual scientific norms: if my contribution is substantial and intellectual (methods development, analysis design, or interpretation), co-authorship is appropriate and we agree on it at the outset. For narrower advising, an acknowledgment is the right fit. Either way, it’s settled before the work starts.\nWhat should I have ready before contacting me? Just three things: the question you’re trying to answer, where the data stands (planned, in collection, or in hand), and your timeline. You don’t need a polished brief. The preparation guide has a fuller list. If the data isn’t collected yet, that is the best time to talk.\nIs my project too small? No. Engagements range from a one-hour review of an analysis or a reviewer response to multi-month collaborations. Short reviews are often the most useful. Catching a design problem early is cheap, and fixing it after data collection is not.\n\n\nGet in touch"
   },
   {
     "objectID": "consulting.html#start-a-conversation",
@@ -618,44 +618,44 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Statistics you can defend.",
+    "title": "Good answers start with the design.",
     "section": "",
-    "text": "Statistical Consulting\n\n\n\n\nI’m an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and deliver results that hold up to scrutiny, from the first power calculation to the final dashboard.\n\nWork with me Email me\n\nstudy design DOE mixed models reliability AI evaluation R / Shiny\n\n\n\n\n\n\n\nA defensible answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use."
+    "text": "Statistical Consulting\n\n\n\n\nI’m an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and report results plainly, from the first power calculation to the final dashboard.\n\nWork with me Email me\n\nstudy design DOE mixed models reliability AI evaluation R / Shiny\n\n\n\n\n\n\n\nA sound answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use."
   },
   {
     "objectID": "index.html#grounded-in-peer-reviewed-work.",
     "href": "index.html#grounded-in-peer-reviewed-work.",
-    "title": "Statistics you can defend.",
+    "title": "Good answers start with the design.",
     "section": "Grounded in peer-reviewed work.",
     "text": "Grounded in peer-reviewed work.\n\n\nTraining & position\nPhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley. Honorary Visiting Professor, Centre for Health Economics Research and Evaluation, University of Technology Sydney (2026).\n\n\nPublished methods\nPeer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.\n\n\nAccreditation\nP.Stat. (Professional Statistician), accredited by the Statistical Society of Canada. SSC member since 2017."
   },
   {
     "objectID": "index.html#three-services-one-standard.",
     "href": "index.html#three-services-one-standard.",
-    "title": "Statistics you can defend.",
+    "title": "Good answers start with the design.",
     "section": "Three services, one standard.",
     "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization, so the data you collect can answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it. See a live example."
   },
   {
     "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
     "href": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
-    "title": "Statistics you can defend.",
+    "title": "Good answers start with the design.",
     "section": "Your AI is only as good as its evaluation.",
     "text": "Your AI is only as good as its evaluation.\nBenchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision, such as which model to buy or whether a system is ready to ship, someone should ask whether the measurement itself can be trusted. That’s measurement science, and it’s what I do.\n\n\nEvaluation design & audit\nDesign AI evaluations that answer the question, with proper sampling, contamination control, and uncertainty on every comparison. Or audit the one you have.\n\n\nReliability of judgments\nHuman raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.\n\n\nExperiments that respect your budget\nWhen every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.\n\n\nAI services in detail →"
   },
   {
     "objectID": "index.html#research-software-and-teaching.",
     "href": "index.html#research-software-and-teaching.",
-    "title": "Statistics you can defend.",
+    "title": "Good answers start with the design.",
     "section": "Research, software, and teaching.",
     "text": "Research, software, and teaching.\n\n\nProjects\nA live forecasting tool and open-source software: working demonstrations of the tools I build. Explore →\n\n\nResearch\nPublished work in experimental design and applied statistics, with an active research program in measurement reliability. Publications →\n\n\nBlog\nShort posts on how to design studies, measure reliably, and trust the numbers. All posts →"
   },
   {
-    "objectID": "index.html#have-a-study-a-dataset-or-a-decision-to-defend",
-    "href": "index.html#have-a-study-a-dataset-or-a-decision-to-defend",
-    "title": "Statistics you can defend.",
-    "section": "Have a study, a dataset, or a decision to defend?",
-    "text": "Have a study, a dataset, or a decision to defend?\nTell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.\nEmail me → How an engagement works"
+    "objectID": "index.html#have-a-study-a-dataset-or-a-decision-to-make",
+    "href": "index.html#have-a-study-a-dataset-or-a-decision-to-make",
+    "title": "Good answers start with the design.",
+    "section": "Have a study, a dataset, or a decision to make?",
+    "text": "Have a study, a dataset, or a decision to make?\nTell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.\nEmail me → How an engagement works"
   },
   {
     "objectID": "privacy.html",
