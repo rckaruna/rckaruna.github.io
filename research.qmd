@@ -26,7 +26,8 @@ Peer-reviewed
   doi: [10.1111/anzs.70069](https://doi.org/10.1111/anzs.70069)
 
 - **Compromise designs by augmenting the second-order Rechtschaffner design under a baseline parameterization.**
-  *Communications in Statistics: Theory and Methods* (2026), accepted.
+  *Communications in Statistics - Theory and Methods* (2026), in press.
+  doi: [10.1080/03610926.2026.2757791](https://doi.org/10.1080/03610926.2026.2757791)
 
 - **Is it time for a more analytical approach? Suboptimal shot selection strategies in handball.**
   (with A. G. Laxdal, S. Þorgeirsson, J. M. Saavedra, A. Ivarsson, Ó. Sigurgeirsson, and T. Haugen)
