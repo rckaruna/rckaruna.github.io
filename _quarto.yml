@@ -10,7 +10,7 @@ website:
   title: "Ruwan C. Karunanayaka"
   description: "Statistical consulting, experimental design, and interactive data tools, by Ruwan C. Karunanayaka, Ph.D., P.Stat."
   site-url: "https://rckaruna.ca"
-  image: "assets/social-card.png"
+  image: "assets/social-card-v2.png"
   favicon: "assets/favicon.png"
   open-graph: true
   twitter-card: true

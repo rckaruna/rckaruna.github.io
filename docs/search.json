@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nmethodology\n\ncricket\n\nsports\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nsports\n\nmeasurement\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\nconsulting\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nmeasurement\n\nAI\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nmeasurement\n\nsports\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\ncricket\n\nsports\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nmeasurement\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nmethodology\n\ncricket\n\nsports\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nHow many judgments does an LLM-as-judge score need?\n\n\n\nAI\n\nmeasurement\n\n\n\nA judge model gives a different score when you run it again. A decision study from generalizability theory says how many runs, or how many judges, a dependable score needs.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nsports\n\nmeasurement\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\nconsulting\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nmeasurement\n\nAI\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nmeasurement\n\nsports\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\ncricket\n\nsports\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nmeasurement\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "preparing.html",
@@ -42,109 +42,214 @@
     "text": "Ready to start?\nEmail me → Back to consulting"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "for/sports-organizations.html",
+    "href": "for/sports-organizations.html",
+    "title": "For sports organizations and performance staff",
     "section": "",
-    "text": "The work below comes out of my research program. Each piece takes a statistical model and turns it into something a non-statistician can use, which is most of what good applied statistics comes down to."
+    "text": "Sport produces a great deal of data and a great deal of noise. The useful question is usually not which number is highest, but which numbers are stable enough to act on. I work on that question across cricket, handball, and other sports, and I build tools that put the answer in front of coaches."
   },
   {
-    "objectID": "projects.html#t20i-win-probability-forecaster",
-    "href": "projects.html#t20i-win-probability-forecaster",
-    "title": "Projects",
-    "section": "T20I win-probability forecaster",
-    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\n\n\nOpen source"
+    "objectID": "for/sports-organizations.html#what-people-usually-ask-me",
+    "href": "for/sports-organizations.html#what-people-usually-ask-me",
+    "title": "For sports organizations and performance staff",
+    "section": "What people usually ask me",
+    "text": "What people usually ask me\n\nHow many games before this statistic tells us something about the player?\nIs this player’s good run real, or is it noise?\nWhich of our performance indicators are worth tracking?\nHow do we account for opponent, venue, and game state?\nCan we see the probability of winning as the game unfolds?\n\n\nHow I help"
   },
   {
-    "objectID": "projects.html#code-on-github",
-    "href": "projects.html#code-on-github",
-    "title": "Projects",
-    "section": "Code on GitHub",
-    "text": "Code on GitHub\ndgt: an R package for reliability analysis. Implements generalizability-theory decision studies, the framework for answering “how many observations before this measurement is dependable?”\ngithub.com/rckaruna/dgt →\nStatcastG: reliability at MLB scale. A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).\ngithub.com/rckaruna/StatcastG →\nfairness-gtheory: how reliable is a fairness audit? R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.\ngithub.com/rckaruna/fairness-gtheory →\nMARE-code: designing the study before the data exist. Companion R code for Minimum Aberration for Random-Effect Designs: choosing the best generalizability-study design when measurement reliability is the goal.\ngithub.com/rckaruna/MARE-code →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
+    "objectID": "for/sports-organizations.html#what-the-work-looks-like",
+    "href": "for/sports-organizations.html#what-the-work-looks-like",
+    "title": "For sports organizations and performance staff",
+    "section": "What the work looks like",
+    "text": "What the work looks like\n\nReliability of metrics: how much of a statistic reflects the player or team, and how many observations a dependable value needs.\nModels for performance data: mixed-effects models that separate player, team, opponent, and season effects.\nDecision questions: turning a coach’s question into something the data can answer.\nTools: interactive R and Shiny dashboards, such as the live cricket win-probability chart.\nWriting for coaches: results explained without jargon, with the uncertainty stated.\n\n\nExample"
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html",
-    "href": "posts/leaderboard-noise/index.html",
-    "title": "Your leaderboard gap is probably noise",
+    "objectID": "for/sports-organizations.html#from-past-work",
+    "href": "for/sports-organizations.html#from-past-work",
+    "title": "For sports organizations and performance staff",
+    "section": "From past work",
+    "text": "From past work\nA seven-author team across Norway, Iceland, and Sweden wanted to know whether elite handball teams choose their shots well. As the sole statistician, I fitted a mixed-effects logistic regression to six seasons of Icelandic top-division data (1,410 games). The peer-reviewed result (International Journal of Sports Science & Coaching, 2025) documents systematically suboptimal shot selection.\n\nFurther reading"
+  },
+  {
+    "objectID": "for/sports-organizations.html#related-posts",
+    "href": "for/sports-organizations.html#related-posts",
+    "title": "For sports organizations and performance staff",
+    "section": "Related posts",
+    "text": "Related posts\n\nHow many innings before a batting average means anything?\nHow many observations before a statistic means anything?\nWhy the usual reliability number is wrong for counts\nDoes the order of deliveries matter?\nWhat can a Combine tell you about Sundays?\n\n\nGet in touch"
+  },
+  {
+    "objectID": "for/sports-organizations.html#start-with-a-short-message",
+    "href": "for/sports-organizations.html#start-with-a-short-message",
+    "title": "For sports organizations and performance staff",
+    "section": "Start with a short message",
+    "text": "Start with a short message\nTell me the question, where the data stands, and your deadline. I usually reply within two working days.\nEmail me → Preparing for a consultation All consulting services"
+  },
+  {
+    "objectID": "for/graduate-students-and-faculty.html",
+    "href": "for/graduate-students-and-faculty.html",
+    "title": "For graduate students and faculty",
     "section": "",
-    "text": "Somewhere right now, a team is choosing which AI model to build on because it sits one place higher on a leaderboard. The gap might be two points of win rate, or a handful of Elo. Here’s the uncomfortable question a statistician has to ask: is that gap a fact about the models, or a fact about the sample?"
+    "text": "Most of my academic clients arrive at one of three points: planning a study, stuck partway through an analysis, or facing a committee or reviewer who has questioned the statistics. I have supervised student research and published in peer-reviewed journals, and I know what committees and reviewers look for."
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
-    "href": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
-    "title": "Your leaderboard gap is probably noise",
-    "section": "A two-minute calculation",
-    "text": "A two-minute calculation\nSuppose model A beats model B in 62% of head-to-head comparisons, and model B wins 60% of its own matchups, each measured over 500 votes. Two points apart — feels decisive on a ranking table.\nThe standard error of a proportion around 0.6 on 500 votes is \\(\\sqrt{0.6 \\times 0.4 / 500} \\approx 0.022\\) — about 2.2 percentage points per model. The uncertainty on the difference between them is larger still, roughly \\(\\sqrt{2} \\times 2.2 \\approx 3.1\\) points. A 2-point observed gap against ~3 points of noise, before any multiple-comparison correction, isn’t evidence of a real difference. It’s a tie wearing a trophy.\nThis isn’t a contrived example. Public arena leaderboards now publish confidence intervals precisely because the intervals at the top routinely overlap — the rank order among the leading models is partly an artifact of sampling. And the problem compounds: with ten models, there are forty-five pairwise comparisons, so a few “significant-looking” gaps will appear by chance even if nothing real separates anyone."
+    "objectID": "for/graduate-students-and-faculty.html#what-people-usually-ask-me",
+    "href": "for/graduate-students-and-faculty.html#what-people-usually-ask-me",
+    "title": "For graduate students and faculty",
+    "section": "What people usually ask me",
+    "text": "What people usually ask me\n\nHow many participants do I need, and how do I justify the number in my proposal?\nMy committee asked for a mixed model. What does that mean for my data?\nA reviewer says my analysis is wrong. Are they right, and how do I respond?\nWhich test fits my design, and what assumptions am I making?\nHow should I present my results so the chapter or paper reads clearly?\n\n\nHow I help"
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
-    "href": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
-    "title": "Your leaderboard gap is probably noise",
-    "section": "The deeper problem: rankings are measurements",
-    "text": "The deeper problem: rankings are measurements\nA leaderboard is a measurement instrument, and instruments have reliability. The question that matters isn’t only “is this gap significant today?” but “if we collected the same number of votes again, would the ranking come back the same?” Those are different questions. A gap can clear a significance test while the ranking built from many such gaps remains unstable — flip a few hundred votes and third place becomes sixth.\nMeasurement theory has a name for this and a toolbox for it: you decompose the variation in observed scores into the part that reflects real differences between the things being ranked and the part that’s occasion-to-occasion noise, then compute how many observations you’d need before the ranking is dependable at the level you care about. The recurring finding, in domain after domain, is that the number is larger than people expect — often much larger than the data anyone has."
+    "objectID": "for/graduate-students-and-faculty.html#what-the-work-looks-like",
+    "href": "for/graduate-students-and-faculty.html#what-the-work-looks-like",
+    "title": "For graduate students and faculty",
+    "section": "What the work looks like",
+    "text": "What the work looks like\n\nBefore data collection: sample-size and power calculations, and a statistical analysis plan you can put in a proposal or ethics application.\nDuring analysis: choosing a model that fits the design, fitting it in R, and checking that the assumptions hold.\nAfter review: reading reviewer comments on the statistics, deciding which points are correct, and drafting replies that address them.\nTeaching as we go: I explain what was done and why, so you can defend it in your defence or your next paper.\nAuthorship: settled at the start. Substantial methods work usually means co-authorship; narrower advice means an acknowledgment.\n\n\nFurther reading"
   },
   {
-    "objectID": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
-    "href": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
-    "title": "Your leaderboard gap is probably noise",
-    "section": "How to read a leaderboard without fooling yourself",
-    "text": "How to read a leaderboard without fooling yourself\nAsk for the interval, not the point: if the intervals of two entries overlap, treat them as tied, whatever the rank order says. Ask for the n behind each comparison — a rating built on 80 matchups and one built on 8,000 do not deserve the same trust. Be most suspicious exactly where the stakes feel highest, at the top, where entries are closest and gaps are smallest relative to noise. And if a decision genuinely hangs on the comparison — which model to license, which system to ship — run your own evaluation on your own task distribution, sized in advance so the answer will be reliable. That last step is a sample-size calculation, and it’s cheaper than choosing the wrong model.\nNone of this is exotic statistics. It’s the same discipline clinical trials have used for decades, pointed at a new kind of scoreboard. The scoreboards are new; the arithmetic isn’t.\nI consult on exactly these questions — evaluation design, the reliability of ranking and judging pipelines, and how much data a trustworthy verdict needs. If your team is making decisions off a leaderboard, let’s talk."
+    "objectID": "for/graduate-students-and-faculty.html#related-posts",
+    "href": "for/graduate-students-and-faculty.html#related-posts",
+    "title": "For graduate students and faculty",
+    "section": "Related posts",
+    "text": "Related posts\n\nHow many participants do you actually need?\nWriting a statistics paper that someone can use\nTesting one thing at a time is costing you\nWhat P.Stat. means for a client\n\n\nGet in touch"
   },
   {
-    "objectID": "posts/sample-size/index.html",
-    "href": "posts/sample-size/index.html",
-    "title": "How many participants do you actually need?",
+    "objectID": "for/graduate-students-and-faculty.html#start-with-a-short-message",
+    "href": "for/graduate-students-and-faculty.html#start-with-a-short-message",
+    "title": "For graduate students and faculty",
+    "section": "Start with a short message",
+    "text": "Start with a short message\nTell me the question, where the data stands, and your deadline. I usually reply within two working days.\nEmail me → Preparing for a consultation All consulting services"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Good answers start with the design.",
     "section": "",
-    "text": "It’s the most common question a statistician gets, usually asked as if it had a universal answer: how many participants do I need? Thirty? A hundred? Whatever the last paper in your field used?\nThe honest answer is that “how many” is the last step of a calculation, not the first. The first step is a question only you can answer: what is the smallest effect that would still matter?"
+    "text": "Statistical Consulting\n\n\n\n\nI’m an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and report results plainly, from the first power calculation to the final dashboard.\n\nWork with me Email me\n\nstudy design DOE mixed models reliability AI evaluation R / Shiny\n\n\n\n\n\n\n\nA sound answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use."
   },
   {
-    "objectID": "posts/sample-size/index.html#the-logic-in-one-paragraph",
-    "href": "posts/sample-size/index.html#the-logic-in-one-paragraph",
-    "title": "How many participants do you actually need?",
-    "section": "The logic, in one paragraph",
-    "text": "The logic, in one paragraph\nA study is a measuring instrument, and sample size sets its resolution. If a real effect exists, a bigger sample makes you more likely to detect it; the probability of detecting it is the study’s power. Powering a study means choosing the effect size you refuse to miss, then buying enough data to see it. Choose that effect honestly — the smallest difference that would change a decision, a treatment, a design — and the arithmetic follows. Choose it by working backwards from the sample you can afford, and the arithmetic will happily launder your budget into a number that looks scientific."
+    "objectID": "index.html#grounded-in-peer-reviewed-work.",
+    "href": "index.html#grounded-in-peer-reviewed-work.",
+    "title": "Good answers start with the design.",
+    "section": "Grounded in peer-reviewed work.",
+    "text": "Grounded in peer-reviewed work.\n\n\nTraining & position\nPhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley. Honorary Visiting Professor, Centre for Health Economics Research and Evaluation, University of Technology Sydney (2026).\n\n\nPublished methods\nPeer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.\n\n\nAccreditation\nP.Stat. (Professional Statistician), accredited by the Statistical Society of Canada. SSC member since 2017."
   },
   {
-    "objectID": "posts/sample-size/index.html#a-rule-of-thumb-worth-knowing",
-    "href": "posts/sample-size/index.html#a-rule-of-thumb-worth-knowing",
-    "title": "How many participants do you actually need?",
-    "section": "A rule of thumb worth knowing",
-    "text": "A rule of thumb worth knowing\nFor the simplest case — comparing two groups on a continuous outcome, aiming for the conventional 80% power at the 5% significance level — there’s a remarkably compact approximation:\n\\[n \\text{ per group} \\approx \\frac{16}{d^2}\\]\nwhere \\(d\\) is the effect size in standard-deviation units. Run the numbers and the stakes become vivid. A large effect (\\(d = 0.8\\)) needs about 25 per group — 50 people. A medium effect (\\(d = 0.5\\)) needs about 63 per group — 126 people. A small effect (\\(d = 0.2\\)) needs nearly 400 per group — close to 800 in total.\nThat last line is the one that changes plans. Small effects are common in real research, and the difference between “we can see medium effects” and “we can see small effects” is not a modest top-up — it’s a sixfold larger study. Better to know that before the ethics application than after the data disappoint.\nReal designs complicate the arithmetic in both directions: repeated measures and paired designs buy power cheaply; clustered data (patients within clinics, students within classrooms) quietly costs it, sometimes severely; and dropout means recruiting more than the calculation says. None of that changes the logic — it changes the inputs."
+    "objectID": "index.html#three-services-one-standard.",
+    "href": "index.html#three-services-one-standard.",
+    "title": "Good answers start with the design.",
+    "section": "Three services, one standard.",
+    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization, so the data you collect can answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it. See a live example."
   },
   {
-    "objectID": "posts/sample-size/index.html#two-things-reviewers-notice",
-    "href": "posts/sample-size/index.html#two-things-reviewers-notice",
-    "title": "How many participants do you actually need?",
-    "section": "Two things reviewers notice",
-    "text": "Two things reviewers notice\nA justified effect size. Grant panels have seen a thousand power sections that assume a “medium effect” because the template did. What earns credibility is an effect size argued from something — a pilot study, prior literature, a minimal clinically important difference — with the power statement built on it.\nNo post-hoc power. If a study comes back non-significant, computing “the power we had, given the effect we observed” adds nothing: observed power is just the p-value in a costume, and a low value re-states the non-significance it pretends to explain. The time for power analysis is before the data exist. Afterwards, the informative quantity is the confidence interval — it shows what effect sizes your study could and couldn’t rule out."
+    "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
+    "href": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
+    "title": "Good answers start with the design.",
+    "section": "Your AI is only as good as its evaluation.",
+    "text": "Your AI is only as good as its evaluation.\nBenchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision, such as which model to buy or whether a system is ready to ship, someone should ask whether the measurement itself can be trusted. That’s measurement science, and it’s what I do.\n\n\nEvaluation design & audit\nDesign AI evaluations that answer the question, with proper sampling, contamination control, and uncertainty on every comparison. Or audit the one you have.\n\n\nReliability of judgments\nHuman raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.\n\n\nExperiments that respect your budget\nWhen every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.\n\n\nAI services in detail →"
   },
   {
-    "objectID": "posts/sample-size/index.html#the-order-of-operations",
-    "href": "posts/sample-size/index.html#the-order-of-operations",
-    "title": "How many participants do you actually need?",
-    "section": "The order of operations",
-    "text": "The order of operations\nDecide what effect matters and defend the number. Estimate the variability from a pilot or the literature. Account for the design — pairing, clustering, dropout. Then compute n. If the answer is unaffordable, the honest moves are to change the design, sharpen the measurement, or study a bigger effect — not to quietly relax the power.\nSample-size justification, power analysis, and statistical-analysis plans for grant applications are part of my consulting practice — and the design stage is exactly the right time to talk."
+    "objectID": "index.html#research-software-and-teaching.",
+    "href": "index.html#research-software-and-teaching.",
+    "title": "Good answers start with the design.",
+    "section": "Research, software, and teaching.",
+    "text": "Research, software, and teaching.\n\n\nProjects\nA live forecasting tool and open-source software: working demonstrations of the tools I build. Explore →\n\n\nResearch\nPublished work in experimental design and applied statistics, with an active research program in measurement reliability. Publications →\n\n\nBlog\nShort posts on how to design studies, measure reliably, and trust the numbers. All posts →"
   },
   {
-    "objectID": "posts/speaking-to-the-room/index.html",
-    "href": "posts/speaking-to-the-room/index.html",
-    "title": "Does the room change the speech?",
+    "objectID": "index.html#have-a-study-a-dataset-or-a-decision-to-make",
+    "href": "index.html#have-a-study-a-dataset-or-a-decision-to-make",
+    "title": "Good answers start with the design.",
+    "section": "Have a study, a dataset, or a decision to make?",
+    "text": "Have a study, a dataset, or a decision to make?\nTell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.\nEmail me → How an engagement works"
+  },
+  {
+    "objectID": "posts/writing-a-statistics-paper/index.html",
+    "href": "posts/writing-a-statistics-paper/index.html",
+    "title": "Writing a statistics paper that someone can use",
     "section": "",
-    "text": "Here’s a question about campaigns that sounds political but is really a measurement problem: when a candidate speaks in a deeply partisan state versus a competitive one, is it the same speech?\nPolitical scientists have long theorized audience design — speakers tuning register to the room — but testing it at scale requires something that didn’t exist until recently: a way to score every campaign speech, not just the ones expert coders got to. Expert-coded populism databases are the field’s measurement standard, but they cover only eventual chief executives, which makes within-campaign questions unanswerable by design. My research program built a rubric-based large-language-model instrument for exactly this gap, validated against the Global Populism Database’s own coded speeches — including a held-out set of leaders never used during development — and stress-tested for the failure mode that matters most in campaign text: conflating ordinary adversarial campaigning with populism. With identity cues masked, the scores don’t move."
+    "text": "Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.\nThe best short guide I know on those decisions is Tim Swartz’s “Where Should I Publish My Sports Paper?” (The American Statistician, 2020). It is written for sports statistics, but most of it applies to any applied statistics paper. This post sets out what I took from it, followed by the habits I have added."
   },
   {
-    "objectID": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
-    "href": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
-    "title": "Does the room change the speech?",
-    "section": "What the speeches show",
-    "text": "What the speeches show\nPoint that instrument at U.S. presidential campaign speeches from 2015 through 2024, record where each was delivered, and a pattern emerges.\nFor the Trump campaigns of 2016 and 2020 — where rally schedules provide the density of geographically distributed speeches the question needs — populist rhetoric intensifies with the partisanship of the rally’s state. The association survives the test that usually kills fragile campaign findings: a wild cluster bootstrap with states as clusters and the null imposed gives p = .0029. Decomposing the register shows the gradient is carried almost entirely by anti-elite language — a coefficient of about 4.5 anti-elite terms per thousand words (SE 1.7) along the state-partisanship scale — rather than by people-centric appeals. And the timing matters: a negative, statistically significant interaction (−1.16) shows the differentiation is strongest early in the campaign and saturates late, consistent with a candidate finding the register early and converging on it everywhere by the close.\nThree checks discipline the interpretation. First, what kind of room matters: across a 32-specification curve, the state-partisanship effect is positive in every specification, while educational composition is significant in none — and racial-composition measures (white share, white non-college share) are similarly null. The audience feature the rhetoric tracks is partisanship, not demographics. Second, this is not a one-party artifact of range: Democratic candidates’ speech-to-speech variability (standard deviations of roughly .08–.13 on the populism scale) sits in the same neighbourhood as Trump’s (.11–.14), so the instrument could have detected the same tuning elsewhere; the strong gradient is where it is. Third, the honest null: pooled across six election cycles, the association is not statistically significant (p = .30) — the audience-design signal is a finding about specific campaigns with dense, geographically varied schedules, not a law of American politics. Reporting that null is not a weakness of the study; it is the study working."
+    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
+    "href": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "What I took from the guide",
+    "text": "What I took from the guide\nA good applied paper does two things. It has something new in the statistics, and it addresses a real problem in the application. The two pull against each other. A paper written to impress statisticians tends to treat the application as an afterthought, and a paper written for practitioners can have little in it that is new. The guide’s point is that the best papers manage both, and that an author should know which of the two a given paper is stronger on.\nPractitioners adopt what they can follow. A method that works but cannot be explained to the people who would use it will not be used. The guide’s examples are methods that reached practice because the idea behind them could be stated plainly. I now ask of every method section whether a coach, a clinician, or an engineer could say in two sentences what the method does.\nChoose the audience, then the journal. The same piece of work can be written for a statistics journal, an operations research journal, or a journal in the applied field. Each wants a different paper. Statistics journals want a substantial statistical contribution. Operations research journals value a solved problem. Journals in the applied field care most about what changes in practice. Choosing the audience first decides what goes in the introduction, how much theory stays in the main text, and what counts as the result.\nExpect hard reviews and keep going. The guide is frank that reviewers question the assumptions in applied work closely, and that a paper rejected quickly at one journal can be published at another after a long review. Its advice is a thick skin. A rejection is information about the fit between the paper and the journal as often as it is about the work.\nGet the work to readers. Applied work is scattered across disciplines, and a paper in the wrong place may never reach the people who could use it. The guide closes on a simple instruction: do good work and get it out."
   },
   {
-    "objectID": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
-    "href": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
-    "title": "Does the room change the speech?",
-    "section": "Why a statistician cares",
-    "text": "Why a statistician cares\nStrip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.\nMeasurement with large language models — validation, calibration, and reliability — is part of my research program and consulting practice."
+    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
+    "href": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "What I have added",
+    "text": "What I have added\nThese are my own habits. They are not from the guide.\n\nKeep data, methods, results, and discussion apart. A reader who wants to know what was measured should not have to read the results to find out. When interpretation creeps into the methods section, I move it.\nLead each result with what it means. The sentence a reader remembers should come first, and the number that supports it second.\nGive every number a comparison. A coefficient of 0.61 means little alone. Against a threshold, a previous study, or a second condition, it means something.\nLet tables carry the numbers and the text carry the pattern. A paragraph that repeats a table adds length without adding anything.\nState limitations with numbers. “The sample is small” is a hedge. “The estimate is based on 14 matches and would need about 40 to reach the usual standard” is a limitation the reader can weigh.\nCheck every reference against the source. Author, year, volume, and pages, each one. A wrong citation is a small error that costs a large amount of trust.\nWrite plainly. Short declarative sentences, no warm-up paragraphs, and no claim softened below what the evidence supports."
+  },
+  {
+    "objectID": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
+    "href": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
+    "title": "Writing a statistics paper that someone can use",
+    "section": "Why this matters outside journals",
+    "text": "Why this matters outside journals\nEverything above applies to a consulting report as much as to a paper. A client is a practitioner who has to act on the result. If they cannot follow what was done, cannot find the number they need, or cannot tell how far to trust it, the analysis has not done its job, however good the statistics are.\nReference. Swartz, T. B. (2020). Where should I publish my sports paper? The American Statistician 74(2), 103–108.\nClear reporting for the audience that has to use it is part of every engagement in my consulting practice."
+  },
+  {
+    "objectID": "posts/combine-to-sundays/index.html",
+    "href": "posts/combine-to-sundays/index.html",
+    "title": "What can a Combine tell you about Sundays?",
+    "section": "",
+    "text": "Every spring, NFL teams gather the year’s draft prospects and time them. A player runs forty yards in shorts, alone, on a clean surface, and the result follows him for the rest of his career. Then he is drafted, and what matters is what he does in pads, on grass, with a three-hundred-pound opponent in the way.\nThis year’s NFL Big Data Bowl asks entrants to connect the two: tracking data from the Combine on one side, and what the same players did in regular-season games on the other. I entered, and my entry looks at defensive linemen. The results will wait until the competition closes in January. The question is worth a post now, because it is a measurement problem before it is a football problem."
+  },
+  {
+    "objectID": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
+    "href": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
+    "title": "What can a Combine tell you about Sundays?",
+    "section": "Three reasons the link is hard to measure",
+    "text": "Three reasons the link is hard to measure\nThe players you can check are not the players you measured. Hundreds of prospects run at the Combine. Game data exist only for those who were drafted, made a roster, and played. Teams choose those players partly on the Combine numbers themselves. So the group with both measurements has already been filtered on one of them, and any relationship seen in that group is weaker than the one in the full pool. A scout who concludes that a drill “does not predict much” may be looking at the filter and not at the drill.\nOne trial is a noisy reading. A prospect runs a drill once or twice. A start can be a few hundredths early or late for reasons that have nothing to do with ability. Before asking whether a Combine number predicts game performance, it is fair to ask how well it would predict itself on a second day. If the answer is “moderately”, then no game outcome can be predicted better than that.\nThe same word names two different events. A “first step” at the Combine is a reaction to the player’s own decision to go. A first step in a game is a reaction to the snap, taken from a stance chosen for the play, against a blocker who is also moving. Both can be clocked, and both are called get-off. Whether they measure the same quality is the thing to be shown, not assumed."
+  },
+  {
+    "objectID": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
+    "href": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
+    "title": "What can a Combine tell you about Sundays?",
+    "section": "What a useful answer looks like",
+    "text": "What a useful answer looks like\nA front office does not need a correlation. It needs to know, for a given position, how much a tenth of a second at the Combine is worth in the games, and how sure anyone can be about that figure. An answer with honest uncertainty attached is more useful than a sharper one that falls apart when the next draft class arrives. It should also say where it does not apply. A result for defensive linemen says little about receivers.\nThat is the standard I have tried to hold the entry to. I will write about what it found after the January deadline.\nMeasurement problems of this kind, where the number in hand is a noisy stand-in for the thing you care about, are a large part of my consulting practice."
+  },
+  {
+    "objectID": "posts/how-many-judgments/index.html",
+    "href": "posts/how-many-judgments/index.html",
+    "title": "How many judgments does an LLM-as-judge score need?",
+    "section": "",
+    "text": "Many teams now score AI outputs with another model. The judge reads a response, applies a rubric, and returns a number. It is fast and cheap, and it has a problem that anyone who has run it twice has noticed: the score changes.\nRun the same judge on the same response again and you may get a 7 instead of an 8. Swap in a different judge model and the scores shift again. So how many judgments should go into a score before you trust it? Measurement theory has had a direct answer to this question since the 1970s. It is called a decision study, and it comes from generalizability theory."
+  },
+  {
+    "objectID": "posts/how-many-judgments/index.html#where-the-variation-comes-from",
+    "href": "posts/how-many-judgments/index.html#where-the-variation-comes-from",
+    "title": "How many judgments does an LLM-as-judge score need?",
+    "section": "Where the variation comes from",
+    "text": "Where the variation comes from\nSuppose you score a set of responses, and each response is judged several times. The judgments could be repeated runs of one judge, or runs of several different judges. An observed score then has three sources of variation:\n\nThe responses. Some responses really are better than others. This is the variation you want to measure.\nThe judge runs. Some runs, or some judges, are harsher than others across the board.\nEverything else. A run that likes one response and not another, plus plain noise.\n\nGeneralizability theory estimates how large each source is. These are variance components, and they come from an ordinary random-effects model fitted to the scores."
+  },
+  {
+    "objectID": "posts/how-many-judgments/index.html#a-worked-example",
+    "href": "posts/how-many-judgments/index.html#a-worked-example",
+    "title": "How many judgments does an LLM-as-judge score need?",
+    "section": "A worked example",
+    "text": "A worked example\nSuppose the variance components come out as follows, as shares of the total variation in single judgments. The numbers are illustrative, not from any particular system.\n\n\n\nSource\nShare of variance\n\n\n\n\nResponses\n0.40\n\n\nJudge runs\n0.10\n\n\nEverything else\n0.50\n\n\n\nA single judgment, then, is mostly noise. Only 40% of the variation in one score reflects real differences between responses.\nAveraging over several judgments shrinks the noise, and the decision study says by how much. There are two versions of the answer, depending on what the score is for.\n\nFor ranking responses against each other, only the third source matters, because a harsh run lowers every response equally. The reliability of an average of \\(n\\) judgments is \\(0.40 / (0.40 + 0.50/n)\\).\nFor comparing a score with a fixed bar, such as “ship if the mean is above 7”, the second source matters too, because a harsh run moves the score relative to the bar. The reliability is \\(0.40 / (0.40 + 0.60/n)\\).\n\n\n\n\n\n\n\n\n\nJudgments per response\nReliability for ranking\nReliability against a fixed bar\n\n\n\n\n1\n0.44\n0.40\n\n\n2\n0.62\n0.57\n\n\n3\n0.71\n0.67\n\n\n5\n0.80\n0.77\n\n\n10\n0.89\n0.87\n\n\n\nA common target is 0.80. Here that takes 5 judgments per response for ranking and 6 for a fixed bar. Reaching 0.90 takes 12 and 14. One judgment per response, which is how many pipelines run, gives a reliability below 0.5."
+  },
+  {
+    "objectID": "posts/how-many-judgments/index.html#what-this-changes-in-practice",
+    "href": "posts/how-many-judgments/index.html#what-this-changes-in-practice",
+    "title": "How many judgments does an LLM-as-judge score need?",
+    "section": "What this changes in practice",
+    "text": "What this changes in practice\nMeasure before you decide. The variance components differ between tasks, rubrics, and judges. Score a sample of 50 to 100 responses with two or three judgments each, estimate the components, and then choose the number of judgments for the full run.\nSeveral judges can beat one judge run several times. If one judge has a consistent bias, repeating it does not remove the bias. The decision study can compare “three runs of one judge” with “one run each of three judges” once both are in the pilot data.\nMore items usually beat more judgments. When the goal is to compare two systems rather than to score single responses, the number of test items often matters more than the number of judge runs. The same framework adds items as a source of variation and shows where the next unit of budget does the most good.\nReport the reliability with the score. A benchmark score without a reliability is a measurement without its error bar."
+  },
+  {
+    "objectID": "posts/how-many-judgments/index.html#fitting-the-model",
+    "href": "posts/how-many-judgments/index.html#fitting-the-model",
+    "title": "How many judgments does an LLM-as-judge score need?",
+    "section": "Fitting the model",
+    "text": "Fitting the model\nThe variance components come from a random-effects model. In R, with one row per judgment, it is a few lines:\nlibrary(lme4)\nfit &lt;- lmer(score ~ 1 + (1 | response) + (1 | judge_run), data = scores)\nVarCorr(fit)\nThe three variances printed are the response, judge-run, and residual components in the table above. Scores on a short ordinal scale, such as 1 to 5, can need a model for ordered categories instead, but the logic of the decision study is the same."
+  },
+  {
+    "objectID": "posts/how-many-judgments/index.html#references",
+    "href": "posts/how-many-judgments/index.html#references",
+    "title": "How many judgments does an LLM-as-judge score need?",
+    "section": "References",
+    "text": "References\nCronbach, L. J., Gleser, G. C., Nanda, H., and Rajaratnam, N. (1972). The Dependability of Behavioral Measurements: Theory of Generalizability for Scores and Profiles. Wiley.\nBrennan, R. L. (2001). Generalizability Theory. Springer.\nEvaluation design and the reliability of rating pipelines are part of my consulting practice. See also Your leaderboard gap is probably noise."
   },
   {
     "objectID": "posts/ofat-vs-factorial/index.html",
@@ -284,7 +389,7 @@
     "href": "consulting.html#clients-collaborators",
     "title": "Statistical consulting",
     "section": "Clients & collaborators",
-    "text": "Clients & collaborators\n\nGraduate students and faculty: thesis and dissertation analysis, defence preparation, and grant applications.\nHealth researchers and clinical teams: study design and analyses that stand up to ethics boards and reviewers.\nEngineering and manufacturing groups: designed experiments, quality methods, and process improvement.\nSports organizations and performance staff: measurement, reliability, and forecasting from performance data.\nAI, software, and product teams: evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.\n\n\nServices"
+    "text": "Clients & collaborators\nEach group below has its own page with typical questions and related reading.\n\nGraduate students and faculty: thesis and dissertation analysis, defence preparation, and grant applications.\nHealth researchers and clinical teams: study design and analyses that stand up to ethics boards and reviewers.\nEngineering and manufacturing groups: designed experiments, quality methods, and process improvement.\nSports organizations and performance staff: measurement, reliability, and forecasting from performance data.\nAI, software, and product teams: evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.\n\n\nServices"
   },
   {
     "objectID": "consulting.html#what-i-help-with",
@@ -298,7 +403,7 @@
     "href": "consulting.html#statistics-for-ai-systems",
     "title": "Statistical consulting",
     "section": "Statistics for AI systems",
-    "text": "Statistics for AI systems\nAI has a measurement problem. Benchmark scores move with the evaluation harness, leaderboard gaps often sit inside statistical noise, human and LLM-judge ratings carry biases nobody has quantified, and evaluation experiments are rarely repeated. If your organization is choosing, validating, or shipping AI systems, the statistics underneath those decisions deserve the same rigor as a clinical trial. I offer:\n\nEvaluation design & audit. Design an evaluation that answers your question, with sampling that matches the deployment population, contamination and leakage control, and uncertainty attached to every comparison. Or independently audit an existing one before it drives a procurement or launch decision.\nReliability of evaluation pipelines. Human rater panels and LLM-as-judge setups are measurement instruments, and measurement instruments have quantifiable reliability. I decompose where the noise lives, quantify rater and occasion effects, and answer the operational question: how many judgments before this verdict is dependable?\nBenchmark & leaderboard dependability. Whether a ranking of models, or of anything compared pairwise, reflects real differences or sampling noise, and how much more data a stable ranking would need.\nCalibration audits. If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.\nDesign of experiments for AI work. Prompt, configuration, and model comparisons where each run costs real money. Factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.\nTest design for statistical and machine-learning software. Software with many options has too many configurations to test one by one. Covering arrays and fractional factorial designs give a short test suite that still exercises every pair of settings. I also measure how repeatable test results are across machines and reruns, so a failing test can be told apart from a noisy one.\n\n\nWhat’s different about this\nMost AI consultants build systems. I do something rarer: I measure whether systems, and the evaluations of them, can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts. Two things follow. My conclusions come with honest uncertainty, including “this evaluation cannot support the claim you want to make” when that’s the truth. And I’m independent: an accredited statistician and university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires."
+    "text": "Statistics for AI systems\nAI has a measurement problem. Benchmark scores move with the evaluation harness, leaderboard gaps often sit inside statistical noise, human and LLM-judge ratings carry biases nobody has quantified, and evaluation experiments are rarely repeated. If your organization is choosing, validating, or shipping AI systems, the statistics underneath those decisions deserve the same rigor as a clinical trial. I offer:\n\nEvaluation design & audit. Design an evaluation that answers your question, with sampling that matches the deployment population, contamination and leakage control, and uncertainty attached to every comparison. Or independently audit an existing one before it drives a procurement or launch decision.\nReliability of evaluation pipelines. Human rater panels and LLM-as-judge setups are measurement instruments, and measurement instruments have quantifiable reliability. I decompose where the noise lives, quantify rater and occasion effects, and answer the operational question: how many judgments before this verdict is dependable?\nBenchmark & leaderboard dependability. Whether a ranking of models, or of anything compared pairwise, reflects real differences or sampling noise, and how much more data a stable ranking would need.\nCalibration audits. If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.\nDesign of experiments for AI work. Prompt, configuration, and model comparisons where each run costs real money. Factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.\nTest design for statistical and machine-learning software. Software with many options has too many configurations to test one by one. Covering arrays and fractional factorial designs give a short test suite that still exercises every pair of settings. I also measure how repeatable test results are across machines and reruns, so a failing test can be told apart from a noisy one.\n\nFor a worked example of judge reliability, see How many judgments does an LLM-as-judge score need?. The AI and product teams page has more.\n\nWhat’s different about this\nMost AI consultants build systems. I do something rarer: I measure whether systems, and the evaluations of them, can be trusted. That comes from a research career in measurement reliability and experimental design, methods proven in peer review rather than assembled from blog posts. Two things follow. My conclusions come with honest uncertainty, including “this evaluation cannot support the claim you want to make” when that’s the truth. And I’m independent: an accredited statistician and university professor with no model, platform, or vendor to sell, which is exactly what third-party validation requires."
   },
   {
     "objectID": "consulting.html#how-an-engagement-works",
@@ -567,95 +672,228 @@
     "text": "What to do with this\nIf your measure is a count and someone hands you a reliability coefficient, ask which scale it was computed on. If the answer is the model’s scale, treat it as an upper limit. Then ask how many observations sit under each number being compared. For rare events, the honest answer is usually “not enough yet”.\nMeasurement reliability for counts, proportions, and other non-normal data is part of my consulting practice."
   },
   {
-    "objectID": "posts/combine-to-sundays/index.html",
-    "href": "posts/combine-to-sundays/index.html",
-    "title": "What can a Combine tell you about Sundays?",
+    "objectID": "posts/speaking-to-the-room/index.html",
+    "href": "posts/speaking-to-the-room/index.html",
+    "title": "Does the room change the speech?",
     "section": "",
-    "text": "Every spring, NFL teams gather the year’s draft prospects and time them. A player runs forty yards in shorts, alone, on a clean surface, and the result follows him for the rest of his career. Then he is drafted, and what matters is what he does in pads, on grass, with a three-hundred-pound opponent in the way.\nThis year’s NFL Big Data Bowl asks entrants to connect the two: tracking data from the Combine on one side, and what the same players did in regular-season games on the other. I entered, and my entry looks at defensive linemen. The results will wait until the competition closes in January. The question is worth a post now, because it is a measurement problem before it is a football problem."
+    "text": "Here’s a question about campaigns that sounds political but is really a measurement problem: when a candidate speaks in a deeply partisan state versus a competitive one, is it the same speech?\nPolitical scientists have long theorized audience design — speakers tuning register to the room — but testing it at scale requires something that didn’t exist until recently: a way to score every campaign speech, not just the ones expert coders got to. Expert-coded populism databases are the field’s measurement standard, but they cover only eventual chief executives, which makes within-campaign questions unanswerable by design. My research program built a rubric-based large-language-model instrument for exactly this gap, validated against the Global Populism Database’s own coded speeches — including a held-out set of leaders never used during development — and stress-tested for the failure mode that matters most in campaign text: conflating ordinary adversarial campaigning with populism. With identity cues masked, the scores don’t move."
   },
   {
-    "objectID": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
-    "href": "posts/combine-to-sundays/index.html#three-reasons-the-link-is-hard-to-measure",
-    "title": "What can a Combine tell you about Sundays?",
-    "section": "Three reasons the link is hard to measure",
-    "text": "Three reasons the link is hard to measure\nThe players you can check are not the players you measured. Hundreds of prospects run at the Combine. Game data exist only for those who were drafted, made a roster, and played. Teams choose those players partly on the Combine numbers themselves. So the group with both measurements has already been filtered on one of them, and any relationship seen in that group is weaker than the one in the full pool. A scout who concludes that a drill “does not predict much” may be looking at the filter and not at the drill.\nOne trial is a noisy reading. A prospect runs a drill once or twice. A start can be a few hundredths early or late for reasons that have nothing to do with ability. Before asking whether a Combine number predicts game performance, it is fair to ask how well it would predict itself on a second day. If the answer is “moderately”, then no game outcome can be predicted better than that.\nThe same word names two different events. A “first step” at the Combine is a reaction to the player’s own decision to go. A first step in a game is a reaction to the snap, taken from a stance chosen for the play, against a blocker who is also moving. Both can be clocked, and both are called get-off. Whether they measure the same quality is the thing to be shown, not assumed."
+    "objectID": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
+    "href": "posts/speaking-to-the-room/index.html#what-the-speeches-show",
+    "title": "Does the room change the speech?",
+    "section": "What the speeches show",
+    "text": "What the speeches show\nPoint that instrument at U.S. presidential campaign speeches from 2015 through 2024, record where each was delivered, and a pattern emerges.\nFor the Trump campaigns of 2016 and 2020 — where rally schedules provide the density of geographically distributed speeches the question needs — populist rhetoric intensifies with the partisanship of the rally’s state. The association survives the test that usually kills fragile campaign findings: a wild cluster bootstrap with states as clusters and the null imposed gives p = .0029. Decomposing the register shows the gradient is carried almost entirely by anti-elite language — a coefficient of about 4.5 anti-elite terms per thousand words (SE 1.7) along the state-partisanship scale — rather than by people-centric appeals. And the timing matters: a negative, statistically significant interaction (−1.16) shows the differentiation is strongest early in the campaign and saturates late, consistent with a candidate finding the register early and converging on it everywhere by the close.\nThree checks discipline the interpretation. First, what kind of room matters: across a 32-specification curve, the state-partisanship effect is positive in every specification, while educational composition is significant in none — and racial-composition measures (white share, white non-college share) are similarly null. The audience feature the rhetoric tracks is partisanship, not demographics. Second, this is not a one-party artifact of range: Democratic candidates’ speech-to-speech variability (standard deviations of roughly .08–.13 on the populism scale) sits in the same neighbourhood as Trump’s (.11–.14), so the instrument could have detected the same tuning elsewhere; the strong gradient is where it is. Third, the honest null: pooled across six election cycles, the association is not statistically significant (p = .30) — the audience-design signal is a finding about specific campaigns with dense, geographically varied schedules, not a law of American politics. Reporting that null is not a weakness of the study; it is the study working."
   },
   {
-    "objectID": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
-    "href": "posts/combine-to-sundays/index.html#what-a-useful-answer-looks-like",
-    "title": "What can a Combine tell you about Sundays?",
-    "section": "What a useful answer looks like",
-    "text": "What a useful answer looks like\nA front office does not need a correlation. It needs to know, for a given position, how much a tenth of a second at the Combine is worth in the games, and how sure anyone can be about that figure. An answer with honest uncertainty attached is more useful than a sharper one that falls apart when the next draft class arrives. It should also say where it does not apply. A result for defensive linemen says little about receivers.\nThat is the standard I have tried to hold the entry to. I will write about what it found after the January deadline.\nMeasurement problems of this kind, where the number in hand is a noisy stand-in for the thing you care about, are a large part of my consulting practice."
+    "objectID": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
+    "href": "posts/speaking-to-the-room/index.html#why-a-statistician-cares",
+    "title": "Does the room change the speech?",
+    "section": "Why a statistician cares",
+    "text": "Why a statistician cares\nStrip the politics away and this is a chain of measurement problems: an instrument validated against a human-expert benchmark; a genre-specific calibration failure found and repaired; a generalizability study answering how many speeches and how many models a dependable score needs; and inference that respects the clustering in the data rather than pretending a few hundred speeches are a few hundred independent draws. The subject matter is rhetoric; the machinery is the same one I use on cricket averages and AI leaderboards. Whether a number can be trusted — and how much data that trust requires — is the same question everywhere.\nMeasurement with large language models — validation, calibration, and reliability — is part of my research program and consulting practice."
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html",
-    "href": "posts/writing-a-statistics-paper/index.html",
-    "title": "Writing a statistics paper that someone can use",
+    "objectID": "posts/sample-size/index.html",
+    "href": "posts/sample-size/index.html",
+    "title": "How many participants do you actually need?",
     "section": "",
-    "text": "Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.\nThe best short guide I know on those decisions is Tim Swartz’s “Where Should I Publish My Sports Paper?” (The American Statistician, 2020). It is written for sports statistics, but most of it applies to any applied statistics paper. This post sets out what I took from it, followed by the habits I have added."
+    "text": "It’s the most common question a statistician gets, usually asked as if it had a universal answer: how many participants do I need? Thirty? A hundred? Whatever the last paper in your field used?\nThe honest answer is that “how many” is the last step of a calculation, not the first. The first step is a question only you can answer: what is the smallest effect that would still matter?"
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
-    "href": "posts/writing-a-statistics-paper/index.html#what-i-took-from-the-guide",
-    "title": "Writing a statistics paper that someone can use",
-    "section": "What I took from the guide",
-    "text": "What I took from the guide\nA good applied paper does two things. It has something new in the statistics, and it addresses a real problem in the application. The two pull against each other. A paper written to impress statisticians tends to treat the application as an afterthought, and a paper written for practitioners can have little in it that is new. The guide’s point is that the best papers manage both, and that an author should know which of the two a given paper is stronger on.\nPractitioners adopt what they can follow. A method that works but cannot be explained to the people who would use it will not be used. The guide’s examples are methods that reached practice because the idea behind them could be stated plainly. I now ask of every method section whether a coach, a clinician, or an engineer could say in two sentences what the method does.\nChoose the audience, then the journal. The same piece of work can be written for a statistics journal, an operations research journal, or a journal in the applied field. Each wants a different paper. Statistics journals want a substantial statistical contribution. Operations research journals value a solved problem. Journals in the applied field care most about what changes in practice. Choosing the audience first decides what goes in the introduction, how much theory stays in the main text, and what counts as the result.\nExpect hard reviews and keep going. The guide is frank that reviewers question the assumptions in applied work closely, and that a paper rejected quickly at one journal can be published at another after a long review. Its advice is a thick skin. A rejection is information about the fit between the paper and the journal as often as it is about the work.\nGet the work to readers. Applied work is scattered across disciplines, and a paper in the wrong place may never reach the people who could use it. The guide closes on a simple instruction: do good work and get it out."
+    "objectID": "posts/sample-size/index.html#the-logic-in-one-paragraph",
+    "href": "posts/sample-size/index.html#the-logic-in-one-paragraph",
+    "title": "How many participants do you actually need?",
+    "section": "The logic, in one paragraph",
+    "text": "The logic, in one paragraph\nA study is a measuring instrument, and sample size sets its resolution. If a real effect exists, a bigger sample makes you more likely to detect it; the probability of detecting it is the study’s power. Powering a study means choosing the effect size you refuse to miss, then buying enough data to see it. Choose that effect honestly — the smallest difference that would change a decision, a treatment, a design — and the arithmetic follows. Choose it by working backwards from the sample you can afford, and the arithmetic will happily launder your budget into a number that looks scientific."
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
-    "href": "posts/writing-a-statistics-paper/index.html#what-i-have-added",
-    "title": "Writing a statistics paper that someone can use",
-    "section": "What I have added",
-    "text": "What I have added\nThese are my own habits. They are not from the guide.\n\nKeep data, methods, results, and discussion apart. A reader who wants to know what was measured should not have to read the results to find out. When interpretation creeps into the methods section, I move it.\nLead each result with what it means. The sentence a reader remembers should come first, and the number that supports it second.\nGive every number a comparison. A coefficient of 0.61 means little alone. Against a threshold, a previous study, or a second condition, it means something.\nLet tables carry the numbers and the text carry the pattern. A paragraph that repeats a table adds length without adding anything.\nState limitations with numbers. “The sample is small” is a hedge. “The estimate is based on 14 matches and would need about 40 to reach the usual standard” is a limitation the reader can weigh.\nCheck every reference against the source. Author, year, volume, and pages, each one. A wrong citation is a small error that costs a large amount of trust.\nWrite plainly. Short declarative sentences, no warm-up paragraphs, and no claim softened below what the evidence supports."
+    "objectID": "posts/sample-size/index.html#a-rule-of-thumb-worth-knowing",
+    "href": "posts/sample-size/index.html#a-rule-of-thumb-worth-knowing",
+    "title": "How many participants do you actually need?",
+    "section": "A rule of thumb worth knowing",
+    "text": "A rule of thumb worth knowing\nFor the simplest case — comparing two groups on a continuous outcome, aiming for the conventional 80% power at the 5% significance level — there’s a remarkably compact approximation:\n\\[n \\text{ per group} \\approx \\frac{16}{d^2}\\]\nwhere \\(d\\) is the effect size in standard-deviation units. Run the numbers and the stakes become vivid. A large effect (\\(d = 0.8\\)) needs about 25 per group — 50 people. A medium effect (\\(d = 0.5\\)) needs about 63 per group — 126 people. A small effect (\\(d = 0.2\\)) needs nearly 400 per group — close to 800 in total.\nThat last line is the one that changes plans. Small effects are common in real research, and the difference between “we can see medium effects” and “we can see small effects” is not a modest top-up — it’s a sixfold larger study. Better to know that before the ethics application than after the data disappoint.\nReal designs complicate the arithmetic in both directions: repeated measures and paired designs buy power cheaply; clustered data (patients within clinics, students within classrooms) quietly costs it, sometimes severely; and dropout means recruiting more than the calculation says. None of that changes the logic — it changes the inputs."
   },
   {
-    "objectID": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
-    "href": "posts/writing-a-statistics-paper/index.html#why-this-matters-outside-journals",
-    "title": "Writing a statistics paper that someone can use",
-    "section": "Why this matters outside journals",
-    "text": "Why this matters outside journals\nEverything above applies to a consulting report as much as to a paper. A client is a practitioner who has to act on the result. If they cannot follow what was done, cannot find the number they need, or cannot tell how far to trust it, the analysis has not done its job, however good the statistics are.\nReference. Swartz, T. B. (2020). Where should I publish my sports paper? The American Statistician 74(2), 103–108.\nClear reporting for the audience that has to use it is part of every engagement in my consulting practice."
+    "objectID": "posts/sample-size/index.html#two-things-reviewers-notice",
+    "href": "posts/sample-size/index.html#two-things-reviewers-notice",
+    "title": "How many participants do you actually need?",
+    "section": "Two things reviewers notice",
+    "text": "Two things reviewers notice\nA justified effect size. Grant panels have seen a thousand power sections that assume a “medium effect” because the template did. What earns credibility is an effect size argued from something — a pilot study, prior literature, a minimal clinically important difference — with the power statement built on it.\nNo post-hoc power. If a study comes back non-significant, computing “the power we had, given the effect we observed” adds nothing: observed power is just the p-value in a costume, and a low value re-states the non-significance it pretends to explain. The time for power analysis is before the data exist. Afterwards, the informative quantity is the confidence interval — it shows what effect sizes your study could and couldn’t rule out."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Good answers start with the design.",
+    "objectID": "posts/sample-size/index.html#the-order-of-operations",
+    "href": "posts/sample-size/index.html#the-order-of-operations",
+    "title": "How many participants do you actually need?",
+    "section": "The order of operations",
+    "text": "The order of operations\nDecide what effect matters and defend the number. Estimate the variability from a pilot or the literature. Account for the design — pairing, clustering, dropout. Then compute n. If the answer is unaffordable, the honest moves are to change the design, sharpen the measurement, or study a bigger effect — not to quietly relax the power.\nSample-size justification, power analysis, and statistical-analysis plans for grant applications are part of my consulting practice — and the design stage is exactly the right time to talk."
+  },
+  {
+    "objectID": "posts/leaderboard-noise/index.html",
+    "href": "posts/leaderboard-noise/index.html",
+    "title": "Your leaderboard gap is probably noise",
     "section": "",
-    "text": "Statistical Consulting\n\n\n\n\nI’m an accredited professional statistician (P.Stat.) and Associate Professor. I help researchers, teams, and organizations design studies properly, model data honestly, and report results plainly, from the first power calculation to the final dashboard.\n\nWork with me Email me\n\nstudy design DOE mixed models reliability AI evaluation R / Shiny\n\n\n\n\n\n\n\nA sound answer, not just a number: the right design for the question, methods chosen for the data rather than habit, uncertainty stated plainly, and a writeup or interactive tool your stakeholders can use."
+    "text": "Somewhere right now, a team is choosing which AI model to build on because it sits one place higher on a leaderboard. The gap might be two points of win rate, or a handful of Elo. Here’s the uncomfortable question a statistician has to ask: is that gap a fact about the models, or a fact about the sample?"
   },
   {
-    "objectID": "index.html#grounded-in-peer-reviewed-work.",
-    "href": "index.html#grounded-in-peer-reviewed-work.",
-    "title": "Good answers start with the design.",
-    "section": "Grounded in peer-reviewed work.",
-    "text": "Grounded in peer-reviewed work.\n\n\nTraining & position\nPhD in Statistics (Simon Fraser University, 2018). Associate Professor, Department of Mathematics & Statistics, University of the Fraser Valley. Honorary Visiting Professor, Centre for Health Economics Research and Evaluation, University of Technology Sydney (2026).\n\n\nPublished methods\nPeer-reviewed research in experimental design and applied statistics, with methods independently cited across textile engineering, food science, hydrology, and mining research.\n\n\nAccreditation\nP.Stat. (Professional Statistician), accredited by the Statistical Society of Canada. SSC member since 2017."
+    "objectID": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
+    "href": "posts/leaderboard-noise/index.html#a-two-minute-calculation",
+    "title": "Your leaderboard gap is probably noise",
+    "section": "A two-minute calculation",
+    "text": "A two-minute calculation\nSuppose model A beats model B in 62% of head-to-head comparisons, and model B wins 60% of its own matchups, each measured over 500 votes. Two points apart — feels decisive on a ranking table.\nThe standard error of a proportion around 0.6 on 500 votes is \\(\\sqrt{0.6 \\times 0.4 / 500} \\approx 0.022\\) — about 2.2 percentage points per model. The uncertainty on the difference between them is larger still, roughly \\(\\sqrt{2} \\times 2.2 \\approx 3.1\\) points. A 2-point observed gap against ~3 points of noise, before any multiple-comparison correction, isn’t evidence of a real difference. It’s a tie wearing a trophy.\nThis isn’t a contrived example. Public arena leaderboards now publish confidence intervals precisely because the intervals at the top routinely overlap — the rank order among the leading models is partly an artifact of sampling. And the problem compounds: with ten models, there are forty-five pairwise comparisons, so a few “significant-looking” gaps will appear by chance even if nothing real separates anyone."
   },
   {
-    "objectID": "index.html#three-services-one-standard.",
-    "href": "index.html#three-services-one-standard.",
-    "title": "Good answers start with the design.",
-    "section": "Three services, one standard.",
-    "text": "Three services, one standard.\n\n\nStudy & experiment design\nSample size and power, randomization, factorial and fractional-factorial designs, including the baseline parameterization, so the data you collect can answer your question.\n\n\nModelling & analysis\nMixed-effects and generalized linear models, measurement reliability, calibration and validation. Documented, reproducible, reviewable.\n\n\nTools & dashboards\nInteractive R / Shiny applications that put your model in front of the people who need to act on it. See a live example."
+    "objectID": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
+    "href": "posts/leaderboard-noise/index.html#the-deeper-problem-rankings-are-measurements",
+    "title": "Your leaderboard gap is probably noise",
+    "section": "The deeper problem: rankings are measurements",
+    "text": "The deeper problem: rankings are measurements\nA leaderboard is a measurement instrument, and instruments have reliability. The question that matters isn’t only “is this gap significant today?” but “if we collected the same number of votes again, would the ranking come back the same?” Those are different questions. A gap can clear a significance test while the ranking built from many such gaps remains unstable — flip a few hundred votes and third place becomes sixth.\nMeasurement theory has a name for this and a toolbox for it: you decompose the variation in observed scores into the part that reflects real differences between the things being ranked and the part that’s occasion-to-occasion noise, then compute how many observations you’d need before the ranking is dependable at the level you care about. The recurring finding, in domain after domain, is that the number is larger than people expect — often much larger than the data anyone has."
   },
   {
-    "objectID": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
-    "href": "index.html#your-ai-is-only-as-good-as-its-evaluation.",
-    "title": "Good answers start with the design.",
-    "section": "Your AI is only as good as its evaluation.",
-    "text": "Your AI is only as good as its evaluation.\nBenchmark scores drift with the test harness, top-of-leaderboard gaps sit inside statistical noise, and most evaluation pipelines are never checked for reliability. Before an AI number drives a decision, such as which model to buy or whether a system is ready to ship, someone should ask whether the measurement itself can be trusted. That’s measurement science, and it’s what I do.\n\n\nEvaluation design & audit\nDesign AI evaluations that answer the question, with proper sampling, contamination control, and uncertainty on every comparison. Or audit the one you have.\n\n\nReliability of judgments\nHuman raters and LLM-as-judge pipelines are measurement instruments. I quantify their dependability and tell you how many judgments a trustworthy verdict needs.\n\n\nExperiments that respect your budget\nWhen every evaluation run costs money, designed experiments get you more answer per dollar than one-at-a-time testing of prompts, configurations, and models.\n\n\nAI services in detail →"
+    "objectID": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
+    "href": "posts/leaderboard-noise/index.html#how-to-read-a-leaderboard-without-fooling-yourself",
+    "title": "Your leaderboard gap is probably noise",
+    "section": "How to read a leaderboard without fooling yourself",
+    "text": "How to read a leaderboard without fooling yourself\nAsk for the interval, not the point: if the intervals of two entries overlap, treat them as tied, whatever the rank order says. Ask for the n behind each comparison — a rating built on 80 matchups and one built on 8,000 do not deserve the same trust. Be most suspicious exactly where the stakes feel highest, at the top, where entries are closest and gaps are smallest relative to noise. And if a decision genuinely hangs on the comparison — which model to license, which system to ship — run your own evaluation on your own task distribution, sized in advance so the answer will be reliable. That last step is a sample-size calculation, and it’s cheaper than choosing the wrong model.\nNone of this is exotic statistics. It’s the same discipline clinical trials have used for decades, pointed at a new kind of scoreboard. The scoreboards are new; the arithmetic isn’t.\nI consult on exactly these questions — evaluation design, the reliability of ranking and judging pipelines, and how much data a trustworthy verdict needs. If your team is making decisions off a leaderboard, let’s talk."
   },
   {
-    "objectID": "index.html#research-software-and-teaching.",
-    "href": "index.html#research-software-and-teaching.",
-    "title": "Good answers start with the design.",
-    "section": "Research, software, and teaching.",
-    "text": "Research, software, and teaching.\n\n\nProjects\nA live forecasting tool and open-source software: working demonstrations of the tools I build. Explore →\n\n\nResearch\nPublished work in experimental design and applied statistics, with an active research program in measurement reliability. Publications →\n\n\nBlog\nShort posts on how to design studies, measure reliably, and trust the numbers. All posts →"
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The work below comes out of my research program. Each piece takes a statistical model and turns it into something a non-statistician can use, which is most of what good applied statistics comes down to."
   },
   {
-    "objectID": "index.html#have-a-study-a-dataset-or-a-decision-to-make",
-    "href": "index.html#have-a-study-a-dataset-or-a-decision-to-make",
-    "title": "Good answers start with the design.",
-    "section": "Have a study, a dataset, or a decision to make?",
-    "text": "Have a study, a dataset, or a decision to make?\nTell me the question you are trying to answer and where the data stands. The earlier I am involved, the more I can help.\nEmail me → How an engagement works"
+    "objectID": "projects.html#t20i-win-probability-forecaster",
+    "href": "projects.html#t20i-win-probability-forecaster",
+    "title": "Projects",
+    "section": "T20I win-probability forecaster",
+    "text": "T20I win-probability forecaster\nA live forecasting tool for Twenty20 International cricket. During a live match the chart below updates as the game unfolds; between games, pick any recent international from the menu to replay how the odds swung. Green is the side batting first, amber the chasing side, and the dashed line marks the innings break.\n\n\n\nLive during matches; recent internationals otherwise. Win probability is for the team batting first.\n\n\n\nOpen source"
+  },
+  {
+    "objectID": "projects.html#code-on-github",
+    "href": "projects.html#code-on-github",
+    "title": "Projects",
+    "section": "Code on GitHub",
+    "text": "Code on GitHub\ndgt: an R package for reliability analysis. Implements generalizability-theory decision studies, the framework for answering “how many observations before this measurement is dependable?”\ngithub.com/rckaruna/dgt →\nStatcastG: reliability at MLB scale. A Julia pipeline extending multi-facet generalizability theory to the massively unbalanced designs of real sports data, applied to MLB Statcast plate appearances (2015–2025).\ngithub.com/rckaruna/StatcastG →\nfairness-gtheory: how reliable is a fairness audit? R code for decomposing the uncertainty of AI fairness audits with multivariate generalizability theory.\ngithub.com/rckaruna/fairness-gtheory →\nMARE-code: designing the study before the data exist. Companion R code for Minimum Aberration for Random-Effect Designs: choosing the best generalizability-study design when measurement reliability is the goal.\ngithub.com/rckaruna/MARE-code →\n\n\nThe models behind these tools are part of an active research program; methodological details appear in the associated publications as they complete peer review."
+  },
+  {
+    "objectID": "for/health-researchers.html",
+    "href": "for/health-researchers.html",
+    "title": "For health researchers and clinical teams",
+    "section": "",
+    "text": "Health studies are expensive to run and hard to repeat, so the design has to be right the first time. I help clinical and health-services teams plan studies that can answer their question, and analyze them in a way that claims no more than the data support."
+  },
+  {
+    "objectID": "for/health-researchers.html#what-people-usually-ask-me",
+    "href": "for/health-researchers.html#what-people-usually-ask-me",
+    "title": "For health researchers and clinical teams",
+    "section": "What people usually ask me",
+    "text": "What people usually ask me\n\nHow many participants do we need, allowing for dropout and clustering?\nOur outcome is measured repeatedly. How should we model it?\nHow reliable is our rating scale or our raters?\nCan our design support a comparison between subgroups, such as by sex?\nWhat will the journal’s reporting guideline expect from our statistics section?\n\n\nHow I help"
+  },
+  {
+    "objectID": "for/health-researchers.html#what-the-work-looks-like",
+    "href": "for/health-researchers.html#what-the-work-looks-like",
+    "title": "For health researchers and clinical teams",
+    "section": "What the work looks like",
+    "text": "What the work looks like\n\nDesign: sample size and power, randomization, and a statistical analysis plan for the protocol or ethics application.\nAnalysis: mixed-effects and generalized linear models for repeated, clustered, and count outcomes.\nMeasurement: reliability of instruments, raters, and scores, including how many ratings or occasions a dependable score needs.\nData handling: de-identified data wherever possible, and work within your ethics board’s conditions. See confidentiality and data handling.\nReporting: methods and results written for clinicians and reviewers, with limitations stated in numbers.\n\n\nExample"
+  },
+  {
+    "objectID": "for/health-researchers.html#from-past-work",
+    "href": "for/health-researchers.html#from-past-work",
+    "title": "For health researchers and clinical teams",
+    "section": "From past work",
+    "text": "From past work\nA multi-modal intervention study in frontotemporal dementia needed its analysis to match its design. I advised the team on which analyses the design could support, including how to test sex differences within and between groups, so the conclusions claimed no more than the data could bear.\n\nFurther reading"
+  },
+  {
+    "objectID": "for/health-researchers.html#related-posts",
+    "href": "for/health-researchers.html#related-posts",
+    "title": "For health researchers and clinical teams",
+    "section": "Related posts",
+    "text": "Related posts\n\nHow many participants do you actually need?\nHow do you put a number on a health state?\nWhy the usual reliability number is wrong for counts\nHow many observations before a statistic means anything?\n\n\nGet in touch"
+  },
+  {
+    "objectID": "for/health-researchers.html#start-with-a-short-message",
+    "href": "for/health-researchers.html#start-with-a-short-message",
+    "title": "For health researchers and clinical teams",
+    "section": "Start with a short message",
+    "text": "Start with a short message\nTell me the question, where the data stands, and your deadline. I usually reply within two working days.\nEmail me → Preparing for a consultation All consulting services"
+  },
+  {
+    "objectID": "for/ai-and-product-teams.html",
+    "href": "for/ai-and-product-teams.html",
+    "title": "For AI, software, and product teams",
+    "section": "",
+    "text": "An AI evaluation is a measurement, and measurements have error. Before a score decides which model to buy or whether a system ships, someone should check how much of that score is signal. I bring measurement and experimental-design methods from statistics to that check. I am independent: I have no model, platform, or vendor to sell."
+  },
+  {
+    "objectID": "for/ai-and-product-teams.html#what-people-usually-ask-me",
+    "href": "for/ai-and-product-teams.html#what-people-usually-ask-me",
+    "title": "For AI, software, and product teams",
+    "section": "What people usually ask me",
+    "text": "What people usually ask me\n\nIs the gap between these two models real, or noise?\nHow many test items, and how many judge runs, does a dependable comparison need?\nHow consistent is our LLM judge, and how does it compare to human raters?\nWhich prompts and settings should we test, and in how many runs?\nHow do we test software that has many configuration options?\n\n\nHow I help"
+  },
+  {
+    "objectID": "for/ai-and-product-teams.html#what-the-work-looks-like",
+    "href": "for/ai-and-product-teams.html#what-the-work-looks-like",
+    "title": "For AI, software, and product teams",
+    "section": "What the work looks like",
+    "text": "What the work looks like\n\nEvaluation design: sampling that matches the deployment population, and uncertainty attached to every comparison.\nJudge reliability: how much of a score comes from the response, the judge, and the run, and how many judgments a dependable score needs.\nBenchmarks and leaderboards: whether a ranking reflects real differences, and how much more data a stable ranking would need.\nDesigned experiments: factorial designs for prompt, configuration, and model comparisons when each run costs money.\nAudits: an independent review of an existing evaluation before it drives a procurement or launch decision.\n\n\nFurther reading"
+  },
+  {
+    "objectID": "for/ai-and-product-teams.html#related-posts",
+    "href": "for/ai-and-product-teams.html#related-posts",
+    "title": "For AI, software, and product teams",
+    "section": "Related posts",
+    "text": "Related posts\n\nHow many judgments does an LLM-as-judge score need?\nYour leaderboard gap is probably noise\nYou cannot test every combination, and you may not need to\nTesting one thing at a time is costing you\n\n\nGet in touch"
+  },
+  {
+    "objectID": "for/ai-and-product-teams.html#start-with-a-short-message",
+    "href": "for/ai-and-product-teams.html#start-with-a-short-message",
+    "title": "For AI, software, and product teams",
+    "section": "Start with a short message",
+    "text": "Start with a short message\nTell me the question, where the data stands, and your deadline. I usually reply within two working days.\nEmail me → Preparing for a consultation All consulting services"
+  },
+  {
+    "objectID": "for/engineering-and-manufacturing.html",
+    "href": "for/engineering-and-manufacturing.html",
+    "title": "For engineering and manufacturing teams",
+    "section": "",
+    "text": "Every experimental run costs something: machine time, material, or a day of production. Design of experiments is how you make each run answer several questions at once. It is my main research area."
+  },
+  {
+    "objectID": "for/engineering-and-manufacturing.html#what-people-usually-ask-me",
+    "href": "for/engineering-and-manufacturing.html#what-people-usually-ask-me",
+    "title": "For engineering and manufacturing teams",
+    "section": "What people usually ask me",
+    "text": "What people usually ask me\n\nWe have ten factors that might matter. How do we find the few that do?\nIs changing one setting at a time good enough?\nHow many runs do we need, and in what order?\nOur factors have a natural default setting. Does that change the design?\nHow do we test software or a system with many configuration options?\n\n\nHow I help"
+  },
+  {
+    "objectID": "for/engineering-and-manufacturing.html#what-the-work-looks-like",
+    "href": "for/engineering-and-manufacturing.html#what-the-work-looks-like",
+    "title": "For engineering and manufacturing teams",
+    "section": "What the work looks like",
+    "text": "What the work looks like\n\nScreening: fractional-factorial designs that sort the important factors from the rest in few runs.\nOptimization: follow-up designs to find the best settings for the factors that matter.\nDesigns with a baseline: when each factor has a default level, designs under the baseline parameterization estimate effects relative to that default directly. Most of my published papers are on these designs.\nTesting: covering arrays and related designs for testing systems with many settings.\nTraining: design of experiments workshops for engineers, built around your own processes where possible.\n\n\nExample"
+  },
+  {
+    "objectID": "for/engineering-and-manufacturing.html#from-past-work",
+    "href": "for/engineering-and-manufacturing.html#from-past-work",
+    "title": "For engineering and manufacturing teams",
+    "section": "From past work",
+    "text": "From past work\nUFV’s Automation and Robotics program needed a statistics course aligned to technologist certification. I advised the design of Statistics for Electronics (control charting, acceptance sampling, regression, and experimental design), mapped to what the certification examines.\n\nFurther reading"
+  },
+  {
+    "objectID": "for/engineering-and-manufacturing.html#related-posts",
+    "href": "for/engineering-and-manufacturing.html#related-posts",
+    "title": "For engineering and manufacturing teams",
+    "section": "Related posts",
+    "text": "Related posts\n\nTesting one thing at a time is costing you\nYou cannot test every combination, and you may not need to\nHow many participants do you actually need?\n\n\nGet in touch"
+  },
+  {
+    "objectID": "for/engineering-and-manufacturing.html#start-with-a-short-message",
+    "href": "for/engineering-and-manufacturing.html#start-with-a-short-message",
+    "title": "For engineering and manufacturing teams",
+    "section": "Start with a short message",
+    "text": "Start with a short message\nTell me the question, where the data stands, and your deadline. I usually reply within two working days.\nEmail me → Preparing for a consultation All consulting services"
   },
   {
     "objectID": "privacy.html",

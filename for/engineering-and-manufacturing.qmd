@@ -1,0 +1,62 @@
+---
+title: "For engineering and manufacturing teams"
+subtitle: "Designed experiments that get more information from fewer runs."
+body-classes: page
+description: "Design of experiments consulting for engineering and manufacturing: factorial and fractional-factorial designs, screening experiments, process improvement, and quality methods."
+---
+
+Every experimental run costs something: machine time, material, or a day of production. Design of experiments is how you make each run answer several questions at once. It is my main research area.
+
+::: {.eyebrow}
+Typical questions
+:::
+
+## What people usually ask me
+
+- We have ten factors that might matter. How do we find the few that do?
+- Is changing one setting at a time good enough?
+- How many runs do we need, and in what order?
+- Our factors have a natural default setting. Does that change the design?
+- How do we test software or a system with many configuration options?
+
+::: {.eyebrow}
+How I help
+:::
+
+## What the work looks like
+
+- **Screening:** fractional-factorial designs that sort the important factors from the rest in few runs.
+- **Optimization:** follow-up designs to find the best settings for the factors that matter.
+- **Designs with a baseline:** when each factor has a default level, designs under the baseline parameterization estimate effects relative to that default directly. Most of my published papers are on these designs.
+- **Testing:** covering arrays and related designs for testing systems with many settings.
+- **Training:** design of experiments workshops for engineers, built around your own processes where possible.
+
+::: {.eyebrow}
+Example
+:::
+
+## From past work
+
+UFV's Automation and Robotics program needed a statistics course aligned to technologist certification. I advised the design of *Statistics for Electronics* (control charting, acceptance sampling, regression, and experimental design), mapped to what the certification examines.
+
+::: {.eyebrow}
+Further reading
+:::
+
+## Related posts
+
+- [Testing one thing at a time is costing you](../posts/ofat-vs-factorial/index.qmd)
+- [You cannot test every combination, and you may not need to](../posts/covering-arrays/index.qmd)
+- [How many participants do you actually need?](../posts/sample-size/index.qmd)
+
+::: {.eyebrow}
+Get in touch
+:::
+
+## Start with a short message
+
+Tell me the question, where the data stands, and your deadline. I usually reply within two working days.
+
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
+[Preparing for a consultation](../preparing.qmd){.btn-cta .ghost}
+[All consulting services](../consulting.qmd){.btn-cta .ghost}

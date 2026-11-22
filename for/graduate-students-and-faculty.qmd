@@ -1,0 +1,55 @@
+---
+title: "For graduate students and faculty"
+subtitle: "Thesis analysis, grant applications, and reviewer responses."
+body-classes: page
+description: "Statistical consulting for graduate students and faculty in BC and remotely: thesis and dissertation analysis, sample size for grant applications, and responses to reviewers."
+---
+
+Most of my academic clients arrive at one of three points: planning a study, stuck partway through an analysis, or facing a committee or reviewer who has questioned the statistics. I have supervised student research and published in peer-reviewed journals, and I know what committees and reviewers look for.
+
+::: {.eyebrow}
+Typical questions
+:::
+
+## What people usually ask me
+
+- How many participants do I need, and how do I justify the number in my proposal?
+- My committee asked for a mixed model. What does that mean for my data?
+- A reviewer says my analysis is wrong. Are they right, and how do I respond?
+- Which test fits my design, and what assumptions am I making?
+- How should I present my results so the chapter or paper reads clearly?
+
+::: {.eyebrow}
+How I help
+:::
+
+## What the work looks like
+
+- **Before data collection:** sample-size and power calculations, and a statistical analysis plan you can put in a proposal or ethics application.
+- **During analysis:** choosing a model that fits the design, fitting it in R, and checking that the assumptions hold.
+- **After review:** reading reviewer comments on the statistics, deciding which points are correct, and drafting replies that address them.
+- **Teaching as we go:** I explain what was done and why, so you can defend it in your defence or your next paper.
+- **Authorship:** settled at the start. Substantial methods work usually means co-authorship; narrower advice means an acknowledgment.
+
+::: {.eyebrow}
+Further reading
+:::
+
+## Related posts
+
+- [How many participants do you actually need?](../posts/sample-size/index.qmd)
+- [Writing a statistics paper that someone can use](../posts/writing-a-statistics-paper/index.qmd)
+- [Testing one thing at a time is costing you](../posts/ofat-vs-factorial/index.qmd)
+- [What P.Stat. means for a client](../posts/what-pstat-means/index.qmd)
+
+::: {.eyebrow}
+Get in touch
+:::
+
+## Start with a short message
+
+Tell me the question, where the data stands, and your deadline. I usually reply within two working days.
+
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
+[Preparing for a consultation](../preparing.qmd){.btn-cta .ghost}
+[All consulting services](../consulting.qmd){.btn-cta .ghost}

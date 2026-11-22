@@ -10,7 +10,7 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Short posts by a professional statistician on how to design studies, choose a sample size, measure reliably, and trust the numbers, with examples from sport, health, and AI evaluation.</description>
 <image>
-<url>https://rckaruna.ca/assets/social-card.png</url>
+<url>https://rckaruna.ca/assets/social-card-v2.png</url>
 <title>Ruwan C. Karunanayaka</title>
 <link>https://rckaruna.ca/blog.html</link>
 <height>75</height>
@@ -367,6 +367,157 @@
   <category>cricket</category>
   <category>sports</category>
   <guid>https://rckaruna.ca/posts/reliability-for-counts/</guid>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How many judgments does an LLM-as-judge score need?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/how-many-judgments/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Many teams now score AI outputs with another model. The judge reads a response, applies a rubric, and returns a number. It is fast and cheap, and it has a problem that anyone who has run it twice has noticed: the score changes.</p>
+<p>Run the same judge on the same response again and you may get a 7 instead of an 8. Swap in a different judge model and the scores shift again. So how many judgments should go into a score before you trust it? Measurement theory has had a direct answer to this question since the 1970s. It is called a decision study, and it comes from generalizability theory.</p>
+<section id="where-the-variation-comes-from" class="level2">
+<h2 class="anchored" data-anchor-id="where-the-variation-comes-from">Where the variation comes from</h2>
+<p>Suppose you score a set of responses, and each response is judged several times. The judgments could be repeated runs of one judge, or runs of several different judges. An observed score then has three sources of variation:</p>
+<ol type="1">
+<li><strong>The responses.</strong> Some responses really are better than others. This is the variation you want to measure.</li>
+<li><strong>The judge runs.</strong> Some runs, or some judges, are harsher than others across the board.</li>
+<li><strong>Everything else.</strong> A run that likes one response and not another, plus plain noise.</li>
+</ol>
+<p>Generalizability theory estimates how large each source is. These are variance components, and they come from an ordinary random-effects model fitted to the scores.</p>
+</section>
+<section id="a-worked-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-worked-example">A worked example</h2>
+<p>Suppose the variance components come out as follows, as shares of the total variation in single judgments. The numbers are illustrative, not from any particular system.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>Share of variance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Responses</td>
+<td>0.40</td>
+</tr>
+<tr class="even">
+<td>Judge runs</td>
+<td>0.10</td>
+</tr>
+<tr class="odd">
+<td>Everything else</td>
+<td>0.50</td>
+</tr>
+</tbody>
+</table>
+<p>A single judgment, then, is mostly noise. Only 40% of the variation in one score reflects real differences between responses.</p>
+<p>Averaging over several judgments shrinks the noise, and the decision study says by how much. There are two versions of the answer, depending on what the score is for.</p>
+<ul>
+<li><strong>For ranking responses against each other</strong>, only the third source matters, because a harsh run lowers every response equally. The reliability of an average of <img src="https://latex.codecogs.com/png.latex?n"> judgments is <img src="https://latex.codecogs.com/png.latex?0.40%20/%20(0.40%20+%200.50/n)">.</li>
+<li><strong>For comparing a score with a fixed bar</strong>, such as “ship if the mean is above 7”, the second source matters too, because a harsh run moves the score relative to the bar. The reliability is <img src="https://latex.codecogs.com/png.latex?0.40%20/%20(0.40%20+%200.60/n)">.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Judgments per response</th>
+<th>Reliability for ranking</th>
+<th>Reliability against a fixed bar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>0.44</td>
+<td>0.40</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>0.62</td>
+<td>0.57</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>0.71</td>
+<td>0.67</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>0.80</td>
+<td>0.77</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>0.89</td>
+<td>0.87</td>
+</tr>
+</tbody>
+</table>
+<p>A common target is 0.80. Here that takes 5 judgments per response for ranking and 6 for a fixed bar. Reaching 0.90 takes 12 and 14. One judgment per response, which is how many pipelines run, gives a reliability below 0.5.</p>
+</section>
+<section id="what-this-changes-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-changes-in-practice">What this changes in practice</h2>
+<p><strong>Measure before you decide.</strong> The variance components differ between tasks, rubrics, and judges. Score a sample of 50 to 100 responses with two or three judgments each, estimate the components, and then choose the number of judgments for the full run.</p>
+<p><strong>Several judges can beat one judge run several times.</strong> If one judge has a consistent bias, repeating it does not remove the bias. The decision study can compare “three runs of one judge” with “one run each of three judges” once both are in the pilot data.</p>
+<p><strong>More items usually beat more judgments.</strong> When the goal is to compare two systems rather than to score single responses, the number of test items often matters more than the number of judge runs. The same framework adds items as a source of variation and shows where the next unit of budget does the most good.</p>
+<p><strong>Report the reliability with the score.</strong> A benchmark score without a reliability is a measurement without its error bar.</p>
+</section>
+<section id="fitting-the-model" class="level2">
+<h2 class="anchored" data-anchor-id="fitting-the-model">Fitting the model</h2>
+<p>The variance components come from a random-effects model. In R, with one row per judgment, it is a few lines:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(lme4)</span>
+<span id="cb1-2">fit <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lmer</span>(score <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> response) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> judge_run), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> scores)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">VarCorr</span>(fit)</span></code></pre></div></div>
+<p>The three variances printed are the response, judge-run, and residual components in the table above. Scores on a short ordinal scale, such as 1 to 5, can need a model for ordered categories instead, but the logic of the decision study is the same.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Cronbach, L. J., Gleser, G. C., Nanda, H., and Rajaratnam, N. (1972). <em>The Dependability of Behavioral Measurements: Theory of Generalizability for Scores and Profiles.</em> Wiley.</p>
+<p>Brennan, R. L. (2001). <em>Generalizability Theory.</em> Springer.</p>
+<p><em>Evaluation design and the reliability of rating pipelines are part of my <a href="../../consulting.html">consulting practice</a>. See also <a href="../../posts/leaderboard-noise/index.html">Your leaderboard gap is probably noise</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <category>measurement</category>
+  <guid>https://rckaruna.ca/posts/how-many-judgments/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
 <item>

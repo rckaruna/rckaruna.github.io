@@ -37,11 +37,13 @@ Who I work with
 
 ## Clients & collaborators
 
-- **Graduate students and faculty:** thesis and dissertation analysis, defence preparation, and grant applications.
-- **Health researchers and clinical teams:** study design and analyses that stand up to ethics boards and reviewers.
-- **Engineering and manufacturing groups:** designed experiments, quality methods, and process improvement.
-- **Sports organizations and performance staff:** measurement, reliability, and forecasting from performance data.
-- **AI, software, and product teams:** evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.
+Each group below has its own page with typical questions and related reading.
+
+- **[Graduate students and faculty](for/graduate-students-and-faculty.qmd):** thesis and dissertation analysis, defence preparation, and grant applications.
+- **[Health researchers and clinical teams](for/health-researchers.qmd):** study design and analyses that stand up to ethics boards and reviewers.
+- **[Engineering and manufacturing groups](for/engineering-and-manufacturing.qmd):** designed experiments, quality methods, and process improvement.
+- **[Sports organizations and performance staff](for/sports-organizations.qmd):** measurement, reliability, and forecasting from performance data.
+- **[AI, software, and product teams](for/ai-and-product-teams.qmd):** evaluation design, reliability of judgment pipelines, calibration audits, and test design for statistical software.
 
 ::: {.eyebrow}
 Services
@@ -78,6 +80,8 @@ AI has a measurement problem. Benchmark scores move with the evaluation harness,
 - **Calibration audits.** If your model outputs probabilities or scores that people act on, I test whether they mean what they claim across the ranges that matter.
 - **Design of experiments for AI work.** Prompt, configuration, and model comparisons where each run costs real money. Factorial and fractional-factorial designs extract far more information per run than one-at-a-time testing.
 - **Test design for statistical and machine-learning software.** Software with many options has too many configurations to test one by one. Covering arrays and fractional factorial designs give a short test suite that still exercises every pair of settings. I also measure how repeatable test results are across machines and reruns, so a failing test can be told apart from a noisy one.
+
+For a worked example of judge reliability, see [How many judgments does an LLM-as-judge score need?](posts/how-many-judgments/index.qmd). The [AI and product teams page](for/ai-and-product-teams.qmd) has more.
 
 ### What's different about this
 

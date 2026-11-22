@@ -1,0 +1,64 @@
+---
+title: "For sports organizations and performance staff"
+subtitle: "Measurement, reliability, and forecasting from performance data."
+body-classes: page
+description: "Sports analytics consulting: how many games before a statistic is reliable, player and team measurement, mixed models for performance data, and win-probability tools."
+---
+
+Sport produces a great deal of data and a great deal of noise. The useful question is usually not which number is highest, but which numbers are stable enough to act on. I work on that question across cricket, handball, and other sports, and I build tools that put the answer in front of coaches.
+
+::: {.eyebrow}
+Typical questions
+:::
+
+## What people usually ask me
+
+- How many games before this statistic tells us something about the player?
+- Is this player's good run real, or is it noise?
+- Which of our performance indicators are worth tracking?
+- How do we account for opponent, venue, and game state?
+- Can we see the probability of winning as the game unfolds?
+
+::: {.eyebrow}
+How I help
+:::
+
+## What the work looks like
+
+- **Reliability of metrics:** how much of a statistic reflects the player or team, and how many observations a dependable value needs.
+- **Models for performance data:** mixed-effects models that separate player, team, opponent, and season effects.
+- **Decision questions:** turning a coach's question into something the data can answer.
+- **Tools:** interactive R and Shiny dashboards, such as the [live cricket win-probability chart](../projects.qmd).
+- **Writing for coaches:** results explained without jargon, with the uncertainty stated.
+
+::: {.eyebrow}
+Example
+:::
+
+## From past work
+
+A seven-author team across Norway, Iceland, and Sweden wanted to know whether elite handball teams choose their shots well. As the sole statistician, I fitted a mixed-effects logistic regression to six seasons of Icelandic top-division data (1,410 games). The peer-reviewed result (*International Journal of Sports Science & Coaching*, 2025) documents systematically suboptimal shot selection.
+
+::: {.eyebrow}
+Further reading
+:::
+
+## Related posts
+
+- [How many innings before a batting average means anything?](../posts/batting-average-reliability/index.qmd)
+- [How many observations before a statistic means anything?](../posts/handball-dependability/index.qmd)
+- [Why the usual reliability number is wrong for counts](../posts/reliability-for-counts/index.qmd)
+- [Does the order of deliveries matter?](../posts/bowling-sequences/index.qmd)
+- [What can a Combine tell you about Sundays?](../posts/combine-to-sundays/index.qmd)
+
+::: {.eyebrow}
+Get in touch
+:::
+
+## Start with a short message
+
+Tell me the question, where the data stands, and your deadline. I usually reply within two working days.
+
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
+[Preparing for a consultation](../preparing.qmd){.btn-cta .ghost}
+[All consulting services](../consulting.qmd){.btn-cta .ghost}

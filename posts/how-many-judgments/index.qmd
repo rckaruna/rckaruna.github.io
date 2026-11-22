@@ -1,0 +1,77 @@
+---
+title: "How many judgments does an LLM-as-judge score need?"
+description: "A judge model gives a different score when you run it again. A decision study from generalizability theory says how many runs, or how many judges, a dependable score needs."
+date: 2026-11-22
+categories: [AI, measurement]
+---
+
+Many teams now score AI outputs with another model. The judge reads a response, applies a rubric, and returns a number. It is fast and cheap, and it has a problem that anyone who has run it twice has noticed: the score changes.
+
+Run the same judge on the same response again and you may get a 7 instead of an 8. Swap in a different judge model and the scores shift again. So how many judgments should go into a score before you trust it? Measurement theory has had a direct answer to this question since the 1970s. It is called a decision study, and it comes from generalizability theory.
+
+## Where the variation comes from
+
+Suppose you score a set of responses, and each response is judged several times. The judgments could be repeated runs of one judge, or runs of several different judges. An observed score then has three sources of variation:
+
+1. **The responses.** Some responses really are better than others. This is the variation you want to measure.
+2. **The judge runs.** Some runs, or some judges, are harsher than others across the board.
+3. **Everything else.** A run that likes one response and not another, plus plain noise.
+
+Generalizability theory estimates how large each source is. These are variance components, and they come from an ordinary random-effects model fitted to the scores.
+
+## A worked example
+
+Suppose the variance components come out as follows, as shares of the total variation in single judgments. The numbers are illustrative, not from any particular system.
+
+| Source | Share of variance |
+|---|---|
+| Responses | 0.40 |
+| Judge runs | 0.10 |
+| Everything else | 0.50 |
+
+A single judgment, then, is mostly noise. Only 40% of the variation in one score reflects real differences between responses.
+
+Averaging over several judgments shrinks the noise, and the decision study says by how much. There are two versions of the answer, depending on what the score is for.
+
+- **For ranking responses against each other**, only the third source matters, because a harsh run lowers every response equally. The reliability of an average of $n$ judgments is $0.40 / (0.40 + 0.50/n)$.
+- **For comparing a score with a fixed bar**, such as "ship if the mean is above 7", the second source matters too, because a harsh run moves the score relative to the bar. The reliability is $0.40 / (0.40 + 0.60/n)$.
+
+| Judgments per response | Reliability for ranking | Reliability against a fixed bar |
+|---|---|---|
+| 1 | 0.44 | 0.40 |
+| 2 | 0.62 | 0.57 |
+| 3 | 0.71 | 0.67 |
+| 5 | 0.80 | 0.77 |
+| 10 | 0.89 | 0.87 |
+
+A common target is 0.80. Here that takes 5 judgments per response for ranking and 6 for a fixed bar. Reaching 0.90 takes 12 and 14. One judgment per response, which is how many pipelines run, gives a reliability below 0.5.
+
+## What this changes in practice
+
+**Measure before you decide.** The variance components differ between tasks, rubrics, and judges. Score a sample of 50 to 100 responses with two or three judgments each, estimate the components, and then choose the number of judgments for the full run.
+
+**Several judges can beat one judge run several times.** If one judge has a consistent bias, repeating it does not remove the bias. The decision study can compare "three runs of one judge" with "one run each of three judges" once both are in the pilot data.
+
+**More items usually beat more judgments.** When the goal is to compare two systems rather than to score single responses, the number of test items often matters more than the number of judge runs. The same framework adds items as a source of variation and shows where the next unit of budget does the most good.
+
+**Report the reliability with the score.** A benchmark score without a reliability is a measurement without its error bar.
+
+## Fitting the model
+
+The variance components come from a random-effects model. In R, with one row per judgment, it is a few lines:
+
+```r
+library(lme4)
+fit <- lmer(score ~ 1 + (1 | response) + (1 | judge_run), data = scores)
+VarCorr(fit)
+```
+
+The three variances printed are the response, judge-run, and residual components in the table above. Scores on a short ordinal scale, such as 1 to 5, can need a model for ordered categories instead, but the logic of the decision study is the same.
+
+## References
+
+Cronbach, L. J., Gleser, G. C., Nanda, H., and Rajaratnam, N. (1972). *The Dependability of Behavioral Measurements: Theory of Generalizability for Scores and Profiles.* Wiley.
+
+Brennan, R. L. (2001). *Generalizability Theory.* Springer.
+
+*Evaluation design and the reliability of rating pipelines are part of my [consulting practice](../../consulting.qmd). See also [Your leaderboard gap is probably noise](../leaderboard-noise/index.qmd).*

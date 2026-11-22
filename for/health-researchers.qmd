@@ -1,0 +1,63 @@
+---
+title: "For health researchers and clinical teams"
+subtitle: "Study design and analyses that stand up to ethics boards, reviewers, and journals."
+body-classes: page
+description: "Statistical consulting for health researchers and clinical teams: sample size, study design, mixed models, measurement reliability, and analyses that match the design."
+---
+
+Health studies are expensive to run and hard to repeat, so the design has to be right the first time. I help clinical and health-services teams plan studies that can answer their question, and analyze them in a way that claims no more than the data support.
+
+::: {.eyebrow}
+Typical questions
+:::
+
+## What people usually ask me
+
+- How many participants do we need, allowing for dropout and clustering?
+- Our outcome is measured repeatedly. How should we model it?
+- How reliable is our rating scale or our raters?
+- Can our design support a comparison between subgroups, such as by sex?
+- What will the journal's reporting guideline expect from our statistics section?
+
+::: {.eyebrow}
+How I help
+:::
+
+## What the work looks like
+
+- **Design:** sample size and power, randomization, and a statistical analysis plan for the protocol or ethics application.
+- **Analysis:** mixed-effects and generalized linear models for repeated, clustered, and count outcomes.
+- **Measurement:** reliability of instruments, raters, and scores, including how many ratings or occasions a dependable score needs.
+- **Data handling:** de-identified data wherever possible, and work within your ethics board's conditions. See [confidentiality and data handling](../consulting.qmd#confidentiality-and-data-handling).
+- **Reporting:** methods and results written for clinicians and reviewers, with limitations stated in numbers.
+
+::: {.eyebrow}
+Example
+:::
+
+## From past work
+
+A multi-modal intervention study in frontotemporal dementia needed its analysis to match its design. I advised the team on which analyses the design could support, including how to test sex differences within and between groups, so the conclusions claimed no more than the data could bear.
+
+::: {.eyebrow}
+Further reading
+:::
+
+## Related posts
+
+- [How many participants do you actually need?](../posts/sample-size/index.qmd)
+- [How do you put a number on a health state?](../posts/valuing-health-states/index.qmd)
+- [Why the usual reliability number is wrong for counts](../posts/reliability-for-counts/index.qmd)
+- [How many observations before a statistic means anything?](../posts/handball-dependability/index.qmd)
+
+::: {.eyebrow}
+Get in touch
+:::
+
+## Start with a short message
+
+Tell me the question, where the data stands, and your deadline. I usually reply within two working days.
+
+[Email me →](mailto:consulting@rckaruna.ca?subject=Statistical%20consulting%20enquiry&body=1.%20The%20question%20I%20am%20trying%20to%20answer%3A%0A%0A%0A2.%20The%20data%20%28planned%2C%20being%20collected%2C%20or%20in%20hand%29%3A%0A%0A%0A3.%20My%20deadline%3A%0A%0A%0A4.%20Who%20will%20use%20the%20result%20%28committee%2C%20journal%2C%20funder%2C%20management%29%3A%0A%0A%0A5.%20Ethics%20board%20or%20grant%20involved%20%28yes%20or%20no%29%3A%0A%0A){.btn-cta .primary}
+[Preparing for a consultation](../preparing.qmd){.btn-cta .ghost}
+[All consulting services](../consulting.qmd){.btn-cta .ghost}
