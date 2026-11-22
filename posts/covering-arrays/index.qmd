@@ -1,7 +1,7 @@
 ---
 title: "You cannot test every combination, and you may not need to"
 description: "Software with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs."
-date: 2026-11-23
+date: 2026-11-22
 categories: [methodology, design of experiments]
 ---
 

@@ -2,12 +2,13 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/bowling-sequences/index.html",
-      "/posts/valuing-health-states/index.html",
       "/posts/covering-arrays/index.html",
+      "/posts/valuing-health-states/index.html",
       "/posts/what-pstat-means/index.html",
+      "/posts/bowling-sequences/index.html",
       "/posts/reliability-for-counts/index.html",
       "/posts/combine-to-sundays/index.html",
+      "/posts/writing-a-statistics-paper/index.html",
       "/posts/speaking-to-the-room/index.html",
       "/posts/batting-average-reliability/index.html",
       "/posts/ofat-vs-factorial/index.html",

@@ -1,0 +1,42 @@
+---
+title: "Writing a statistics paper that someone can use"
+description: "Advice on writing and placing an applied statistics paper, drawn from Tim Swartz's guide for sports papers and from my own habits."
+date: 2026-11-22
+categories: [writing, practice]
+---
+
+Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.
+
+The best short guide I know on those decisions is Tim Swartz's "Where Should I Publish My Sports Paper?" (*The American Statistician*, 2020). It is written for sports statistics, but most of it applies to any applied statistics paper. This post sets out what I took from it, followed by the habits I have added.
+
+## What I took from the guide
+
+**A good applied paper does two things.** It has something new in the statistics, and it addresses a real problem in the application. The two pull against each other. A paper written to impress statisticians tends to treat the application as an afterthought, and a paper written for practitioners can have little in it that is new. The guide's point is that the best papers manage both, and that an author should know which of the two a given paper is stronger on.
+
+**Practitioners adopt what they can follow.** A method that works but cannot be explained to the people who would use it will not be used. The guide's examples are methods that reached practice because the idea behind them could be stated plainly. I now ask of every method section whether a coach, a clinician, or an engineer could say in two sentences what the method does.
+
+**Choose the audience, then the journal.** The same piece of work can be written for a statistics journal, an operations research journal, or a journal in the applied field. Each wants a different paper. Statistics journals want a substantial statistical contribution. Operations research journals value a solved problem. Journals in the applied field care most about what changes in practice. Choosing the audience first decides what goes in the introduction, how much theory stays in the main text, and what counts as the result.
+
+**Expect hard reviews and keep going.** The guide is frank that reviewers question the assumptions in applied work closely, and that a paper rejected quickly at one journal can be published at another after a long review. Its advice is a thick skin. A rejection is information about the fit between the paper and the journal as often as it is about the work.
+
+**Get the work to readers.** Applied work is scattered across disciplines, and a paper in the wrong place may never reach the people who could use it. The guide closes on a simple instruction: do good work and get it out.
+
+## What I have added
+
+These are my own habits. They are not from the guide.
+
+1. **Keep data, methods, results, and discussion apart.** A reader who wants to know what was measured should not have to read the results to find out. When interpretation creeps into the methods section, I move it.
+2. **Lead each result with what it means.** The sentence a reader remembers should come first, and the number that supports it second.
+3. **Give every number a comparison.** A coefficient of 0.61 means little alone. Against a threshold, a previous study, or a second condition, it means something.
+4. **Let tables carry the numbers and the text carry the pattern.** A paragraph that repeats a table adds length without adding anything.
+5. **State limitations with numbers.** "The sample is small" is a hedge. "The estimate is based on 14 matches and would need about 40 to reach the usual standard" is a limitation the reader can weigh.
+6. **Check every reference against the source.** Author, year, volume, and pages, each one. A wrong citation is a small error that costs a large amount of trust.
+7. **Write plainly.** Short declarative sentences, no warm-up paragraphs, and no claim softened below what the evidence supports.
+
+## Why this matters outside journals
+
+Everything above applies to a consulting report as much as to a paper. A client is a practitioner who has to act on the result. If they cannot follow what was done, cannot find the number they need, or cannot tell how far to trust it, the analysis has not done its job, however good the statistics are.
+
+**Reference.** Swartz, T. B. (2020). Where should I publish my sports paper? *The American Statistician* **74**(2), 103–108.
+
+*Clear reporting for the audience that has to use it is part of every engagement in my [consulting practice](../../consulting.qmd).*

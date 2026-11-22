@@ -1,7 +1,7 @@
 ---
 title: "How do you put a number on a health state?"
 description: "Funding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter."
-date: 2026-11-24
+date: 2026-11-22
 categories: [methodology, health, design of experiments]
 ---
 

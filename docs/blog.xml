@@ -10,88 +10,7 @@
 <atom:link href="https://rckaruna.ca/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notes on statistical methodology — how to design studies, measure reliably, and trust the numbers.</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 25 Nov 2026 08:00:00 GMT</lastBuildDate>
-<item>
-  <title>Does the order of deliveries matter?</title>
-  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
-  <link>https://rckaruna.ca/posts/bowling-sequences/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.</p>
-<p>It is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?</p>
-<section id="two-questions-inside-one" class="level2">
-<h2 class="anchored" data-anchor-id="two-questions-inside-one">Two questions inside one</h2>
-<p>A bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.</p>
-<p>Most analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same.</p>
-</section>
-<section id="why-the-data-do-not-answer-this-easily" class="level2">
-<h2 class="anchored" data-anchor-id="why-the-data-do-not-answer-this-easily">Why the data do not answer this easily</h2>
-<p>On the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.</p>
-<p><strong>Bowlers do not choose at random.</strong> A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.</p>
-<p><strong>The match situation changes everything.</strong> A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.</p>
-<p><strong>Batters adjust.</strong> If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.</p>
-<p><strong>The sequences multiply.</strong> With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in <a href="../../posts/batting-average-reliability/index.html">the post on batting averages</a>.</p>
-</section>
-<section id="what-a-careful-answer-needs" class="level2">
-<h2 class="anchored" data-anchor-id="what-a-careful-answer-needs">What a careful answer needs</h2>
-<p>A convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.</p>
-<p>That last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.</p>
-<p><em>Measurement and decision problems in sport are part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
-
-
-</section>
-
- ]]></description>
-  <category>cricket</category>
-  <category>sports analytics</category>
-  <guid>https://rckaruna.ca/posts/bowling-sequences/</guid>
-  <pubDate>Wed, 25 Nov 2026 08:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How do you put a number on a health state?</title>
-  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
-  <link>https://rckaruna.ca/posts/valuing-health-states/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.</p>
-<p>The question is where a number like 0.7 comes from.</p>
-<section id="describing-a-health-state" class="level2">
-<h2 class="anchored" data-anchor-id="describing-a-health-state">Describing a health state</h2>
-<p>The usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.</p>
-<p>Five dimensions with five levels each give <img src="https://latex.codecogs.com/png.latex?5%5E5%20=%203%7B,%7D125"> possible health states. Each one needs a value. The full table of values for a country is called a value set.</p>
-</section>
-<section id="asking-people-to-choose" class="level2">
-<h2 class="anchored" data-anchor-id="asking-people-to-choose">Asking people to choose</h2>
-<p>Nobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.</p>
-<p>The values are estimates. They depend on which people were asked and on which pairs they were shown.</p>
-</section>
-<section id="two-statistical-questions" class="level2">
-<h2 class="anchored" data-anchor-id="two-statistical-questions">Two statistical questions</h2>
-<p><strong>Which pairs should be shown?</strong> There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.</p>
-<p><strong>How dependable are the resulting values?</strong> A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.</p>
-<p>Both questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on.</p>
-</section>
-<section id="why-i-am-writing-about-this" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-am-writing-about-this">Why I am writing about this</h2>
-<p>During my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.</p>
-<p><em>Designing choice experiments and assessing the reliability of measurements are both part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
-
-
-</section>
-
- ]]></description>
-  <category>methodology</category>
-  <category>health</category>
-  <category>design of experiments</category>
-  <guid>https://rckaruna.ca/posts/valuing-health-states/</guid>
-  <pubDate>Tue, 24 Nov 2026 08:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Sun, 22 Nov 2026 08:00:00 GMT</lastBuildDate>
 <item>
   <title>You cannot test every combination, and you may not need to</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>
@@ -275,7 +194,49 @@
   <category>methodology</category>
   <category>design of experiments</category>
   <guid>https://rckaruna.ca/posts/covering-arrays/</guid>
-  <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How do you put a number on a health state?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/valuing-health-states/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.</p>
+<p>The question is where a number like 0.7 comes from.</p>
+<section id="describing-a-health-state" class="level2">
+<h2 class="anchored" data-anchor-id="describing-a-health-state">Describing a health state</h2>
+<p>The usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.</p>
+<p>Five dimensions with five levels each give <img src="https://latex.codecogs.com/png.latex?5%5E5%20=%203%7B,%7D125"> possible health states. Each one needs a value. The full table of values for a country is called a value set.</p>
+</section>
+<section id="asking-people-to-choose" class="level2">
+<h2 class="anchored" data-anchor-id="asking-people-to-choose">Asking people to choose</h2>
+<p>Nobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.</p>
+<p>The values are estimates. They depend on which people were asked and on which pairs they were shown.</p>
+</section>
+<section id="two-statistical-questions" class="level2">
+<h2 class="anchored" data-anchor-id="two-statistical-questions">Two statistical questions</h2>
+<p><strong>Which pairs should be shown?</strong> There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.</p>
+<p><strong>How dependable are the resulting values?</strong> A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.</p>
+<p>Both questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on.</p>
+</section>
+<section id="why-i-am-writing-about-this" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-am-writing-about-this">Why I am writing about this</h2>
+<p>During my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.</p>
+<p><em>Designing choice experiments and assessing the reliability of measurements are both part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>methodology</category>
+  <category>health</category>
+  <category>design of experiments</category>
+  <guid>https://rckaruna.ca/posts/valuing-health-states/</guid>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
   <title>What P.Stat. means for a client</title>
@@ -314,6 +275,45 @@
   <category>consulting</category>
   <category>practice</category>
   <guid>https://rckaruna.ca/posts/what-pstat-means/</guid>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Does the order of deliveries matter?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/bowling-sequences/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.</p>
+<p>It is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?</p>
+<section id="two-questions-inside-one" class="level2">
+<h2 class="anchored" data-anchor-id="two-questions-inside-one">Two questions inside one</h2>
+<p>A bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.</p>
+<p>Most analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same.</p>
+</section>
+<section id="why-the-data-do-not-answer-this-easily" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-data-do-not-answer-this-easily">Why the data do not answer this easily</h2>
+<p>On the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.</p>
+<p><strong>Bowlers do not choose at random.</strong> A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.</p>
+<p><strong>The match situation changes everything.</strong> A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.</p>
+<p><strong>Batters adjust.</strong> If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.</p>
+<p><strong>The sequences multiply.</strong> With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in <a href="../../posts/batting-average-reliability/index.html">the post on batting averages</a>.</p>
+</section>
+<section id="what-a-careful-answer-needs" class="level2">
+<h2 class="anchored" data-anchor-id="what-a-careful-answer-needs">What a careful answer needs</h2>
+<p>A convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.</p>
+<p>That last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.</p>
+<p><em>Measurement and decision problems in sport are part of my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>cricket</category>
+  <category>sports analytics</category>
+  <guid>https://rckaruna.ca/posts/bowling-sequences/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
@@ -394,6 +394,53 @@
   <category>measurement</category>
   <category>sports analytics</category>
   <guid>https://rckaruna.ca/posts/combine-to-sundays/</guid>
+  <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Writing a statistics paper that someone can use</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/writing-a-statistics-paper/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Most advice on academic writing is about sentences. The advice that has helped me most is about decisions made before the first sentence: who the paper is for, what it claims, and where it should go.</p>
+<p>The best short guide I know on those decisions is Tim Swartz’s “Where Should I Publish My Sports Paper?” (<em>The American Statistician</em>, 2020). It is written for sports statistics, but most of it applies to any applied statistics paper. This post sets out what I took from it, followed by the habits I have added.</p>
+<section id="what-i-took-from-the-guide" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-took-from-the-guide">What I took from the guide</h2>
+<p><strong>A good applied paper does two things.</strong> It has something new in the statistics, and it addresses a real problem in the application. The two pull against each other. A paper written to impress statisticians tends to treat the application as an afterthought, and a paper written for practitioners can have little in it that is new. The guide’s point is that the best papers manage both, and that an author should know which of the two a given paper is stronger on.</p>
+<p><strong>Practitioners adopt what they can follow.</strong> A method that works but cannot be explained to the people who would use it will not be used. The guide’s examples are methods that reached practice because the idea behind them could be stated plainly. I now ask of every method section whether a coach, a clinician, or an engineer could say in two sentences what the method does.</p>
+<p><strong>Choose the audience, then the journal.</strong> The same piece of work can be written for a statistics journal, an operations research journal, or a journal in the applied field. Each wants a different paper. Statistics journals want a substantial statistical contribution. Operations research journals value a solved problem. Journals in the applied field care most about what changes in practice. Choosing the audience first decides what goes in the introduction, how much theory stays in the main text, and what counts as the result.</p>
+<p><strong>Expect hard reviews and keep going.</strong> The guide is frank that reviewers question the assumptions in applied work closely, and that a paper rejected quickly at one journal can be published at another after a long review. Its advice is a thick skin. A rejection is information about the fit between the paper and the journal as often as it is about the work.</p>
+<p><strong>Get the work to readers.</strong> Applied work is scattered across disciplines, and a paper in the wrong place may never reach the people who could use it. The guide closes on a simple instruction: do good work and get it out.</p>
+</section>
+<section id="what-i-have-added" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-have-added">What I have added</h2>
+<p>These are my own habits. They are not from the guide.</p>
+<ol type="1">
+<li><strong>Keep data, methods, results, and discussion apart.</strong> A reader who wants to know what was measured should not have to read the results to find out. When interpretation creeps into the methods section, I move it.</li>
+<li><strong>Lead each result with what it means.</strong> The sentence a reader remembers should come first, and the number that supports it second.</li>
+<li><strong>Give every number a comparison.</strong> A coefficient of 0.61 means little alone. Against a threshold, a previous study, or a second condition, it means something.</li>
+<li><strong>Let tables carry the numbers and the text carry the pattern.</strong> A paragraph that repeats a table adds length without adding anything.</li>
+<li><strong>State limitations with numbers.</strong> “The sample is small” is a hedge. “The estimate is based on 14 matches and would need about 40 to reach the usual standard” is a limitation the reader can weigh.</li>
+<li><strong>Check every reference against the source.</strong> Author, year, volume, and pages, each one. A wrong citation is a small error that costs a large amount of trust.</li>
+<li><strong>Write plainly.</strong> Short declarative sentences, no warm-up paragraphs, and no claim softened below what the evidence supports.</li>
+</ol>
+</section>
+<section id="why-this-matters-outside-journals" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-outside-journals">Why this matters outside journals</h2>
+<p>Everything above applies to a consulting report as much as to a paper. A client is a practitioner who has to act on the result. If they cannot follow what was done, cannot find the number they need, or cannot tell how far to trust it, the analysis has not done its job, however good the statistics are.</p>
+<p><strong>Reference.</strong> Swartz, T. B. (2020). Where should I publish my sports paper? <em>The American Statistician</em> <strong>74</strong>(2), 103–108.</p>
+<p><em>Clear reporting for the audience that has to use it is part of every engagement in my <a href="../../consulting.html">consulting practice</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <category>practice</category>
+  <guid>https://rckaruna.ca/posts/writing-a-statistics-paper/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
 <item>
