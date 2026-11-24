@@ -61,10 +61,6 @@ In review
 - **Anchored stratification arrays.**
   Under review, *The Canadian Journal of Statistics*.
 
-- **Level reversals of two-level baseline designs: Fourier structure and optimal level permutation.**
-  (with Masanori Sawa)
-  Submitted, *Statistica Sinica*.
-
 - **Game-state smoothers and lineup ratings for chase win probability in Twenty20 international cricket.**
   (with D. L. Walpitage)
   Revised manuscript submitted, *Journal of Sports Analytics* (JSA).
