@@ -2,7 +2,7 @@
 title: "Building this site: Quarto, GitHub Pages, and a win-probability worm"
 description: "Why I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model."
 date: 2026-06-13
-categories: [cricket, sports]
+categories: [sports, cricket]
 ---
 
 I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.

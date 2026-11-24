@@ -2,7 +2,7 @@
 title: "Does the room change the speech?"
 description: "What happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns."
 date: 2026-08-27
-categories: [measurement, AI, methodology]
+categories: [politics, measurement, AI, methodology]
 ---
 
 Here's a question about campaigns that sounds political but is really a measurement problem: when a candidate speaks in a deeply partisan state versus a competitive one, is it the same speech?

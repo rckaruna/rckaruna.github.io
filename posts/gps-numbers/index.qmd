@@ -2,7 +2,7 @@
 title: "What a GPS vest can tell a soccer coach, and what it cannot"
 description: "Tracking vests report top speed, distance, and sprint counts for every player in every session. Some of those numbers are stable enough to act on after a few sessions. Others are not."
 date: 2026-11-23
-categories: [sports, measurement]
+categories: [sports, soccer, measurement]
 ---
 
 Many soccer teams, including university and academy sides, now put a GPS vest on every player at training and in matches. After each session the coach gets a table: total distance, distance at high speed, number of sprints, and top speed, for every player.

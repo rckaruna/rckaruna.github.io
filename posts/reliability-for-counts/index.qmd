@@ -2,7 +2,7 @@
 title: "Why the usual reliability number is wrong for counts"
 description: "Goals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked."
 date: 2026-11-22
-categories: [measurement, methodology, cricket, sports]
+categories: [sports, cricket, measurement, methodology]
 ---
 
 A great deal of what we measure is a count. Goals in a match, sixes in an innings, defects in a batch, falls on a ward. When someone asks whether such a number is a reliable measure of the player, the line, or the ward, the usual answer is an intraclass correlation taken from a mixed model. For counts, that answer is often too high, and sometimes far too high.

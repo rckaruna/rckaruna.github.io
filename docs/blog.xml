@@ -62,6 +62,7 @@
 
  ]]></description>
   <category>sports</category>
+  <category>soccer</category>
   <category>measurement</category>
   <guid>https://rckaruna.ca/posts/finishing-skill-xg/</guid>
   <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
@@ -112,6 +113,7 @@
 
  ]]></description>
   <category>sports</category>
+  <category>soccer</category>
   <category>measurement</category>
   <guid>https://rckaruna.ca/posts/gps-numbers/</guid>
   <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
@@ -298,6 +300,7 @@
  ]]></description>
   <category>methodology</category>
   <category>design of experiments</category>
+  <category>software testing</category>
   <guid>https://rckaruna.ca/posts/covering-arrays/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -415,8 +418,8 @@
 </section>
 
  ]]></description>
-  <category>cricket</category>
   <category>sports</category>
+  <category>cricket</category>
   <guid>https://rckaruna.ca/posts/bowling-sequences/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -460,10 +463,10 @@
 </section>
 
  ]]></description>
+  <category>sports</category>
+  <category>cricket</category>
   <category>measurement</category>
   <category>methodology</category>
-  <category>cricket</category>
-  <category>sports</category>
   <guid>https://rckaruna.ca/posts/reliability-for-counts/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
 </item>
@@ -646,6 +649,7 @@ font-style: inherit;">VarCorr</span>(fit)</span></code></pre></div></div>
 
  ]]></description>
   <category>sports</category>
+  <category>NFL</category>
   <category>measurement</category>
   <guid>https://rckaruna.ca/posts/combine-to-sundays/</guid>
   <pubDate>Sun, 22 Nov 2026 08:00:00 GMT</pubDate>
@@ -723,6 +727,7 @@ font-style: inherit;">VarCorr</span>(fit)</span></code></pre></div></div>
 </section>
 
  ]]></description>
+  <category>politics</category>
   <category>measurement</category>
   <category>AI</category>
   <category>methodology</category>
@@ -759,9 +764,9 @@ font-style: inherit;">VarCorr</span>(fit)</span></code></pre></div></div>
 </section>
 
  ]]></description>
+  <category>sports</category>
   <category>cricket</category>
   <category>measurement</category>
-  <category>sports</category>
   <guid>https://rckaruna.ca/posts/batting-average-reliability/</guid>
   <pubDate>Wed, 19 Aug 2026 07:00:00 GMT</pubDate>
 </item>
@@ -906,8 +911,8 @@ font-style: inherit;">VarCorr</span>(fit)</span></code></pre></div></div>
 </section>
 
  ]]></description>
-  <category>cricket</category>
   <category>sports</category>
+  <category>cricket</category>
   <guid>https://rckaruna.ca/posts/welcome/</guid>
   <pubDate>Sat, 13 Jun 2026 07:00:00 GMT</pubDate>
 </item>

@@ -2,7 +2,7 @@
 title: "You cannot test every combination, and you may not need to"
 description: "Software with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs."
 date: 2026-11-22
-categories: [methodology, design of experiments]
+categories: [methodology, design of experiments, software testing]
 ---
 
 A program with ten on/off options has $2^{10} = 1{,}024$ configurations. With twenty options it has more than a million. Nobody tests all of them. The usual response is to test the default configuration thoroughly, try a few others that seem important, and hope.

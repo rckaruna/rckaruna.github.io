@@ -2,7 +2,7 @@
 title: "Is a striker who beats his xG a good finisher?"
 description: "A striker who scores more goals than his expected goals looks like a good finisher. Simple arithmetic shows how much of that gap one season of shots can explain by chance."
 date: 2026-11-23
-categories: [sports, measurement]
+categories: [sports, soccer, measurement]
 ---
 
 Expected goals, or xG, gives every shot a probability of becoming a goal, based on where it was taken from and how. Add up those probabilities over a season and you get the number of goals an average finisher would have scored from the same chances. A striker who scores more than that number is said to be finishing well. One who scores fewer is said to be wasteful.
