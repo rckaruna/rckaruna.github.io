@@ -17,7 +17,105 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 22 Nov 2026 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>Is a striker who beats his xG a good finisher?</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/finishing-skill-xg/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Expected goals, or xG, gives every shot a probability of becoming a goal, based on where it was taken from and how. Add up those probabilities over a season and you get the number of goals an average finisher would have scored from the same chances. A striker who scores more than that number is said to be finishing well. One who scores fewer is said to be wasteful.</p>
+<p>It is a reasonable idea, and the number is now quoted on every broadcast. The question a statistician asks is how much of the gap between goals and xG could happen by chance.</p>
+<section id="one-season-of-shots" class="level2">
+<h2 class="anchored" data-anchor-id="one-season-of-shots">One season of shots</h2>
+<p>Take a striker who has 80 shots in a season, each worth about 0.12 expected goals. His xG for the season is 9.6.</p>
+<p>Even if he is exactly an average finisher, he will not score exactly 9.6 goals. Each shot either goes in or it does not, and the number of goals varies from season to season around 9.6. For shots like these, the standard deviation of that variation is about 2.9 goals.</p>
+<p>So an average finisher will often finish a season 3 goals above his xG, or 3 below, by luck alone. A gap of that size, which commentators treat as a verdict on a player’s finishing, is about one standard deviation of chance.</p>
+</section>
+<section id="how-long-does-it-take-to-see-real-skill" class="level2">
+<h2 class="anchored" data-anchor-id="how-long-does-it-take-to-see-real-skill">How long does it take to see real skill?</h2>
+<p>Suppose the striker really is better than average, and converts his chances at a rate 10% higher than xG expects: 0.132 per shot instead of 0.12. Over a season of 80 shots, that skill is worth about one extra goal. The chance variation is close to three goals.</p>
+<p>For the skill to stand out clearly, at about two standard deviations of chance, the arithmetic says he needs roughly 2,900 shots. At 80 shots a season, that is more than 35 seasons, which is longer than any career.</p>
+<p>The numbers are illustrative, and real shots differ in quality, which changes the details. The conclusion is hard to escape: over the seasons a player actually plays, a gap between goals and xG is mostly noise, unless the gap is very large.</p>
+</section>
+<section id="what-this-does-and-does-not-mean" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-does-and-does-not-mean">What this does and does not mean</h2>
+<p>It does not mean finishing skill is a myth. Some players almost certainly finish better than others. It means a single season, or even a few seasons, of goals minus xG is too little data to tell who they are.</p>
+<p>It also does not mean xG is a poor tool. Its strength is that it is built from many shots across many players, which makes it far more stable than goals. The trouble starts when a team-level or league-level tool is used to judge one player over one season.</p>
+</section>
+<section id="even-xg-needs-time" class="level2">
+<h2 class="anchored" data-anchor-id="even-xg-needs-time">Even xG needs time</h2>
+<p>The arithmetic above is about goals minus xG. A related question is how many matches a player’s xG itself needs before it can rank players dependably. I have been studying this with event data from five recent men’s international tournaments.</p>
+<p>It takes more than one tournament. Only about one-eighth of the match-to-match variation in a player’s xG reflects stable ability. The rest comes from the match, the opponent, and the circumstances. At that level, ranking attacking players dependably takes roughly 27 matches, or about three tournament cycles. Spreading observations across tournaments helps more than adding matches within one.</p>
+<p>One result surprised me. If you count only the matches in which a player took a shot, defenders look like the most consistent xG producers. Count every match they played, including the many with no shots, and they become the least consistent, while forwards become the most. Which matches you include can reverse the answer, and the same risk applies to any statistic a player records only now and then.</p>
+</section>
+<section id="the-general-lesson" class="level2">
+<h2 class="anchored" data-anchor-id="the-general-lesson">The general lesson</h2>
+<p>This is the same question I have written about for <a href="../../posts/batting-average-reliability/index.html">batting averages</a> and <a href="../../posts/reliability-for-counts/index.html">counts in general</a>: how many observations does a number need before it describes the player rather than the luck? For a rare event like a goal, the answer is usually far more than a season provides.</p>
+<p><em>How many games, shots, or sessions a performance measure needs before it can be trusted is a question I help sports organizations answer. See <a href="../../for/sports-organizations.html">work with sports organizations</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>sports</category>
+  <category>measurement</category>
+  <guid>https://rckaruna.ca/posts/finishing-skill-xg/</guid>
+  <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What a GPS vest can tell a soccer coach, and what it cannot</title>
+  <dc:creator>Ruwan C. Karunanayaka</dc:creator>
+  <link>https://rckaruna.ca/posts/gps-numbers/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Many soccer teams, including university and academy sides, now put a GPS vest on every player at training and in matches. After each session the coach gets a table: total distance, distance at high speed, number of sprints, and top speed, for every player.</p>
+<p>The table looks precise. The question is which of its numbers describe the player and which describe the day.</p>
+<section id="three-sources-of-variation" class="level2">
+<h2 class="anchored" data-anchor-id="three-sources-of-variation">Three sources of variation</h2>
+<p>Any number from a vest moves for three reasons.</p>
+<ol type="1">
+<li><strong>The player.</strong> Some players really are faster, or cover more ground, than others. This is what the coach wants to know.</li>
+<li><strong>The session.</strong> A small-sided game, a tactical walk-through, a match against a strong opponent, and a recovery day all produce different numbers for everyone.</li>
+<li><strong>Everything else.</strong> A player who felt flat that day, a tight hamstring, the position he was asked to play, and the error in the device itself.</li>
+</ol>
+<p>The useful question is how large the first source is compared with the other two, and that depends on the measure.</p>
+</section>
+<section id="some-measures-settle-quickly" class="level2">
+<h2 class="anchored" data-anchor-id="some-measures-settle-quickly">Some measures settle quickly</h2>
+<p><strong>Top speed</strong> is the clearest case. A player’s fastest sprint changes little from week to week, and the differences between players are large. A handful of sessions that include a genuine sprint is usually enough to rank a squad with confidence. The catch is that the session has to give the player a reason to sprint. A recovery day tells you nothing about top speed.</p>
+</section>
+<section id="some-measures-need-many-sessions" class="level2">
+<h2 class="anchored" data-anchor-id="some-measures-need-many-sessions">Some measures need many sessions</h2>
+<p><strong>Total distance</strong> is mostly about the session, not the player. Everyone covers more ground in a full match than in a set-piece session, and players covering a similar role cover similar distances. To compare players on distance, compare them within the same sessions and the same positions, and average over many sessions.</p>
+<p><strong>Sprint counts and high-speed distance</strong> sit in between, and they are noisy for a different reason. They are counts of fairly rare events, and on any one day a player may record none. Counts like these need more sessions than an average-based measure before differences between players stand out, for the same reasons I set out in <a href="../../posts/reliability-for-counts/index.html">the post on counts</a>.</p>
+</section>
+<section id="questions-worth-asking-of-your-own-data" class="level2">
+<h2 class="anchored" data-anchor-id="questions-worth-asking-of-your-own-data">Questions worth asking of your own data</h2>
+<ul>
+<li><strong>Is the measure stable for each player?</strong> Compare each player’s numbers across similar sessions. If a player’s values swing widely, a single session says little about him.</li>
+<li><strong>Are you comparing like with like?</strong> Compare players in the same sessions and similar roles, or account for those differences in the analysis.</li>
+<li><strong>How many sessions does each comparison rest on?</strong> A ranking built on two sessions is closer to a lottery than a ranking built on ten.</li>
+<li><strong>What decision rests on the number?</strong> Monitoring a player’s load from his own history asks less of the data than choosing between two players.</li>
+</ul>
+<p>These are reliability questions, and generalizability theory answers them directly: it separates the player, session, and residual variation and says how many sessions a dependable comparison needs.</p>
+<p><em>If your team collects tracking data and wants to know which numbers to trust, see <a href="../../for/sports-organizations.html">work with sports organizations</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>sports</category>
+  <category>measurement</category>
+  <guid>https://rckaruna.ca/posts/gps-numbers/</guid>
+  <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>You cannot test every combination, and you may not need to</title>
   <dc:creator>Ruwan C. Karunanayaka</dc:creator>

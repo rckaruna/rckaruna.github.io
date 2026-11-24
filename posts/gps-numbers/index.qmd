@@ -1,0 +1,42 @@
+---
+title: "What a GPS vest can tell a soccer coach, and what it cannot"
+description: "Tracking vests report top speed, distance, and sprint counts for every player in every session. Some of those numbers are stable enough to act on after a few sessions. Others are not."
+date: 2026-11-23
+categories: [sports, measurement]
+---
+
+Many soccer teams, including university and academy sides, now put a GPS vest on every player at training and in matches. After each session the coach gets a table: total distance, distance at high speed, number of sprints, and top speed, for every player.
+
+The table looks precise. The question is which of its numbers describe the player and which describe the day.
+
+## Three sources of variation
+
+Any number from a vest moves for three reasons.
+
+1. **The player.** Some players really are faster, or cover more ground, than others. This is what the coach wants to know.
+2. **The session.** A small-sided game, a tactical walk-through, a match against a strong opponent, and a recovery day all produce different numbers for everyone.
+3. **Everything else.** A player who felt flat that day, a tight hamstring, the position he was asked to play, and the error in the device itself.
+
+The useful question is how large the first source is compared with the other two, and that depends on the measure.
+
+## Some measures settle quickly
+
+**Top speed** is the clearest case. A player's fastest sprint changes little from week to week, and the differences between players are large. A handful of sessions that include a genuine sprint is usually enough to rank a squad with confidence. The catch is that the session has to give the player a reason to sprint. A recovery day tells you nothing about top speed.
+
+## Some measures need many sessions
+
+**Total distance** is mostly about the session, not the player. Everyone covers more ground in a full match than in a set-piece session, and players covering a similar role cover similar distances. To compare players on distance, compare them within the same sessions and the same positions, and average over many sessions.
+
+**Sprint counts and high-speed distance** sit in between, and they are noisy for a different reason. They are counts of fairly rare events, and on any one day a player may record none. Counts like these need more sessions than an average-based measure before differences between players stand out, for the same reasons I set out in [the post on counts](../reliability-for-counts/index.qmd).
+
+## Questions worth asking of your own data
+
+- **Is the measure stable for each player?** Compare each player's numbers across similar sessions. If a player's values swing widely, a single session says little about him.
+- **Are you comparing like with like?** Compare players in the same sessions and similar roles, or account for those differences in the analysis.
+- **How many sessions does each comparison rest on?** A ranking built on two sessions is closer to a lottery than a ranking built on ten.
+- **What decision rests on the number?** Monitoring a player's load from his own history asks less of the data than choosing between two players.
+
+These are reliability questions, and generalizability theory answers them directly: it separates the player, session, and residual variation and says how many sessions a dependable comparison needs.
+
+
+*If your team collects tracking data and wants to know which numbers to trust, see [work with sports organizations](../../for/sports-organizations.qmd).*

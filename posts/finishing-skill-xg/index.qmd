@@ -1,0 +1,46 @@
+---
+title: "Is a striker who beats his xG a good finisher?"
+description: "A striker who scores more goals than his expected goals looks like a good finisher. Simple arithmetic shows how much of that gap one season of shots can explain by chance."
+date: 2026-11-23
+categories: [sports, measurement]
+---
+
+Expected goals, or xG, gives every shot a probability of becoming a goal, based on where it was taken from and how. Add up those probabilities over a season and you get the number of goals an average finisher would have scored from the same chances. A striker who scores more than that number is said to be finishing well. One who scores fewer is said to be wasteful.
+
+It is a reasonable idea, and the number is now quoted on every broadcast. The question a statistician asks is how much of the gap between goals and xG could happen by chance.
+
+## One season of shots
+
+Take a striker who has 80 shots in a season, each worth about 0.12 expected goals. His xG for the season is 9.6.
+
+Even if he is exactly an average finisher, he will not score exactly 9.6 goals. Each shot either goes in or it does not, and the number of goals varies from season to season around 9.6. For shots like these, the standard deviation of that variation is about 2.9 goals.
+
+So an average finisher will often finish a season 3 goals above his xG, or 3 below, by luck alone. A gap of that size, which commentators treat as a verdict on a player's finishing, is about one standard deviation of chance.
+
+## How long does it take to see real skill?
+
+Suppose the striker really is better than average, and converts his chances at a rate 10% higher than xG expects: 0.132 per shot instead of 0.12. Over a season of 80 shots, that skill is worth about one extra goal. The chance variation is close to three goals.
+
+For the skill to stand out clearly, at about two standard deviations of chance, the arithmetic says he needs roughly 2,900 shots. At 80 shots a season, that is more than 35 seasons, which is longer than any career.
+
+The numbers are illustrative, and real shots differ in quality, which changes the details. The conclusion is hard to escape: over the seasons a player actually plays, a gap between goals and xG is mostly noise, unless the gap is very large.
+
+## What this does and does not mean
+
+It does not mean finishing skill is a myth. Some players almost certainly finish better than others. It means a single season, or even a few seasons, of goals minus xG is too little data to tell who they are.
+
+It also does not mean xG is a poor tool. Its strength is that it is built from many shots across many players, which makes it far more stable than goals. The trouble starts when a team-level or league-level tool is used to judge one player over one season.
+
+## Even xG needs time
+
+The arithmetic above is about goals minus xG. A related question is how many matches a player's xG itself needs before it can rank players dependably. I have been studying this with event data from five recent men's international tournaments.
+
+It takes more than one tournament. Only about one-eighth of the match-to-match variation in a player's xG reflects stable ability. The rest comes from the match, the opponent, and the circumstances. At that level, ranking attacking players dependably takes roughly 27 matches, or about three tournament cycles. Spreading observations across tournaments helps more than adding matches within one.
+
+One result surprised me. If you count only the matches in which a player took a shot, defenders look like the most consistent xG producers. Count every match they played, including the many with no shots, and they become the least consistent, while forwards become the most. Which matches you include can reverse the answer, and the same risk applies to any statistic a player records only now and then.
+
+## The general lesson
+
+This is the same question I have written about for [batting averages](../batting-average-reliability/index.qmd) and [counts in general](../reliability-for-counts/index.qmd): how many observations does a number need before it describes the player rather than the luck? For a rare event like a goal, the answer is usually far more than a season provides.
+
+*How many games, shots, or sessions a performance measure needs before it can be trusted is a question I help sports organizations answer. See [work with sports organizations](../../for/sports-organizations.qmd).*

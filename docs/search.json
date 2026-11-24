@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nmethodology\n\ncricket\n\nsports\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nHow many judgments does an LLM-as-judge score need?\n\n\n\nAI\n\nmeasurement\n\n\n\nA judge model gives a different score when you run it again. A decision study from generalizability theory says how many runs, or how many judges, a dependable score needs.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nsports\n\nmeasurement\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\nconsulting\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nmeasurement\n\nAI\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nmeasurement\n\nsports\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\ncricket\n\nsports\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nmeasurement\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
+    "text": "Is a striker who beats his xG a good finisher?\n\n\n\nsports\n\nmeasurement\n\n\n\nA striker who scores more goals than his expected goals looks like a good finisher. Simple arithmetic shows how much of that gap one season of shots can explain by chance.\n\n\n\n\n\nNov 23, 2026\n\n4 min\n\n\n\n\n\n\nWhat a GPS vest can tell a soccer coach, and what it cannot\n\n\n\nsports\n\nmeasurement\n\n\n\nTracking vests report top speed, distance, and sprint counts for every player in every session. Some of those numbers are stable enough to act on after a few sessions. Others are not.\n\n\n\n\n\nNov 23, 2026\n\n3 min\n\n\n\n\n\n\nYou cannot test every combination, and you may not need to\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nSoftware with many options has too many configurations to test. A covering array tests every pair of settings in a handful of runs.\n\n\n\n\n\nNov 22, 2026\n\n5 min\n\n\n\n\n\n\nHow do you put a number on a health state?\n\n\n\nmethodology\n\nhealth\n\ndesign of experiments\n\n\n\nFunding decisions for new treatments rest on numbers that say how good or bad a state of health is. Those numbers come from choice experiments, and the statistics behind them matter.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhat P.Stat. means for a client\n\n\n\nconsulting\n\n\n\nThe Professional Statistician designation, what it took to earn, and what it changes for someone hiring a statistician.\n\n\n\n\n\nNov 22, 2026\n\n2 min\n\n\n\n\n\n\nDoes the order of deliveries matter?\n\n\n\ncricket\n\nsports\n\n\n\nCricket folklore says a bowler sets a batter up: the short ball first, then the full one. Testing that claim with data is harder than it sounds.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWhy the usual reliability number is wrong for counts\n\n\n\nmeasurement\n\nmethodology\n\ncricket\n\nsports\n\n\n\nGoals, sixes, errors, and incidents are counts. The reliability coefficient most software reports for them answers a different question from the one you asked.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nHow many judgments does an LLM-as-judge score need?\n\n\n\nAI\n\nmeasurement\n\n\n\nA judge model gives a different score when you run it again. A decision study from generalizability theory says how many runs, or how many judges, a dependable score needs.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nWhat can a Combine tell you about Sundays?\n\n\n\nsports\n\nmeasurement\n\n\n\nTeams time prospects in shorts on a track, then pay them for what they do in pads against an opponent. A statistician’s look at why that link is hard to measure.\n\n\n\n\n\nNov 22, 2026\n\n3 min\n\n\n\n\n\n\nWriting a statistics paper that someone can use\n\n\n\nwriting\n\nconsulting\n\n\n\nAdvice on writing and placing an applied statistics paper, drawn from Tim Swartz’s guide for sports papers and from my own habits.\n\n\n\n\n\nNov 22, 2026\n\n4 min\n\n\n\n\n\n\nDoes the room change the speech?\n\n\n\nmeasurement\n\nAI\n\nmethodology\n\n\n\nWhat happens when you score every campaign speech for populist rhetoric and then ask where each one was delivered. A measurement study of audience design in U.S. presidential campaigns.\n\n\n\n\n\nAug 27, 2026\n\n3 min\n\n\n\n\n\n\nHow many innings before a batting average means anything?\n\n\n\ncricket\n\nmeasurement\n\nsports\n\n\n\nCricket’s favorite number is also its most misread. A measurement-theory look at why small-sample averages rank noise — and how many innings it takes to fix that.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nTesting one thing at a time is costing you\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nOne-factor-at-a-time experimentation feels careful and rigorous. It’s actually the expensive way to learn less — here’s the arithmetic.\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nHow many participants do you actually need?\n\n\n\nmethodology\n\ndesign of experiments\n\n\n\nThe most common question a statistician gets — and why the honest answer starts with a different question: what’s the smallest effect you’d hate to miss?\n\n\n\n\n\nAug 19, 2026\n\n3 min\n\n\n\n\n\n\nYour leaderboard gap is probably noise\n\n\n\nAI\n\nmethodology\n\nmeasurement\n\n\n\nTwo models, two percentage points apart, thousands of votes — and still not enough evidence to call a winner. How to read a ranking like a statistician.\n\n\n\n\n\nJul 22, 2026\n\n3 min\n\n\n\n\n\n\nBuilding this site: Quarto, GitHub Pages, and a win-probability worm\n\n\n\ncricket\n\nsports\n\n\n\nWhy I picked a plain-text, version-controlled site over a CMS — and how the cricket forecaster on the home page connects to a real model.\n\n\n\n\n\nJun 13, 2026\n\n1 min\n\n\n\n\n\n\nHow many observations before a statistic means anything?\n\n\n\nmeasurement\n\nmethodology\n\nsports\n\n\n\nGeneralizability theory’s decision study — the tool for knowing when a performance metric is signal and when it’s still noise.\n\n\n\n\n\nJun 8, 2026\n\n2 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "preparing.html",
@@ -287,95 +287,116 @@
     "text": "“But I have ten factors”\nThe objection writes itself: \\(2^{10}\\) is 1,024 runs. This is precisely what fractional factorial designs are for — carefully chosen subsets that screen many factors in few runs. Seven factors in eight runs is a standard screening design; the price is that some effects share estimates (aliasing), and the craft is choosing a fraction whose ambiguities fall on effects you’re prepared to assume away. Sorting the handful of factors that matter from the many that don’t is usually the highest-value experiment a team ever runs — then a focused follow-up study optimizes the survivors.\nThe through-line: the runs are the expensive part, whether each one is a day of reactor time or a week of user traffic. Design is how you make each run answer several questions at once.\nDesigning experiments — factorial, fractional-factorial, and screening studies for product, process, and lab work — is a core part of my consulting practice. The best time to involve a statistician is before the first run."
   },
   {
-    "objectID": "posts/bowling-sequences/index.html",
-    "href": "posts/bowling-sequences/index.html",
-    "title": "Does the order of deliveries matter?",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
     "section": "",
-    "text": "Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.\nIt is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?"
+    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
   },
   {
-    "objectID": "posts/bowling-sequences/index.html#two-questions-inside-one",
-    "href": "posts/bowling-sequences/index.html#two-questions-inside-one",
-    "title": "Does the order of deliveries matter?",
-    "section": "Two questions inside one",
-    "text": "Two questions inside one\nA bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.\nMost analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same."
+    "objectID": "posts/welcome/index.html#the-worm",
+    "href": "posts/welcome/index.html#the-worm",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "The worm",
+    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
   },
   {
-    "objectID": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
-    "href": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
-    "title": "Does the order of deliveries matter?",
-    "section": "Why the data do not answer this easily",
-    "text": "Why the data do not answer this easily\nOn the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.\nBowlers do not choose at random. A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.\nThe match situation changes everything. A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.\nBatters adjust. If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.\nThe sequences multiply. With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in the post on batting averages."
+    "objectID": "posts/welcome/index.html#whats-next",
+    "href": "posts/welcome/index.html#whats-next",
+    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "section": "What’s next",
+    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
   },
   {
-    "objectID": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
-    "href": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
-    "title": "Does the order of deliveries matter?",
-    "section": "What a careful answer needs",
-    "text": "What a careful answer needs\nA convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.\nThat last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.\nMeasurement and decision problems in sport are part of my consulting practice."
-  },
-  {
-    "objectID": "posts/batting-average-reliability/index.html",
-    "href": "posts/batting-average-reliability/index.html",
-    "title": "How many innings before a batting average means anything?",
+    "objectID": "posts/what-pstat-means/index.html",
+    "href": "posts/what-pstat-means/index.html",
+    "title": "What P.Stat. means for a client",
     "section": "",
-    "text": "Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: at this sample size, is it measuring the batter — or the weather of four particular days?"
+    "text": "I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean."
   },
   {
-    "objectID": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
-    "href": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
-    "title": "How many innings before a batting average means anything?",
-    "section": "Batting is a noisy instrument",
-    "text": "Batting is a noisy instrument\nThe same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: how much of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?\nThat’s a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn’t control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I’m still working on. The recurring finding, in cricket as in every sport I’ve since studied: the signal share of a single observation is small. Ability differences are real, but any one innings is mostly noise."
+    "objectID": "posts/what-pstat-means/index.html#what-it-is",
+    "href": "posts/what-pstat-means/index.html#what-it-is",
+    "title": "What P.Stat. means for a client",
+    "section": "What it is",
+    "text": "What it is\nP.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society’s accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised."
   },
   {
-    "objectID": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
-    "href": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
-    "title": "How many innings before a batting average means anything?",
-    "section": "The arithmetic of patience",
-    "text": "The arithmetic of patience\nAverages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a moderate reliability of 0.7 for the average takes 21 innings; reaching 0.8 takes 36. If the single-innings signal share is 5%, those numbers become 45 and 76. In T20, where a specialist bats perhaps 15–25 innings in a year, that’s a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.\nThis is the same lesson as team shooting indicators in handball and AI leaderboards, which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn’t."
+    "objectID": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
+    "href": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
+    "title": "What P.Stat. means for a client",
+    "section": "What the committee looks at",
+    "text": "What the committee looks at\nThe application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.\nAccredited statisticians also agree to the Society’s code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data."
   },
   {
-    "objectID": "posts/batting-average-reliability/index.html#two-honest-complications",
-    "href": "posts/batting-average-reliability/index.html#two-honest-complications",
-    "title": "How many innings before a batting average means anything?",
-    "section": "Two honest complications",
-    "text": "Two honest complications\nFirst, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle count data of this kind is the subject of a paper of mine in the Australian & New Zealand Journal of Statistics (2026), which applies it to six-hitting in Twenty20 cricket. Second, none of this says small samples carry no information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a ranking of ability. At those sample sizes, the ranking is mostly re-ordering noise.\nThe practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.\nMeasurement reliability — how many observations a trustworthy number needs — is a core thread of my research and consulting practice, in sport and well beyond it."
+    "objectID": "posts/what-pstat-means/index.html#what-it-changes-for-you",
+    "href": "posts/what-pstat-means/index.html#what-it-changes-for-you",
+    "title": "What P.Stat. means for a client",
+    "section": "What it changes for you",
+    "text": "What it changes for you\nThree things.\n\nAn outside check. You do not have to judge a statistician’s competence yourself. A professional body has done it.\nA standard of conduct. If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.\nA recognized credential in reports. Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.\n\nIt does not change how I work. It gives you a reason to expect that before we have met.\nIf you have a study to design or an analysis to check, get in touch."
   },
   {
-    "objectID": "posts/valuing-health-states/index.html",
-    "href": "posts/valuing-health-states/index.html",
-    "title": "How do you put a number on a health state?",
+    "objectID": "posts/handball-dependability/index.html",
+    "href": "posts/handball-dependability/index.html",
+    "title": "How many observations before a statistic means anything?",
     "section": "",
-    "text": "When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.\nThe question is where a number like 0.7 comes from."
+    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
   },
   {
-    "objectID": "posts/valuing-health-states/index.html#describing-a-health-state",
-    "href": "posts/valuing-health-states/index.html#describing-a-health-state",
-    "title": "How do you put a number on a health state?",
-    "section": "Describing a health state",
-    "text": "Describing a health state\nThe usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.\nFive dimensions with five levels each give \\(5^5 = 3{,}125\\) possible health states. Each one needs a value. The full table of values for a country is called a value set."
+    "objectID": "posts/handball-dependability/index.html#the-framing",
+    "href": "posts/handball-dependability/index.html#the-framing",
+    "title": "How many observations before a statistic means anything?",
+    "section": "The framing",
+    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
   },
   {
-    "objectID": "posts/valuing-health-states/index.html#asking-people-to-choose",
-    "href": "posts/valuing-health-states/index.html#asking-people-to-choose",
-    "title": "How do you put a number on a health state?",
-    "section": "Asking people to choose",
-    "text": "Asking people to choose\nNobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.\nThe values are estimates. They depend on which people were asked and on which pairs they were shown."
+    "objectID": "posts/handball-dependability/index.html#why-it-matters",
+    "href": "posts/handball-dependability/index.html#why-it-matters",
+    "title": "How many observations before a statistic means anything?",
+    "section": "Why it matters",
+    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
   },
   {
-    "objectID": "posts/valuing-health-states/index.html#two-statistical-questions",
-    "href": "posts/valuing-health-states/index.html#two-statistical-questions",
-    "title": "How do you put a number on a health state?",
-    "section": "Two statistical questions",
-    "text": "Two statistical questions\nWhich pairs should be shown? There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.\nHow dependable are the resulting values? A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.\nBoth questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on."
+    "objectID": "posts/finishing-skill-xg/index.html",
+    "href": "posts/finishing-skill-xg/index.html",
+    "title": "Is a striker who beats his xG a good finisher?",
+    "section": "",
+    "text": "Expected goals, or xG, gives every shot a probability of becoming a goal, based on where it was taken from and how. Add up those probabilities over a season and you get the number of goals an average finisher would have scored from the same chances. A striker who scores more than that number is said to be finishing well. One who scores fewer is said to be wasteful.\nIt is a reasonable idea, and the number is now quoted on every broadcast. The question a statistician asks is how much of the gap between goals and xG could happen by chance."
   },
   {
-    "objectID": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
-    "href": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
-    "title": "How do you put a number on a health state?",
-    "section": "Why I am writing about this",
-    "text": "Why I am writing about this\nDuring my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.\nDesigning choice experiments and assessing the reliability of measurements are both part of my consulting practice."
+    "objectID": "posts/finishing-skill-xg/index.html#one-season-of-shots",
+    "href": "posts/finishing-skill-xg/index.html#one-season-of-shots",
+    "title": "Is a striker who beats his xG a good finisher?",
+    "section": "One season of shots",
+    "text": "One season of shots\nTake a striker who has 80 shots in a season, each worth about 0.12 expected goals. His xG for the season is 9.6.\nEven if he is exactly an average finisher, he will not score exactly 9.6 goals. Each shot either goes in or it does not, and the number of goals varies from season to season around 9.6. For shots like these, the standard deviation of that variation is about 2.9 goals.\nSo an average finisher will often finish a season 3 goals above his xG, or 3 below, by luck alone. A gap of that size, which commentators treat as a verdict on a player’s finishing, is about one standard deviation of chance."
+  },
+  {
+    "objectID": "posts/finishing-skill-xg/index.html#how-long-does-it-take-to-see-real-skill",
+    "href": "posts/finishing-skill-xg/index.html#how-long-does-it-take-to-see-real-skill",
+    "title": "Is a striker who beats his xG a good finisher?",
+    "section": "How long does it take to see real skill?",
+    "text": "How long does it take to see real skill?\nSuppose the striker really is better than average, and converts his chances at a rate 10% higher than xG expects: 0.132 per shot instead of 0.12. Over a season of 80 shots, that skill is worth about one extra goal. The chance variation is close to three goals.\nFor the skill to stand out clearly, at about two standard deviations of chance, the arithmetic says he needs roughly 2,900 shots. At 80 shots a season, that is more than 35 seasons, which is longer than any career.\nThe numbers are illustrative, and real shots differ in quality, which changes the details. The conclusion is hard to escape: over the seasons a player actually plays, a gap between goals and xG is mostly noise, unless the gap is very large."
+  },
+  {
+    "objectID": "posts/finishing-skill-xg/index.html#what-this-does-and-does-not-mean",
+    "href": "posts/finishing-skill-xg/index.html#what-this-does-and-does-not-mean",
+    "title": "Is a striker who beats his xG a good finisher?",
+    "section": "What this does and does not mean",
+    "text": "What this does and does not mean\nIt does not mean finishing skill is a myth. Some players almost certainly finish better than others. It means a single season, or even a few seasons, of goals minus xG is too little data to tell who they are.\nIt also does not mean xG is a poor tool. Its strength is that it is built from many shots across many players, which makes it far more stable than goals. The trouble starts when a team-level or league-level tool is used to judge one player over one season."
+  },
+  {
+    "objectID": "posts/finishing-skill-xg/index.html#even-xg-needs-time",
+    "href": "posts/finishing-skill-xg/index.html#even-xg-needs-time",
+    "title": "Is a striker who beats his xG a good finisher?",
+    "section": "Even xG needs time",
+    "text": "Even xG needs time\nThe arithmetic above is about goals minus xG. A related question is how many matches a player’s xG itself needs before it can rank players dependably. I have been studying this with event data from five recent men’s international tournaments.\nIt takes more than one tournament. Only about one-eighth of the match-to-match variation in a player’s xG reflects stable ability. The rest comes from the match, the opponent, and the circumstances. At that level, ranking attacking players dependably takes roughly 27 matches, or about three tournament cycles. Spreading observations across tournaments helps more than adding matches within one.\nOne result surprised me. If you count only the matches in which a player took a shot, defenders look like the most consistent xG producers. Count every match they played, including the many with no shots, and they become the least consistent, while forwards become the most. Which matches you include can reverse the answer, and the same risk applies to any statistic a player records only now and then."
+  },
+  {
+    "objectID": "posts/finishing-skill-xg/index.html#the-general-lesson",
+    "href": "posts/finishing-skill-xg/index.html#the-general-lesson",
+    "title": "Is a striker who beats his xG a good finisher?",
+    "section": "The general lesson",
+    "text": "The general lesson\nThis is the same question I have written about for batting averages and counts in general: how many observations does a number need before it describes the player rather than the luck? For a rare event like a goal, the answer is usually far more than a season provides.\nHow many games, shots, or sessions a performance measure needs before it can be trusted is a question I help sports organizations answer. See work with sports organizations."
   },
   {
     "objectID": "consulting.html",
@@ -574,74 +595,130 @@
     "text": "What a covering array does not do\nThree limits are worth stating.\n\nA pairwise array guarantees nothing about faults that need three settings together. Arrays that cover every triple exist, and they cost more tests. How far to go depends on what a missed fault costs.\nThe array says which configurations to run. It does not say what the correct output is. For statistical software this is the harder half of the problem, because the correct answer is often a number that is only known approximately.\nReal options have constraints. Some combinations are not allowed, and some options have more than two values. Both can be handled, but the construction takes more care than the tables above.\n\nWithin those limits, the argument is the same one that runs through all of experimental design. Runs are expensive, and a well chosen set of runs answers many questions at once.\nReference. Kuhn, D. R., Wallace, D. R., and Gallo, A. M. (2004). Software fault interactions and implications for software testing. IEEE Transactions on Software Engineering 30(6), 418–421.\nTest design for statistical and machine-learning software is part of my consulting practice."
   },
   {
-    "objectID": "posts/handball-dependability/index.html",
-    "href": "posts/handball-dependability/index.html",
-    "title": "How many observations before a statistic means anything?",
+    "objectID": "posts/valuing-health-states/index.html",
+    "href": "posts/valuing-health-states/index.html",
+    "title": "How do you put a number on a health state?",
     "section": "",
-    "text": "Coaches, analysts, and managers rank people on performance indicators — shooting percentage, conversion rate, error rate — often after only a handful of observations. The uncomfortable question is whether those numbers reflect the person or just the occasion."
+    "text": "When a health system decides whether to pay for a new treatment, it needs to compare very different benefits. One drug reduces pain. Another restores mobility. A third extends life by a few months. To compare them, health economists use a common scale on which full health is 1 and being dead is 0. A year lived in a state valued at 0.7 counts as 0.7 of a quality-adjusted life year.\nThe question is where a number like 0.7 comes from."
   },
   {
-    "objectID": "posts/handball-dependability/index.html#the-framing",
-    "href": "posts/handball-dependability/index.html#the-framing",
-    "title": "How many observations before a statistic means anything?",
-    "section": "The framing",
-    "text": "The framing\nThis is a measurement problem, and generalizability theory is built for it. A G-study decomposes the variance in an indicator into the part attributable to the thing you care about (the signal) and the parts attributable to occasion-to-occasion fluctuation and residual noise. A decision study then answers the practical question directly: how many observations do you need before the indicator dependably separates one performer from another?\nThe answers are frequently sobering. Across the sports settings I’ve studied, indicators differ sharply in how quickly they stabilize — some are trustworthy within a handful of games, while others need more observations than a season typically provides before the ranking they imply means anything."
+    "objectID": "posts/valuing-health-states/index.html#describing-a-health-state",
+    "href": "posts/valuing-health-states/index.html#describing-a-health-state",
+    "title": "How do you put a number on a health state?",
+    "section": "Describing a health state",
+    "text": "Describing a health state\nThe usual starting point is a short questionnaire. The most widely used one, the EQ-5D-5L, describes health on five dimensions: mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. Each dimension has five levels, from no problems to extreme problems.\nFive dimensions with five levels each give \\(5^5 = 3{,}125\\) possible health states. Each one needs a value. The full table of values for a country is called a value set."
   },
   {
-    "objectID": "posts/handball-dependability/index.html#why-it-matters",
-    "href": "posts/handball-dependability/index.html#why-it-matters",
-    "title": "How many observations before a statistic means anything?",
-    "section": "Why it matters",
-    "text": "Why it matters\nIf a metric needs fifteen matches to be reliable and you’re acting on three, you’re ranking noise. The value of the decision-study table is that it tells you, per indicator, where that line sits — so you know which numbers to trust early and which to wait on. The same logic applies far beyond sport: clinical measures, quality-control metrics, student assessment.\nThe dgt R package implements these calculations."
+    "objectID": "posts/valuing-health-states/index.html#asking-people-to-choose",
+    "href": "posts/valuing-health-states/index.html#asking-people-to-choose",
+    "title": "How do you put a number on a health state?",
+    "section": "Asking people to choose",
+    "text": "Asking people to choose\nNobody can be asked to rate 3,125 states. One common approach is a discrete choice experiment. A respondent sees two health states side by side and says which one they would prefer to live in. Each respondent answers a modest number of these questions, and a statistical model turns the pattern of choices across many respondents into a value for every state.\nThe values are estimates. They depend on which people were asked and on which pairs they were shown."
   },
   {
-    "objectID": "posts/what-pstat-means/index.html",
-    "href": "posts/what-pstat-means/index.html",
-    "title": "What P.Stat. means for a client",
+    "objectID": "posts/valuing-health-states/index.html#two-statistical-questions",
+    "href": "posts/valuing-health-states/index.html#two-statistical-questions",
+    "title": "How do you put a number on a health state?",
+    "section": "Two statistical questions",
+    "text": "Two statistical questions\nWhich pairs should be shown? There are 4,881,250 distinct pairs of states, and a study can show only a small fraction of them. Some pairs carry almost no information, for example when one state is better on every dimension. Choosing an efficient set of pairs is a design-of-experiments problem, and a good design gets the same precision from fewer respondents.\nHow dependable are the resulting values? A value set is used as if it were fixed. In practice, a different sample of respondents or a different set of pairs would have produced somewhat different values. Knowing how much they would move, and which design choices control that, is a measurement question.\nBoth questions matter outside the statistics. A value set feeds into decisions about which treatments are funded, so a small shift in the values can change which side of a threshold a treatment falls on."
+  },
+  {
+    "objectID": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
+    "href": "posts/valuing-health-states/index.html#why-i-am-writing-about-this",
+    "title": "How do you put a number on a health state?",
+    "section": "Why I am writing about this",
+    "text": "Why I am writing about this\nDuring my sabbatical I am working remotely on the second question with colleagues at the Centre for Health Economics Research and Evaluation (CHERE) at the University of Technology Sydney, where I hold an honorary visiting appointment. The work is in progress, and I will write about results once they are published.\nDesigning choice experiments and assessing the reliability of measurements are both part of my consulting practice."
+  },
+  {
+    "objectID": "posts/batting-average-reliability/index.html",
+    "href": "posts/batting-average-reliability/index.html",
+    "title": "How many innings before a batting average means anything?",
     "section": "",
-    "text": "I now hold the P.Stat. (Professional Statistician) designation from the Statistical Society of Canada. Most people who hire a statistician have never seen the letters, so here is what they mean."
+    "text": "Every cricket argument eventually reaches for an average. A newcomer has 142 runs from four T20 innings and the selection debate treats the number as evidence. A veteran has two lean series and the same arithmetic becomes a case for dropping him. The question nobody asks of the number itself: at this sample size, is it measuring the batter — or the weather of four particular days?"
   },
   {
-    "objectID": "posts/what-pstat-means/index.html#what-it-is",
-    "href": "posts/what-pstat-means/index.html#what-it-is",
-    "title": "What P.Stat. means for a client",
-    "section": "What it is",
-    "text": "What it is\nP.Stat. is the professional accreditation of the Statistical Society of Canada, the national body for the discipline. It is granted to a person, after review by the Society’s accreditation committee, and it is separate from an academic degree. A degree says what someone studied. The designation says a committee of statisticians examined how that person has practised."
+    "objectID": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
+    "href": "posts/batting-average-reliability/index.html#batting-is-a-noisy-instrument",
+    "title": "How many innings before a batting average means anything?",
+    "section": "Batting is a noisy instrument",
+    "text": "Batting is a noisy instrument\nThe same batter, in the same form, against comparable attacks, can score 3 on Tuesday and 78 on Saturday without anything about the batter changing. Dismissal is abrupt and partly circumstantial; one ball ends the observation. So a single innings is an extremely noisy reading of ability, and the interesting question becomes quantitative: how much of the innings-to-innings variation in scores reflects real differences between batters, and how much is occasion noise?\nThat’s a measurement-theory question, and generalizability theory answers it by decomposing the variance: a between-batter component (signal) and a within-batter component (everything the batter doesn’t control twice). I first estimated these components for T20 batting in a 2014 conference paper with colleagues at the Institute of Applied Statistics, Sri Lanka, applying random-effects ANOVA through a generalizability lens — the seed of a research program I’m still working on. The recurring finding, in cricket as in every sport I’ve since studied: the signal share of a single observation is small. Ability differences are real, but any one innings is mostly noise."
   },
   {
-    "objectID": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
-    "href": "posts/what-pstat-means/index.html#what-the-committee-looks-at",
-    "title": "What P.Stat. means for a client",
-    "section": "What the committee looks at",
-    "text": "What the committee looks at\nThe application covers education in statistics, mathematics, and computing, and at least six years of professional practice. For the practice requirement I documented applied work across sport science, health research, engineering technology, and political measurement, together with teaching and published methods. Referees who know the work write to the committee directly.\nAccredited statisticians also agree to the Society’s code of ethical statistical practice. In plain terms: state the limits of an analysis, do not shade a result to suit whoever is paying, and protect the data."
+    "objectID": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
+    "href": "posts/batting-average-reliability/index.html#the-arithmetic-of-patience",
+    "title": "How many innings before a batting average means anything?",
+    "section": "The arithmetic of patience",
+    "text": "The arithmetic of patience\nAverages fix this — slowly. The reliability of a k-innings average follows the Spearman–Brown relationship: it climbs with k, but with hard diminishing returns. Suppose, illustratively, that batter skill accounts for 10% of the variance in a single innings score. Then reaching even a moderate reliability of 0.7 for the average takes 21 innings; reaching 0.8 takes 36. If the single-innings signal share is 5%, those numbers become 45 and 76. In T20, where a specialist bats perhaps 15–25 innings in a year, that’s a season or more before the average deserves the trust routinely placed in it — and a three-match trial is, statistically, close to a coin flip wearing a scorecard.\nThis is the same lesson as team shooting indicators in handball and AI leaderboards, which is exactly the point: a batting average, a shooting percentage, and an Elo rating are all measurement instruments, and instruments have reliability that depends on how many observations they aggregate. The domain changes; the arithmetic doesn’t."
   },
   {
-    "objectID": "posts/what-pstat-means/index.html#what-it-changes-for-you",
-    "href": "posts/what-pstat-means/index.html#what-it-changes-for-you",
-    "title": "What P.Stat. means for a client",
-    "section": "What it changes for you",
-    "text": "What it changes for you\nThree things.\n\nAn outside check. You do not have to judge a statistician’s competence yourself. A professional body has done it.\nA standard of conduct. If the data cannot support the conclusion you hoped for, I am bound to say so. That is the part of the job clients value most after the fact.\nA recognized credential in reports. Grant applications, regulatory submissions, and expert reports carry more weight when the analysis is signed by an accredited professional.\n\nIt does not change how I work. It gives you a reason to expect that before we have met.\nIf you have a study to design or an analysis to check, get in touch."
+    "objectID": "posts/batting-average-reliability/index.html#two-honest-complications",
+    "href": "posts/batting-average-reliability/index.html#two-honest-complications",
+    "title": "How many innings before a batting average means anything?",
+    "section": "Two honest complications",
+    "text": "Two honest complications\nFirst, cricket scores are not tidy bell-curve data — they’re zero-heavy, right-skewed, and censored by not-outs — and that structure genuinely complicates reliability arithmetic; extending the classical machinery to handle count data of this kind is the subject of a paper of mine in the Australian & New Zealand Journal of Statistics (2026), which applies it to six-hitting in Twenty20 cricket. Second, none of this says small samples carry no information: a Bayesian selector shades priors on four innings, sensibly. What the reliability lens forbids is the stronger, everyday claim — treating a small-sample average as a ranking of ability. At those sample sizes, the ranking is mostly re-ordering noise.\nThe practical upshot for anyone who selects, trades, or argues about players: ask how many observations sit under a number before asking what the number says. Patience isn’t just a virtue in cricket — it’s a sample-size requirement.\nMeasurement reliability — how many observations a trustworthy number needs — is a core thread of my research and consulting practice, in sport and well beyond it."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
+    "objectID": "posts/bowling-sequences/index.html",
+    "href": "posts/bowling-sequences/index.html",
+    "title": "Does the order of deliveries matter?",
     "section": "",
-    "text": "I wanted a single place to publish my work: my consulting practice, the interactive tools I build, and writeups of the research behind them. A few constraints made the choice easy.\nEverything I do already lives in R and LaTeX. I’m deepening Git this sabbatical, so a plain-text site under version control is a feature, not a chore. And I didn’t want a monthly bill for a CMS I’d have to wrestle. Quarto on GitHub Pages ticks all three: posts are .qmd files, the whole site is a git repository I own, and hosting is free."
+    "text": "Every cricket commentator believes in the set-up. The fast bowler sends down a short ball that pushes the batter onto the back foot, and follows it with a full, straight one. The batter, still thinking about the last ball, is late on it. The wicket is credited to the plan as much as to the delivery.\nIt is a good story, and bowlers and coaches plan overs around it. The statistical question is whether it is true. Does what a bowler bowled last ball change what happens this ball, or is each delivery its own event?"
   },
   {
-    "objectID": "posts/welcome/index.html#the-worm",
-    "href": "posts/welcome/index.html#the-worm",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "The worm",
-    "text": "The worm\nThe graphic on the projects page is a win-probability worm — the line that swings across the 50% mark as a chase unfolds. On the site it’s a lightweight SVG widget: between matches it replays recent internationals from precomputed model output, and during a live game it updates as the match unfolds."
+    "objectID": "posts/bowling-sequences/index.html#two-questions-inside-one",
+    "href": "posts/bowling-sequences/index.html#two-questions-inside-one",
+    "title": "Does the order of deliveries matter?",
+    "section": "Two questions inside one",
+    "text": "Two questions inside one\nA bowler makes two kinds of decision. The first is selection: how often to bowl each type of delivery to this batter in this situation. The second is sequencing: given those proportions, what order to bowl them in.\nMost analysis of bowling is about selection. It asks which lengths and lines concede the fewest runs or take the most wickets. Sequencing is a different claim. It says the value of a delivery depends on the one before it. If that is so, two overs with the same six deliveries in a different order are not worth the same."
   },
   {
-    "objectID": "posts/welcome/index.html#whats-next",
-    "href": "posts/welcome/index.html#whats-next",
-    "title": "Building this site: Quarto, GitHub Pages, and a win-probability worm",
-    "section": "What’s next",
-    "text": "What’s next\nMore tools are on the way — tennis and soccer forecasters are in final development — along with methodology posts on how to design studies and trust measurements.\nMore soon."
+    "objectID": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
+    "href": "posts/bowling-sequences/index.html#why-the-data-do-not-answer-this-easily",
+    "title": "Does the order of deliveries matter?",
+    "section": "Why the data do not answer this easily",
+    "text": "Why the data do not answer this easily\nOn the surface the analysis is simple. Take ball-by-ball records, group deliveries by what came before, and compare outcomes. Four problems stand in the way.\nBowlers do not choose at random. A bowler follows a short ball with a full one when they think it will work: against a batter who looks uncomfortable, on a pitch with bounce, with a field set for it. The sequences we observe were selected by someone with information we do not have. A raw comparison measures the bowler’s judgment along with the sequence.\nThe match situation changes everything. A batter in the last over of a Twenty20 innings swings at nearly every ball. The same batter at the start of an innings does not. The mix of deliveries also changes with the situation. Unless the situation is accounted for, an apparent effect of sequence can be an effect of the over number.\nBatters adjust. If a particular sequence worked reliably, batters would learn to expect it, and it would stop working. So any effect that survives in the data is likely to be small, and small effects need many balls to detect.\nThe sequences multiply. With even a handful of delivery types, the number of two-ball and three-ball sequences grows quickly, and the number of balls behind each one shrinks. Estimates for rare sequences are mostly noise, the same problem I wrote about in the post on batting averages."
+  },
+  {
+    "objectID": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
+    "href": "posts/bowling-sequences/index.html#what-a-careful-answer-needs",
+    "title": "Does the order of deliveries matter?",
+    "section": "What a careful answer needs",
+    "text": "What a careful answer needs\nA convincing analysis has to compare like with like: the same kind of batter, the same phase of the innings, the same kind of bowler, with only the previous delivery differing. It has to say how large an effect the data could have detected, so that “no effect found” is not confused with “no effect”. And it has to turn the estimate into something a bowler can use, which is a statement about what to bowl next and how much it is worth.\nThat last step matters most. An order effect that exists but is worth a hundredth of a run per ball is of no use to a captain. One that changes the best choice for the next delivery is.\nMeasurement and decision problems in sport are part of my consulting practice."
+  },
+  {
+    "objectID": "posts/gps-numbers/index.html",
+    "href": "posts/gps-numbers/index.html",
+    "title": "What a GPS vest can tell a soccer coach, and what it cannot",
+    "section": "",
+    "text": "Many soccer teams, including university and academy sides, now put a GPS vest on every player at training and in matches. After each session the coach gets a table: total distance, distance at high speed, number of sprints, and top speed, for every player.\nThe table looks precise. The question is which of its numbers describe the player and which describe the day."
+  },
+  {
+    "objectID": "posts/gps-numbers/index.html#three-sources-of-variation",
+    "href": "posts/gps-numbers/index.html#three-sources-of-variation",
+    "title": "What a GPS vest can tell a soccer coach, and what it cannot",
+    "section": "Three sources of variation",
+    "text": "Three sources of variation\nAny number from a vest moves for three reasons.\n\nThe player. Some players really are faster, or cover more ground, than others. This is what the coach wants to know.\nThe session. A small-sided game, a tactical walk-through, a match against a strong opponent, and a recovery day all produce different numbers for everyone.\nEverything else. A player who felt flat that day, a tight hamstring, the position he was asked to play, and the error in the device itself.\n\nThe useful question is how large the first source is compared with the other two, and that depends on the measure."
+  },
+  {
+    "objectID": "posts/gps-numbers/index.html#some-measures-settle-quickly",
+    "href": "posts/gps-numbers/index.html#some-measures-settle-quickly",
+    "title": "What a GPS vest can tell a soccer coach, and what it cannot",
+    "section": "Some measures settle quickly",
+    "text": "Some measures settle quickly\nTop speed is the clearest case. A player’s fastest sprint changes little from week to week, and the differences between players are large. A handful of sessions that include a genuine sprint is usually enough to rank a squad with confidence. The catch is that the session has to give the player a reason to sprint. A recovery day tells you nothing about top speed."
+  },
+  {
+    "objectID": "posts/gps-numbers/index.html#some-measures-need-many-sessions",
+    "href": "posts/gps-numbers/index.html#some-measures-need-many-sessions",
+    "title": "What a GPS vest can tell a soccer coach, and what it cannot",
+    "section": "Some measures need many sessions",
+    "text": "Some measures need many sessions\nTotal distance is mostly about the session, not the player. Everyone covers more ground in a full match than in a set-piece session, and players covering a similar role cover similar distances. To compare players on distance, compare them within the same sessions and the same positions, and average over many sessions.\nSprint counts and high-speed distance sit in between, and they are noisy for a different reason. They are counts of fairly rare events, and on any one day a player may record none. Counts like these need more sessions than an average-based measure before differences between players stand out, for the same reasons I set out in the post on counts."
+  },
+  {
+    "objectID": "posts/gps-numbers/index.html#questions-worth-asking-of-your-own-data",
+    "href": "posts/gps-numbers/index.html#questions-worth-asking-of-your-own-data",
+    "title": "What a GPS vest can tell a soccer coach, and what it cannot",
+    "section": "Questions worth asking of your own data",
+    "text": "Questions worth asking of your own data\n\nIs the measure stable for each player? Compare each player’s numbers across similar sessions. If a player’s values swing widely, a single session says little about him.\nAre you comparing like with like? Compare players in the same sessions and similar roles, or account for those differences in the analysis.\nHow many sessions does each comparison rest on? A ranking built on two sessions is closer to a lottery than a ranking built on ten.\nWhat decision rests on the number? Monitoring a player’s load from his own history asks less of the data than choosing between two players.\n\nThese are reliability questions, and generalizability theory answers them directly: it separates the player, session, and residual variation and says how many sessions a dependable comparison needs.\nIf your team collects tracking data and wants to know which numbers to trust, see work with sports organizations."
   },
   {
     "objectID": "posts/reliability-for-counts/index.html",
