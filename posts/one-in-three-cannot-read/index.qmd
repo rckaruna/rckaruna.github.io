@@ -97,7 +97,7 @@ Three things would help.
 2. A common yardstick exists. Students in several provinces wrote the PIRLS Grade 4 reading assessment in spring 2026, and the international results are due in December 2027. Those students are the first to be assessed internationally after the recent curriculum changes.
 3. Reports that compare provinces could state, for each number, the test, the year, and the denominator.
 
-I am working on the international assessments next and will write again when that analysis is done. The R scripts behind every number in this post are available on request. If you find an error, please [tell me](mailto:consulting@rckaruna.ca).
+The international assessments are the subject of a [second post](../reading-at-15/index.qmd). The R scripts behind every number in this post are available on request. If you find an error, please [tell me](mailto:consulting@rckaruna.ca).
 
 ## References
 
