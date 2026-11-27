@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ruwan C. Karunanayaka">
+<meta name="dcterms.date" content="2026-11-27">
+<meta name="description" content="British Columbia is ending its prescribed safer supply program. The monthly death count can detect a change of about 18 percent. The main published estimate of the program’s benefit implies a change of 3 to 5 percent.">
+
+<title>Will we be able to tell what ending safe supply did? – Ruwan C. Karunanayaka</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-72ed6bc24164debcbbe5ff6fce37c57a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4a32b229254de59d8a8fdd73227b8db2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(function (a) {
+    if (a.hostname && a.hostname !== window.location.hostname) {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener");
+    }
+  });
+  // Conversion events: contact intent
+  function track(name) {
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: name, title: name, event: true });
+    }
+  }
+  document.querySelectorAll("a[href^='mailto:']").forEach(function (a) {
+    a.addEventListener("click", function () { track("contact-email-click"); });
+  });
+  var c = document.getElementById("copyEmail");
+  if (c) { c.addEventListener("click", function () { track("contact-copy-address"); }); }
+});
+</script>
+<script data-goatcounter="https://rckaruna.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://rckaruna.ca/#person",
+      "name": "Ruwan C. Karunanayaka",
+      "jobTitle": "Associate Professor of Statistics; Statistical Consultant",
+      "honorificSuffix": "Ph.D., P.Stat.",
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "name": "P.Stat. (Professional Statistician)",
+        "credentialCategory": "Professional accreditation",
+        "recognizedBy": { "@type": "Organization", "name": "Statistical Society of Canada" }
+      },
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of the Fraser Valley"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Simon Fraser University" },
+        { "@type": "CollegeOrUniversity", "name": "Sam Houston State University" },
+        { "@type": "CollegeOrUniversity", "name": "University of Kelaniya" }
+      ],
+      "url": "https://rckaruna.ca",
+      "image": "https://rckaruna.ca/assets/ruwan.jpg",
+      "email": "mailto:consulting@rckaruna.ca",
+      "sameAs": [
+        "https://orcid.org/0009-0008-2459-1569",
+        "https://github.com/rckaruna",
+        "https://www.linkedin.com/in/rckaruna",
+        "https://www.researchgate.net/profile/Ruwan-Karunanayaka"
+      ],
+      "knowsAbout": [
+        "statistical consulting",
+        "design of experiments",
+        "generalizability theory",
+        "measurement reliability",
+        "sample size and power analysis",
+        "AI evaluation",
+        "sports analytics",
+        "R programming"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://rckaruna.ca/#service",
+      "name": "Ruwan C. Karunanayaka, Statistical Consulting",
+      "founder": { "@id": "https://rckaruna.ca/#person" },
+      "url": "https://rckaruna.ca/consulting.html",
+      "description": "Statistical consulting: experimental design, sample size and power, mixed models, measurement reliability, AI and machine-learning evaluation audits, and interactive dashboards.",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "British Columbia" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Place", "name": "Remote / Worldwide" }
+      ]
+    }
+  ]
+}
+</script>
+
+
+<meta property="og:title" content="Will we be able to tell what ending safe supply did? – Ruwan C. Karunanayaka">
+<meta property="og:description" content="British Columbia is ending its prescribed safer supply program. The monthly death count can detect a change of about 18 percent. The main published estimate of the program’s benefit implies a change of 3 to 5 percent.">
+<meta property="og:image" content="https://rckaruna.ca/posts/ending-safe-supply/detectable-vs-expected.png">
+<meta property="og:site_name" content="Ruwan C. Karunanayaka">
+<meta property="og:image:height" content="672">
+<meta property="og:image:width" content="1520">
+<meta property="og:image:alt" content="Chart comparing the 3 to 5 percent change in deaths implied by the BMJ 2024 estimate with the 17 to 18 percent change that the monthly death count can detect">
+<meta name="twitter:title" content="Will we be able to tell what ending safe supply did? – Ruwan C. Karunanayaka">
+<meta name="twitter:description" content="British Columbia is ending its prescribed safer supply program. The monthly death count can detect a change of about 18 percent. The main published estimate of the program’s benefit implies a change of 3 to 5 percent.">
+<meta name="twitter:image" content="https://rckaruna.ca/posts/ending-safe-supply/detectable-vs-expected.png">
+<meta name="twitter:image-height" content="672">
+<meta name="twitter:image-width" content="1520">
+<meta name="twitter:image:alt" content="Chart comparing the 3 to 5 percent change in deaths implied by the BMJ 2024 estimate with the 17 to 18 percent change that the monthly death count can detect">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ruwan C. Karunanayaka, Ph.D., P.Stat.</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-consulting" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Consulting</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-consulting">    
+        <li>
+    <a class="dropdown-item" href="../../consulting.html">
+ <span class="dropdown-text">Consulting overview</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../../for/graduate-students-and-faculty.html">
+ <span class="dropdown-text">Graduate students and faculty</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../for/health-researchers.html">
+ <span class="dropdown-text">Health researchers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../for/engineering-and-manufacturing.html">
+ <span class="dropdown-text">Engineering and manufacturing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../for/sports-organizations.html">
+ <span class="dropdown-text">Sports organizations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../for/ai-and-product-teams.html">
+ <span class="dropdown-text">AI and product teams</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../../preparing.html">
+ <span class="dropdown-text">Preparing for a consultation</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../consulting.html#start-a-conversation"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rckaruna"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/rckaruna"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0009-0008-2459-1569"> 
+<span class="menu-text">ORCID</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Ruwan-Karunanayaka"> 
+<span class="menu-text">ResearchGate</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#the-program-is-small-next-to-the-count-it-will-be-judged-by" id="toc-the-program-is-small-next-to-the-count-it-will-be-judged-by" class="nav-link active" data-scroll-target="#the-program-is-small-next-to-the-count-it-will-be-judged-by">The program is small next to the count it will be judged by</a></li>
+  <li><a href="#what-the-bmj-estimate-implies" id="toc-what-the-bmj-estimate-implies" class="nav-link" data-scroll-target="#what-the-bmj-estimate-implies">What the BMJ estimate implies</a></li>
+  <li><a href="#what-the-death-count-can-detect" id="toc-what-the-death-count-can-detect" class="nav-link" data-scroll-target="#what-the-death-count-can-detect">What the death count can detect</a></li>
+  <li><a href="#the-conclusion-does-not-depend-on-the-death-rate" id="toc-the-conclusion-does-not-depend-on-the-death-rate" class="nav-link" data-scroll-target="#the-conclusion-does-not-depend-on-the-death-rate">The conclusion does not depend on the death rate</a></li>
+  <li><a href="#a-caution-on-the-client-counts" id="toc-a-caution-on-the-client-counts" class="nav-link" data-scroll-target="#a-caution-on-the-client-counts">A caution on the client counts</a></li>
+  <li><a href="#what-this-does-not-show" id="toc-what-this-does-not-show" class="nav-link" data-scroll-target="#what-this-does-not-show">What this does not show</a></li>
+  <li><a href="#what-would-settle-it" id="toc-what-would-settle-it" class="nav-link" data-scroll-target="#what-would-settle-it">What would settle it</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Will we be able to tell what ending safe supply did?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">public health</div>
+    <div class="quarto-category">measurement</div>
+    <div class="quarto-category">methodology</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    British Columbia is ending its prescribed safer supply program. The monthly death count can detect a change of about 18 percent. The main published estimate of the program’s benefit implies a change of 3 to 5 percent.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ruwan C. Karunanayaka </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 27, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>On November 24, the Premier’s mandate letter directed the Minister of Health to end the “safe supply” approach to drug use [1]. The letter gives no date and no transition plan.</p>
+<p>When the program ends, the monthly count of drug deaths in British Columbia will go up or it will go down. Either way, the movement will be read as evidence about the program. I downloaded the public data and worked out what that count can show. The answer is that it cannot show the effect of ending the program, in either direction, even if the main published estimate of the program’s benefit is exactly right.</p>
+<p>This post takes no position on whether the program should end. It is about what we will be able to learn afterwards.</p>
+<section id="the-program-is-small-next-to-the-count-it-will-be-judged-by" class="level2">
+<h2 class="anchored" data-anchor-id="the-program-is-small-next-to-the-count-it-will-be-judged-by">The program is small next to the count it will be judged by</h2>
+<p>The program is officially called prescribed alternatives. It began in March 2020 and gives people at risk from the unregulated supply a prescribed medication, most often hydromorphone tablets.</p>
+<p>The BC Centre for Disease Control publishes monthly counts [2]. The number of people dispensed a prescribed alternative peaked at 5,189 in March 2023. It was 3,888 in September 2026. Over the 12 months to September 2026, 1,576 people in the province died from unregulated drugs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="deaths-and-clients.png" class="img-fluid figure-img" alt="Two line charts for British Columbia from 2015 to 2026, with five dotted vertical lines at April 2016, March 2020, January 2022, February 2025, and December 2025. Monthly unregulated drug deaths rise to about 240 in 2023 and fall to about 130 in 2026. People dispensed prescribed alternatives rise sharply in early 2022, peak at 5,189 in March 2023, fall to about 3,000 in 2025, and are 3,888 in September 2026."></p>
+<figcaption>British Columbia, monthly. The lower panel counts people dispensed a prescribed alternative at least once in the month. Dotted lines mark the declaration of the public health emergency, the start of the program in the first weeks of the pandemic, a widening of eligibility that came with a new billing code, the requirement that new patients take doses under supervision [6], and its extension to all patients, which also came with new billing codes [7]. The count after December 2025 is not comparable with the count before, for the reason given below.</figcaption>
+</figure>
+</div>
+<p>One feature of the figure needs a caution. The guidance that created the program was issued on March 26, 2020, as a pandemic measure [3]. Monthly deaths rose from 79 in February 2020 to 189 in June. The program had 569 clients that June. The program and the rise in deaths began in the same weeks, and the figure cannot separate the two. It should not be read as showing that either one caused the other.</p>
+</section>
+<section id="what-the-bmj-estimate-implies" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-bmj-estimate-implies">What the BMJ estimate implies</h2>
+<p>The main evidence on the program’s benefit for the people who receive it is a 2024 study in the BMJ [3]. It used linked health records for 5,356 people with opioid use disorder who were dispensed opioids under the program between March 2020 and August 2021, and matched each of them to a similar person who was not. In the week after a week with dispensing, the risk of death from any cause was 61% lower. The adjusted hazard ratio was 0.39, with a 95% confidence interval from 0.25 to 0.60.</p>
+<p>The study is observational, and an observational estimate can be wrong. The authors note that they could not tell whether the medications were used as prescribed or passed to other people. I set that debate aside here and ask a narrower question. Suppose the estimate is exactly right. How many deaths does it imply?</p>
+<p>That needs the death rate among comparable people who are not dispensed the medication. Two BC studies report one.</p>
+<div id="tbl-rates" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-rates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Published death rates used in this post. The first is 207 deaths over 310,767 person-weeks, converted to years.
+</figcaption>
+<div aria-describedby="tbl-rates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>Group</th>
+<th>Period</th>
+<th>Deaths per 100 person-years</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BMJ 2024, Table 2 [3]</td>
+<td>Matched comparison group, not dispensed</td>
+<td>March 2020 to August 2021</td>
+<td>3.5</td>
+</tr>
+<tr class="even">
+<td>BMJ 2020, Table 2 [4]</td>
+<td>People with opioid use disorder, while off opioid agonist treatment</td>
+<td>1996 to 2018</td>
+<td>2.4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>From April to September 2026, an average of 3,505 people a month were dispensed a prescribed opioid. At 3.5 deaths per 100 person-years, about 122 of them would be expected to die in a year without the medication. With a hazard ratio of 0.39, about 48 would. The difference is 74 deaths a year. With the older rate it is 52.</p>
+<p>So if the BMJ estimate is exactly right, ending the program adds between 52 and 74 deaths a year. That is 3% to 5% of the provincial total. When I carry through the uncertainty in the hazard ratio and in both rates, the range is 2% to 7%.</p>
+<p>This calculation is generous to the program. The study’s estimate is for weeks in which a person was dispensed the medication. I applied it to every month in which a person appears in the count.</p>
+</section>
+<section id="what-the-death-count-can-detect" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-death-count-can-detect">What the death count can detect</h2>
+<p>Fifty-two to 74 deaths a year is four to six a month. Over the last two years, the province recorded an average of 144 deaths a month, and the count varies around its trend by about 13 deaths a month through chance alone.</p>
+<p>I simulated the best case for an analyst. The recent trend continues unchanged. Deaths step up by a fixed percentage on the day the program ends. The analyst knows the right model and has 24 months of data before and 12 or 24 months after.</p>
+<p>Under those conditions, the smallest step that would be detected four times in five is about 18% with one year of follow-up and 17% with two. A step of 3% to 5% would be detected about one time in ten.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="detectable-vs-expected.png" class="img-fluid figure-img" alt="Chart with two rows. The change implied by the BMJ 2024 estimate is 3 to 5 percent, with a range of 2 to 7 percent. The smallest change the monthly death count can detect is 17 to 18 percent. Everything below 17 percent is shaded and labelled too small for the death count to show."></p>
+<figcaption>What ending the program is expected to do to deaths, if the BMJ estimate is right, beside the smallest change that the monthly count can detect.</figcaption>
+</figure>
+</div>
+<p>More years of follow-up do not help much, because the step and the trend have to be estimated from the same series. Real conditions are also worse than the simulation. Annual deaths fell 10% from 2023 to 2024 and 21% from 2024 to 2025. A change of 3% to 5% is small beside movements of that size.</p>
+</section>
+<section id="the-conclusion-does-not-depend-on-the-death-rate" class="level2">
+<h2 class="anchored" data-anchor-id="the-conclusion-does-not-depend-on-the-death-rate">The conclusion does not depend on the death rate</h2>
+<p>The rates in the table are from 2020–21 and from 1996 to 2018. I did not find a published rate for 2026, so I checked whether the conclusion needs one.</p>
+<p>It does not. Suppose prescribed alternatives prevented every death among the people receiving them. For the end of the program to be detectable, those 3,505 people would then need a death rate of about 8 per 100 person-years without the medication. That is more than twice the higher published rate.</p>
+<p>Read the other way, at the BMJ study’s rate and hazard ratio, the program would need about 13,000 people on prescribed opioids for its end to show in the provincial count. The most it ever had was 4,945.</p>
+<p>This cuts in both directions. A person who thinks the program does nothing expects no visible change in deaths when it ends. A person who thinks the BMJ estimate is right should expect the same thing. If deaths fall afterwards, that will not show the program was doing harm. If they rise, that will not show it was protecting people.</p>
+<p>It also bears on what has been published. A 2024 comparison of British Columbia with Manitoba and Saskatchewan found more hospitalizations for opioid poisoning after the policy began and no statistically significant change in deaths [5]. Its 95% confidence interval for the change in deaths ran from −1.3 to 4.5 per 100,000 people per quarter. By my arithmetic, the BMJ estimate implies a reduction in 2021 of about 0.2 on that scale, which is far inside the interval. A study of provincial totals had little chance of finding an effect on deaths that small, in either direction.</p>
+</section>
+<section id="a-caution-on-the-client-counts" class="level2">
+<h2 class="anchored" data-anchor-id="a-caution-on-the-client-counts">A caution on the client counts</h2>
+<p>The count of people in the program is the other number that will be watched, and it has changed its definition more than once. Codes that pharmacists enter are part of how a prescription is identified as belonging to the program. New codes were introduced in January 2022, June 2025, and December 2025.</p>
+<p>The count rose from 3,011 in November 2025 to 3,888 in September 2026. The BCCDC’s data notes attribute the increase that began in December 2025 to the new billing codes for witnessed doses [2]. At least part of that rise is a change in counting, and I cannot say how much.</p>
+</section>
+<section id="what-this-does-not-show" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-does-not-show">What this does not show</h2>
+<p>It does not show that the program works, and it does not show that it fails. The calculation takes the BMJ estimate as given only to ask what would follow from it.</p>
+<p>It says nothing about diversion. The public data have no information on it.</p>
+<p>It does not give the death rate among these patients in 2026. The published rates are several years old, which is why one section of this post does without them.</p>
+<p>It does not cover outcomes other than death. The number of people on opioid agonist treatment is a steadier series, and a change of about 2% there would be detectable.</p>
+<p>It does not say what will happen to any individual who loses a prescription.</p>
+</section>
+<section id="what-would-settle-it" class="level2">
+<h2 class="anchored" data-anchor-id="what-would-settle-it">What would settle it</h2>
+<ol type="1">
+<li>The province holds linked health records of the kind the BMJ study used. Following the people who were receiving a prescribed alternative after the program ends, beside a comparison group, would answer the question that the provincial count cannot. Under the published numbers, the difference among 3,505 people is 48 deaths against 122 in a year. A difference of that size would be clear.</li>
+<li>A phased end, by region or by medication, would give a comparison that a single date does not.</li>
+<li>The province could publish monthly new starts, discontinuations, and the share of doses witnessed, alongside the client count.</li>
+</ol>
+<p>I have written an analysis plan for the period after the program ends. It fixes the outcomes and the methods before any implementation date is known, and it is available on request.</p>
+<p>The data are from the BCCDC dashboard. The inferences are mine and do not reflect the views of the BCCDC or the data stewards. The R scripts behind every number in this post are available on request. If you find an error, please <a href="mailto:consulting@rckaruna.ca">tell me</a>.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li>Office of the Premier of British Columbia. <a href="https://www2.gov.bc.ca/assets/gov/government/ministries-organizations/premier-cabinet-mlas/minister-letter/mandate_letter_ryan_peterson.pdf">Mandate letter to the Minister of Health</a>. November 24, 2026.</li>
+<li>BC Centre for Disease Control. <a href="https://reporting.bccdc.ca/drug_poisoning_dashboard/">Unregulated Drug Poisoning Emergency Dashboard</a>. Data refreshed November 10, 2026, downloaded November 27, 2026. Data notes dated September 17, 2026.</li>
+<li>Slaunwhite A, Min JE, Palis H, et al.&nbsp;<a href="https://www.bmj.com/content/384/bmj-2023-076336">Effect of Risk Mitigation Guidance for opioid and stimulant dispensations on mortality and acute care visits during dual public health emergencies: retrospective cohort study</a>. <em>BMJ</em> 2024;384:e076336.</li>
+<li>Pearce LA, Min JE, Piske M, et al.&nbsp;<a href="https://www.bmj.com/content/368/bmj.m772">Opioid agonist treatment and risk of mortality during opioid overdose public health emergency: population based retrospective cohort study</a>. <em>BMJ</em> 2020;368:m772.</li>
+<li>Nguyen HV, Mital S, Bugden S, McGinty EE. <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2814103">British Columbia’s Safer Opioid Supply Policy and Opioid Outcomes</a>. <em>JAMA Internal Medicine</em> 2024;184(3):256–264.</li>
+<li>BC Ministry of Health. <a href="https://news.gov.bc.ca/releases/2025HLTH0008-000127">News release 2025HLTH0008</a>, February 19, 2025.</li>
+<li>BC Ministry of Health. <a href="https://news.gov.bc.ca/releases/2025HLTH0099-001183">News release 2025HLTH0099</a>, December 2, 2025.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rckaruna\.ca");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Ruwan C. Karunanayaka, Ph.D., P.Stat. · Associate Professor, University of the Fraser Valley. Consulting is a private practice, separate from my university role.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:consulting@rckaruna.ca">
+<p>consulting@rckaruna.ca</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../privacy.html">
+<p>Privacy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/rckaruna">
+<p>GitHub</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/rckaruna">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0009-0008-2459-1569">
+<p>ORCID</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Ruwan-Karunanayaka">
+<p>ResearchGate</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+<div class="post-footer">
+  <a href="../../blog.html">← All posts</a>
+  <a href="../../consulting.html">Statistical consulting</a>
+  <a href="../../consulting.html#start-a-conversation">Get in touch</a>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var f = document.querySelector(".post-footer"), m = document.querySelector("main.content");
+  if (f && m) { m.appendChild(f); }
+});
+</script>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
